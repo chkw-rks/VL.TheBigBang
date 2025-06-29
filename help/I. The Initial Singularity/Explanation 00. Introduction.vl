@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="SSTW8S2OzPqMR3n258QwT8" LanguageVersion="2024.6.7-0181-gdf16f593e1" Version="0.128">
-  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2024.6.7-0181-gdf16f593e1" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="SSTW8S2OzPqMR3n258QwT8" LanguageVersion="2025.7.0-0384-g212a8f1596" Version="0.128">
+  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2025.7.0-0384-g212a8f1596" />
   <Patch Id="KwSh7UM9sxiNLbciPo4zVS">
     <Canvas Id="UBsROYmZbNYOhlf9jNrHmH" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -88,7 +88,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="Ux8SCFMNvieOO3KzKfqIN0" Bounds="592,244,401,390" ShowValueBox="true" isIOBox="true" Value="vvvv comes with a lot of pre-built nodes that are available immediately when starting the program. But as you will learn how to program your own nodes, so did others who made them accessible through VL packages. Some packages are already pre-installed with vvvv, others have to be installed on your own. &#xD;&#xA;&#xD;&#xA;Before you can use the nodes from a package, you have to set a dependency to it in your document. You can do so, by clicking on the package in the Node Browser. Alternatively you can see a list of all dependencies in the Document Menu and set a reference to a package there. So in case you are missing a node in your own project, make sure that you have enabled the package which contains the node.&#xD;&#xA;&#xD;&#xA;These are the most important pre-installed packages that we will use in the course of this tutorial:&#xD;&#xA;&#xD;&#xA;- VL.Skia&#xD;&#xA;- VL.Stride&#xD;&#xA;- VL.Video&#xD;&#xA;- VL. Audio&#xD;&#xA;">
+          <Pad Id="Ux8SCFMNvieOO3KzKfqIN0" Bounds="592,244,401,390" ShowValueBox="true" isIOBox="true" Value="vvvv comes with a lot of pre-built nodes that are available immediately when starting the program. But as you will learn how to program your own nodes, so did others who made them accessible through VL packages. Some packages are already pre-installed with vvvv, others have to be installed on your own. &#xD;&#xA;&#xD;&#xA;Before you can use the nodes from a package, you have to set a dependency to it in your document. You can do so, by clicking on the package in the Node Browser. Alternatively you can see a list of all dependencies in the Document Menu and set a reference to a package there. So in case you are missing a node in your own project, make sure that you have enabled the package which contains the node.&#xD;&#xA;&#xD;&#xA;These are the most important pre-installed packages that we will use in the course of this tutorial:&#xD;&#xA;&#xD;&#xA;- VL.Skia&#xD;&#xA;- VL.Stride&#xD;&#xA;- VL.Video&#xD;&#xA;- VL.Audio&#xD;&#xA;">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -142,7 +142,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="NxE21otk9SCOhSSkD6jFVs" Bounds="1092,453,209,19" ShowValueBox="true" isIOBox="true" Value="https://thegraybook.vvvv.org/">
+          <Pad Id="NxE21otk9SCOhSSkD6jFVs" Bounds="1092,453,265,19" ShowValueBox="true" isIOBox="true" Value="https://thegraybook.vvvv.org/">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -169,7 +169,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="L2NFvnC2g1bP8ykXpBWFxm" Bounds="1092,974,316,19" ShowValueBox="true" isIOBox="true" Value="https://github.com/chkworks/VL.TheBigBang">
+          <Pad Id="L2NFvnC2g1bP8ykXpBWFxm" Bounds="1092,974,316,19" ShowValueBox="true" isIOBox="true" Value="https://github.com/chkw-rks/VL.TheBigBang">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -232,7 +232,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="ITX067Xsyy5NL6z5kIHiX8" Bounds="1092,816,474,19" ShowValueBox="true" isIOBox="true" Value="https://youtube.com/playlist?list=PL2KeRstDQVRRVnzCHEambwAI4yWmpIF-p">
+          <Pad Id="ITX067Xsyy5NL6z5kIHiX8" Bounds="1092,816,500,19" ShowValueBox="true" isIOBox="true" Value="https://youtube.com/playlist?list=PL2KeRstDQVRRVnzCHEambwAI4yWmpIF-p">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>

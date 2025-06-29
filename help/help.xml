@@ -39,7 +39,7 @@
 		<VLDocument link="IV. The Primordial Soup\Explanation 29. Triggers and Flops.vl" tags="trigger, monoflop, togedge, swap, changed, onopen, flipflop, multiflipflop, control" />
 		<VLDocument link="IV. The Primordial Soup\Explanation 30. Counting.vl" tags="animation, counter, range, stopwatch" />
 		<VLDocument link="IV. The Primordial Soup\Explanation 31. Keyboard Input.vl" tags="keyboard, input, key, keybang, keypressed, keytoggle, typewriter, string" />
-		<VLDocument link="IV. The Primordial Soup\Explanation 32. Audio Input.vl" tags="audio, analysis, audioin, audioplacer, driver, filter, meter, mono, stereo, fft, visuals, visualization, asz, logarithmic" />
+		<VLDocument link="IV. The Primordial Soup\Explanation 32. Audio Input.vl" tags="audio, analysis, audioin, audioplacer, driver, filter, meter, mono, stereo, fft, visuals, visualization, logarithmic" />
 		<VLDocument link="IV. The Primordial Soup\Explanation 33. Boolean Logic.vl" tags="boolean, logic, control, not, or, and, spectral" />
 		<VLDocument link="IV. The Primordial Soup\Explanation 34. Ranges.vl" tags="math, mirror, wrap, clamp, range, ranges, lerp, distance" />
 		<VLDocument link="IV. The Primordial Soup\Explanation 35. Angles.vl" tags="angle, angles, frompolar, topolar, polar, angebetween, between, slope, math" />
@@ -52,5 +52,6 @@
 		<VLDocument link="V. The Origin of Life\Explanation 40. Mutability vs Immutability WIP.vl" tags="record, class, process, oop, object, objects, pattern, patterns, objectoriented, mutability, immutability, dispose, operations, member, static" />
 		<VLDocument link="V. The Origin of Life\Explanation 41. Records and Classes WIP.vl" tags="record, class, process, oop, object, objects, pattern, patterns, objectoriented, mutability, immutability, dispose, operations, member, static" />
 		<VLDocument link="V. The Origin of Life\Explanation 42. The Lifecycle of an Object WIP.vl" tags="record, class, process, oop, object, objects, pattern, patterns, objectoriented, mutability, immutability, dispose, operations, member, static" />
+		<VLDocument link="V. The Origin of Life\Explanation 43. Mutable Collections WIP.vl" tags="record, class, process, oop, object, objects, pattern, patterns, objectoriented, mutability, immutability, dispose, operations, member, static" />
 	</Topic>
 </Pack>
