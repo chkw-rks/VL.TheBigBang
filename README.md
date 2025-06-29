@@ -69,31 +69,6 @@ When the package is successfully installed, hit F1 to open the Help Browser and 
 
 Currently I am working on the last bits of this tutorial series. Please consider supporting the development, if this tutorial has helped you and your practice so far and you want to speed things up!
 
-### Part V: The Origin of Life
-38. Object-Oriented Patching ***WIP***
-39. Operations ***WIP***
-40. Mutability vs. Immutability ***WIP***
-41. Records & Classes ***WIP***
-42. The Lifecycle of an Object ***WIP***
-
-### Part VI: The Foundations of Culture
-43. Time ***WIP***
-44. File Access ***WIP***
-45. Serialization ***WIP***
-46. Data Structures ***WIP***
-47. Networking ***WIP***
-48. Reactive Programming ***WIP***
-49. Channels ***WIP***
-50. Interfaces ***WIP***
-
-### Part VII: The Search for Extraterrestrial Intelligence
-51. Project Structure ***WIP***
-52. Building User Interfaces ***WIP***
-53. State Management ***WIP***
-54. Important Libraries ***WIP***
-55. Creating a Library ***WIP***
-56. Extending vvvv ***WIP***
-
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/T6T3I9XX6)
 
 ## Supporters
