@@ -71,12 +71,7 @@ Currently I am working on the last bits of this tutorial series. Please consider
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/T6T3I9XX6)
 
-## Supporters
-Many thanks to these people for buying me a Mandelbrot on Ko-Fi!
-
-cheheart, brunotti, sunep, michaelias, CeeYaa, amir, TobyK, Johannes Timpernagel, Shaul Tzemach, m4d, Paul Kimmerl, Manuel Ehrenfeld, efx, Emanuele Foti, Alessandro Maggioni
-
-Also special thanks to Rosi, Matthias, Ilina and Julian for proof-reading!
+Special thanks to Rosi Grillmair, Matthias Husinsky, Ilina Kokaleska and Julian Grumer for proof-reading!
 
 ## License
 
