@@ -2,17 +2,17 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>VL.TheBigBang</id>
-    <version>6.1.2</version>
+    <version>7.0.0</version>
     <title>VL.TheBigBang</title>
     <authors>chk</authors>
-    <projectUrl>https://www.3e8.studio/</projectUrl>
-    <repository type="git" url="https://github.com/chkworks/VL.TheBigBang" />
+    <projectUrl>https://ko-fi.com/chk/</projectUrl>
+    <repository type="git" url="https://github.com/chkw-rks/VL.TheBigBang" />
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>A tutorial series of 42 chapters, covering all nodes and techniques to get you started with the visual programming environment vvvv and its language VL. If you find this material helpful, please consider supporting its development via ko-fi.com/chk</description>
+    <description>A tutorial series covering all nodes and techniques to get started with vvvv and its visual programming language VL.</description>
     <tags>VL, vvvv, tutorial, creativecoding, visualprogramming</tags>
     <license type="expression">CC-BY-SA-4.0</license>
     <readme>docs\README.md</readme>
-    <copyright>Copyright ©2024</copyright>
+    <copyright>Copyright ©2025</copyright>
   </metadata>
   <files>
     <file src="..\*.vl" target="" />
