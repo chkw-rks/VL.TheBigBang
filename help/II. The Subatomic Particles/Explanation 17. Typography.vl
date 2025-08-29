@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="HOdvq0s94tnOCA4s1OkynW" LanguageVersion="2024.6.0-0224-g1141930e4a" Version="0.128">
-  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2024.6.0-0224-g1141930e4a" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="HOdvq0s94tnOCA4s1OkynW" LanguageVersion="2025.7.0" Version="0.128">
+  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2025.7.0" />
   <Patch Id="KwSh7UM9sxiNLbciPo4zVS">
     <Canvas Id="UBsROYmZbNYOhlf9jNrHmH" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -185,7 +185,7 @@
             <Pin Id="U5ABtVH9NzPQM1ngAErSQB" Name="Show Helpers" Kind="InputPin" />
             <Pin Id="MLGTeBnDwRvQNRmFUGXrmu" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="Hl8sI6Ii3JTPzVMVewMPYL" Comment="" Bounds="252,348,145,15" ShowValueBox="true" isIOBox="true" Value="Corbel">
+          <Pad Id="Hl8sI6Ii3JTPzVMVewMPYL" Comment="" Bounds="252,348,146,15" ShowValueBox="true" isIOBox="true" Value="Corbel">
             <p:TypeAnnotation LastCategoryFullName="Text" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="FontList" />
             </p:TypeAnnotation>
@@ -195,12 +195,12 @@
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="NR2VYryBkKSNZO5giDmcnY" Comment="" Bounds="352,439,58,15" ShowValueBox="true" isIOBox="true" Value="Center">
+          <Pad Id="NR2VYryBkKSNZO5giDmcnY" Comment="" Bounds="352,439,60,15" ShowValueBox="true" isIOBox="true" Value="Center">
             <p:TypeAnnotation LastCategoryFullName="Graphics.Skia.Unwrapped.Enums" LastDependency="VL.Skia.vl">
               <Choice Kind="TypeFlag" Name="SKTextAlign" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="AH2LsH35KkbOgm9XE7d56B" Comment="" Bounds="372,461,65,15" ShowValueBox="true" isIOBox="true" Value="Center">
+          <Pad Id="AH2LsH35KkbOgm9XE7d56B" Comment="" Bounds="372,461,67,15" ShowValueBox="true" isIOBox="true" Value="Center">
             <p:TypeAnnotation LastCategoryFullName="Graphics.Skia.Unwrapped.Enums" LastDependency="VL.Skia.vl">
               <Choice Kind="TypeFlag" Name="VerticalTextAlignment" />
             </p:TypeAnnotation>
@@ -329,12 +329,12 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="OcXquiKquQZMVFthgU84Rd" Comment="Style" Bounds="849,429,70,15" ShowValueBox="true" isIOBox="true" Value="BoldItalic">
+          <Pad Id="OcXquiKquQZMVFthgU84Rd" Comment="Style" Bounds="849,429,71,15" ShowValueBox="true" isIOBox="true" Value="BoldItalic">
             <p:TypeAnnotation LastCategoryFullName="Graphics.Skia.Unwrapped.Enums" LastDependency="VL.Skia.vl">
               <Choice Kind="TypeFlag" Name="SKTypefaceStyle" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="OWPMDVyoHVZLQFMfxXRVTJ" Comment="Color" Bounds="643,799,136,15" ShowValueBox="true" isIOBox="true" Value="0, 0, 1, 1">
+          <Pad Id="OWPMDVyoHVZLQFMfxXRVTJ" Comment="Color" Bounds="663,803,136,15" ShowValueBox="true" isIOBox="true" Value="0, 0, 1, 1">
             <p:TypeAnnotation LastCategoryFullName="Color" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="RGBA" />
             </p:TypeAnnotation>
@@ -370,17 +370,20 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="130,627,145,19" Id="OL3bitrh0SVL9YFinEbo6r">
+          <Node Bounds="150,630,145,19" Id="OL3bitrh0SVL9YFinEbo6r">
             <p:NodeReference LastCategoryFullName="Graphics.Skia" LastDependency="VL.Skia.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
-            <Pin Id="V3Z4UojRY60MiDA7MddORN" Name="Bounds" Kind="InputPin" DefaultValue="10, 14, 548, 370" />
+            <Pin Id="EJukIH1ObHoNan4U2vEEm1" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="MVAacBWecjNM38lkoJDvdQ" Name="Bounds" Kind="InputPin" IsHidden="true" />
             <Pin Id="Rs1zwL8GzX5LZhWhOJ8pSB" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
             <Pin Id="LuJnZnjTVjILElgaMIZFZx" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
-            <Pin Id="EJukIH1ObHoNan4U2vEEm1" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="GZ0FmsoHPVtOy8rmotLGvR" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
+            <Pin Id="EuGrz7NfSZzP61dQO2iCju" Name="Always On Top" Kind="InputPin" IsHidden="true" />
+            <Pin Id="TXr9RdqUgn9NpFLu1C60Fe" Name="Extend Into Title Bar" Kind="InputPin" IsHidden="true" />
             <Pin Id="JjmvNnoZJfHMtuvreHECAK" Name="Input" Kind="InputPin" />
+            <Pin Id="QgK2ml5uojoOB7swQXK8pv" Name="Title" Kind="InputPin" />
             <Pin Id="EyMWEEcUU7LPRlmGqt2Zqq" Name="Color" Kind="InputPin" />
             <Pin Id="AEBQCXHV1AFPB74nIXy9SB" Name="Clear" Kind="InputPin" />
             <Pin Id="RzsDzYnmbu3QSQ5sOwjCT8" Name="Space" Kind="InputPin" />
@@ -472,7 +475,7 @@
             <Pin Id="NywuQXvO9TcMXyZvD7GQFM" Name="Show Helpers" Kind="InputPin" />
             <Pin Id="LhugsE2NwANLSXM4WWi0FW" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="AIZwP9tjj9fNB34mXRwhAq" Comment="" Bounds="304,894,145,15" ShowValueBox="true" isIOBox="true" Value="Corbel">
+          <Pad Id="AIZwP9tjj9fNB34mXRwhAq" Comment="" Bounds="304,894,146,15" ShowValueBox="true" isIOBox="true" Value="Corbel">
             <p:TypeAnnotation LastCategoryFullName="Text" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="FontList" />
             </p:TypeAnnotation>
@@ -482,12 +485,12 @@
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="MNdna8Vhxb4MuFy9jhfqqP" Comment="" Bounds="404,955,58,15" ShowValueBox="true" isIOBox="true" Value="Center">
+          <Pad Id="MNdna8Vhxb4MuFy9jhfqqP" Comment="" Bounds="404,955,60,15" ShowValueBox="true" isIOBox="true" Value="Center">
             <p:TypeAnnotation LastCategoryFullName="Graphics.Skia.Unwrapped.Enums" LastDependency="VL.Skia.vl">
               <Choice Kind="TypeFlag" Name="SKTextAlign" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="RLjVw72cUR8OEY5CQZa160" Comment="" Bounds="424,975,65,15" ShowValueBox="true" isIOBox="true" Value="Center">
+          <Pad Id="RLjVw72cUR8OEY5CQZa160" Comment="" Bounds="424,975,67,15" ShowValueBox="true" isIOBox="true" Value="Center">
             <p:TypeAnnotation LastCategoryFullName="Graphics.Skia.Unwrapped.Enums" LastDependency="VL.Skia.vl">
               <Choice Kind="TypeFlag" Name="VerticalTextAlignment" />
             </p:TypeAnnotation>
@@ -507,7 +510,7 @@
               <Choice Kind="TypeFlag" Name="Vector2" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="CH552SxDG3lQXXZbLz7x3w" Comment="Anchor" Bounds="372,1063,91,15" ShowValueBox="true" isIOBox="true" Value="Center">
+          <Pad Id="CH552SxDG3lQXXZbLz7x3w" Comment="Anchor" Bounds="372,1063,92,15" ShowValueBox="true" isIOBox="true" Value="Center">
             <p:TypeAnnotation LastCategoryFullName="2D" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="RectangleAnchor" />
             </p:TypeAnnotation>
@@ -521,6 +524,7 @@
             <Pin Id="AoS3TnH78q4NgAUCjuUaZS" Name="Bounds" Kind="InputPin" />
             <Pin Id="Kf2PaUB58KnNTln8QfMH4A" Name="Paint" Kind="InputPin" />
             <Pin Id="AOQZxbYEEi9MvRQcHbs506" Name="Enabled" Kind="InputPin" />
+            <Pin Id="KQQB3W7l4aVPgF70N55s4m" Name="State Output" Kind="OutputPin" IsHidden="true" />
             <Pin Id="NqLx7a09yRHLZFqjQ1JC7V" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="342,1176,105,19" Id="FrHEQoeMDC9MhlCmEsZznz">
@@ -542,17 +546,20 @@
               <Choice Kind="TypeFlag" Name="Vector2" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="131,1337,145,19" Id="Kfq0GH3MLrELS3iZGTp8bO">
+          <Node Bounds="151,1350,145,19" Id="Kfq0GH3MLrELS3iZGTp8bO">
             <p:NodeReference LastCategoryFullName="Graphics.Skia" LastDependency="VL.Skia.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
-            <Pin Id="E2GevTfQjQFLGqs1BwyUnF" Name="Bounds" Kind="InputPin" DefaultValue="10, 382, 548, 364" />
+            <Pin Id="DqmoGzKhyLXOhBcFFODutm" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="AWTbW96Hx86Ligsa43DTZo" Name="Bounds" Kind="InputPin" IsHidden="true" />
             <Pin Id="PKjYho7KTu9LLRsCCHaqv7" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
             <Pin Id="D1TCxxMeJ2gLYQaszsTyPT" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
-            <Pin Id="DqmoGzKhyLXOhBcFFODutm" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="E8ZD8PswqkFMebKsICsTlv" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
+            <Pin Id="UeJpZY4XU3gNwLWrlLcaQj" Name="Always On Top" Kind="InputPin" IsHidden="true" />
+            <Pin Id="Syi4apc2Jj2LlY98MAC4HA" Name="Extend Into Title Bar" Kind="InputPin" IsHidden="true" />
             <Pin Id="U32NJPUCCh3NLbVAHojQDK" Name="Input" Kind="InputPin" />
+            <Pin Id="DuyG1s96Vd1MOkYHupXB8U" Name="Title" Kind="InputPin" />
             <Pin Id="GAd7wqj8oZKNyoySWU32vs" Name="Color" Kind="InputPin" />
             <Pin Id="LYU9oOoyilWNtyNXaxyZjo" Name="Clear" Kind="InputPin" />
             <Pin Id="Ibw9bf0OJYkN6GXXy6aH4S" Name="Space" Kind="InputPin" />
@@ -566,7 +573,7 @@
             <Pin Id="GthkgYjbsykLN6dlPrx4PS" Name="ClientBounds" Kind="OutputPin" />
             <Pin Id="J0tkhw90BcQMcsKkW874fz" Name="Render Time" Kind="OutputPin" />
           </Node>
-          <Pad Id="HI0s6xJNQWwLpQ6UzHj8kH" Comment="Style" Bounds="272,371,70,15" ShowValueBox="true" isIOBox="true" Value="BoldItalic">
+          <Pad Id="HI0s6xJNQWwLpQ6UzHj8kH" Comment="Style" Bounds="272,371,71,15" ShowValueBox="true" isIOBox="true" Value="BoldItalic">
             <p:TypeAnnotation LastCategoryFullName="Graphics.Skia.Unwrapped.Enums" LastDependency="VL.Skia.vl">
               <Choice Kind="TypeFlag" Name="SKTypefaceStyle" />
             </p:TypeAnnotation>
@@ -576,7 +583,7 @@
               <Choice Kind="TypeFlag" Name="RGBA" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="BxVCFd1XRkYOG0mdnq8j10" Comment="Color" Bounds="172,612,136,15" ShowValueBox="true" isIOBox="true" Value="1, 0, 0, 1">
+          <Pad Id="BxVCFd1XRkYOG0mdnq8j10" Comment="Color" Bounds="192,615,136,15" ShowValueBox="true" isIOBox="true" Value="1, 0, 0, 1">
             <p:TypeAnnotation LastCategoryFullName="Color" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="RGBA" />
             </p:TypeAnnotation>
@@ -659,7 +666,7 @@
             <Pin Id="Bk8kCYy5VQ3Ldq6XrKdLsk" Name="Reset" Kind="ApplyPin" />
             <Pin Id="E7aoomtBojqPn1AaByfeFT" Name="Value" Kind="OutputPin" />
           </Node>
-          <Pad Id="RBboGxKKYRdOZ1jM1ZIhvP" Comment="Style" Bounds="324,914,70,15" ShowValueBox="true" isIOBox="true" Value="BoldItalic">
+          <Pad Id="RBboGxKKYRdOZ1jM1ZIhvP" Comment="Style" Bounds="324,914,71,15" ShowValueBox="true" isIOBox="true" Value="BoldItalic">
             <p:TypeAnnotation LastCategoryFullName="Graphics.Skia.Unwrapped.Enums" LastDependency="VL.Skia.vl">
               <Choice Kind="TypeFlag" Name="SKTypefaceStyle" />
             </p:TypeAnnotation>
@@ -677,7 +684,7 @@
             <Pin Id="Of4YfeGAJHRMSw17iRXGhU" Name="Layer" Kind="OutputPin" />
             <Pin Id="Aw4q5C7CfE5MlW0TVJXYv0" Name="Entity" Kind="OutputPin" />
           </Node>
-          <Pad Id="ARSd4lxsAbwPq3dhEjbWhw" Comment="Color" Bounds="173,1323,136,15" ShowValueBox="true" isIOBox="true" Value="0, 0, 1, 1">
+          <Pad Id="ARSd4lxsAbwPq3dhEjbWhw" Comment="Color" Bounds="193,1331,136,15" ShowValueBox="true" isIOBox="true" Value="0, 0, 1, 1">
             <p:TypeAnnotation LastCategoryFullName="Color" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="RGBA" />
             </p:TypeAnnotation>
@@ -700,17 +707,20 @@
             <Pin Id="FCeWG2DECzTOhIaxv9eKX6" Name="Layer" Kind="OutputPin" />
             <Pin Id="ScjRM2QnJjaPeI9Vw8xxKV" Name="Entity" Kind="OutputPin" />
           </Node>
-          <Node Bounds="601,816,145,19" Id="HNCCSme8QFMLvgd3QQeHRY">
+          <Node Bounds="621,820,145,19" Id="HNCCSme8QFMLvgd3QQeHRY">
             <p:NodeReference LastCategoryFullName="Graphics.Skia" LastDependency="VL.Skia.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
-            <Pin Id="ElZ1PCphiqQPRRfyxHQrPc" Name="Bounds" Kind="InputPin" DefaultValue="8, 744, 548, 368" />
+            <Pin Id="TELWzedWhfePSvdQYdPvay" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="Eg8cSn2pEziMP7S8gTMuI5" Name="Bounds" Kind="InputPin" IsHidden="true" />
             <Pin Id="OUxGvHjkHmEOgVFjox5bjH" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
             <Pin Id="FvS1KSJpCZiMCI5XwoH1H0" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
-            <Pin Id="TELWzedWhfePSvdQYdPvay" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="VgpBeE5MT7FPlcQ0QWtG62" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
+            <Pin Id="VifkGymbLmbOU85NJWQmTT" Name="Always On Top" Kind="InputPin" IsHidden="true" />
+            <Pin Id="S0Cs831fN4TLczNx3Ni4SR" Name="Extend Into Title Bar" Kind="InputPin" IsHidden="true" />
             <Pin Id="C17Xb79reObOksew2WQmrk" Name="Input" Kind="InputPin" />
+            <Pin Id="A9RAkNpmOFbMZDnOWz4YA9" Name="Title" Kind="InputPin" />
             <Pin Id="VShAkRZJDdSMGJ2BK1lr0D" Name="Color" Kind="InputPin" />
             <Pin Id="MW3CWkQM49INDrIHJDjqH6" Name="Clear" Kind="InputPin" />
             <Pin Id="UWuhng9pbIgOPDvRcCjlZv" Name="Space" Kind="InputPin" />
@@ -724,7 +734,7 @@
             <Pin Id="SdGq79h4uyHOrSNX4wPhon" Name="ClientBounds" Kind="OutputPin" />
             <Pin Id="DgGInh0g236OgVYtGeC2et" Name="Render Time" Kind="OutputPin" />
           </Node>
-          <Pad Id="V06KerQw4kPMNnadZtGFsk" Comment="Style" Bounds="926,593,70,15" ShowValueBox="true" isIOBox="true" Value="Bold">
+          <Pad Id="V06KerQw4kPMNnadZtGFsk" Comment="Style" Bounds="926,593,71,15" ShowValueBox="true" isIOBox="true" Value="Bold">
             <p:TypeAnnotation LastCategoryFullName="Graphics.Skia.Unwrapped.Enums" LastDependency="VL.Skia.vl">
               <Choice Kind="TypeFlag" Name="SKTypefaceStyle" />
             </p:TypeAnnotation>
@@ -875,9 +885,9 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="OmPnNstlGeHMZd2oAju5gu" Location="VL.Skia" Version="2024.6.0-0224-g1141930e4a" />
-  <NugetDependency Id="E1zaHVUQ6jBMGrTcXWUa0v" Location="VL.Stride" Version="2024.6.0-0224-g1141930e4a" />
+  <NugetDependency Id="OmPnNstlGeHMZd2oAju5gu" Location="VL.Skia" Version="2025.7.0" />
+  <NugetDependency Id="E1zaHVUQ6jBMGrTcXWUa0v" Location="VL.Stride" Version="2025.7.0" />
   <DocumentDependency Id="P7JtMous17tLYR4FsdNwIB" Location="../../include/Nodes.vl" />
   <DocumentDependency Id="SCBjr2W5XswPTaIVpdFtq9" Location="../../VL.TheBigBang.vl" />
-  <NugetDependency Id="M6jDxOlmO9jLMh0kRL8sCQ" Location="VL.Stride.TextureFX" Version="2024.6.0-0224-g1141930e4a" />
+  <NugetDependency Id="M6jDxOlmO9jLMh0kRL8sCQ" Location="VL.Stride.TextureFX" Version="2025.7.0" />
 </Document>

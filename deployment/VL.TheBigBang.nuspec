@@ -8,7 +8,7 @@
     <projectUrl>https://ko-fi.com/chk/</projectUrl>
     <repository type="git" url="https://github.com/chkw-rks/VL.TheBigBang" />
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>A tutorial series covering all nodes and techniques to get started with the visual programming environment vvvv and its language VL.</description>
+    <description>A tutorial series covering all nodes and techniques to get started with vvvv and its visual programming language VL.</description>
     <tags>VL, vvvv, tutorial, creativecoding, visualprogramming</tags>
     <license type="expression">CC-BY-SA-4.0</license>
     <readme>docs\README.md</readme>
