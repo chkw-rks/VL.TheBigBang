@@ -1179,7 +1179,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="R77tPRvasN2PJ7SEzSJAb4" Bounds="174,227,432,262" ShowValueBox="true" isIOBox="true" Value="- tiny example - something like a Person, nothing rendered, maybe the Reader? with Create and Split, equivalent to Join and Spiut Vector2, very good reference here ALREADY!!&#xD;&#xA;">
+          <Pad Id="R77tPRvasN2PJ7SEzSJAb4" Bounds="174,227,538,256" ShowValueBox="true" isIOBox="true" Value="- tiny example - something like a Person, nothing rendered, maybe the Reader? with Create and Split, equivalent to Join and Spiut Vector2, very good reference here ALREADY!!&#xD;&#xA;&#xD;&#xA;IMPORTANT RESOURCES&#xD;&#xA;https://claude.ai/share/c4b342f3-1549-48ad-8b1d-9e6f08ef25b5&#xD;&#xA;https://forum.vvvv.org/t/when-to-pick-a-process-a-record-or-a-class/21624&#xD;&#xA;https://thegraybook.vvvv.org/reference/language/nodes.html&#xD;&#xA;https://thegraybook.vvvv.org/reference/language/operations.html">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
