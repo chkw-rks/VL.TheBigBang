@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>VL.TheBigBang</id>
-    <version>7.1.0-alpha.1</version>
+    <version>7.1.0-alpha.2</version>
     <title>VL.TheBigBang</title>
     <authors>chk</authors>
     <projectUrl>https://ko-fi.com/chk/</projectUrl>
