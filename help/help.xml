@@ -52,7 +52,8 @@
 		<VLDocument link="V. The Origin of Life\Explanation 40. Use Case I - Bundling Properties WIP.vl" tags="record, class, process, oop, object, objects, pattern, patterns, objectoriented, mutability, immutability, dispose, operations, member, static" />
 		<VLDocument link="V. The Origin of Life\Explanation 41. Use Case II - Creating and Destroying Object Instances WIP.vl" tags="record, class, process, oop, object, objects, pattern, patterns, objectoriented, mutability, immutability, dispose, operations, member, static" />
 		<VLDocument link="V. The Origin of Life\Explanation 42. Classes and Mutability WIP.vl" tags="record, class, process, oop, object, objects, pattern, patterns, objectoriented, mutability, immutability, dispose, operations, member, static" />
-		<VLDocument link="V. The Origin of Life\Explanation 43. Mutable Collections WIP.vl" tags="record, class, process, oop, object, objects, pattern, patterns, objectoriented, mutability, immutability, dispose, operations, member, static" />
-		<VLDocument link="V. The Origin of Life\Explanation 44. Objects as Process Nodes WIP.vl" tags="record, class, process, oop, object, objects, pattern, patterns, objectoriented, mutability, immutability, dispose, operations, member, static" />
+		<VLDocument link="V. The Origin of Life\Explanation 43. Records vs. Classes WIP.vl" tags="record, class, process, oop, object, objects, pattern, patterns, objectoriented, mutability, immutability, dispose, operations, member, static" />
+		<VLDocument link="V. The Origin of Life\Explanation 44. Mutable Collections WIP.vl" tags="record, class, process, oop, object, objects, pattern, patterns, objectoriented, mutability, immutability, dispose, operations, member, static" />
+		<VLDocument link="V. The Origin of Life\Explanation 45. Objects as Process Nodes WIP.vl" tags="record, class, process, oop, object, objects, pattern, patterns, objectoriented, mutability, immutability, dispose, operations, member, static" />
 	</Topic>
 </Pack>
