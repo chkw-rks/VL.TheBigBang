@@ -67,7 +67,16 @@ When the package is successfully installed, hit F1 to open the Help Browser and 
 36. Transitions
 37. Algorithms
 
-Currently I am working on the last bits of this tutorial series. Please consider supporting the development, if this tutorial has helped you and your practice so far and you want to speed things up!
+### Part V: The Origin of Life
+38. Object-Oriented Patching
+39. Records & Custom Operations
+40. Use Case I: Bundling Properties
+41. Use Case II: Creating & Destroying Object Instances
+42. Classes & Mutability
+43. Mutable Collections
+44. Objects as Process Nodes
+
+Currently I am working on further chapters of this tutorial series. Please consider supporting the development, if this tutorial has helped you and your practice so far and you want to speed things up!
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/T6T3I9XX6)
 
