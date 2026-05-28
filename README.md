@@ -73,8 +73,9 @@ When the package is successfully installed, hit F1 to open the Help Browser and 
 40. Use Case I: Bundling Properties
 41. Use Case II: Creating & Destroying Object Instances
 42. Classes & Mutability
-43. Mutable Collections
-44. Objects as Process Nodes
+43. Records vs. Classes
+44. Mutable Collections
+45. Objects as Process Nodes
 
 Currently I am working on further chapters of this tutorial series. Please consider supporting the development, if this tutorial has helped you and your practice so far and you want to speed things up!
 
