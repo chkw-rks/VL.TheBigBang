@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="S024Qxp2dQ0L9KeZn2Xrz9" LanguageVersion="2025.7.0" Version="0.128">
-  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2025.7.0" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="S024Qxp2dQ0L9KeZn2Xrz9" LanguageVersion="2025.7.2" Version="0.128">
+  <NugetDependency Id="UMoe9l8tI6dPh7545hvloL" Location="VL.CoreLib" Version="2025.7.2" />
   <Patch Id="KwSh7UM9sxiNLbciPo4zVS">
     <Canvas Id="UBsROYmZbNYOhlf9jNrHmH" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -15,7 +15,7 @@
       </p:NodeReference>
       <Patch Id="KEiz3yQbQs3MyCgsgQDYqc">
         <Canvas Id="Cv1qPAMTAeYNCFAcrowdm0" CanvasType="Group">
-          <Pad Id="Ps0iWUOOpl2LZMdihxSXfQ" Bounds="92,126,250,46" ShowValueBox="true" isIOBox="true" Value="23. Pads">
+          <Pad Id="Ps0iWUOOpl2LZMdihxSXfQ" Bounds="72,113,250,46" ShowValueBox="true" isIOBox="true" Value="23. Pads">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -24,7 +24,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="V7X3JiCKA1bM9kfsJAteSy" Bounds="92,99,372,25" ShowValueBox="true" isIOBox="true" Value="VL.TheBigBang">
+          <Pad Id="V7X3JiCKA1bM9kfsJAteSy" Bounds="72,86,372,25" ShowValueBox="true" isIOBox="true" Value="VL.TheBigBang">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -34,9 +34,9 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="EOO5Ub6tRXTMwo6tUCE0bU" SlotId="GMI6xQnZ5WrPJd7hcYASj1" Bounds="1181,320" />
-          <Pad Id="NRqRFwPY7q4Prpfi1X26Y2" SlotId="GMI6xQnZ5WrPJd7hcYASj1" Bounds="1181,703" />
-          <Pad Id="AOHrWCZhpquMvGbM6dduXS" Comment="Move Right" Bounds="1268,295,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+          <Pad Id="EOO5Ub6tRXTMwo6tUCE0bU" SlotId="GMI6xQnZ5WrPJd7hcYASj1" Bounds="1121,310" />
+          <Pad Id="NRqRFwPY7q4Prpfi1X26Y2" SlotId="GMI6xQnZ5WrPJd7hcYASj1" Bounds="1121,693" />
+          <Pad Id="AOHrWCZhpquMvGbM6dduXS" Comment="Move Right" Bounds="1208,285,35,35" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -45,7 +45,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="VXnXLq2douLLzXOPiHokYI" Bounds="1092,206,400,65" ShowValueBox="true" isIOBox="true" Value="In the following example we use a pad to store data for position and radius of a circle and manipulate the values using operations and their &quot;Apply&quot; pins.">
+          <Pad Id="VXnXLq2douLLzXOPiHokYI" Bounds="1032,196,400,65" ShowValueBox="true" isIOBox="true" Value="In the following example we use a pad to store data for position and radius of a circle and manipulate the values using operations and their &quot;Apply&quot; pins.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -54,7 +54,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="1179,899,85,19" Id="S6lm0MrNvDOL2QoJv5L5Hz">
+          <Node Bounds="1119,889,85,19" Id="S6lm0MrNvDOL2QoJv5L5Hz">
             <p:NodeReference LastCategoryFullName="Graphics.Skia.Layers" LastDependency="VL.Skia.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Layers" NeedsToBeDirectParent="true">
@@ -70,7 +70,7 @@
             <Pin Id="Q3cpv2pW4xxLX3d3Pf8i0c" Name="Enabled" Kind="InputPin" />
             <Pin Id="LokBVdhnsnzOgupjcweBtI" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="GNzpgfWfTg5NL7MmPkRopr" Comment="Move Down" Bounds="1268,605,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+          <Pad Id="GNzpgfWfTg5NL7MmPkRopr" Comment="Move Down" Bounds="1208,595,35,35" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -79,7 +79,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="J7JuluSiCj4MTi7wxzhHll" Comment="Move Left" Bounds="1268,398,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+          <Pad Id="J7JuluSiCj4MTi7wxzhHll" Comment="Move Left" Bounds="1208,388,35,35" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -88,7 +88,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="U1CB2Xd17AXMlcXZnd55hZ" Comment="Move Up" Bounds="1268,503,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+          <Pad Id="U1CB2Xd17AXMlcXZnd55hZ" Comment="Move Up" Bounds="1208,493,35,35" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -97,7 +97,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="1179,751,65,19" Id="EFoMfpQuxNoNwf6DaCDEBX">
+          <Node Bounds="1119,741,65,19" Id="EFoMfpQuxNoNwf6DaCDEBX">
             <p:NodeReference LastCategoryFullName="Animation" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Damper (2D)" />
@@ -116,12 +116,12 @@
             <Pin Id="T3Bhluq27ahPbZVzu0dUuZ" Name="Function" Kind="OutputPin" IsHidden="true" />
             <Pin Id="FEpDibLtH2pMX9T66ayY8a" Name="Has Changed" Kind="OutputPin" />
           </Node>
-          <Pad Id="KNP7rsCR66DNY6MmI6HqS9" Comment="Filter Time" Bounds="1201,735,35,15" ShowValueBox="true" isIOBox="true" Value="0.2">
+          <Pad Id="KNP7rsCR66DNY6MmI6HqS9" Comment="Filter Time" Bounds="1141,725,35,15" ShowValueBox="true" isIOBox="true" Value="0.2">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="1239,871,105,19" Id="KBS37TQv8pBQJ5IY1jkHrg">
+          <Node Bounds="1179,861,105,19" Id="KBS37TQv8pBQJ5IY1jkHrg">
             <p:NodeReference LastCategoryFullName="Graphics.Skia.Paint" LastDependency="VL.Skia.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Paint" NeedsToBeDirectParent="true">
@@ -138,7 +138,7 @@
             <Pin Id="CXKbfVlIoxaMqiI65Vrkxi" Name="Miter" Kind="InputPin" />
             <Pin Id="LTVAHsIKcemMrEmRKpSOvo" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="B5TEpkKYxYPOrtF8AonME4" Bounds="92,206,401,205" ShowValueBox="true" isIOBox="true" Value="Pads can be used to store data and use or modify this data in the next iteration. Basically it functions like a variable in other programming environments. Pads can be created from the Node Browser and should have a distinct name. &#xD;&#xA;&#xD;&#xA;Pads can used them to store any data type, and in their default state they are simply grayed out, indicating that their data type is yet undefined. Once a pad knows which data type it should be holding, it will turn dark gray. To specify the data type of a pad, either connect a link from somewhere, or specify the data type in the configuration menu (right-click &gt; Configure).">
+          <Pad Id="B5TEpkKYxYPOrtF8AonME4" Bounds="72,196,401,205" ShowValueBox="true" isIOBox="true" Value="Pads can be used to store data and use or modify this data in the next iteration. Basically it functions like a variable in other programming environments. Pads can be created from the Node Browser and should have a distinct name. &#xD;&#xA;&#xD;&#xA;Pads can used them to store any data type, and in their default state they are simply grayed out, indicating that their data type is yet undefined. Once a pad knows which data type it should be holding, it will turn dark gray. To specify the data type of a pad, either connect a link from somewhere, or specify the data type in the configuration menu (right-click &gt; Configure).">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -147,8 +147,8 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="NnGPEqtsUeLL2IPG0prO6v" SlotId="BOGdsgMSolCPKO6xIH9UpO" Bounds="414,448" />
-          <Pad Id="OEb9IfTkDrkLRoVt1cQuMs" Bounds="92,448,247,37" ShowValueBox="true" isIOBox="true" Value="Variable 1 is still unconnected and does not know which data type it is holding.">
+          <Pad Id="NnGPEqtsUeLL2IPG0prO6v" SlotId="BOGdsgMSolCPKO6xIH9UpO" Bounds="394,438" />
+          <Pad Id="OEb9IfTkDrkLRoVt1cQuMs" Bounds="72,438,247,37" ShowValueBox="true" isIOBox="true" Value="Variable 1 is still unconnected and does not know which data type it is holding.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -157,8 +157,8 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="SkSbpHdpFHgN11SNmorGNe" SlotId="EaxPZBRYDFON0vbHdvSUf8" Bounds="414,531" />
-          <Pad Id="RpVzFpxPUwcMffypOL8vnL" Bounds="92,509,247,53" ShowValueBox="true" isIOBox="true" Value="Variable 2 is connected to an integer IOBox and knows about its data type.">
+          <Pad Id="SkSbpHdpFHgN11SNmorGNe" SlotId="EaxPZBRYDFON0vbHdvSUf8" Bounds="394,521" />
+          <Pad Id="RpVzFpxPUwcMffypOL8vnL" Bounds="72,499,247,53" ShowValueBox="true" isIOBox="true" Value="Variable 2 is connected to an integer IOBox and knows about its data type.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -167,8 +167,8 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="OAP031l7zYbOduUa02wLP3" SlotId="LuBrL83G6WRMG87irBbdEE" Bounds="414,600" />
-          <Pad Id="J4xWsblnDjGP3scBD3g1yT" Bounds="92,572,246,88" ShowValueBox="true" isIOBox="true" Value="Variable 3 is connected to the phase output of the LFO. As this pin outputs a float it will also define the data type for the pad.">
+          <Pad Id="OAP031l7zYbOduUa02wLP3" SlotId="LuBrL83G6WRMG87irBbdEE" Bounds="394,590" />
+          <Pad Id="J4xWsblnDjGP3scBD3g1yT" Bounds="72,562,246,88" ShowValueBox="true" isIOBox="true" Value="Variable 3 is connected to the phase output of the LFO. As this pin outputs a float it will also define the data type for the pad.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -177,7 +177,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="412,563,45,19" Id="ECfOdYwkpCBOGqtFjEdWVh">
+          <Node Bounds="392,553,45,19" Id="ECfOdYwkpCBOGqtFjEdWVh">
             <p:NodeReference LastCategoryFullName="Animation" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="LFO" />
@@ -192,14 +192,14 @@
             <Pin Id="QeMhosROspNLJDPCs9p80g" Name="On New Cycle" Kind="OutputPin" />
             <Pin Id="Iec25bm7STEOXuF5JS0DX6" Name="Cycles" Kind="OutputPin" />
           </Node>
-          <Pad Id="J56icyOo6pOMEoxLR0wRVO" Comment="Pad 2" Bounds="414,509,35,15" ShowValueBox="true" isIOBox="true" Value="0">
+          <Pad Id="J56icyOo6pOMEoxLR0wRVO" Comment="Pad 2" Bounds="394,499,35,15" ShowValueBox="true" isIOBox="true" Value="0">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Integer32" />
               <CategoryReference Kind="Category" Name="Primitive" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="Daz1oj58633QdLHqLkAvL4" Comment="Pad 3" Bounds="414,623,35,15" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="RtGRAv2hS54K9WtKasyr0e" Bounds="92,671,247,74" ShowValueBox="true" isIOBox="true" Value="Variable 4 was manually set to store a color via the configuration menu. Pads that were set manually display a little white dot in their center.">
+          <Pad Id="Daz1oj58633QdLHqLkAvL4" Comment="Pad 3" Bounds="394,613,35,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="RtGRAv2hS54K9WtKasyr0e" Bounds="72,661,247,74" ShowValueBox="true" isIOBox="true" Value="Variable 4 was manually set to store a color via the configuration menu. Pads that were set manually display a little white dot in their center.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -208,9 +208,9 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="TJxbokCICmvLE9zeFUkq3u" SlotId="NN3aPdW1DirP2gbg5A0Boc" Bounds="414,671" />
-          <Pad Id="DoCuQF8Pf6WP1Ihywy7Xo1" Comment="" Bounds="414,695,136,15" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="UfYFbPN3ceiPTC9pocg4Hj" Bounds="93,785,399,115" ShowValueBox="true" isIOBox="true" Value="A pad can be placed multiple times in the patch and will make the data inside available in the next frame. Using pads like this requires caution - everything that is going in and out of a pad will have a delay of 1 frame as the value is delivered back in the next frame. So keep this in mind when you are dealing with real-time input.">
+          <Pad Id="TJxbokCICmvLE9zeFUkq3u" SlotId="NN3aPdW1DirP2gbg5A0Boc" Bounds="394,661" />
+          <Pad Id="DoCuQF8Pf6WP1Ihywy7Xo1" Comment="" Bounds="394,685,136,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="UfYFbPN3ceiPTC9pocg4Hj" Bounds="73,775,399,115" ShowValueBox="true" isIOBox="true" Value="A pad can be placed multiple times in the patch and will make the data inside available in the next frame. Using pads like this requires caution - everything that is going in and out of a pad will have a delay of 1 frame as the value is delivered back in the next frame. So keep this in mind when you are dealing with real-time input.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -219,8 +219,8 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="I1oh5DVsZKtP3a0OPEBibA" SlotId="NWcAxm0b5i9LTl0w6AgziD" Bounds="187,976" />
-          <Node Bounds="185,927,45,19" Id="FlOq3m5Rh4qPi9o2QOnnCj">
+          <Pad Id="I1oh5DVsZKtP3a0OPEBibA" SlotId="NWcAxm0b5i9LTl0w6AgziD" Bounds="167,966" />
+          <Node Bounds="165,917,45,19" Id="FlOq3m5Rh4qPi9o2QOnnCj">
             <p:NodeReference LastCategoryFullName="Animation" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="LFO" />
@@ -235,9 +235,9 @@
             <Pin Id="AtyKK14SKqdNN2YA5IQ8Fe" Name="On New Cycle" Kind="OutputPin" />
             <Pin Id="GqIDJQU8QozOjddSivIJV8" Name="Cycles" Kind="OutputPin" />
           </Node>
-          <Pad Id="UcQed1SXFl4LiOwNQwO0y8" SlotId="NWcAxm0b5i9LTl0w6AgziD" Bounds="297,941" />
-          <Pad Id="CCQa2Pd9IfXPcb5CqJOwkN" Comment="Pad 5" Bounds="297,1049,35,15" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="BI6f4KZ2DdaMNccqBpYVXH" Bounds="156,1080,343,83" ShowValueBox="true" isIOBox="true" Value="The IOBox on the right (which is fed with the output of the pad) is 1 frame delayed compared to the actual output of the LFO. Otherwise the subtraction would be exactly 0.">
+          <Pad Id="UcQed1SXFl4LiOwNQwO0y8" SlotId="NWcAxm0b5i9LTl0w6AgziD" Bounds="277,931" />
+          <Pad Id="CCQa2Pd9IfXPcb5CqJOwkN" Comment="Pad 5" Bounds="277,1039,35,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="BI6f4KZ2DdaMNccqBpYVXH" Bounds="136,1070,343,83" ShowValueBox="true" isIOBox="true" Value="The IOBox on the right (which is fed with the output of the pad) is 1 frame delayed compared to the actual output of the LFO. Otherwise the subtraction would be exactly 0.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -246,7 +246,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="Vn9XSciawTXLQbigCK49Hc" Bounds="592,206,400,77" ShowValueBox="true" isIOBox="true" Value="Pads are a great way to modify data from one frame to the next by combining them with If regions, as the inside of the If only triggers when the Condition input is set to true. Make sure that in the end, the modified value gets stored back into the pad.">
+          <Pad Id="Vn9XSciawTXLQbigCK49Hc" Bounds="552,196,400,77" ShowValueBox="true" isIOBox="true" Value="Pads are a great way to modify data from one frame to the next by combining them with If regions, as the inside of the If only triggers when the Condition input is set to true. Make sure that in the end, the modified value gets stored back into the pad.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -255,20 +255,20 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="JsE02rBqzjjOVChLK4Q6CI" SlotId="SabqOfuz1a5QUerNMr2pgd" Bounds="687,314" />
-          <Node Bounds="706,354,100,88" Id="AZhqmeh1rGGOGc3ykes3Mr">
+          <Pad Id="JsE02rBqzjjOVChLK4Q6CI" SlotId="SabqOfuz1a5QUerNMr2pgd" Bounds="647,304" />
+          <Node Bounds="666,344,100,88" Id="AZhqmeh1rGGOGc3ykes3Mr">
             <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
               <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
               <CategoryReference Kind="Category" Name="Primitive" />
               <Choice Kind="ApplicationStatefulRegion" Name="If" />
             </p:NodeReference>
             <Pin Id="QRRxOOCq5mjLg7F9oZ7OQn" Name="Condition" Kind="InputPin" />
-            <ControlPoint Id="K0qptAWPK7wM1g1aihrzfJ" Bounds="720,360" Alignment="Top" />
-            <ControlPoint Id="CcagMuj8FKxMO4pXXn2vOE" Bounds="720,436" Alignment="Bottom" />
+            <ControlPoint Id="K0qptAWPK7wM1g1aihrzfJ" Bounds="680,350" Alignment="Top" />
+            <ControlPoint Id="CcagMuj8FKxMO4pXXn2vOE" Bounds="680,426" Alignment="Bottom" />
             <Patch Id="UoUc64hS8RzOl2RH3yoVca" ManuallySortedPins="true">
               <Patch Id="RAmN7wfFf80LwLN0vtcude" Name="Create" ManuallySortedPins="true" />
               <Patch Id="KevwdaCuZAtN2uN0tYSjdQ" Name="Then" ManuallySortedPins="true" />
-              <Node Bounds="718,396,25,19" Id="AUUsAgxwh6nOr3gUOvGoWB">
+              <Node Bounds="678,386,25,19" Id="AUUsAgxwh6nOr3gUOvGoWB">
                 <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="+" />
@@ -277,7 +277,7 @@
                 <Pin Id="ARm2ehUL5x3L3nsSt6jk2g" Name="Input 2" Kind="InputPin" />
                 <Pin Id="VCSGuIoV4tnMiWpcf7NDQ8" Name="Output" Kind="OutputPin" />
               </Node>
-              <Pad Id="IOa4lR6TfflPhGwhWSg9bM" Comment="" Bounds="740,384,35,15" ShowValueBox="true" isIOBox="true" Value="1">
+              <Pad Id="IOa4lR6TfflPhGwhWSg9bM" Comment="" Bounds="700,374,35,15" ShowValueBox="true" isIOBox="true" Value="1">
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="ImmutableTypeFlag" Name="Integer32" />
                   <CategoryReference Kind="Category" Name="Primitive" />
@@ -285,19 +285,19 @@
               </Pad>
             </Patch>
           </Node>
-          <Node Bounds="706,503,100,86" Id="RR7zLACR2v7QQABHRCTiqD">
+          <Node Bounds="666,493,100,86" Id="RR7zLACR2v7QQABHRCTiqD">
             <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
               <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
               <CategoryReference Kind="Category" Name="Primitive" />
               <Choice Kind="ApplicationStatefulRegion" Name="If" />
             </p:NodeReference>
             <Pin Id="URhigF1pTCaMitD0QfHoS8" Name="Condition" Kind="InputPin" />
-            <ControlPoint Id="NtfbXrDWei2Ny9XgJl1fMQ" Bounds="720,509" Alignment="Top" />
-            <ControlPoint Id="B11o5PWYU9zQAj0xYWv4yf" Bounds="720,583" Alignment="Bottom" />
+            <ControlPoint Id="NtfbXrDWei2Ny9XgJl1fMQ" Bounds="680,499" Alignment="Top" />
+            <ControlPoint Id="B11o5PWYU9zQAj0xYWv4yf" Bounds="680,573" Alignment="Bottom" />
             <Patch Id="Hx1XD81rSiFP8BMgUTdCfF" ManuallySortedPins="true">
               <Patch Id="AFZshwynlvxOwVgJU914NV" Name="Create" ManuallySortedPins="true" />
               <Patch Id="U8G1OszNCxVNAUh4oYPyzT" Name="Then" ManuallySortedPins="true" />
-              <Node Bounds="718,548,25,19" Id="OapmqSo5vCdLa2TBAgETlI">
+              <Node Bounds="678,538,25,19" Id="OapmqSo5vCdLa2TBAgETlI">
                 <p:NodeReference LastCategoryFullName="Primitive.Integer32" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <CategoryReference Kind="Int32Type" Name="Integer32" NeedsToBeDirectParent="true" />
@@ -307,7 +307,7 @@
                 <Pin Id="TPTKp5mIjB5NXZZqjcyP4S" Name="Input 2" Kind="InputPin" />
                 <Pin Id="JeHs0Z8K8IVMnZgQgfXhUx" Name="Output" Kind="OutputPin" />
               </Node>
-              <Pad Id="DU21m74rfdAQE2hfh90ilk" Comment="" Bounds="740,536,35,15" ShowValueBox="true" isIOBox="true" Value="1">
+              <Pad Id="DU21m74rfdAQE2hfh90ilk" Comment="" Bounds="700,526,35,15" ShowValueBox="true" isIOBox="true" Value="1">
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="ImmutableTypeFlag" Name="Integer32" />
                   <CategoryReference Kind="Category" Name="Primitive" />
@@ -315,7 +315,7 @@
               </Pad>
             </Patch>
           </Node>
-          <Pad Id="Kg34Btixmi1NRkrgPKJ19c" Comment="Condition" Bounds="708,315,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+          <Pad Id="Kg34Btixmi1NRkrgPKJ19c" Comment="Condition" Bounds="668,305,35,35" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -324,8 +324,8 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="DB9QWPh6JBDOYLj5o2eQeM" SlotId="SabqOfuz1a5QUerNMr2pgd" Bounds="687,622" />
-          <Pad Id="DfLsuHuuz7kNyFtLEYyXvM" Comment="Condition" Bounds="708,464,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+          <Pad Id="DB9QWPh6JBDOYLj5o2eQeM" SlotId="SabqOfuz1a5QUerNMr2pgd" Bounds="647,612" />
+          <Pad Id="DfLsuHuuz7kNyFtLEYyXvM" Comment="Condition" Bounds="668,454,35,35" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -334,50 +334,51 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="QfzGD1IEb3NN704Z4TtGjq" Comment="Pad 6" Bounds="687,646,35,15" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="VsBTX284Df0PtUSNXqnkj4" Comment="" Bounds="1216,295,35,28" ShowValueBox="true" isIOBox="true" Value="0.05, 0">
+          <Pad Id="QfzGD1IEb3NN704Z4TtGjq" Comment="Pad 6" Bounds="647,636,35,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="VsBTX284Df0PtUSNXqnkj4" Comment="" Bounds="1156,285,35,28" ShowValueBox="true" isIOBox="true" Value="0.05, 0">
             <p:TypeAnnotation LastCategoryFullName="2D" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Vector2" />
               <CategoryReference Kind="Category" Name="2D" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="VYiNez80jITOVWeJaueMgX" Comment="" Bounds="1216,398,35,28" ShowValueBox="true" isIOBox="true" Value="0.05, 0">
+          <Pad Id="VYiNez80jITOVWeJaueMgX" Comment="" Bounds="1156,388,35,28" ShowValueBox="true" isIOBox="true" Value="0.05, 0">
             <p:TypeAnnotation LastCategoryFullName="2D" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Vector2" />
               <CategoryReference Kind="Category" Name="2D" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="JDSU8E6t7K6PTpN7d5Njx1" Comment="" Bounds="1216,503,35,28" ShowValueBox="true" isIOBox="true" Value="0, 0.05">
+          <Pad Id="JDSU8E6t7K6PTpN7d5Njx1" Comment="" Bounds="1156,493,35,28" ShowValueBox="true" isIOBox="true" Value="0, 0.05">
             <p:TypeAnnotation LastCategoryFullName="2D" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Vector2" />
               <CategoryReference Kind="Category" Name="2D" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="MONMRkEdWsuOP5zRFk0JK4" Comment="" Bounds="1216,605,35,28" ShowValueBox="true" isIOBox="true" Value="0, 0.05">
+          <Pad Id="MONMRkEdWsuOP5zRFk0JK4" Comment="" Bounds="1156,595,35,28" ShowValueBox="true" isIOBox="true" Value="0, 0.05">
             <p:TypeAnnotation LastCategoryFullName="2D" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Vector2" />
               <CategoryReference Kind="Category" Name="2D" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="AD5g1xq8NE9MrFPig2PDgP" Comment="Color" Bounds="1261,831,136,15" ShowValueBox="true" isIOBox="true" Value="1, 0, 0, 1">
+          <Pad Id="AD5g1xq8NE9MrFPig2PDgP" Comment="Color" Bounds="1201,821,136,15" ShowValueBox="true" isIOBox="true" Value="1, 0, 0, 1">
             <p:TypeAnnotation LastCategoryFullName="Color" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="RGBA" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="1179,1040,145,19" Id="P37Rqo0RU2xMIBCn62RCjx">
+          <Node Bounds="1119,1030,145,19" Id="P37Rqo0RU2xMIBCn62RCjx">
             <p:NodeReference LastCategoryFullName="Graphics.Skia" LastDependency="VL.Skia.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
             <Pin Id="NcOJuukVpoYL7IUMPf472Y" Name="Node Context" Kind="InputPin" IsHidden="true" />
-            <Pin Id="LnL6Ib8YLi6Npq6jhEeXrn" Name="Bounds" Kind="InputPin" IsHidden="true" />
+            <Pin Id="LnL6Ib8YLi6Npq6jhEeXrn" Name="Bounds" Kind="InputPin" DefaultValue="18, 38, 613, 436" IsHidden="true" />
             <Pin Id="KoZiVaIf15YNZJHxet5P5V" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
             <Pin Id="UQkiEbfZdEQMtiWR724wyB" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
             <Pin Id="EfLXH0DjzCoP36avpcVA2W" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
             <Pin Id="OFWcdacFL70OrvieZx9KAi" Name="Always On Top" Kind="InputPin" IsHidden="true" />
             <Pin Id="A71qxCEudY4NZ2G5hjBUb2" Name="Extend Into Title Bar" Kind="InputPin" IsHidden="true" />
             <Pin Id="BklDNBGIKSELRITJVnNgWA" Name="Input" Kind="InputPin" />
-            <Pin Id="PkbBCUQ4bZML4JbIj2sFB1" Name="Title" Kind="InputPin" />
+            <Pin Id="PkbBCUQ4bZML4JbIj2sFB1" Name="Title" Kind="InputPin" DefaultValue="Pads" />
+            <Pin Id="GdUT9CysFcuORxtx5eEY1L" Name="Title Bar Interaction Width" Kind="InputPin" IsHidden="true" />
             <Pin Id="IxJ3UB3ozH5Pzlx9mFvJQd" Name="Color" Kind="InputPin" />
             <Pin Id="PowDNnOVZ03LKRJaowWFzO" Name="Clear" Kind="InputPin" />
             <Pin Id="EzgNPMqVhQwMnax9mnKvyQ" Name="Space" Kind="InputPin" />
@@ -391,22 +392,22 @@
             <Pin Id="RQdqf6P9Cf4M6nUArG6kgD" Name="ClientBounds" Kind="OutputPin" />
             <Pin Id="CHjLhue91WmO7bW5kb7OXZ" Name="Render Time" Kind="OutputPin" />
           </Node>
-          <Pad Id="DTlTJ2Y45jpO2ZzH3btcoV" Comment="Color" Bounds="1221,1020,136,15" ShowValueBox="true" isIOBox="true" Value="0, 0, 1, 1">
+          <Pad Id="DTlTJ2Y45jpO2ZzH3btcoV" Comment="Color" Bounds="1161,1010,136,15" ShowValueBox="true" isIOBox="true" Value="0, 0, 1, 1">
             <p:TypeAnnotation LastCategoryFullName="Color" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="RGBA" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="UxvaZgjHAAXNXGWAOKmlcv" Comment="Stroke Width" Bounds="1281,854,35,15" ShowValueBox="true" isIOBox="true" Value="0.02">
+          <Pad Id="UxvaZgjHAAXNXGWAOKmlcv" Comment="Stroke Width" Bounds="1221,844,35,15" ShowValueBox="true" isIOBox="true" Value="0.02">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="RTTEy1bSyjJOiYwohBzfHN" Comment="Radius" Bounds="1201,806,35,15" ShowValueBox="true" isIOBox="true" Value="0.2">
+          <Pad Id="RTTEy1bSyjJOiYwohBzfHN" Comment="Radius" Bounds="1141,796,35,15" ShowValueBox="true" isIOBox="true" Value="0.2">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="1179,978,65,19" Id="IWvDi1f1R7TLO89xdD80Tp">
+          <Node Bounds="1119,968,65,19" Id="IWvDi1f1R7TLO89xdD80Tp">
             <p:NodeReference LastCategoryFullName="Graphics.Skia" LastDependency="VL.Skia.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Skia" NeedsToBeDirectParent="true" />
@@ -419,7 +420,7 @@
             <Pin Id="HRDySk4a1X1Pq2pGhBGXwO" Name="Enabled" Kind="InputPin" />
             <Pin Id="HN77yDHvoQvOdFbcFg0PV5" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="1199,948,65,19" Id="GbjJW2KNaJzLIpnsBDavWW">
+          <Node Bounds="1139,938,65,19" Id="GbjJW2KNaJzLIpnsBDavWW">
             <p:NodeReference LastCategoryFullName="Main" LastDependency="Nodes.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Labels" />
@@ -432,7 +433,7 @@
             <Pin Id="LGD2O1Y2QiXMFkjDkp3S5T" Name="Layer" Kind="OutputPin" />
             <Pin Id="NanWrBksgiILUm2sP1SkgH" Name="Entity" Kind="OutputPin" />
           </Node>
-          <Pad Id="G8ofGeuzX3OLaUgeVMrah3" Bounds="592,106,66,15" ShowValueBox="true" isIOBox="true" Value="Made by chk">
+          <Pad Id="G8ofGeuzX3OLaUgeVMrah3" Bounds="552,86,66,15" ShowValueBox="true" isIOBox="true" Value="Made by chk">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -441,7 +442,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="RWUxlSUFbyuP2b0qjQw09M" Bounds="657,106,140,19" ShowValueBox="true" isIOBox="true" Value="https://www.3e8.studio">
+          <Pad Id="RWUxlSUFbyuP2b0qjQw09M" Bounds="617,86,140,19" ShowValueBox="true" isIOBox="true" Value="https://www.3e8.studio">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -450,7 +451,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="JmLKPcj9qt5NM6AEjrTF7L" Bounds="807,106,369,15" ShowValueBox="true" isIOBox="true" Value="If you find this material helpful, please consider supporting its development via">
+          <Pad Id="JmLKPcj9qt5NM6AEjrTF7L" Bounds="792,86,369,15" ShowValueBox="true" isIOBox="true" Value="If you find this material helpful, please consider supporting its development via">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -459,7 +460,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="OgMkJaGf3lRM71HPajRFer" Bounds="1175,106,140,19" ShowValueBox="true" isIOBox="true" Value="https://www.ko-fi.com/chk">
+          <Pad Id="OgMkJaGf3lRM71HPajRFer" Bounds="1160,86,140,19" ShowValueBox="true" isIOBox="true" Value="https://www.ko-fi.com/chk">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -468,10 +469,10 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Overlay Id="NQCnn2eZM76L4GTM3UoLfW" Bounds="1100,1114,390,108">
+          <Overlay Id="NQCnn2eZM76L4GTM3UoLfW" Bounds="1040,1104,390,108">
             <p:ColorIndex p:Type="Int32">10</p:ColorIndex>
           </Overlay>
-          <Pad Id="G9tcLLNiCIxML95nOi0Ims" Bounds="1101,1132,216,25" ShowValueBox="true" isIOBox="true" Value="Other Resources">
+          <Pad Id="G9tcLLNiCIxML95nOi0Ims" Bounds="1041,1122,216,25" ShowValueBox="true" isIOBox="true" Value="Other Resources">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -480,7 +481,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="VQ25VPrwwShLz1Gly7lxJv" Bounds="1101,1163,197,19" ShowValueBox="true" isIOBox="true" Value="The Gray Book">
+          <Pad Id="VQ25VPrwwShLz1Gly7lxJv" Bounds="1041,1153,197,19" ShowValueBox="true" isIOBox="true" Value="The Gray Book">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -489,7 +490,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="PUjAgiQKNG3MQuWNi17RIM" Bounds="1101,1182,373,19" ShowValueBox="true" isIOBox="true" Value="https://thegraybook.vvvv.org/reference/language/properties">
+          <Pad Id="PUjAgiQKNG3MQuWNi17RIM" Bounds="1041,1172,373,19" ShowValueBox="true" isIOBox="true" Value="https://thegraybook.vvvv.org/reference/language/properties">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -498,8 +499,8 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="UbKj5hcgHDUOjYPtPLKOHl" Comment="Variable 5" Bounds="187,1049,35,15" ShowValueBox="true" isIOBox="true" />
-          <Node Bounds="398,1012,25,19" Id="L0kzdD6VWroMuAci7QWNrh">
+          <Pad Id="UbKj5hcgHDUOjYPtPLKOHl" Comment="Variable 5" Bounds="167,1039,35,15" ShowValueBox="true" isIOBox="true" />
+          <Node Bounds="378,1002,25,19" Id="L0kzdD6VWroMuAci7QWNrh">
             <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="-" />
@@ -508,8 +509,8 @@
             <Pin Id="MT3z10ZuNXkMFO47oXV8D4" Name="Input 2" Kind="InputPin" />
             <Pin Id="EakwWyaV6RNNOlOFQ54kXH" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="Fhv0fmBAR1gNjHL72t0Zb1" Comment="" Bounds="400,1049,35,15" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="B28kSuTaQDpOi9uMLOZi10" Bounds="592,717,261,31" ShowValueBox="true" isIOBox="true" Value="Shortcut: The Apply Pin">
+          <Pad Id="Fhv0fmBAR1gNjHL72t0Zb1" Comment="" Bounds="380,1039,35,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="B28kSuTaQDpOi9uMLOZi10" Bounds="552,707,261,31" ShowValueBox="true" isIOBox="true" Value="Shortcut: The Apply Pin">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -518,7 +519,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="KBYq2OGbvVoOBWPOROhqSu" Bounds="592,754,402,144" ShowValueBox="true" isIOBox="true" Value="In cases like these it might be good to know the so-called Apply, which most of the nodes have that are used to modify values between pads. It can be seen as an alternative to an If region and using it instead cleans up the patch a lot, if there are lots of operations chained up. It is a hidden pin, that can be enabled after right-clicking on the node and selecting &quot;Configure&quot;. Therefore the following example if basically equivalent to the previous one.">
+          <Pad Id="KBYq2OGbvVoOBWPOROhqSu" Bounds="552,744,402,144" ShowValueBox="true" isIOBox="true" Value="In cases like these it might be good to know the so-called Apply, which most of the nodes have that are used to modify values between pads. It can be seen as an alternative to an If region and using it instead cleans up the patch a lot, if there are lots of operations chained up. It is a hidden pin, that can be enabled after right-clicking on the node and selecting &quot;Configure&quot;. Therefore the following example if basically equivalent to the previous one.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -527,8 +528,8 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="SHuI5iJY1r0QX1UIqUN8cw" SlotId="IbUSte9GeTVLr5mrzENfgW" Bounds="687,956" />
-          <Pad Id="Hx2EPEoodusLLiJyQ7pSYL" Comment="Apply" Bounds="759,934,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+          <Pad Id="SHuI5iJY1r0QX1UIqUN8cw" SlotId="IbUSte9GeTVLr5mrzENfgW" Bounds="647,946" />
+          <Pad Id="Hx2EPEoodusLLiJyQ7pSYL" Comment="Apply" Bounds="719,924,35,35" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -537,8 +538,8 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="V2iBu1IZPIFOnWcFv7f7oK" SlotId="IbUSte9GeTVLr5mrzENfgW" Bounds="687,1137" />
-          <Pad Id="BToQP0jrSDvOpcyUapnlEk" Comment="Apply" Bounds="759,1037,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+          <Pad Id="V2iBu1IZPIFOnWcFv7f7oK" SlotId="IbUSte9GeTVLr5mrzENfgW" Bounds="647,1127" />
+          <Pad Id="BToQP0jrSDvOpcyUapnlEk" Comment="Apply" Bounds="719,1027,35,35" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -547,8 +548,8 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="GmonD3B4R7JQQ17ApkLXd9" Comment="Pad 6" Bounds="687,1161,35,15" ShowValueBox="true" isIOBox="true" />
-          <Node Bounds="700,985,45,19" Id="F7PmDeTTJrpLe4txI5b0dW">
+          <Pad Id="GmonD3B4R7JQQ17ApkLXd9" Comment="Pad 6" Bounds="647,1151,35,15" ShowValueBox="true" isIOBox="true" />
+          <Node Bounds="660,975,45,19" Id="F7PmDeTTJrpLe4txI5b0dW">
             <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="+" />
@@ -558,13 +559,13 @@
             <Pin Id="Ryrfp8Asqb6LteMds9c0f4" Name="Output" Kind="OutputPin" />
             <Pin Id="M2jpUp4BEaWMKNCAYWx9vw" Name="Apply" Kind="InputPin" />
           </Node>
-          <Pad Id="Vma2MNacDAdNpEvKZfRLjR" Comment="" Bounds="722,934,20,15" ShowValueBox="true" isIOBox="true" Value="1">
+          <Pad Id="Vma2MNacDAdNpEvKZfRLjR" Comment="" Bounds="682,924,20,15" ShowValueBox="true" isIOBox="true" Value="1">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Integer32" />
               <CategoryReference Kind="Category" Name="Primitive" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="700,1088,45,19" Id="JKOUEHTwLaHLH96G2RezUH">
+          <Node Bounds="660,1078,45,19" Id="JKOUEHTwLaHLH96G2RezUH">
             <p:NodeReference LastCategoryFullName="Primitive.Integer32" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Int32Type" Name="Integer32" NeedsToBeDirectParent="true" />
@@ -575,13 +576,13 @@
             <Pin Id="D052F5a7FRqNXllgjn3aVz" Name="Output" Kind="OutputPin" />
             <Pin Id="A8UAFYulD23PtKl12fkkaY" Name="Apply" Kind="InputPin" />
           </Node>
-          <Pad Id="F5hlNZtHQ06NHSnM4kvV8p" Comment="" Bounds="722,1037,20,15" ShowValueBox="true" isIOBox="true" Value="1">
+          <Pad Id="F5hlNZtHQ06NHSnM4kvV8p" Comment="" Bounds="682,1027,20,15" ShowValueBox="true" isIOBox="true" Value="1">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Integer32" />
               <CategoryReference Kind="Category" Name="Primitive" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="1194,657,45,19" Id="CkFGkWsZNgdNrS0HDkwEsM">
+          <Node Bounds="1134,647,45,19" Id="CkFGkWsZNgdNrS0HDkwEsM">
             <p:NodeReference LastCategoryFullName="2D.Vector2" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Vector2Type" Name="Vector2" NeedsToBeDirectParent="true" />
@@ -592,7 +593,7 @@
             <Pin Id="NVOwiyoeAKOO2nvqtM56lr" Name="Output" Kind="OutputPin" />
             <Pin Id="UettCzXp5bVOXzXMbZdlfc" Name="Apply" Kind="InputPin" />
           </Node>
-          <Node Bounds="1194,555,45,19" Id="BozOKy9vqEWLCJVL2CDLPH">
+          <Node Bounds="1134,545,45,19" Id="BozOKy9vqEWLCJVL2CDLPH">
             <p:NodeReference LastCategoryFullName="2D.Vector2" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Vector2Type" Name="Vector2" NeedsToBeDirectParent="true" />
@@ -603,7 +604,7 @@
             <Pin Id="AqRpqfpa0CiO6xvrm0FCRG" Name="Output" Kind="OutputPin" />
             <Pin Id="FE3VFlx0sELNFJBO4YoLNC" Name="Apply" Kind="InputPin" />
           </Node>
-          <Node Bounds="1194,450,45,19" Id="U1w93DQHDbGLr4jCWCEidK">
+          <Node Bounds="1134,440,45,19" Id="U1w93DQHDbGLr4jCWCEidK">
             <p:NodeReference LastCategoryFullName="2D.Vector2" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Vector2Type" Name="Vector2" NeedsToBeDirectParent="true" />
@@ -614,7 +615,7 @@
             <Pin Id="DwI9Vb9m03lOfkJLZ1O8C4" Name="Output" Kind="OutputPin" />
             <Pin Id="QIPE4BDIThyM9kGElCX2Vv" Name="Apply" Kind="InputPin" />
           </Node>
-          <Node Bounds="1194,347,45,19" Id="TrsCWSbmvwkPfJYfsERWqY">
+          <Node Bounds="1134,337,45,19" Id="TrsCWSbmvwkPfJYfsERWqY">
             <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="+" />
@@ -702,9 +703,9 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="S7jyX2EweQpQVQGexZcXC8" Location="VL.Stride" Version="2025.7.0" />
-  <NugetDependency Id="KCkzIQzTcsbPtVQmbO9jl3" Location="VL.Skia" Version="2025.7.0" />
+  <NugetDependency Id="S7jyX2EweQpQVQGexZcXC8" Location="VL.Stride" Version="2025.7.2" />
+  <NugetDependency Id="KCkzIQzTcsbPtVQmbO9jl3" Location="VL.Skia" Version="2025.7.2" />
   <DocumentDependency Id="VX79H3Sxq8dOjQr6rzxW3a" Location="../../include/Nodes.vl" />
   <DocumentDependency Id="ESd7jFSUQgjPu9LBMS8Ck7" Location="../../VL.TheBigBang.vl" />
-  <NugetDependency Id="PAKzp0Mt6whLGPPJAd1WIV" Location="VL.Stride.TextureFX" Version="2025.7.0" />
+  <NugetDependency Id="PAKzp0Mt6whLGPPJAd1WIV" Location="VL.Stride.TextureFX" Version="2025.7.2" />
 </Document>
