@@ -67,6 +67,17 @@ When the package is successfully installed, hit F1 to open the Help Browser and 
 36. Transitions
 37. Algorithms
 
+### Part V: The Origin of Life
+38. Object-Oriented Patching
+39. Custom Operations
+40. Records
+41. Use Case I: Bundling Properties
+42. Use Case II: Creating & Destroying Object Instances
+43. Classes & Mutability
+44. Records vs Classes
+45. Mutable Collections
+46. Objects as Process Nodes
+
 Currently I am working on the last bits of this tutorial series. Please consider supporting the development, if this tutorial has helped you and your practice so far and you want to speed things up!
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/T6T3I9XX6)
