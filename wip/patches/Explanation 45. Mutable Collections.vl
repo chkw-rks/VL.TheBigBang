@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="5OpMEUKA7Hu25A4pHj2XFL" LanguageVersion="2025.7.2" Version="0.128">
-  <NugetDependency Id="3TAZ9eVcATYulYShJ8YKO6" Location="VL.CoreLib" Version="2025.7.2" />
-  <Patch Id="42G5SXLhCAVLvWvgjAlXEr">
-    <Canvas Id="2WX3mBI1sO6fIUeIPrMmX6" DefaultCategory="Main" CanvasType="FullCategory" />
-    <Node Name="Application" Bounds="100,100" Id="347n9UybMUqvnzNuF7HFAt">
+<Document xmlns:p="property" xmlns:r="reflection" Id="2XX83LuwKZwWE0m4tdVWUS" LanguageVersion="2025.7.3" Version="0.128">
+  <NugetDependency Id="6OqjPsX94oJJepCKMRUQAv" Location="VL.CoreLib" Version="2025.7.3" />
+  <Patch Id="15geDZKxXkOZm70EhcCTHF">
+    <Canvas Id="6WzAelkRbH5dL2ZPMM6RzZ" DefaultCategory="Main" CanvasType="FullCategory" />
+    <Node Name="Application" Bounds="100,100" Id="4vGNDMNt3DxKAc9aNtCtqo">
       <p:NodeReference>
         <Choice Kind="ContainerDefinition" Name="Process" />
         <CategoryReference Kind="Category" Name="Primitive" />
       </p:NodeReference>
-      <Patch Id="1NDSJsWiBzGKtC5yw5f5TR">
-        <Canvas Id="7dx4gwFLvHdddDwjBWLnyo" CanvasType="Group">
-          <Pad Id="4NneGWd4Mzn9DhYooQKUNi" Bounds="72,113,482,46" ShowValueBox="true" isIOBox="true" Value="45. Mutable Collections">
+      <Patch Id="3wYRFJUzWmetOZrEquJzaA">
+        <Canvas Id="5pHEiIrTj5AFjsY2k7tQes" CanvasType="Group">
+          <Pad Id="3UaB8eRSBa2wouuiR3oFBM" Bounds="72,113,482,46" ShowValueBox="true" isIOBox="true" Value="45. Mutable Collections">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -19,7 +19,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="7OY8khlZb6umj3yOOIgHgj" Bounds="72,86,364,25" ShowValueBox="true" isIOBox="true" Value="VL.TheBigBang">
+          <Pad Id="57MY88HQj93yuqzAM47vFZ" Bounds="72,86,364,25" ShowValueBox="true" isIOBox="true" Value="VL.TheBigBang">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -29,7 +29,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="00dhWrfs4LDIg4XRVDfPk7" Bounds="552,86,66,15" ShowValueBox="true" isIOBox="true" Value="Made by chk">
+          <Pad Id="4x2CmtYgg6WOgrvXMTX9NG" Bounds="552,86,66,15" ShowValueBox="true" isIOBox="true" Value="Made by chk">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -38,25 +38,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="6D6dbyA2fBtwVwBKJrXjny" Bounds="617,86,140,19" ShowValueBox="true" isIOBox="true" Value="https://www.3e8.studio">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="String" />
-            </p:TypeAnnotation>
-            <p:ValueBoxSettings>
-              <p:fontsize p:Type="Int32">7</p:fontsize>
-              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
-            </p:ValueBoxSettings>
-          </Pad>
-          <Pad Id="3AYXnVg0p35CQo3j89eXMU" Bounds="792,86,369,15" ShowValueBox="true" isIOBox="true" Value="If you find this material helpful, please consider supporting its development via">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="String" />
-            </p:TypeAnnotation>
-            <p:ValueBoxSettings>
-              <p:fontsize p:Type="Int32">7</p:fontsize>
-              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
-            </p:ValueBoxSettings>
-          </Pad>
-          <Pad Id="3532ObuXMRZPt0Y5tr7POR" Bounds="1160,86,140,19" ShowValueBox="true" isIOBox="true" Value="https://www.ko-fi.com/chk">
+          <Pad Id="6dGdt2jsd0t0qOQok6NpX3" Bounds="617,86,140,19" ShowValueBox="true" isIOBox="true" Value="https://www.3e8.studio">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -65,7 +47,25 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="544BeCNyJ4B5SEO1xJL5f6" Bounds="92,215,400,120" ShowValueBox="true" isIOBox="true" Value="The last two chapters were about whether your objects should be Records or Classes. This chapter is about something different but related — whether the collections holding them should be immutable or mutable. The two questions sound similar, but they are independent, and confusing them is the single most common mistake in this corner of VL.">
+          <Pad Id="6buiIoRK5Kf5RLLGeUuMt8" Bounds="792,86,369,15" ShowValueBox="true" isIOBox="true" Value="If you find this material helpful, please consider supporting its development via">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">7</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="40C9qTLInzrhiBw02PLTn7" Bounds="1160,86,140,19" ShowValueBox="true" isIOBox="true" Value="https://www.ko-fi.com/chk">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">7</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="37d63bVIui3lYfui9JPPkA" Bounds="92,215,400,120" ShowValueBox="true" isIOBox="true" Value="The last two chapters were about whether your objects should be Records or Classes. This chapter is about something different but related — whether the collections holding them should be immutable or mutable. The two questions sound similar, but they are independent, and confusing them is the single most common mistake in this corner of VL.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -74,7 +74,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="101r7S0ih8bB91sVoOhtfV" Bounds="592,215,400,139" ShowValueBox="true" isIOBox="true" Value="Every collection type you have used so far in this tutorial — Spread, Dictionary — has been immutable. You add an element by producing a new collection with the element included. You remove an element by producing a new collection without it. The original collection is unchanged, and you store the new one back. This is the same pattern you have used with Records.">
+          <Pad Id="5cSaulHniYUtSbw0MudtUE" Bounds="592,215,400,139" ShowValueBox="true" isIOBox="true" Value="Every collection type you have used so far in this tutorial — Spread, Dictionary — has been immutable. You add an element by producing a new collection with the element included. You remove an element by producing a new collection without it. The original collection is unchanged, and you store the new one back. This is the same pattern you have used with Records.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -83,7 +83,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="6TbezrB5qL56R3tFNQYTED" Bounds="1092,215,400,120" ShowValueBox="true" isIOBox="true" Value="For most applications this works fine. But when you have many elements changing rapidly — hundreds or thousands of particles each frame, a constantly-updating set of objects in a game — the cost of producing a new collection every step starts to show. For those cases there are mutable collection types. They change in place, like Classes do.">
+          <Pad Id="4gKeiAj9BdKwf9U8AOaUQ3" Bounds="1092,215,400,120" ShowValueBox="true" isIOBox="true" Value="For most applications this works fine. But when you have many elements changing rapidly — hundreds or thousands of particles each frame, a constantly-updating set of objects in a game — the cost of producing a new collection every step starts to show. For those cases there are mutable collection types. They change in place, like Classes do.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -92,7 +92,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="6x6jZv6nmhYJosSRRlQiQ2" Bounds="92,394,200,31" ShowValueBox="true" isIOBox="true" Value="A Separate Axis">
+          <Pad Id="6pgkB6pvWKCgFRAGBfbf4n" Bounds="92,394,200,31" ShowValueBox="true" isIOBox="true" Value="A Separate Axis">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -101,7 +101,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="0jDTzxISvprzQdPvHnJ9PJ" Bounds="592,394,200,31" ShowValueBox="true" isIOBox="true" Value="SpreadBuilder">
+          <Pad Id="5MVKLhS9fdLwCpuzCPUTYo" Bounds="592,394,200,31" ShowValueBox="true" isIOBox="true" Value="SpreadBuilder">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -110,7 +110,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="3ox0dTntKixy2KkQQdY4DC" Bounds="1092,394,200,31" ShowValueBox="true" isIOBox="true" Value="MutableDictionary">
+          <Pad Id="2tO3bpEy8Adnf7iu7N4KQT" Bounds="1092,394,200,31" ShowValueBox="true" isIOBox="true" Value="MutableDictionary">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -119,7 +119,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="2xr0uKaeItfIC3XTkSCWDG" Bounds="92,433,400,443" ShowValueBox="true" isIOBox="true" Value="The mutability of the collection and the mutability of its contents are two different questions. You can mix them freely. The four combinations are all valid and each makes sense for different reasons.&#xD;&#xA;&#xD;&#xA;An immutable Spread of immutable Records — what you have been using throughout this tutorial. Values flowing through, every modification producing a new collection.&#xD;&#xA;&#xD;&#xA;An immutable Spread of mutable Classes — useful when you want to control when the collection itself changes, but the individual objects need to be modified from multiple places.&#xD;&#xA;&#xD;&#xA;A mutable SpreadBuilder of immutable Records — useful when you want fast modification of the collection (adding, removing, clearing) but the individual elements stay as values.&#xD;&#xA;&#xD;&#xA;A mutable SpreadBuilder of mutable Classes — the most mutable option, useful when both axes need to change rapidly.&#xD;&#xA;&#xD;&#xA;The choice is not Records-or-Classes; the choice is two independent questions. This chapter looks at the collection side.">
+          <Pad Id="0K5iD6rFuHazAGY0REreF5" Bounds="92,433,400,443" ShowValueBox="true" isIOBox="true" Value="The mutability of the collection and the mutability of its contents are two different questions. You can mix them freely. The four combinations are all valid and each makes sense for different reasons.&#xD;&#xA;&#xD;&#xA;An immutable Spread of immutable Records — what you have been using throughout this tutorial. Values flowing through, every modification producing a new collection.&#xD;&#xA;&#xD;&#xA;An immutable Spread of mutable Classes — useful when you want to control when the collection itself changes, but the individual objects need to be modified from multiple places.&#xD;&#xA;&#xD;&#xA;A mutable SpreadBuilder of immutable Records — useful when you want fast modification of the collection (adding, removing, clearing) but the individual elements stay as values.&#xD;&#xA;&#xD;&#xA;A mutable SpreadBuilder of mutable Classes — the most mutable option, useful when both axes need to change rapidly.&#xD;&#xA;&#xD;&#xA;The choice is not Records-or-Classes; the choice is two independent questions. This chapter looks at the collection side.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -128,7 +128,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="78EezsTrzUqchYPfD2IInE" Bounds="592,433,400,329" ShowValueBox="true" isIOBox="true" Value="SpreadBuilder is the mutable counterpart to Spread. Where a Spread is a value — adding to it produces a new Spread — a SpreadBuilder is a mutable container that you modify in place. You add elements with Add, remove them with RemoveAt, clear it all with Clear, and the SpreadBuilder itself stays the same instance throughout.&#xD;&#xA;&#xD;&#xA;When you need to hand the contents to something that expects a regular Spread — a ForEach, a downstream operation, a renderer — you call ToSpread on the SpreadBuilder. This produces a snapshot Spread of its current state. The SpreadBuilder remains, and you can keep modifying it.&#xD;&#xA;&#xD;&#xA;The patch on the right shows a small example. A SpreadBuilder in a pad, with Add fired by a Bang. Each click adds a number to the collection. ToSpread produces a current Spread for inspection.">
+          <Pad Id="3sP6AVwjkzzAkPvXbLVYEc" Bounds="592,433,400,329" ShowValueBox="true" isIOBox="true" Value="SpreadBuilder is the mutable counterpart to Spread. Where a Spread is a value — adding to it produces a new Spread — a SpreadBuilder is a mutable container that you modify in place. You add elements with Add, remove them with RemoveAt, clear it all with Clear, and the SpreadBuilder itself stays the same instance throughout.&#xD;&#xA;&#xD;&#xA;When you need to hand the contents to something that expects a regular Spread — a ForEach, a downstream operation, a renderer — you call ToSpread on the SpreadBuilder. This produces a snapshot Spread of its current state. The SpreadBuilder remains, and you can keep modifying it.&#xD;&#xA;&#xD;&#xA;The patch on the right shows a small example. A SpreadBuilder in a pad, with Add fired by a Bang. Each click adds a number to the collection. ToSpread produces a current Spread for inspection.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -137,7 +137,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="63qsbSAYfK9tRY7Un9hNST" Bounds="1092,433,400,329" ShowValueBox="true" isIOBox="true" Value="MutableDictionary is the mutable counterpart to Dictionary, which you met in chapter 26. The relationship is the same as SpreadBuilder's relationship to Spread. A Dictionary is a value — every modification produces a new one. A MutableDictionary changes in place.&#xD;&#xA;&#xD;&#xA;You use the same operations you know — SetValue with a key, Remove, Clear — but the MutableDictionary itself remains the same instance throughout. When you need a regular Dictionary for downstream use, ToImmutable gives you a snapshot.&#xD;&#xA;&#xD;&#xA;This is what chapter 26 was pointing at when it said collections become more interesting once you have your own data types. A MutableDictionary of Particles keyed by name — a lookup table you can grow, shrink, and modify in place without ever copying the dictionary itself — is exactly the kind of structure many applications need.">
+          <Pad Id="0u7xDCem0Enb9IWMbHlaIJ" Bounds="1092,433,400,329" ShowValueBox="true" isIOBox="true" Value="MutableDictionary is the mutable counterpart to Dictionary, which you met in chapter 26. The relationship is the same as SpreadBuilder's relationship to Spread. A Dictionary is a value — every modification produces a new one. A MutableDictionary changes in place.&#xD;&#xA;&#xD;&#xA;You use the same operations you know — SetValue with a key, Remove, Clear — but the MutableDictionary itself remains the same instance throughout. When you need a regular Dictionary for downstream use, ToImmutable gives you a snapshot.&#xD;&#xA;&#xD;&#xA;This is what chapter 26 was pointing at when it said collections become more interesting once you have your own data types. A MutableDictionary of Particles keyed by name — a lookup table you can grow, shrink, and modify in place without ever copying the dictionary itself — is exactly the kind of structure many applications need.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -146,7 +146,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="1d1ALsuC77i9EolVsuntt7" Bounds="592,802,400,101" ShowValueBox="true" isIOBox="true" Value="&lt; LIVE ELEMENT — build by hand:&#xD;&#xA;&#xD;&#xA;SpreadBuilder&lt;Float&gt; in a pad. Bang feeding Add with a random Float. ToSpread → Spread&lt;Float&gt;. IOBox showing the Spread. Second Bang for Clear.">
+          <Pad Id="0CxAnepoJ1Ayjckt0YYvuC" Bounds="592,802,400,101" ShowValueBox="true" isIOBox="true" Value="&lt; LIVE ELEMENT — build by hand:&#xD;&#xA;&#xD;&#xA;SpreadBuilder&lt;Float&gt; in a pad. Bang feeding Add with a random Float. ToSpread → Spread&lt;Float&gt;. IOBox showing the Spread. Second Bang for Clear.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -155,7 +155,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="3X605yYqJbMMfKO6W6MhoB" Bounds="1092,802,400,101" ShowValueBox="true" isIOBox="true" Value="&lt; LIVE ELEMENT — build by hand:&#xD;&#xA;&#xD;&#xA;MutableDictionary&lt;String, Float&gt; in a pad. IOBoxes for key and value feeding SetValue, with a Bang. Second Bang for Remove with a key. ToImmutable → IOBox showing contents.">
+          <Pad Id="6sRBxrsf7LDyqSCvQ11Mdw" Bounds="1092,802,400,101" ShowValueBox="true" isIOBox="true" Value="&lt; LIVE ELEMENT — build by hand:&#xD;&#xA;&#xD;&#xA;MutableDictionary&lt;String, Float&gt; in a pad. IOBoxes for key and value feeding SetValue, with a Bang. Second Bang for Remove with a key. ToImmutable → IOBox showing contents.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -164,7 +164,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="56YnGGFynJm4L1vZFzDNSn" Bounds="92,943,240,31" ShowValueBox="true" isIOBox="true" Value="The Four Combinations">
+          <Pad Id="3XtebN8gRWMTzbbHu7XStI" Bounds="92,943,240,31" ShowValueBox="true" isIOBox="true" Value="The Four Combinations">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -173,7 +173,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="43eH3MKO4lyEuTMUk3eamO" Bounds="592,943,250,31" ShowValueBox="true" isIOBox="true" Value="When to Reach For Them">
+          <Pad Id="4EGAiVTI7DcN3fLREnuFJh" Bounds="592,943,250,31" ShowValueBox="true" isIOBox="true" Value="When to Reach For Them">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -182,7 +182,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="1JCiiZFMTaZFuVTvU750QZ" Bounds="92,982,400,462" ShowValueBox="true" isIOBox="true" Value="Going back to where this chapter started — four combinations, each with its own niche.&#xD;&#xA;&#xD;&#xA;Immutable Spread of Records is the default. Use it whenever you can, which is most of the time. Everything in VL is designed to flow this way, and you keep all the features Records give you automatically.&#xD;&#xA;&#xD;&#xA;Immutable Spread of Classes is useful when the collection itself is stable but individual objects need to be modified from elsewhere. A common pattern for objects with internal state that updates each frame.&#xD;&#xA;&#xD;&#xA;Mutable SpreadBuilder of Records is useful when you are adding or removing elements rapidly but each element is still a value. Particle systems where particles get added and removed but each is a stable record of its properties. Often the right pick when you have measured a performance problem with Spread-of-Records.&#xD;&#xA;&#xD;&#xA;Mutable SpreadBuilder of Classes is the most mutable and the most performant for many-element, fast-changing collections. It also gives up the most of Records' features. Reach for it when you need it, not before.">
+          <Pad Id="2aZsjYBGLI0vhQpOq41Qmn" Bounds="92,982,400,462" ShowValueBox="true" isIOBox="true" Value="Going back to where this chapter started — four combinations, each with its own niche.&#xD;&#xA;&#xD;&#xA;Immutable Spread of Records is the default. Use it whenever you can, which is most of the time. Everything in VL is designed to flow this way, and you keep all the features Records give you automatically.&#xD;&#xA;&#xD;&#xA;Immutable Spread of Classes is useful when the collection itself is stable but individual objects need to be modified from elsewhere. A common pattern for objects with internal state that updates each frame.&#xD;&#xA;&#xD;&#xA;Mutable SpreadBuilder of Records is useful when you are adding or removing elements rapidly but each element is still a value. Particle systems where particles get added and removed but each is a stable record of its properties. Often the right pick when you have measured a performance problem with Spread-of-Records.&#xD;&#xA;&#xD;&#xA;Mutable SpreadBuilder of Classes is the most mutable and the most performant for many-element, fast-changing collections. It also gives up the most of Records' features. Reach for it when you need it, not before.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -191,7 +191,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="1vUvtWVYvvJHT40LlAEgZH" Bounds="592,982,400,348" ShowValueBox="true" isIOBox="true" Value="The honest signal for switching to a mutable collection is the same as for switching to a Class — measure first. If your application runs at the framerate you need with an immutable Spread, you do not need a SpreadBuilder. If it does not, profile to find out where the cost actually is before assuming the answer is the collection type.&#xD;&#xA;&#xD;&#xA;That said, there are situations where mutable collections are almost always the right call from the start.&#xD;&#xA;&#xD;&#xA;Collections that change every frame and have hundreds or thousands of elements — particle systems, agents in a simulation, points in a constantly-updating dataset.&#xD;&#xA;&#xD;&#xA;Collections that are accumulated incrementally — appending log entries, collecting measurements, building up a result over many frames. The accumulation pattern is what SpreadBuilder is designed for.">
+          <Pad Id="0Bo48zWVgp7Y119fWEl7E9" Bounds="592,982,400,348" ShowValueBox="true" isIOBox="true" Value="The honest signal for switching to a mutable collection is the same as for switching to a Class — measure first. If your application runs at the framerate you need with an immutable Spread, you do not need a SpreadBuilder. If it does not, profile to find out where the cost actually is before assuming the answer is the collection type.&#xD;&#xA;&#xD;&#xA;That said, there are situations where mutable collections are almost always the right call from the start.&#xD;&#xA;&#xD;&#xA;Collections that change every frame and have hundreds or thousands of elements — particle systems, agents in a simulation, points in a constantly-updating dataset.&#xD;&#xA;&#xD;&#xA;Collections that are accumulated incrementally — appending log entries, collecting measurements, building up a result over many frames. The accumulation pattern is what SpreadBuilder is designed for.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -200,7 +200,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="4Z3Cvy7LF41VLdGxMBLJQ3" Bounds="92,1500,380,31" ShowValueBox="true" isIOBox="true" Value="A Pattern to Know: Clear Each Frame">
+          <Pad Id="1BfsdSOGW67OZNXfKfhX6w" Bounds="92,1500,380,31" ShowValueBox="true" isIOBox="true" Value="A Pattern to Know: Clear Each Frame">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -209,7 +209,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="0tugSLsW1AJJV4E2tK3Xgu" Bounds="592,1500,150,25" ShowValueBox="true" isIOBox="true" Value="Other Resources">
+          <Pad Id="29Mvwk7d6zvm76IZ2USb6k" Bounds="592,1500,150,25" ShowValueBox="true" isIOBox="true" Value="Other Resources">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -218,7 +218,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="3XRjsLYVeHLkP9hIiOGNkU" Bounds="592,1533,400,44" ShowValueBox="true" isIOBox="true" Value="Spread vs SpreadBuilder and Performance of Immutable Collections — TobyK">
+          <Pad Id="1nwgLCjRThVoo7YRIGFHws" Bounds="592,1533,400,44" ShowValueBox="true" isIOBox="true" Value="Spread vs SpreadBuilder and Performance of Immutable Collections — TobyK">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -227,7 +227,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="33b8eMELuxUc9ZTD9nk6dp" Bounds="92,1539,400,348" ShowValueBox="true" isIOBox="true" Value="One pattern with SpreadBuilder is worth naming because it confuses people the first time they hit it. If you want to rebuild a SpreadBuilder's contents every frame — for example, recomputing a list from scratch each tick — the temptation is to create a new SpreadBuilder each frame.&#xD;&#xA;&#xD;&#xA;Better: keep the same SpreadBuilder instance in a pad. At the start of each frame, call Clear on it to empty it. Then add the new contents. The SpreadBuilder is the same instance throughout — only its contents change. A fresh builder each frame is not wrong — the big win over plain Spreads is avoiding a full copy on every modification — but reusing one instance keeps per-frame allocation flat and the patch simpler.&#xD;&#xA;&#xD;&#xA;This is the pattern that gives mutable collections their actual performance benefit. The collection persists; only the data inside changes.">
+          <Pad Id="4zBanGVgsnACDpH8VcygNc" Bounds="92,1539,400,348" ShowValueBox="true" isIOBox="true" Value="One pattern with SpreadBuilder is worth naming because it confuses people the first time they hit it. If you want to rebuild a SpreadBuilder's contents every frame — for example, recomputing a list from scratch each tick — the temptation is to create a new SpreadBuilder each frame.&#xD;&#xA;&#xD;&#xA;Better: keep the same SpreadBuilder instance in a pad. At the start of each frame, call Clear on it to empty it. Then add the new contents. The SpreadBuilder is the same instance throughout — only its contents change. A fresh builder each frame is not wrong — the big win over plain Spreads is avoiding a full copy on every modification — but reusing one instance keeps per-frame allocation flat and the patch simpler.&#xD;&#xA;&#xD;&#xA;This is the pattern that gives mutable collections their actual performance benefit. The collection persists; only the data inside changes.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -236,7 +236,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="6d9IEkhCiiw6o0w4gnxoBs" Bounds="592,1579,183,19" ShowValueBox="true" isIOBox="true" Value="https://youtu.be/zGufG64WSF4">
+          <Pad Id="31hLjLr1DkKi31YUNZ43PB" Bounds="592,1579,183,19" ShowValueBox="true" isIOBox="true" Value="https://youtu.be/zGufG64WSF4">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -245,7 +245,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="2Bp2hXJNXFze2jf7yLyAHg" Bounds="592,1638,400,25" ShowValueBox="true" isIOBox="true" Value="The Gray Book on Collections">
+          <Pad Id="35vlNAuB1usMkekFisAGVE" Bounds="592,1638,400,25" ShowValueBox="true" isIOBox="true" Value="The Gray Book on Collections">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -254,28 +254,541 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="5NJcyuOrvGrdy03jvKVIzP" Bounds="592,1665,363,19" ShowValueBox="true" isIOBox="true" Value="https://thegraybook.vvvv.org/reference/language/types.html">
+          <Pad Id="4BMpNEn3BieIkgayWYwdhB" Bounds="592,1665,363,19" ShowValueBox="true" isIOBox="true" Value="https://thegraybook.vvvv.org/reference/language/types.html">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
             <p:ValueBoxSettings>
               <p:fontsize p:Type="Int32">9</p:fontsize>
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="6lNXRG4srEKMroevAWnEV6" Bounds="92,1997,400,44" ShowValueBox="true" isIOBox="true" Value="Prototype patches below — harvested from wip/The Origin of Life.vl. Arrange them into the live-element slots marked above.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">12</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="2TpmY5CIn1iqCxwxvLlOlH" Bounds="661,3141,634,46" ShowValueBox="true" isIOBox="true" Value="45. Objects as Process Nodes">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">22</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="6URGLBwhnuXhydq0STAvf0" Bounds="1116,2129,374,96" ShowValueBox="true" isIOBox="true" Value="- Counterpart of a Spread: SpreadBuilder&#xD;&#xA;- Counterpart of a Dictionary: MutableDictionary&#xD;&#xA;">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="6LaiZog2yPpF01k3Oy2HRZ" Bounds="1469,2077,400,150" ShowValueBox="true" isIOBox="true" Value="When to pick a record and when a class depends on the language features one wants to use:&#xD;&#xA;&#xD;&#xA;    Detecting changes&#xD;&#xA;    Undo &amp; Redo&#xD;&#xA;    State management from multiple locations&#xD;&#xA;    Performance differences&#xD;&#xA;">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="3z81TQqdP9uOtP7VNhGfIn" SlotId="2OGTviAsh07elY7WpMH2cw" Bounds="1313,2471" />
+          <Node Bounds="1311,2318,81,26" Id="5KhCEJo7VuMcNJd1jUmrKv">
+            <p:NodeReference LastCategoryFullName="Collections.Mutable.MutableDictionary" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="ClassType" Name="MutableDictionary" />
+              <Choice Kind="OperationCallFlag" Name="Create" />
+            </p:NodeReference>
+            <Pin Id="3pi5eiD15TjKvJhd7HTW3b" Name="Output" Kind="StateOutputPin" />
+          </Node>
+          <Node Bounds="1311,2424,81,26" Id="14G4cDWmnGBkV9sUEdKKDo">
+            <p:NodeReference LastCategoryFullName="Collections.Mutable.MutableDictionary" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="ClassType" Name="MutableDictionary" />
+              <Choice Kind="OperationCallFlag" Name="Add" />
+            </p:NodeReference>
+            <Pin Id="0jWAx6TkfP9SXCTao2jEs6" Name="Input" Kind="StateInputPin" />
+            <Pin Id="42ln0vHQAPrjmgM3FugjJe" Name="Key" Kind="InputPin" />
+            <Pin Id="6IgEr0ZpPxTeUaTF0sSDet" Name="Value" Kind="InputPin" />
+            <Pin Id="4NKzZ1xJhmC0eodYprmGMH" Name="Output" Kind="StateOutputPin" />
+          </Node>
+          <Pad Id="3MoBsXtFw8SqJyg8iMWOY0" Comment="Key" Bounds="1351,2367,35,15" ShowValueBox="true" isIOBox="true" Value="test">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="ImmutableTypeFlag" Name="String" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="51effMGtrOFTgY5xZa9IO1" Comment="" Bounds="1389,2394,136,15" ShowValueBox="true" isIOBox="true" Value="1, 1, 1, 1">
+            <p:TypeAnnotation LastCategoryFullName="Color" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="ImmutableTypeFlag" Name="RGBA" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Node Bounds="1311,2650,81,26" Id="2nnN39xFYoSmFSdlfw9Nsn">
+            <p:NodeReference LastCategoryFullName="Collections.Mutable.MutableDictionary" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="ClassType" Name="MutableDictionary" />
+              <Choice Kind="OperationCallFlag" Name="GetItem" />
+            </p:NodeReference>
+            <Pin Id="3qdEJBWxyhfdTzQjmdTQOU" Name="Input" Kind="StateInputPin" />
+            <Pin Id="7f8GJsYhnqUNeMV6DPDUWD" Name="Key" Kind="InputPin" />
+            <Pin Id="7TwKDSOELlZuAIETOFOwi7" Name="Output" Kind="OutputPin" />
+            <Pin Id="4LFdy3bjq5Z96K1sFmDEDh" Name="Item" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="1426,2650,81,26" Id="1B3DdIwrDk6yPHGecksp4N">
+            <p:NodeReference LastCategoryFullName="Collections.Mutable.MutableDictionary" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="ClassType" Name="MutableDictionary" />
+              <Choice Kind="OperationCallFlag" Name="SetItem" />
+            </p:NodeReference>
+            <Pin Id="3BmuD9Y9drQrJNs7nYhez7" Name="Input" Kind="StateInputPin" />
+            <Pin Id="6wtXUVHwLNwpOg5ZiHZqQl" Name="Key" Kind="InputPin" />
+            <Pin Id="433LJQ68vmtP28s85V3D7H" Name="Value" Kind="InputPin" />
+            <Pin Id="55MObBzCBj9lWkonMPMnIo" Name="Output" Kind="StateOutputPin" />
+          </Node>
+          <Pad Id="2lA8wnWNDIROWuo2xuCCZk" Comment="" Bounds="1504,2625,136,15" ShowValueBox="true" isIOBox="true" Value="1, 0, 0, 1">
+            <p:TypeAnnotation LastCategoryFullName="Color" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="RGBA" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="38FeGJjAWo3BirnNxfImh1" Comment="Item" Bounds="1313,2699,136,15" ShowValueBox="true" isIOBox="true" />
+          <Node Bounds="1502,2551,45,19" Id="3hPkcaOOXQMV4tFQ5sSGT6">
+            <p:NodeReference LastCategoryFullName="Animation" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="LFO" />
+            </p:NodeReference>
+            <Pin Id="3wphFloKIT3auMVsVFXz6x" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="3boKQcH8oZOErurtA5Sq3B" Name="Clock" Kind="InputPin" IsHidden="true" />
+            <Pin Id="3lym3Y8zsDRlSfL7x8BQxO" Name="New Clock" Kind="InputPin" IsHidden="true" />
+            <Pin Id="6PPoIg3yrKsIRwVmpweK5P" Name="Period" Kind="InputPin" />
+            <Pin Id="2X7v5lHN3RrXBMEW63phRd" Name="Pause" Kind="InputPin" />
+            <Pin Id="4ZePjEoCOyerqywKKqnxoy" Name="Reset" Kind="ApplyPin" />
+            <Pin Id="4hFkW796Z1yZenB5vPOMCL" Name="Phase" Kind="OutputPin" />
+            <Pin Id="7laekShiUxi89H9H5nTeo6" Name="On New Cycle" Kind="OutputPin" />
+            <Pin Id="4ZW7EZJDUepjST29QUPg4A" Name="Cycles" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="1502,2585,65,19" Id="0zcnITEGxsk4rH52Pr6Dqd">
+            <p:NodeReference LastCategoryFullName="Color.RGBA" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="FromHSV" />
+            </p:NodeReference>
+            <Pin Id="0I2RGl5X6TyV3choQ3ksZ8" Name="Hue" Kind="InputPin" />
+            <Pin Id="3LZkacgRo54EffIrOFWqsi" Name="Saturation" Kind="InputPin" />
+            <Pin Id="30Wls3F0ydGrF2xYw0EXq2" Name="Value" Kind="InputPin" />
+            <Pin Id="2L1JxoySquxM8GlXVyKZMC" Name="Alpha" Kind="InputPin" />
+            <Pin Id="5QGRILBSzml9Qcb52CR1fB" Name="Result" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="1720,2318,77,26" Id="5PYtR2FfA3QSUK4bLberzB">
+            <p:NodeReference LastCategoryFullName="Collections.Builder.DictionaryBuilder" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="ClassType" Name="DictionaryBuilder" />
+              <Choice Kind="OperationCallFlag" Name="Create" />
+            </p:NodeReference>
+            <Pin Id="1jY9LDTlNY9cPkwXLe5h96" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="0iVzjgW4Ofk4P6HZ5Wjq8U" Name="Result" Kind="StateOutputPin" />
+          </Node>
+          <Node Bounds="1720,2421,77,26" Id="7lub687qpPW1eCkCQIXyTV">
+            <p:NodeReference LastCategoryFullName="Collections.Builder.DictionaryBuilder" LastDependency="VL.CoreLib.vl" OverloadStrategy="AllPinsThatAreNotCommon">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="ClassType" Name="DictionaryBuilder" />
+              <Choice Kind="OperationCallFlag" Name="Add" />
+              <PinReference Kind="InputPin" Name="Key" />
+              <PinReference Kind="InputPin" Name="Value" />
+            </p:NodeReference>
+            <Pin Id="7LtoJ29HZYmBJnK3yMCLA4" Name="Input" Kind="StateInputPin" />
+            <Pin Id="1vZPcBqQ6fOBj0TC5ypg8g" Name="Key" Kind="InputPin" />
+            <Pin Id="6sWeSMIztwdLGMq8Hsl1HA" Name="Value" Kind="InputPin" />
+            <Pin Id="05d2xSKuUjON1R4GMijzmc" Name="Output" Kind="StateOutputPin" />
+          </Node>
+          <Pad Id="54Fj021WZwIQHYtY3wBU1H" Comment="Key" Bounds="1758,2367,35,15" ShowValueBox="true" isIOBox="true" Value="test">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="ImmutableTypeFlag" Name="String" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="2tSPSlXjbbATGvIRNb2MHE" Comment="" Bounds="1908,2625,136,15" ShowValueBox="true" isIOBox="true" Value="1, 0, 0, 1">
+            <p:TypeAnnotation LastCategoryFullName="Color" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="RGBA" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Node Bounds="1906,2551,45,19" Id="0mgoAPGKIHxZSj6i30dS5B">
+            <p:NodeReference LastCategoryFullName="Animation" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="LFO" />
+            </p:NodeReference>
+            <Pin Id="1ILp3lQcH5bemvSwDi3u6F" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="3VU4DAZQw7YgyEjMh0NEQd" Name="Clock" Kind="InputPin" IsHidden="true" />
+            <Pin Id="7JnuAhZdrvNJKiQYmAMwxm" Name="New Clock" Kind="InputPin" IsHidden="true" />
+            <Pin Id="6WUzsg4U5Rreq2r0OQ0HzJ" Name="Period" Kind="InputPin" DefaultValue="10" />
+            <Pin Id="0bBuuVYdnxbFw6iAhpwxth" Name="Pause" Kind="InputPin" />
+            <Pin Id="54Sm58XjS8S8Q2XihvrBc2" Name="Reset" Kind="ApplyPin" />
+            <Pin Id="7fYlmYmu7XEnuuX0xOA7ef" Name="Phase" Kind="OutputPin" />
+            <Pin Id="6UU9gPdvBkqVOIeknlvjE9" Name="On New Cycle" Kind="OutputPin" />
+            <Pin Id="07F1Nx55FWrIPPEcSymT5N" Name="Cycles" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="1906,2585,65,19" Id="17Z5XVtLknJMvg5rwJp0L0">
+            <p:NodeReference LastCategoryFullName="Color.RGBA" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="FromHSV" />
+            </p:NodeReference>
+            <Pin Id="3XR22i2XcMXsrMAoaorU1d" Name="Hue" Kind="InputPin" />
+            <Pin Id="7UztWoYho7K6oJ9si3ktLj" Name="Saturation" Kind="InputPin" />
+            <Pin Id="0vjC7AlMWsUqNCtJqDpb8f" Name="Value" Kind="InputPin" />
+            <Pin Id="4MGMqGepp34JjukRfdgAHv" Name="Alpha" Kind="InputPin" />
+            <Pin Id="3mT99tmfJ8nj9OjFrksqss" Name="Result" Kind="OutputPin" />
+          </Node>
+          <Pad Id="2QD21ygcfu9XSaO9Jrnjvu" Comment="Key" Bounds="1466,2498,35,15" ShowValueBox="true" isIOBox="true" Value="test">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="ImmutableTypeFlag" Name="String" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="1ORn3Iy43R6Bv2Ibzz2R5x" Comment="" Bounds="1794,2394,136,15" ShowValueBox="true" isIOBox="true" Value="1, 1, 1, 1">
+            <p:TypeAnnotation LastCategoryFullName="Color" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="ImmutableTypeFlag" Name="RGBA" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="38do9HnCL3OvmfzBPwtnBc" SlotId="3SaMOVs3vSdU7SLEpiFbFO" Bounds="1722,2471" />
+          <Node Bounds="1834,2654,77,26" Id="07iR5uLmPG3HzU23PSYHpC">
+            <p:NodeReference LastCategoryFullName="Collections.Builder.DictionaryBuilder" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="ClassType" Name="DictionaryBuilder" />
+              <Choice Kind="OperationCallFlag" Name="SetItem" />
+            </p:NodeReference>
+            <Pin Id="4vUGbJn24EDSc3viC381N9" Name="Input" Kind="StateInputPin" />
+            <Pin Id="0EaldQ4u2LY0TaHrfQCbtn" Name="Key" Kind="InputPin" />
+            <Pin Id="37dPSpYknY0hBMTAek0UKp" Name="Value" Kind="InputPin" />
+            <Pin Id="2cnX8JvtnYb1eSxJMCOU1K" Name="Output" Kind="StateOutputPin" />
+          </Node>
+          <Pad Id="4nAm3wTp9Z0gyFo7muouON" Comment="Key" Bounds="1872,2498,35,15" ShowValueBox="true" isIOBox="true" Value="test">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="ImmutableTypeFlag" Name="String" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Node Bounds="1720,2654,77,26" Id="5FlEfUeoGoEPzoIO0G1XYe">
+            <p:NodeReference LastCategoryFullName="Collections.Builder.DictionaryBuilder" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="ClassType" Name="DictionaryBuilder" NeedsToBeDirectParent="true" />
+              <Choice Kind="OperationCallFlag" Name="GetItem" />
+            </p:NodeReference>
+            <Pin Id="0iGRT0pQrzvT4pPNQUIYwR" Name="Input" Kind="StateInputPin" />
+            <Pin Id="23oLz1BoZolYmcz6QwoKhv" Name="Key" Kind="InputPin" />
+            <Pin Id="59v6z6Q17uAyplJPzl1Ikg" Name="Output" Kind="OutputPin" />
+            <Pin Id="6E76C4mKwkVcapppVzy9zT" Name="Item" Kind="OutputPin" />
+          </Node>
+          <Pad Id="7m3M3y1OVaCw033mnLIvi0" Comment="Item" Bounds="1722,2699,136,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="7ZTvg4JnNzpRCd4158GsCj" Comment="Period" Bounds="1908,2531,35,15" ShowValueBox="true" isIOBox="true" Value="5">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Float32" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="3bbV6K0HF3Zm3dHOaG8mg3" Comment="Period" Bounds="1504,2531,35,15" ShowValueBox="true" isIOBox="true" Value="1">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Float32" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Overlay Id="2TbsaV5IvJdH06dpgRDMuW" Name="" Bounds="675,2944,4576,80">
+            <p:ColorIndex p:Type="Int32">4</p:ColorIndex>
+          </Overlay>
+          <Pad Id="3RUHVcG0neyeS84sHFThl0" Bounds="92,3160,506,198" ShowValueBox="true" isIOBox="true" Value="The closing chapter. The synthesis. The reveal that Process, Record, and Class are not three separate things but one family. The reader meets the &quot;Enable as Process&quot; toggle, sees the small example of a Record running automatically when placed in the patch, and watches Dispose finally fire visibly. The chapter closes with a brief look back across Part V and a forward pointer to what comes after.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="1lLUj5i5p8M43Ejsx5BUyT" Bounds="92,3372,540,908" ShowValueBox="true" isIOBox="true" Value="**1. The chapter does three things in sequence.** First it teaches the &quot;Enable as Process&quot; toggle and shows it on a small Counter. Second it uses the same mode to demonstrate Dispose finally firing visibly. Third it reveals the Process-Record-Class family and looks back at Part V. The three jobs reinforce each other — the Counter shows how the mode works, the Logger shows what Dispose finally does, and the family reveal makes both make sense in the context of everything that came before.&#xD;&#xA;&#xD;&#xA;**2. The Counter and Logger are deliberately small.** Two of the dryest, most minimal examples in all of Part V. The chapter's job is synthesis, not demonstration of complex behavior. Small examples keep the focus on the conceptual unification.&#xD;&#xA;&#xD;&#xA;**3. The &quot;two reasons for Dispose to fire&quot; column is honest but light.** This is the most technically nuanced moment in the chapter — Records and Classes have Dispose for slightly different underlying reasons. The column names this but does not dive deep. The reader who wants to understand resource cleanup more thoroughly has TobyK's tutorial and the Gray Book linked.&#xD;&#xA;&#xD;&#xA;**4. The &quot;When to Reach For It&quot; column is direct.** One of these in your patch: enable Process. Many of these in a spread: don't. This is the practical rule the reader needs, named clearly.&#xD;&#xA;&#xD;&#xA;**5. &quot;Looking Back at Part V&quot; does narrative work.** It is the only part of Part V that explicitly summarizes what came before. The chapter has earned the right to do this — it is the closer, and a brief look back is what a closer should provide.&#xD;&#xA;&#xD;&#xA;**6. The forward pointer is gentle.** &quot;The next part of the tutorial — once you continue — picks up from here and looks at how your applications begin to interact with everything outside themselves.&quot; This previews the Emergent Mind section without naming it explicitly. The reader knows there is more coming if they want it; they are not promised a specific timeline.&#xD;&#xA;&#xD;&#xA;**7. The cosmological theme is honored implicitly.** Part V is &quot;The Origin of Life.&quot; This chapter closes by saying the reader's program has become a thing that can run, persist, and end on its own — Create, Update, Dispose as a complete life arc. The metaphor lands without being labored.&#xD;&#xA;&#xD;&#xA;**8. Length.** Roughly nine columns of body text plus two live patches (Counter and Logger). This is the longest chapter in Part V apart from chapter 41, which is appropriate — a closer should be substantial. Comparable in scope to chapter 11 (Process Nodes) and chapter 41 (Use Case II), the other two structural anchor points.&#xD;&#xA;&#xD;&#xA;**9. What this chapter does *not* do.** It does not introduce new advanced topics like resource management, IDisposable in detail, or design patterns beyond a passing mention. It does not introduce new mutability concepts beyond what's been established. Its job is synthesis and closure, and it stays focused on that.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="6vLJcaUybddT6XO4YGL2Gb" Bounds="661,3251,401,459" ShowValueBox="true" isIOBox="true" Value="We have come a long way in Part V. We started with the recognition that Process nodes from chapter 11 were already objects — we just had not called them that. We then learned to define our own — Records first, then Classes — and built complete applications with both. We also learned when to choose each, and how to think about collections separately.&#xD;&#xA;&#xD;&#xA;In this final chapter we close the circle. Records and Classes can themselves become Process nodes, with a single setting in the Patch Explorer. When you flip it, your type can be placed directly in the patch, its Create runs on placement, its Update runs each frame, and its Dispose runs when removed. This was always available — we just did not use it, because the rest of Part V was about types as data, managed by hand.&#xD;&#xA;&#xD;&#xA;This is also where Dispose finally makes full sense. We mentioned it in chapter 41 as the third reserved-color operation. Here we will see it fire visibly, on both a Record and a Class — for slightly different reasons, which is the last small detail of the family.&#xD;&#xA;">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="2DP09yrgKKLmIDyjoKEUHH" Bounds="1129,3265,349,31" ShowValueBox="true" isIOBox="true" Value="A Mode We Have Not Used">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">15</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="090tTn7md5L8mwQDEhO9UW" Bounds="1129,3307,405,467" ShowValueBox="true" isIOBox="true" Value="Throughout Part V we have used Records and Classes as data. We created instances by calling Create, modified them by calling other operations, drew them by calling Draw, and stored them in pads or spreads to keep them around between frames. Every operation we used, we called by hand — placing nodes in the patch, wiring inputs, deciding when each one would run.&#xD;&#xA;&#xD;&#xA;There is another way to use a Record or Class. You can place the type itself directly into your patch, like a Process node. When you do, the type behaves as a Process — its Create operation runs once, the moment the node is placed. Its Update operation runs every frame, automatically. Its Dispose operation runs when the node is removed.&#xD;&#xA;&#xD;&#xA;This was available the whole time. We did not use it because Part V's use cases — bundling, dynamic instances, mutability comparisons — were about types as data being manipulated by hand. The Process behavior is the other mode of the same type. It is useful when you want one specific instance of a type to live in your patch and run by itself.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="1IIlqDkG8PpY5Up2oEhpCt" Bounds="1578,3267,349,31" ShowValueBox="true" isIOBox="true" Value="Enabling Process Behavior">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">15</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="1k2g6vDK2M27cMIsD4yoJp" Bounds="1578,3309,405,467" ShowValueBox="true" isIOBox="true" Value="The setting is a single toggle in the Patch Explorer. Right-click your Record or Class definition, find &quot;Enable as Process&quot; in the menu, and turn it on. Nothing about the type changes — its properties stay, its operations stay, the existing places in your patch where you create instances by hand keep working.&#xD;&#xA;&#xD;&#xA;What changes is that you can now also place the type itself as a node, by typing its name in the Node Browser. The node has no input pin for State Input — it does not need one, it is the instance. Its Create runs when the node is placed. Its Update runs on every frame the patch is running. Its Dispose runs when the node is removed from the patch, when the patch closes, or when the application stops.&#xD;&#xA;&#xD;&#xA;The reader who has worked through Part V can now recognize that this is exactly how Process nodes from chapter 11 have always worked. The &quot;Enable as Process&quot; toggle is the bridge that reveals it.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="5KonxyKgbzF8PE2HYGvgpe" Bounds="2048,3273,349,31" ShowValueBox="true" isIOBox="true" Value="The Counter Example">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">15</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="1ZUleSV7ibE7DDF1wEwxEY" Bounds="2048,3315,405,339" ShowValueBox="true" isIOBox="true" Value="In the patch on the right we have defined a small Record called Counter, with a single property — Count, an integer. It has an Update operation that increments Count by one each frame. With &quot;Enable as Process&quot; turned on, we place the Counter directly in the patch.&#xD;&#xA;&#xD;&#xA;The Counter starts at zero on placement. Every frame, Update fires, incrementing Count. An IOBox connected to the Counter shows the count climbing. There is no spread, no pad, no manual call to Update — the type is running by itself.&#xD;&#xA;&#xD;&#xA;This is a singleton pattern at its simplest. One Counter, placed once, running for as long as the patch is open. If you want it to do more, you add more operations. If you want it to reset on a key press, you wire that in. The Counter is a Process node in everything but origin — it just happens to also be a Record, which means it could also be used as data elsewhere if you wanted.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="4OXEPXDiG6FFkfUTGLgwvW" Bounds="2048,3655,401,228" ShowValueBox="true" isIOBox="true" Value="**Live element (x=1092, y=820):**&#xD;&#xA;- A `Counter` Record (Process enabled) placed directly in the patch.&#xD;&#xA;- An IOBox showing the current Count value climbing.&#xD;&#xA;- A second IOBox showing &quot;frames since placement&quot; to make the per-frame Update behavior visible.&#xD;&#xA;">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">7</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="1v85aC00sZbtWjNzBKjnoM" Bounds="866,3864,277,31" ShowValueBox="true" isIOBox="true" Value="ORDER OF OPERATIONS!">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">15</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="0Vth4UFylEi4ItqxxlwjAC" Bounds="2517,3285,349,31" ShowValueBox="true" isIOBox="true" Value="Dispose, Properly Demonstrated">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">15</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="026fa60044pV5THb4zKBli" Bounds="2517,3327,404,369" ShowValueBox="true" isIOBox="true" Value="We mentioned Dispose in chapter 41 as the third reserved-color operation — the dark-red one — that runs when an instance is destroyed. Until now we did not have a clear, demonstrable moment for it to fire. With Process-enabled types, we do.&#xD;&#xA;&#xD;&#xA;The patch on the right shows a Record called Logger, with a Create operation that prints &quot;Logger started&quot; to the console, an Update operation that does nothing visible, and a Dispose operation that prints &quot;Logger stopped.&quot; With Process enabled, we place the Logger in the patch and watch its messages appear.&#xD;&#xA;&#xD;&#xA;When the patch loads, Create fires and the console reads &quot;Logger started.&quot; Each frame, Update fires (silently, because we patched nothing into it). When you delete the Logger node from the patch — or when you close the patch entirely — Dispose fires, and the console reads &quot;Logger stopped.&quot;&#xD;&#xA;&#xD;&#xA;This is Dispose in its purest form. A clear moment for it to fire, a clear behavior to observe.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="3byjYbqJ5vnQSHVB02Jvn1" Bounds="2517,3716,401,228" ShowValueBox="true" isIOBox="true" Value="**Live element (x=92, y=1300):**&#xD;&#xA;- A `Logger` Record with Process enabled, with Create, Update, and Dispose operations defined.&#xD;&#xA;- Create logs &quot;Logger started&quot; via a Log or Print node.&#xD;&#xA;- Dispose logs &quot;Logger stopped.&quot;&#xD;&#xA;- An IOBox or console region showing the log output.&#xD;&#xA;- Instructions in an annotation IOBox: &quot;Delete the Logger node and watch the console.&quot;&#xD;&#xA;">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">7</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="78Sd8v2Fqmo2VjMmu8Fjf9" Bounds="2989,3281,349,31" ShowValueBox="true" isIOBox="true" Value="Two Reasons for Dispose to Fire">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">15</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="6UebhtU4TDItxFXgPEmNdM" Bounds="2989,3323,404,399" ShowValueBox="true" isIOBox="true" Value="A small detail worth knowing. Dispose fires for both Records and Classes when they are used as Process nodes — but for subtly different reasons.&#xD;&#xA;&#xD;&#xA;For a Class with Process enabled, Dispose fires when the instance is destroyed. The Class has identity. The runtime knows when the last reference to it goes away, and at that moment Dispose runs. This is the standard reference-based story you would expect from any language with reference types.&#xD;&#xA;&#xD;&#xA;For a Record with Process enabled, Dispose fires when the specific placement is removed. The Record itself, being a value, does not really get destroyed in the same way — but the runtime tracks the placement of the node, and when the placement goes away, the Record running there has its Dispose called.&#xD;&#xA;&#xD;&#xA;The end result is the same — you can put logic in Dispose that runs when the type is no longer in the patch — but the underlying mechanism differs slightly. It is a tiny detail that becomes important only when you start wrapping resources that need careful cleanup, which is outside this tutorial's scope.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="592OHg4Cd8Ks16uRTjqNNG" Bounds="3463,3282,349,31" ShowValueBox="true" isIOBox="true" Value="When to Reach For It">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">15</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="32qWyXdWFJJzOPHMn2P2UZ" Bounds="3463,3324,404,433" ShowValueBox="true" isIOBox="true" Value="&quot;Enable as Process&quot; is for the place-and-forget case. When you want one specific instance of a type to exist in your patch and run autonomously, this is the mode for it.&#xD;&#xA;&#xD;&#xA;Singletons. A global audio engine that initializes once and runs for the life of the application. A debug overlay that draws each frame. A configuration manager that loads settings on Create and saves them on Dispose. These are all single, persistent instances — not collections that grow and shrink.&#xD;&#xA;&#xD;&#xA;When you do not want this mode is when you have many instances created and destroyed at runtime — the patterns from chapter 41. There, you want types used as data, with spreads and pads doing the management. Mixing the two — a Process-enabled type used in a spread — generally does not work the way you would expect, because the Process behavior assumes one specific placement, not many.&#xD;&#xA;&#xD;&#xA;The decision is straightforward: one of these in your patch, or many of these in a spread? If one, Enable as Process. If many, leave it off and use the patterns from earlier in Part V.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="3So6OTopuzkNTfszmLPhkf" Bounds="3936,3283,349,31" ShowValueBox="true" isIOBox="true" Value="The Family Revealed">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">15</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="6CaEbBTV2r00OAI02JtQua" Bounds="3936,3325,404,433" ShowValueBox="true" isIOBox="true" Value="Looking at all of this together, Process, Record, and Class come into focus as a single family of choices about how to define and use objects.&#xD;&#xA;&#xD;&#xA;A Process node from chapter 11 is essentially a type with Process behavior enabled by default and no support for runtime instances. It is placed at edit time, runs by itself, and that is all.&#xD;&#xA;&#xD;&#xA;A Record is the default object type. You can use it as data — passed through operations as values — or you can enable Process behavior and place it directly in your patch as a self-running unit. Both modes work; the type itself does not change.&#xD;&#xA;&#xD;&#xA;A Class is the mutable counterpart. Same flexibility — usable as data via reference, or with Process behavior enabled — but with reference semantics and in-place modification.&#xD;&#xA;&#xD;&#xA;The three names that seemed like three different things at the start of Part V are different settings on the same underlying machinery. The unity was always there. The chapter just made it visible.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="5urmLLSEVi2Uza8GKsKM47" Bounds="4421,3282,349,31" ShowValueBox="true" isIOBox="true" Value="Looking Back at Part V">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">15</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="2QANG1gUD53fiaqQXgA1Lh" Bounds="4421,3324,404,433" ShowValueBox="true" isIOBox="true" Value="Part V started with the recognition that you had been using objects since chapter 10 and defining them since chapter 11. It ends with the recognition that Process, Record, and Class are one family.&#xD;&#xA;&#xD;&#xA;In between you learned to define your own data types from the ground up. You gave them properties and custom operations. You used them to bundle related data into clean spreads. You created and destroyed instances at runtime in response to user input. You met the mutability fork and learned to choose between Records and Classes deliberately. You met the collection question and learned to separate it from the object question.&#xD;&#xA;&#xD;&#xA;That is a lot. If you absorbed even half of it, you have moved from being a patcher who uses what vvvv provides to being one who extends vvvv with your own building blocks. The next part of the tutorial — once you continue — picks up from here and looks at how your applications begin to interact with everything outside themselves.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Overlay Id="4JuMi45Ugw5oeBxZ03pglj" Bounds="5032,3347,383,298">
+            <p:ColorIndex p:Type="Int32">10</p:ColorIndex>
+          </Overlay>
+          <Pad Id="4XmBFxWadAuAiSjKMTkDa2" Bounds="5033,3369,216,25" ShowValueBox="true" isIOBox="true" Value="Other Resources">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">12</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="6W8PAbUdzcuqjIFYSUxEL2" Bounds="5033,3400,355,19" ShowValueBox="true" isIOBox="true" Value="The Gray Book on Operations and Lifecycle">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="7dO6lkMBnHIAxCsSMDeCJ8" Bounds="5033,3419,360,54" ShowValueBox="true" isIOBox="true" Value="https://thegraybook.vvvv.org/reference/language/operations.html">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="3xlvBvheHs80459Z5wiY2K" Bounds="5033,3475,358,31" ShowValueBox="true" isIOBox="true" Value="Mutability — Architecture and Design Patterns by TobyK">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="26y47LQJvSodYhoXkELPnl" Bounds="5033,3504,360,54" ShowValueBox="true" isIOBox="true" Value="https://youtu.be/zGufG64WSF4">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="4oEw2a2VRmszrZkWiZEB4Z" Bounds="935,3930,339,56" ShowValueBox="true" isIOBox="true" Value="- Every Process is a record or a class">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
         </Canvas>
-        <Patch Id="4cBha23Y1k2urySgzaIJIY" Name="Create" />
-        <Patch Id="6q9q4VWh7Ks77Gg2BC8BIH" Name="Update" />
-        <ProcessDefinition Id="1eZvuESXxhkNBQ6B18A6IJ">
-          <Fragment Id="3oVtG9JwiE54qZuUkNZhBU" Patch="4cBha23Y1k2urySgzaIJIY" Enabled="true" />
-          <Fragment Id="1uNUkNuWMuTM7dSqlpSST0" Patch="6q9q4VWh7Ks77Gg2BC8BIH" Enabled="true" />
+        <Patch Id="6zYGszICtQDmeQ1GiYRh7Q" Name="Create" />
+        <Patch Id="4hNjYR89sNPGntSXQSVvzv" Name="Update" />
+        <ProcessDefinition Id="57gS6EYaxwKmGS3Hva0tBB">
+          <Fragment Id="3EXfUebS4s6nA8spt6l6fa" Patch="6zYGszICtQDmeQ1GiYRh7Q" Enabled="true" />
+          <Fragment Id="4s6nvpH4duOTdtSBdXIFIL" Patch="4hNjYR89sNPGntSXQSVvzv" Enabled="true" />
         </ProcessDefinition>
+        <Slot Id="2OGTviAsh07elY7WpMH2cw" Name="MutableDictionary" />
+        <Slot Id="3SaMOVs3vSdU7SLEpiFbFO" Name="DictionaryBuilder" />
+        <Link Id="6liR9JLsjnJ1tLh6kfrNND" Ids="3MoBsXtFw8SqJyg8iMWOY0,42ln0vHQAPrjmgM3FugjJe" />
+        <Link Id="5DbVcQIe7RISZeUFgR7dcV" Ids="51effMGtrOFTgY5xZa9IO1,6IgEr0ZpPxTeUaTF0sSDet" />
+        <Link Id="2KXOVEbg4PiDi2KVIv1lpg" Ids="3pi5eiD15TjKvJhd7HTW3b,0jWAx6TkfP9SXCTao2jEs6" />
+        <Link Id="6ar7EwTd58Jc6LzRWdAjUx" Ids="4NKzZ1xJhmC0eodYprmGMH,3z81TQqdP9uOtP7VNhGfIn" />
+        <Link Id="2Pkbg93sKFUH0e2qkk4YD7" Ids="3z81TQqdP9uOtP7VNhGfIn,3qdEJBWxyhfdTzQjmdTQOU" />
+        <Link Id="5yVmdQeo48houuUQHOSjQW" Ids="3z81TQqdP9uOtP7VNhGfIn,3BmuD9Y9drQrJNs7nYhez7" />
+        <Link Id="2C1xiHKS5nRKi7PhuT6goP" Ids="2lA8wnWNDIROWuo2xuCCZk,433LJQ68vmtP28s85V3D7H" />
+        <Link Id="4YRnfyosTvgA3oD2KfIMSE" Ids="4LFdy3bjq5Z96K1sFmDEDh,38FeGJjAWo3BirnNxfImh1" />
+        <Link Id="11dr6I07LDaBmM6iLlFhck" Ids="4hFkW796Z1yZenB5vPOMCL,0I2RGl5X6TyV3choQ3ksZ8" />
+        <Link Id="7gh66UWc80iEzvEYvnq3H7" Ids="5QGRILBSzml9Qcb52CR1fB,2lA8wnWNDIROWuo2xuCCZk" />
+        <Link Id="5S0hK80ofiQFF3GpTWVN7j" Ids="0iVzjgW4Ofk4P6HZ5Wjq8U,7LtoJ29HZYmBJnK3yMCLA4" />
+        <Link Id="6HNTJbCtJYHJocRCSuTvaf" Ids="54Fj021WZwIQHYtY3wBU1H,1vZPcBqQ6fOBj0TC5ypg8g" />
+        <Link Id="3vQ1GSlGXgBFKA2kj2w7sq" Ids="7fYlmYmu7XEnuuX0xOA7ef,3XR22i2XcMXsrMAoaorU1d" />
+        <Link Id="0SW1qUewRMWg39gFd3UW9Y" Ids="3mT99tmfJ8nj9OjFrksqss,2tSPSlXjbbATGvIRNb2MHE" />
+        <Link Id="6BdgdiI2BaANOYEhMSLvGe" Ids="2QD21ygcfu9XSaO9Jrnjvu,7f8GJsYhnqUNeMV6DPDUWD" />
+        <Link Id="19njIO5ou9JHCwiJfGzSq0" Ids="2QD21ygcfu9XSaO9Jrnjvu,6wtXUVHwLNwpOg5ZiHZqQl" />
+        <Link Id="0fuzPHX4pbEqRWORhSGWgf" Ids="1ORn3Iy43R6Bv2Ibzz2R5x,6sWeSMIztwdLGMq8Hsl1HA" />
+        <Link Id="6keHbHKnJOIGB2b362TR08" Ids="05d2xSKuUjON1R4GMijzmc,38do9HnCL3OvmfzBPwtnBc" />
+        <Link Id="4N9VFRWglXLYYa8tsPuIKv" Ids="38do9HnCL3OvmfzBPwtnBc,4vUGbJn24EDSc3viC381N9" />
+        <Link Id="3MKqptw1VZgVOxH8LH90an" Ids="2tSPSlXjbbATGvIRNb2MHE,37dPSpYknY0hBMTAek0UKp" />
+        <Link Id="7eutvmAUVNbjjx0S0AyVre" Ids="4nAm3wTp9Z0gyFo7muouON,0EaldQ4u2LY0TaHrfQCbtn" />
+        <Link Id="6aanrPMnmBU9suYAcBQMz3" Ids="38do9HnCL3OvmfzBPwtnBc,0iGRT0pQrzvT4pPNQUIYwR" />
+        <Link Id="5MO0VGhw8GnPabnxf3vdJl" Ids="6E76C4mKwkVcapppVzy9zT,7m3M3y1OVaCw033mnLIvi0" />
+        <Link Id="0jjGtSlfjbBfIratP7jddW" Ids="4nAm3wTp9Z0gyFo7muouON,23oLz1BoZolYmcz6QwoKhv" />
+        <Link Id="5YTCpX7rVLfq0z3ZL9YFkN" Ids="7ZTvg4JnNzpRCd4158GsCj,6WUzsg4U5Rreq2r0OQ0HzJ" />
+        <Link Id="2MmH5itfWsLyLobpTJH3v9" Ids="3bbV6K0HF3Zm3dHOaG8mg3,6PPoIg3yrKsIRwVmpweK5P" />
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="1LXP9v8w1MB0BTcbijTfMC" Location="VL.Stride" Version="2025.7.2" />
-  <NugetDependency Id="2sShRfG9Mfun7qnI9IdnR3" Location="VL.Skia" Version="2025.7.2" />
-  <DocumentDependency Id="6sg6ZjoYmJSaECJWVo7HIx" Location="../../include/Nodes.vl" />
-  <DocumentDependency Id="3mhDJ4e2YktgMC41jCLYZS" Location="../../VL.TheBigBang.vl" />
-  <NugetDependency Id="6Z9ptdpOLkVtr7HnFdJAUw" Location="VL.Stride.TextureFX" Version="2025.7.2" />
+  <NugetDependency Id="4zobQZeVRsEC7GLODJmRij" Location="VL.Stride" Version="2025.7.3" />
+  <NugetDependency Id="5OKcK0mpVxYxWoSnn8ynKP" Location="VL.Skia" Version="2025.7.3" />
+  <DocumentDependency Id="09pbImpCxvh1vFzBjDZboQ" Location="../../include/Nodes.vl" />
+  <DocumentDependency Id="7QSyoeXEjzB6y4eN5NWKK6" Location="../../VL.TheBigBang.vl" />
+  <NugetDependency Id="7RdPFY1mpeL3Xo76bfVSyv" Location="VL.Stride.TextureFX" Version="2025.7.3" />
 </Document>

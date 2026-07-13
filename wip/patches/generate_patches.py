@@ -19,11 +19,13 @@ import re
 import uuid
 from pathlib import Path
 
+import harvest_live
+
 ROOT = Path(__file__).resolve().parent.parent  # wip/
 DRAFTS = ROOT / "part-v-chapter-drafts.md"
 OUTDIR = Path(__file__).resolve().parent
 
-LANG_VERSION = "2025.7.2"
+LANG_VERSION = "2025.7.3"
 
 BODY_W = 400          # house body width (measured 386-402 in Part IV)
 COL_XS = [92, 592, 1092, 1592]
@@ -455,8 +457,19 @@ def emit_chapter(ch):
     if ch["num"] == 38 and pilot_y is not None:
         canvas_extra, patch_extra = ch38_live_elements(fname, pilot_y)
 
+    # harvested prototype zone below the text content
+    bottom = max(cursors)
+    hv_canvas, hv_patch, info = harvest_live.harvest(ch["num"], 92, bottom + 190, fname)
+    if hv_canvas:
+        pads.append(comment_pad(
+            92, bottom + 110, 400, 44,
+            "Prototype patches below — harvested from wip/The Origin of Life.vl. "
+            "Arrange them into the live-element slots marked above.", 12))
+        canvas_extra = (canvas_extra + "\n" + hv_canvas) if canvas_extra else hv_canvas
+        patch_extra = (patch_extra + "\n" + hv_patch) if patch_extra else hv_patch
+
     all_pads = top_strip(title_text) + pads
-    return fname, document(title_text, all_pads, canvas_extra, patch_extra), len(pads)
+    return fname, document(title_text, all_pads, canvas_extra, patch_extra), len(pads), info
 
 
 def main():
@@ -464,9 +477,12 @@ def main():
     chapters, warnings = parse_chapters(lines)
     print(f"Parsed {len(chapters)} chapters from {DRAFTS.name}\n")
     for ch in chapters:
-        fname, xml, npads = emit_chapter(ch)
+        fname, xml, npads, info = emit_chapter(ch)
         (OUTDIR / fname).write_text(xml, encoding="utf-8")
-        print(f"  {fname}  ({npads} content pads)")
+        hv = (f"  + harvested {info['elements']} elements, {info['links']} links "
+              f"({info['links_dropped']} cross-zone dropped), {info['slots']} slots, "
+              f"defs: {', '.join(info['defs']) or 'none'}") if info else "  (no prototype zone)"
+        print(f"  {fname}  ({npads} content pads)\n  {hv}")
     if warnings:
         print("\nWARNINGS:")
         for w in warnings:

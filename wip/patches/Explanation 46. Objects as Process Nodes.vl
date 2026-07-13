@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="1usALB0pJQ2bYx6MndVxXK" LanguageVersion="2025.7.2" Version="0.128">
-  <NugetDependency Id="4Hwe4ehiisAJSQhLqCtWQi" Location="VL.CoreLib" Version="2025.7.2" />
-  <Patch Id="3PPwljzcuKiI7jNajNxbEu">
-    <Canvas Id="6E3awCU2q3IFns6m5EtWFm" DefaultCategory="Main" CanvasType="FullCategory" />
-    <Node Name="Application" Bounds="100,100" Id="4eeAqMNCdnS6saD5sJUI8O">
+<Document xmlns:p="property" xmlns:r="reflection" Id="7DeSCyul70fVUXDJPPctDv" LanguageVersion="2025.7.3" Version="0.128">
+  <NugetDependency Id="0crRkqiDRW1pJ3t7Jond7E" Location="VL.CoreLib" Version="2025.7.3" />
+  <Patch Id="2KneqnJaskTmdpRsw3kvVZ">
+    <Canvas Id="48K89N2bvoQjWtyl7IwdT2" DefaultCategory="Main" CanvasType="FullCategory" />
+    <Node Name="Application" Bounds="100,100" Id="7mHzvQzXZXuhNWMuapfeZc">
       <p:NodeReference>
         <Choice Kind="ContainerDefinition" Name="Process" />
         <CategoryReference Kind="Category" Name="Primitive" />
       </p:NodeReference>
-      <Patch Id="0glLPLCof1vC2CBpkCqUjG">
-        <Canvas Id="7CgWmZPA69yngtTUlYACVq" CanvasType="Group">
-          <Pad Id="2FFw9ZNq24W4rHj1uqpcH7" Bounds="72,113,482,46" ShowValueBox="true" isIOBox="true" Value="46. Objects as Process Nodes">
+      <Patch Id="3EiTsrtP916rKXn53IG7mY">
+        <Canvas Id="0AESFyzpE0HNAW6vZi6Vhj" CanvasType="Group">
+          <Pad Id="7BJElaydmfnKMX6sKonv0y" Bounds="72,113,482,46" ShowValueBox="true" isIOBox="true" Value="46. Objects as Process Nodes">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -19,7 +19,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="6PFhdsQCreHGRk7IgRH0Mn" Bounds="72,86,364,25" ShowValueBox="true" isIOBox="true" Value="VL.TheBigBang">
+          <Pad Id="0L24jF1QAgmRgKzJursSfN" Bounds="72,86,364,25" ShowValueBox="true" isIOBox="true" Value="VL.TheBigBang">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -29,7 +29,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="1sVeGaNESAQM3k4mHoe0R6" Bounds="552,86,66,15" ShowValueBox="true" isIOBox="true" Value="Made by chk">
+          <Pad Id="7QR1lRDMCZU49boZ4zm8BU" Bounds="552,86,66,15" ShowValueBox="true" isIOBox="true" Value="Made by chk">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -38,25 +38,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="1koIfGvKCxhChhWJSz2YKR" Bounds="617,86,140,19" ShowValueBox="true" isIOBox="true" Value="https://www.3e8.studio">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="String" />
-            </p:TypeAnnotation>
-            <p:ValueBoxSettings>
-              <p:fontsize p:Type="Int32">7</p:fontsize>
-              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
-            </p:ValueBoxSettings>
-          </Pad>
-          <Pad Id="20EorR99FDc4PgbtOEXTa1" Bounds="792,86,369,15" ShowValueBox="true" isIOBox="true" Value="If you find this material helpful, please consider supporting its development via">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="String" />
-            </p:TypeAnnotation>
-            <p:ValueBoxSettings>
-              <p:fontsize p:Type="Int32">7</p:fontsize>
-              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
-            </p:ValueBoxSettings>
-          </Pad>
-          <Pad Id="24uEf5RvBeKexwuCVNEx7L" Bounds="1160,86,140,19" ShowValueBox="true" isIOBox="true" Value="https://www.ko-fi.com/chk">
+          <Pad Id="7etmcAgZBNMIRL3fZ0Nch3" Bounds="617,86,140,19" ShowValueBox="true" isIOBox="true" Value="https://www.3e8.studio">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -65,7 +47,25 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="189NoCEqiKJmBc5uPRKKcz" Bounds="92,215,400,120" ShowValueBox="true" isIOBox="true" Value="We have come a long way in Part V. We started with the recognition that Process nodes from chapter 11 were already objects — we just had not called them that. We then learned to define our own — Records first, then Classes — and built complete applications with both. We also learned when to choose each, and how to think about collections separately.">
+          <Pad Id="1gGwKxYKrFMUjBiJpDWS8j" Bounds="792,86,369,15" ShowValueBox="true" isIOBox="true" Value="If you find this material helpful, please consider supporting its development via">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">7</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="0nDej78WCrMHgva7lr3Rld" Bounds="1160,86,140,19" ShowValueBox="true" isIOBox="true" Value="https://www.ko-fi.com/chk">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">7</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="0fCPSAtc4m4Az24nTjDBfP" Bounds="92,215,400,120" ShowValueBox="true" isIOBox="true" Value="We have come a long way in Part V. We started with the recognition that Process nodes from chapter 11 were already objects — we just had not called them that. We then learned to define our own — Records first, then Classes — and built complete applications with both. We also learned when to choose each, and how to think about collections separately.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -74,7 +74,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="6x9OnkuCryjnXE0uQ3NLje" Bounds="592,215,400,158" ShowValueBox="true" isIOBox="true" Value="In this final chapter we close the circle. Records and Classes can themselves become Process nodes, with a single setting in the Patch Explorer. When you flip it, your type can be placed directly in the patch, its Create runs on placement, its Update runs each frame, and its Dispose runs when removed. This was always available — we just did not use it, because the rest of Part V was about types as data, managed by hand.">
+          <Pad Id="552BHMisa0a7o02b9WAhC8" Bounds="592,215,400,158" ShowValueBox="true" isIOBox="true" Value="In this final chapter we close the circle. Records and Classes can themselves become Process nodes, with a single setting in the Patch Explorer. When you flip it, your type can be placed directly in the patch, its Create runs on placement, its Update runs each frame, and its Dispose runs when removed. This was always available — we just did not use it, because the rest of Part V was about types as data, managed by hand.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -83,7 +83,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="1yF3MajFaVimpbEIakPEnf" Bounds="1092,215,400,63" ShowValueBox="true" isIOBox="true" Value="This is also where Dispose finally makes full sense. We mentioned it in chapter 42 as the third reserved-color operation. Here we will see it fire visibly.">
+          <Pad Id="6T5jGX20zbsraXgnm85H4z" Bounds="1092,215,400,63" ShowValueBox="true" isIOBox="true" Value="This is also where Dispose finally makes full sense. We mentioned it in chapter 42 as the third reserved-color operation. Here we will see it fire visibly.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -92,7 +92,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="1ijvSlQD0aCRvD2lIlyM6k" Bounds="92,413,260,31" ShowValueBox="true" isIOBox="true" Value="A Mode We Have Not Used">
+          <Pad Id="64DA0sqP6yWCDQDPtO4XV5" Bounds="92,413,260,31" ShowValueBox="true" isIOBox="true" Value="A Mode We Have Not Used">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -101,7 +101,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="1VIJgqIgb0JCYBY6ynJ5v3" Bounds="592,413,280,31" ShowValueBox="true" isIOBox="true" Value="Enabling Process Behavior">
+          <Pad Id="28FZaRlDfCi8KThmr3SL5O" Bounds="592,413,280,31" ShowValueBox="true" isIOBox="true" Value="Enabling Process Behavior">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -110,7 +110,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="3KnABRadQX3wBB5TzT3ZxS" Bounds="1092,413,220,31" ShowValueBox="true" isIOBox="true" Value="The Counter Example">
+          <Pad Id="6S8SoVxkxzjx8GOSJD9Lbs" Bounds="1092,413,220,31" ShowValueBox="true" isIOBox="true" Value="The Counter Example">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -119,7 +119,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="3KTmtj8KPzVeOBGiyS9uAm" Bounds="92,452,400,386" ShowValueBox="true" isIOBox="true" Value="Throughout Part V we have used Records and Classes as data. We created instances by calling Create, modified them by calling other operations, drew them by calling Draw, and stored them in pads or spreads to keep them around between frames. Every operation we used, we called by hand — placing nodes in the patch, wiring inputs, deciding when each one would run.&#xD;&#xA;&#xD;&#xA;There is another way to use a Record or Class. You can place the type itself directly into your patch, like a Process node. When you do, the type behaves as a Process — its Create operation runs once, the moment the node is placed. Its Update operation runs every frame, automatically. Its Dispose operation runs when the node is removed.&#xD;&#xA;&#xD;&#xA;This was available the whole time. We did not use it because Part V's use cases were about types as data being manipulated by hand. The Process behavior is the other mode of the same type. It is useful when you want one specific instance of a type to live in your patch and run by itself.">
+          <Pad Id="6VZRochkBTlI8wFZlDMbKI" Bounds="92,452,400,386" ShowValueBox="true" isIOBox="true" Value="Throughout Part V we have used Records and Classes as data. We created instances by calling Create, modified them by calling other operations, drew them by calling Draw, and stored them in pads or spreads to keep them around between frames. Every operation we used, we called by hand — placing nodes in the patch, wiring inputs, deciding when each one would run.&#xD;&#xA;&#xD;&#xA;There is another way to use a Record or Class. You can place the type itself directly into your patch, like a Process node. When you do, the type behaves as a Process — its Create operation runs once, the moment the node is placed. Its Update operation runs every frame, automatically. Its Dispose operation runs when the node is removed.&#xD;&#xA;&#xD;&#xA;This was available the whole time. We did not use it because Part V's use cases were about types as data being manipulated by hand. The Process behavior is the other mode of the same type. It is useful when you want one specific instance of a type to live in your patch and run by itself.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -128,7 +128,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="4x3k7fAAvStFg1GKmpmv6V" Bounds="592,452,400,367" ShowValueBox="true" isIOBox="true" Value="The setting is a single toggle in the Patch Explorer. Right-click your Record or Class definition, find &quot;Enable as Process&quot; in the menu, and turn it on. Nothing about the type changes — its properties stay, its operations stay, the existing places in your patch where you create instances by hand keep working.&#xD;&#xA;&#xD;&#xA;What changes is that you can now also place the type itself as a node, by typing its name in the Node Browser. The node has no State Input pin — it does not need one, it is the instance. Its Create runs when the node is placed. Its Update runs on every frame the patch is running. Its Dispose runs when the node is removed from the patch, when the patch closes, or when the application stops.&#xD;&#xA;&#xD;&#xA;The reader who has worked through Part V can now recognize that this is exactly how Process nodes from chapter 11 have always worked. The &quot;Enable as Process&quot; toggle is the bridge that reveals it.">
+          <Pad Id="0WPjs3SnxpZg9t2UUx72IP" Bounds="592,452,400,367" ShowValueBox="true" isIOBox="true" Value="The setting is a single toggle in the Patch Explorer. Right-click your Record or Class definition, find &quot;Enable as Process&quot; in the menu, and turn it on. Nothing about the type changes — its properties stay, its operations stay, the existing places in your patch where you create instances by hand keep working.&#xD;&#xA;&#xD;&#xA;What changes is that you can now also place the type itself as a node, by typing its name in the Node Browser. The node has no State Input pin — it does not need one, it is the instance. Its Create runs when the node is placed. Its Update runs on every frame the patch is running. Its Dispose runs when the node is removed from the patch, when the patch closes, or when the application stops.&#xD;&#xA;&#xD;&#xA;The reader who has worked through Part V can now recognize that this is exactly how Process nodes from chapter 11 have always worked. The &quot;Enable as Process&quot; toggle is the bridge that reveals it.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -137,7 +137,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="1QgC4qBjWHiFU3tAEPUO0P" Bounds="1092,452,400,329" ShowValueBox="true" isIOBox="true" Value="Remember the Counter from chapter 39 — back then it was a Process that held a Count and incremented it on a trigger. Here we define a Counter as a Record, with a single property Count, and an Update operation that increments Count by one each frame. With &quot;Enable as Process&quot; turned on, we place the Counter directly in the patch.&#xD;&#xA;&#xD;&#xA;The Counter starts at zero on placement. Every frame, Update fires, incrementing Count. An IOBox connected to the Counter shows the count climbing. There is no spread, no pad, no manual call to Update — the type is running by itself.&#xD;&#xA;&#xD;&#xA;This is a singleton pattern at its simplest. One Counter, placed once, running for as long as the patch is open. The Counter is a Process node in everything but origin — it just happens to also be a Record, which means it could also be used as data elsewhere if you wanted.">
+          <Pad Id="7GHBXegVZmRnVxrmQHQX32" Bounds="1092,452,400,329" ShowValueBox="true" isIOBox="true" Value="Remember the Counter from chapter 39 — back then it was a Process that held a Count and incremented it on a trigger. Here we define a Counter as a Record, with a single property Count, and an Update operation that increments Count by one each frame. With &quot;Enable as Process&quot; turned on, we place the Counter directly in the patch.&#xD;&#xA;&#xD;&#xA;The Counter starts at zero on placement. Every frame, Update fires, incrementing Count. An IOBox connected to the Counter shows the count climbing. There is no spread, no pad, no manual call to Update — the type is running by itself.&#xD;&#xA;&#xD;&#xA;This is a singleton pattern at its simplest. One Counter, placed once, running for as long as the patch is open. The Counter is a Process node in everything but origin — it just happens to also be a Record, which means it could also be used as data elsewhere if you wanted.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -146,7 +146,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="3GDAd0dPO79AMy1J7Qqx6f" Bounds="1092,821,400,101" ShowValueBox="true" isIOBox="true" Value="&lt; LIVE ELEMENT — build by hand:&#xD;&#xA;&#xD;&#xA;A Counter Record (Process enabled) placed directly in the patch. IOBox showing Count climbing. Second IOBox showing &quot;frames since placement&quot; to make per-frame Update visible.">
+          <Pad Id="3FlvXZAyBWqd29xzgs5COy" Bounds="1092,821,400,101" ShowValueBox="true" isIOBox="true" Value="&lt; LIVE ELEMENT — build by hand:&#xD;&#xA;&#xD;&#xA;A Counter Record (Process enabled) placed directly in the patch. IOBox showing Count climbing. Second IOBox showing &quot;frames since placement&quot; to make per-frame Update visible.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -155,7 +155,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="2y3jXNeFaZhwfWz2JHoJHt" Bounds="92,962,330,31" ShowValueBox="true" isIOBox="true" Value="Dispose, Properly Demonstrated">
+          <Pad Id="0lPAGD5zzl40e0GrtBNVc8" Bounds="92,962,330,31" ShowValueBox="true" isIOBox="true" Value="Dispose, Properly Demonstrated">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -164,7 +164,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="079t8uiBJ02QjdSKCKjG3Y" Bounds="592,962,210,31" ShowValueBox="true" isIOBox="true" Value="When Dispose Fires">
+          <Pad Id="2HrA084AEYYXrnxIKPDAdi" Bounds="592,962,210,31" ShowValueBox="true" isIOBox="true" Value="When Dispose Fires">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -173,7 +173,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="4e2YEe8BWRGlRf0GgFTZhd" Bounds="1092,962,230,31" ShowValueBox="true" isIOBox="true" Value="When to Reach For It">
+          <Pad Id="7EX9gX63BFKVaRft3bHhzl" Bounds="1092,962,230,31" ShowValueBox="true" isIOBox="true" Value="When to Reach For It">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -182,7 +182,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="0I3q65YxK6NZGMFC3WLyRI" Bounds="92,1001,400,367" ShowValueBox="true" isIOBox="true" Value="We mentioned Dispose in chapter 42 as the third reserved-color operation — the dark-red one — that runs when an instance is destroyed. Until now we did not have a clear, demonstrable moment for it to fire. With Process-enabled types, we do.&#xD;&#xA;&#xD;&#xA;The patch on the right shows a Record called Logger, with a Create operation that prints &quot;Logger started&quot; to the console and a Dispose operation that prints &quot;Logger stopped.&quot; With Process enabled, we place the Logger in the patch and watch its messages appear.&#xD;&#xA;&#xD;&#xA;When the patch loads, Create fires and the console reads &quot;Logger started.&quot; When you delete the Logger node from the patch — or close the patch entirely — Dispose fires, and the console reads &quot;Logger stopped.&quot;&#xD;&#xA;&#xD;&#xA;This is Dispose in its purest form. A clear moment for it to fire, a clear behavior to observe.">
+          <Pad Id="4h4O4O8LfiLVVU5FWfLppw" Bounds="92,1001,400,367" ShowValueBox="true" isIOBox="true" Value="We mentioned Dispose in chapter 42 as the third reserved-color operation — the dark-red one — that runs when an instance is destroyed. Until now we did not have a clear, demonstrable moment for it to fire. With Process-enabled types, we do.&#xD;&#xA;&#xD;&#xA;The patch on the right shows a Record called Logger, with a Create operation that prints &quot;Logger started&quot; to the console and a Dispose operation that prints &quot;Logger stopped.&quot; With Process enabled, we place the Logger in the patch and watch its messages appear.&#xD;&#xA;&#xD;&#xA;When the patch loads, Create fires and the console reads &quot;Logger started.&quot; When you delete the Logger node from the patch — or close the patch entirely — Dispose fires, and the console reads &quot;Logger stopped.&quot;&#xD;&#xA;&#xD;&#xA;This is Dispose in its purest form. A clear moment for it to fire, a clear behavior to observe.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -191,7 +191,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="3NfaqBGID4bDAaYMTUQh9r" Bounds="592,1001,400,196" ShowValueBox="true" isIOBox="true" Value="Dispose fires when the type leaves the patch — when you delete the node, when the patch closes, or when the application stops. This is true for both Records and Classes used as Process nodes.&#xD;&#xA;&#xD;&#xA;You can rely on it for any cleanup that should happen at the end of a type's life: closing a file, stopping a sound, logging a final message. Dispose is the right place for that logic. If a type does not need cleanup, leave Dispose out entirely.">
+          <Pad Id="0Q04vF3K4AoKoTLGV93YNA" Bounds="592,1001,400,196" ShowValueBox="true" isIOBox="true" Value="Dispose fires when the type leaves the patch — when you delete the node, when the patch closes, or when the application stops. This is true for both Records and Classes used as Process nodes.&#xD;&#xA;&#xD;&#xA;You can rely on it for any cleanup that should happen at the end of a type's life: closing a file, stopping a sound, logging a final message. Dispose is the right place for that logic. If a type does not need cleanup, leave Dispose out entirely.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -200,7 +200,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="3vhRJPwVRvqTMVoAWZNHMP" Bounds="1092,1001,400,424" ShowValueBox="true" isIOBox="true" Value="&quot;Enable as Process&quot; is for the place-and-forget case. When you want one specific instance of a type to exist in your patch and run autonomously, this is the mode for it.&#xD;&#xA;&#xD;&#xA;Singletons. A global audio engine that initializes once and runs for the life of the application. A debug overlay that draws each frame. A configuration manager that loads settings on Create and saves them on Dispose. These are all single, persistent instances — not collections that grow and shrink.&#xD;&#xA;&#xD;&#xA;When you do not want this mode is when you have many instances created and destroyed at runtime — the patterns from chapter 42. There, you want types used as data, with spreads and pads doing the management. Mixing the two — a Process-enabled type used in a spread — generally does not work the way you would expect.&#xD;&#xA;&#xD;&#xA;The decision is straightforward: one of these in your patch, or many of these in a spread? If one, Enable as Process. If many, leave it off and use the patterns from earlier in Part V.">
+          <Pad Id="1zbpLFHMFx2x205sVTC6xq" Bounds="1092,1001,400,424" ShowValueBox="true" isIOBox="true" Value="&quot;Enable as Process&quot; is for the place-and-forget case. When you want one specific instance of a type to exist in your patch and run autonomously, this is the mode for it.&#xD;&#xA;&#xD;&#xA;Singletons. A global audio engine that initializes once and runs for the life of the application. A debug overlay that draws each frame. A configuration manager that loads settings on Create and saves them on Dispose. These are all single, persistent instances — not collections that grow and shrink.&#xD;&#xA;&#xD;&#xA;When you do not want this mode is when you have many instances created and destroyed at runtime — the patterns from chapter 42. There, you want types used as data, with spreads and pads doing the management. Mixing the two — a Process-enabled type used in a spread — generally does not work the way you would expect.&#xD;&#xA;&#xD;&#xA;The decision is straightforward: one of these in your patch, or many of these in a spread? If one, Enable as Process. If many, leave it off and use the patterns from earlier in Part V.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -209,7 +209,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="0bDao7WOF6Xcf7bPZoZeeL" Bounds="92,1408,400,120" ShowValueBox="true" isIOBox="true" Value="&lt; LIVE ELEMENT — build by hand:&#xD;&#xA;&#xD;&#xA;A Logger Record (Process enabled) with Create and Dispose only. Create logs &quot;Logger started&quot;, Dispose logs &quot;Logger stopped&quot;. Console region showing output. Annotation: &quot;Delete the Logger node and watch the console.&quot;">
+          <Pad Id="0gPEk922OOSdcxPkb7xgu4" Bounds="92,1408,400,120" ShowValueBox="true" isIOBox="true" Value="&lt; LIVE ELEMENT — build by hand:&#xD;&#xA;&#xD;&#xA;A Logger Record (Process enabled) with Create and Dispose only. Create logs &quot;Logger started&quot;, Dispose logs &quot;Logger stopped&quot;. Console region showing output. Annotation: &quot;Delete the Logger node and watch the console.&quot;">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -218,7 +218,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="6TMoa6UkorxllED86hAN5e" Bounds="92,1568,220,31" ShowValueBox="true" isIOBox="true" Value="The Family Revealed">
+          <Pad Id="5cDYWH3P5j9dmxPRAz2vwh" Bounds="92,1568,220,31" ShowValueBox="true" isIOBox="true" Value="The Family Revealed">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -227,7 +227,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="1zcdZOiThQ1gBBxVO8nre2" Bounds="592,1568,250,31" ShowValueBox="true" isIOBox="true" Value="Looking Back at Part V">
+          <Pad Id="3ipzsnDmv7BhMUMUYdDJgx" Bounds="592,1568,250,31" ShowValueBox="true" isIOBox="true" Value="Looking Back at Part V">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -236,7 +236,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="6qkp8sZM2hoCtwN9WzSgVj" Bounds="1092,1568,150,25" ShowValueBox="true" isIOBox="true" Value="Other Resources">
+          <Pad Id="38eSng90bdtEnd0wTCPLi7" Bounds="1092,1568,150,25" ShowValueBox="true" isIOBox="true" Value="Other Resources">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -245,7 +245,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="3X0Q8i8GHH4pptFyZv9S8r" Bounds="1092,1601,400,25" ShowValueBox="true" isIOBox="true" Value="The Gray Book on Operations and Lifecycle">
+          <Pad Id="6V4o5cyGMAA9okHlaNhOHd" Bounds="1092,1601,400,25" ShowValueBox="true" isIOBox="true" Value="The Gray Book on Operations and Lifecycle">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -254,7 +254,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="1Fd2RbFWITm97LH5065ob8" Bounds="92,1607,400,443" ShowValueBox="true" isIOBox="true" Value="Looking at all of this together, Process, Record, and Class come into focus as a single family of choices about how to define and use objects.&#xD;&#xA;&#xD;&#xA;A Process node from chapter 11 is essentially a type with Process behavior enabled by default. You place it, it runs by itself, and that is all — your program's logic never creates or destroys one.&#xD;&#xA;&#xD;&#xA;A Record is the default object type. You can use it as data — passed through operations as values — or you can enable Process behavior and place it directly in your patch as a self-running unit. Both modes work; the type itself does not change.&#xD;&#xA;&#xD;&#xA;A Class is the mutable counterpart. Same flexibility — usable as data via reference, or with Process behavior enabled — but with reference semantics and in-place modification.&#xD;&#xA;&#xD;&#xA;The three names that seemed like three different things at the start of Part V are different settings on the same underlying machinery. The unity was always there. The chapter just made it visible.">
+          <Pad Id="6p2GRdQHD0v6A4sv2lhxOX" Bounds="92,1607,400,443" ShowValueBox="true" isIOBox="true" Value="Looking at all of this together, Process, Record, and Class come into focus as a single family of choices about how to define and use objects.&#xD;&#xA;&#xD;&#xA;A Process node from chapter 11 is essentially a type with Process behavior enabled by default. You place it, it runs by itself, and that is all — your program's logic never creates or destroys one.&#xD;&#xA;&#xD;&#xA;A Record is the default object type. You can use it as data — passed through operations as values — or you can enable Process behavior and place it directly in your patch as a self-running unit. Both modes work; the type itself does not change.&#xD;&#xA;&#xD;&#xA;A Class is the mutable counterpart. Same flexibility — usable as data via reference, or with Process behavior enabled — but with reference semantics and in-place modification.&#xD;&#xA;&#xD;&#xA;The three names that seemed like three different things at the start of Part V are different settings on the same underlying machinery. The unity was always there. The chapter just made it visible.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -263,7 +263,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="7a5dxo4Y4dAUhUknZf3l5l" Bounds="592,1607,400,386" ShowValueBox="true" isIOBox="true" Value="Part V started with the recognition that you had been using objects since chapter 10 and defining them since chapter 11. It ends with the recognition that Process, Record, and Class are one family.&#xD;&#xA;&#xD;&#xA;In between you learned to define your own data types from the ground up. You gave them properties and custom operations. You used them to bundle related data into clean spreads. You created and destroyed instances at runtime in response to user input. You met the mutability fork and learned to choose between Records and Classes deliberately. You met the collection question and learned to separate it from the object question.&#xD;&#xA;&#xD;&#xA;That is a lot. If you absorbed even half of it, you have moved from being a patcher who uses what vvvv provides to being one who extends vvvv with your own building blocks. The next part of the tutorial picks up from here and looks at how your applications begin to interact with everything outside themselves.">
+          <Pad Id="0RNLzeXU5UBOWGF5vXl0dn" Bounds="592,1607,400,386" ShowValueBox="true" isIOBox="true" Value="Part V started with the recognition that you had been using objects since chapter 10 and defining them since chapter 11. It ends with the recognition that Process, Record, and Class are one family.&#xD;&#xA;&#xD;&#xA;In between you learned to define your own data types from the ground up. You gave them properties and custom operations. You used them to bundle related data into clean spreads. You created and destroyed instances at runtime in response to user input. You met the mutability fork and learned to choose between Records and Classes deliberately. You met the collection question and learned to separate it from the object question.&#xD;&#xA;&#xD;&#xA;That is a lot. If you absorbed even half of it, you have moved from being a patcher who uses what vvvv provides to being one who extends vvvv with your own building blocks. The next part of the tutorial picks up from here and looks at how your applications begin to interact with everything outside themselves.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -272,7 +272,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="0glM4WJ1lFKQErBznwlXKE" Bounds="1092,1628,393,19" ShowValueBox="true" isIOBox="true" Value="https://thegraybook.vvvv.org/reference/language/operations.html">
+          <Pad Id="4TsYpQYO1ULrFTVgoAfsvB" Bounds="1092,1628,393,19" ShowValueBox="true" isIOBox="true" Value="https://thegraybook.vvvv.org/reference/language/operations.html">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -281,7 +281,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="2gFPN6rllHiVRTt5DejLfw" Bounds="1092,1687,400,25" ShowValueBox="true" isIOBox="true" Value="Mutability — Architecture and Design Patterns by TobyK">
+          <Pad Id="09c3m7GSZLDjvPMtL0j5Q3" Bounds="1092,1687,400,25" ShowValueBox="true" isIOBox="true" Value="Mutability — Architecture and Design Patterns by TobyK">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -290,7 +290,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="6uoUgrNuYRpekZNX7flVLR" Bounds="1092,1714,183,19" ShowValueBox="true" isIOBox="true" Value="https://youtu.be/zGufG64WSF4">
+          <Pad Id="5l7G6bDOwmSL94yTnSZQzt" Bounds="1092,1714,183,19" ShowValueBox="true" isIOBox="true" Value="https://youtu.be/zGufG64WSF4">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -300,18 +300,18 @@
             </p:ValueBoxSettings>
           </Pad>
         </Canvas>
-        <Patch Id="61rVVq2xG8X2Z7g4YyNVM1" Name="Create" />
-        <Patch Id="75UCC1rVexOx5PqSo9sTaj" Name="Update" />
-        <ProcessDefinition Id="45BpYQpsTfvo5miEnJZkrX">
-          <Fragment Id="7VTeaCwIJyVhlbrxCkFpFl" Patch="61rVVq2xG8X2Z7g4YyNVM1" Enabled="true" />
-          <Fragment Id="7SaFym1SruE9suE818gCGA" Patch="75UCC1rVexOx5PqSo9sTaj" Enabled="true" />
+        <Patch Id="0SUwRf0d4IF6MFJuf0mvSt" Name="Create" />
+        <Patch Id="3vMRUKbHyYIwUEZfFpWDap" Name="Update" />
+        <ProcessDefinition Id="5QFf0RmzUt9xRaeb8LwQQa">
+          <Fragment Id="1cEYzbvEGammDqyNYEXDcP" Patch="0SUwRf0d4IF6MFJuf0mvSt" Enabled="true" />
+          <Fragment Id="6S2VHCwqJdVLC7wHUXUOfl" Patch="3vMRUKbHyYIwUEZfFpWDap" Enabled="true" />
         </ProcessDefinition>
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="6My9fwB6URk020QDBhLXae" Location="VL.Stride" Version="2025.7.2" />
-  <NugetDependency Id="6tDHFoTUHVzcSp1vsKQ153" Location="VL.Skia" Version="2025.7.2" />
-  <DocumentDependency Id="3DmazXVNKE0vE1hBjciR8M" Location="../../include/Nodes.vl" />
-  <DocumentDependency Id="4od5gTeikEZGzTbvdfL1rY" Location="../../VL.TheBigBang.vl" />
-  <NugetDependency Id="0aO1wiLNSFeRxLoXYTvrY4" Location="VL.Stride.TextureFX" Version="2025.7.2" />
+  <NugetDependency Id="1mn0ZtuaCNS53TgEbsodKy" Location="VL.Stride" Version="2025.7.3" />
+  <NugetDependency Id="5dBKDkkW7UKxp1SZ7uEwqG" Location="VL.Skia" Version="2025.7.3" />
+  <DocumentDependency Id="3IshdDawpZbqcixlsGTsr5" Location="../../include/Nodes.vl" />
+  <DocumentDependency Id="2WaCyGTD8sWJSog1tRGRR4" Location="../../VL.TheBigBang.vl" />
+  <NugetDependency Id="0cxmKB7QxJxIlNkEsyxTaw" Location="VL.Stride.TextureFX" Version="2025.7.3" />
 </Document>

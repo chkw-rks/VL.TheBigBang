@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="6iEv6iEGoDJiCJt07hht2u" LanguageVersion="2025.7.2" Version="0.128">
-  <NugetDependency Id="4YIGz1uHkncuaOwmj9XDtC" Location="VL.CoreLib" Version="2025.7.2" />
-  <Patch Id="0MVnO6XTnCwQEMZDzY0rUh">
-    <Canvas Id="6LVp68U7v212fuYEmsffD8" DefaultCategory="Main" CanvasType="FullCategory" />
-    <Node Name="Application" Bounds="100,100" Id="243MxUN1VWWJjvHn5XzXU2">
+<Document xmlns:p="property" xmlns:r="reflection" Id="3DpdFq0EcnOj9LhbdXbaRp" LanguageVersion="2025.7.3" Version="0.128">
+  <NugetDependency Id="1HUcnPXoLK8adGazHFn44K" Location="VL.CoreLib" Version="2025.7.3" />
+  <Patch Id="0EKf4TlRtk4mh5bjsnWrIP">
+    <Canvas Id="5mQcJ2euy0G17UxRwjcsiW" DefaultCategory="Main" CanvasType="FullCategory" />
+    <Node Name="Application" Bounds="100,100" Id="6qnA1oKupxHVj3asBHkVMJ">
       <p:NodeReference>
         <Choice Kind="ContainerDefinition" Name="Process" />
         <CategoryReference Kind="Category" Name="Primitive" />
       </p:NodeReference>
-      <Patch Id="1GqrbDhIEwOZQeosJhpux2">
-        <Canvas Id="18AseYSeAK2EW3Ed3axkDJ" CanvasType="Group">
-          <Pad Id="5LvNpuzBhSSEomFt1epCPF" Bounds="72,113,482,46" ShowValueBox="true" isIOBox="true" Value="44. Records vs Classes">
+      <Patch Id="3GHflJ3XZASNhPGiBLd7IT">
+        <Canvas Id="69Zn3cSIJEoQAagqCUzxzd" CanvasType="Group">
+          <Pad Id="0oC1nuezFzQaxOXudEvM3W" Bounds="72,113,482,46" ShowValueBox="true" isIOBox="true" Value="44. Records vs Classes">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -19,7 +19,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="6QKbxOGlxIPT6d53yoVXFL" Bounds="72,86,364,25" ShowValueBox="true" isIOBox="true" Value="VL.TheBigBang">
+          <Pad Id="1jRKopu8ffQaqxZUANK6wp" Bounds="72,86,364,25" ShowValueBox="true" isIOBox="true" Value="VL.TheBigBang">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -29,7 +29,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="6wJwVA7QODeIMoUbHre4AJ" Bounds="552,86,66,15" ShowValueBox="true" isIOBox="true" Value="Made by chk">
+          <Pad Id="25N1LYHabBiurj57TZQSXM" Bounds="552,86,66,15" ShowValueBox="true" isIOBox="true" Value="Made by chk">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -38,25 +38,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="2VcqUljVJLIWeRrDZylIp4" Bounds="617,86,140,19" ShowValueBox="true" isIOBox="true" Value="https://www.3e8.studio">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="String" />
-            </p:TypeAnnotation>
-            <p:ValueBoxSettings>
-              <p:fontsize p:Type="Int32">7</p:fontsize>
-              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
-            </p:ValueBoxSettings>
-          </Pad>
-          <Pad Id="7TIED9NvnWd2mhThRJ5HQv" Bounds="792,86,369,15" ShowValueBox="true" isIOBox="true" Value="If you find this material helpful, please consider supporting its development via">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="String" />
-            </p:TypeAnnotation>
-            <p:ValueBoxSettings>
-              <p:fontsize p:Type="Int32">7</p:fontsize>
-              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
-            </p:ValueBoxSettings>
-          </Pad>
-          <Pad Id="4YLQyROyjiWyPk10AVm6vk" Bounds="1160,86,140,19" ShowValueBox="true" isIOBox="true" Value="https://www.ko-fi.com/chk">
+          <Pad Id="0KyeaXprU0rgXnzr1fL0ZS" Bounds="617,86,140,19" ShowValueBox="true" isIOBox="true" Value="https://www.3e8.studio">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -65,7 +47,25 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="7EQ0kkhz9nsJnRPdU6HG5b" Bounds="92,215,400,120" ShowValueBox="true" isIOBox="true" Value="The last chapter showed the mechanic. This chapter helps you choose. When should you reach for a Class instead of a Record? The honest answer is — less often than you might think. Records are the default for almost everything you will build in VL, and the cases where Classes are the right move are specific and worth recognizing.">
+          <Pad Id="5THFd2ooNf85nymRkT2MX5" Bounds="792,86,369,15" ShowValueBox="true" isIOBox="true" Value="If you find this material helpful, please consider supporting its development via">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">7</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="0EChQsuXoxkEUfh92EdtIP" Bounds="1160,86,140,19" ShowValueBox="true" isIOBox="true" Value="https://www.ko-fi.com/chk">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">7</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="6iD2uWEXewfeDNgZZ1Soey" Bounds="92,215,400,120" ShowValueBox="true" isIOBox="true" Value="The last chapter showed the mechanic. This chapter helps you choose. When should you reach for a Class instead of a Record? The honest answer is — less often than you might think. Records are the default for almost everything you will build in VL, and the cases where Classes are the right move are specific and worth recognizing.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -74,7 +74,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="5B4MYhfGl5ieMlLyjhkwtl" Bounds="592,215,400,101" ShowValueBox="true" isIOBox="true" Value="We will look at the genuine reasons to choose a Class, the real costs of that choice, and how to recognise the cases where it matters. By the end of this chapter you will be able to make the call confidently, instead of switching based on a hunch.">
+          <Pad Id="7jF5qzQq14ICdc4kjsSHmS" Bounds="592,215,400,101" ShowValueBox="true" isIOBox="true" Value="We will look at the genuine reasons to choose a Class, the real costs of that choice, and how to recognise the cases where it matters. By the end of this chapter you will be able to make the call confidently, instead of switching based on a hunch.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -83,7 +83,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="45nAOUrRu99oiGYsTcDyd2" Bounds="92,375,210,31" ShowValueBox="true" isIOBox="true" Value="Records as Default">
+          <Pad Id="5WknRImK5BzEx96JvJySPM" Bounds="92,375,210,31" ShowValueBox="true" isIOBox="true" Value="Records as Default">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -92,7 +92,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="1SL2hQCXyn3eLvRiY2hV2L" Bounds="592,375,260,31" ShowValueBox="true" isIOBox="true" Value="When to Switch to Class">
+          <Pad Id="5CXtElIJROF4v6R6rrKGzS" Bounds="592,375,260,31" ShowValueBox="true" isIOBox="true" Value="When to Switch to Class">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -101,7 +101,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="1zbqwPefT3xq2fZjoEAP6u" Bounds="1092,375,200,31" ShowValueBox="true" isIOBox="true" Value="What You Give Up">
+          <Pad Id="5BAzOL9mvB4FlDJOOAFFRu" Bounds="1092,375,200,31" ShowValueBox="true" isIOBox="true" Value="What You Give Up">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -110,7 +110,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="1obV2GuvSfHULCW5tdid3U" Bounds="92,414,400,500" ShowValueBox="true" isIOBox="true" Value="VL is a functional environment at its core. Values flow through your patch from one operation to the next, each step producing a new result, and the language is designed around that flow. Records fit this design naturally. They are values. They behave the way numbers, strings, and built-in types behave — passed through operations, transformed, copied along the way.&#xD;&#xA;&#xD;&#xA;This is why Record is the default choice for almost any custom data type. The functional model is not just a style — it is how the rest of the language works. Change detection assumes values flow through the patch and that new ones differ from old ones. Caching assumes the same. Snapshots and history rely on the fact that each value is preserved at the moment it existed.&#xD;&#xA;&#xD;&#xA;When you use a Record, you get all of this automatically. You can detect when the Record changed. You can cache results. You can hold a snapshot and compare it later. None of this requires extra work — it is what the language does when you let values flow through it.&#xD;&#xA;&#xD;&#xA;The starting question is therefore not &quot;should I use a Class?&quot; The starting question is &quot;do I have a specific reason not to use a Record?&quot; If you cannot point at one, you almost certainly want a Record.">
+          <Pad Id="3Kc2AXIE5tl0w0dZIfYmrL" Bounds="92,414,400,500" ShowValueBox="true" isIOBox="true" Value="VL is a functional environment at its core. Values flow through your patch from one operation to the next, each step producing a new result, and the language is designed around that flow. Records fit this design naturally. They are values. They behave the way numbers, strings, and built-in types behave — passed through operations, transformed, copied along the way.&#xD;&#xA;&#xD;&#xA;This is why Record is the default choice for almost any custom data type. The functional model is not just a style — it is how the rest of the language works. Change detection assumes values flow through the patch and that new ones differ from old ones. Caching assumes the same. Snapshots and history rely on the fact that each value is preserved at the moment it existed.&#xD;&#xA;&#xD;&#xA;When you use a Record, you get all of this automatically. You can detect when the Record changed. You can cache results. You can hold a snapshot and compare it later. None of this requires extra work — it is what the language does when you let values flow through it.&#xD;&#xA;&#xD;&#xA;The starting question is therefore not &quot;should I use a Class?&quot; The starting question is &quot;do I have a specific reason not to use a Record?&quot; If you cannot point at one, you almost certainly want a Record.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -119,7 +119,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="5gT8Azbe5YcU1oGT50IFyf" Bounds="592,414,400,576" ShowValueBox="true" isIOBox="true" Value="There are two reasons that are worth recognizing as a beginner.&#xD;&#xA;&#xD;&#xA;The first is access from multiple locations. Suppose you have an object that needs to be modified from several different places in your patch — one part changes its Position, another changes its Color, a third changes its State. With a Record, each modification has to read the current Record from its pad, apply the change, and store it back. If three places are doing this in the same frame, you have to be careful about which one runs first, and the wiring gets dense. With a Class, each location simply calls the appropriate operation directly. The Class modifies itself, and every part of the patch sees the change immediately. The wiring disappears.&#xD;&#xA;&#xD;&#xA;The second is performance. A Record copies itself on every modification. For a single Record this cost is invisible. For a thousand Records all updating every frame, the cost can add up. A Class has no such cost; it modifies itself in place. If you have measured a performance problem and traced it to object copying, switching to a Class is one tool that can help.&#xD;&#xA;&#xD;&#xA;Notice the qualifier on the second reason — if you have measured. Switching to Classes for performance without measuring first is one of the most common mistakes. The cost of Record copying is usually invisible, and the cost of giving up Records' features for an imagined performance gain is real.">
+          <Pad Id="47zWMwaiku7i2Fe24VMizn" Bounds="592,414,400,576" ShowValueBox="true" isIOBox="true" Value="There are two reasons that are worth recognizing as a beginner.&#xD;&#xA;&#xD;&#xA;The first is access from multiple locations. Suppose you have an object that needs to be modified from several different places in your patch — one part changes its Position, another changes its Color, a third changes its State. With a Record, each modification has to read the current Record from its pad, apply the change, and store it back. If three places are doing this in the same frame, you have to be careful about which one runs first, and the wiring gets dense. With a Class, each location simply calls the appropriate operation directly. The Class modifies itself, and every part of the patch sees the change immediately. The wiring disappears.&#xD;&#xA;&#xD;&#xA;The second is performance. A Record copies itself on every modification. For a single Record this cost is invisible. For a thousand Records all updating every frame, the cost can add up. A Class has no such cost; it modifies itself in place. If you have measured a performance problem and traced it to object copying, switching to a Class is one tool that can help.&#xD;&#xA;&#xD;&#xA;Notice the qualifier on the second reason — if you have measured. Switching to Classes for performance without measuring first is one of the most common mistakes. The cost of Record copying is usually invisible, and the cost of giving up Records' features for an imagined performance gain is real.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -128,7 +128,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="2Fdvmb2EFIctdvZTN15Zpj" Bounds="1092,414,400,614" ShowValueBox="true" isIOBox="true" Value="The relief of not wiring back to a pad comes at a price. The features that Records give you automatically do not work the same way with Classes.&#xD;&#xA;&#xD;&#xA;The most visible loss is change detection. The Changed node and Cache regions watch a link for changes. With a Record link, every modification produces a new value, and Changed fires. With a Class link, the link carries the same reference even when the underlying object is modified, and Changed does not fire. The Gray Book is honest about this — Changed could really be called ChangedReference. It detects when a new Class instance arrives, not when the existing one is modified.&#xD;&#xA;&#xD;&#xA;Snapshots and Undo work similarly. With Records, holding a snapshot of a value means holding that value — the Record will not change because it cannot. With Classes, holding a &quot;snapshot&quot; means holding a reference, and the referenced Class can be modified between when you took the snapshot and when you tried to use it. SampleHold has the same issue.&#xD;&#xA;&#xD;&#xA;Order of operations becomes less obvious too. With Records, modifications happen serially because you explicitly wire them. With Classes, two parts of the patch can both modify the same Class instance in the same frame, and the order is sometimes determined by the execution order rather than anything visible in the patch.&#xD;&#xA;&#xD;&#xA;You can work around all of these — patterns using BehaviourSubject, ticket counters, and explicit Clone operations. But the workarounds are advanced material, and they exist to recover what Records give you for free.">
+          <Pad Id="3e7vzIrFtF2u97yfESX74z" Bounds="1092,414,400,614" ShowValueBox="true" isIOBox="true" Value="The relief of not wiring back to a pad comes at a price. The features that Records give you automatically do not work the same way with Classes.&#xD;&#xA;&#xD;&#xA;The most visible loss is change detection. The Changed node and Cache regions watch a link for changes. With a Record link, every modification produces a new value, and Changed fires. With a Class link, the link carries the same reference even when the underlying object is modified, and Changed does not fire. The Gray Book is honest about this — Changed could really be called ChangedReference. It detects when a new Class instance arrives, not when the existing one is modified.&#xD;&#xA;&#xD;&#xA;Snapshots and Undo work similarly. With Records, holding a snapshot of a value means holding that value — the Record will not change because it cannot. With Classes, holding a &quot;snapshot&quot; means holding a reference, and the referenced Class can be modified between when you took the snapshot and when you tried to use it. SampleHold has the same issue.&#xD;&#xA;&#xD;&#xA;Order of operations becomes less obvious too. With Records, modifications happen serially because you explicitly wire them. With Classes, two parts of the patch can both modify the same Class instance in the same frame, and the order is sometimes determined by the execution order rather than anything visible in the patch.&#xD;&#xA;&#xD;&#xA;You can work around all of these — patterns using BehaviourSubject, ticket counters, and explicit Clone operations. But the workarounds are advanced material, and they exist to recover what Records give you for free.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -137,7 +137,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="4Q7S5cS9P4Qe3RkuVsH81B" Bounds="1092,1068,400,120" ShowValueBox="true" isIOBox="true" Value="&lt; LIVE ELEMENT — build by hand:&#xD;&#xA;&#xD;&#xA;Changed-not-firing demo. A Record in a pad with SetColor on button click → Changed fires each click. A Class in a pad with SetColor on click → Changed does not fire (reference unchanged). Labeled IOBoxes making the contrast unmissable.">
+          <Pad Id="5SWXiycczwaAkTqYND4w14" Bounds="1092,1068,400,120" ShowValueBox="true" isIOBox="true" Value="&lt; LIVE ELEMENT — build by hand:&#xD;&#xA;&#xD;&#xA;Changed-not-firing demo. A Record in a pad with SetColor on button click → Changed fires each click. A Class in a pad with SetColor on click → Changed does not fire (reference unchanged). Labeled IOBoxes making the contrast unmissable.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -146,7 +146,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="6WiYkRJHV91w7gkKVQBxxH" Bounds="92,1500,200,31" ShowValueBox="true" isIOBox="true" Value="Common Mistakes">
+          <Pad Id="5Up6vxHbRCrNRwTVsv3Gjj" Bounds="92,1500,200,31" ShowValueBox="true" isIOBox="true" Value="Common Mistakes">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -155,7 +155,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="0U3GGIji8miCSkjqD1PuF7" Bounds="592,1500,380,31" ShowValueBox="true" isIOBox="true" Value="Collections Are a Separate Question">
+          <Pad Id="1BhfaW8Nd9vCb1VaW2K4Zj" Bounds="592,1500,380,31" ShowValueBox="true" isIOBox="true" Value="Collections Are a Separate Question">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -164,7 +164,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="722FvKQrmpr7m1GtoU8hNb" Bounds="1092,1500,150,25" ShowValueBox="true" isIOBox="true" Value="Other Resources">
+          <Pad Id="0P40jYDNNChuzWwANY0Opd" Bounds="1092,1500,150,25" ShowValueBox="true" isIOBox="true" Value="Other Resources">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -173,7 +173,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="1RbXQkklXLU8xy8OXGDlCf" Bounds="1092,1533,400,25" ShowValueBox="true" isIOBox="true" Value="Mutability in vvvv Gamma — full tutorial series by TobyK">
+          <Pad Id="6iWZBDdRiLz4TeKQbckgYH" Bounds="1092,1533,400,25" ShowValueBox="true" isIOBox="true" Value="Mutability in vvvv Gamma — full tutorial series by TobyK">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -182,7 +182,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="58uhpK6UR9PlePTf17DhRz" Bounds="92,1539,400,481" ShowValueBox="true" isIOBox="true" Value="The Particle from chapter 42 works equally well as a Record or a Class — either choice produces the same result, and neither reveals a meaningful difference. That is not a failure of the example; it is the point. The Particle does not need the things a Class offers, so the choice is genuinely interchangeable there. The cases where it is not interchangeable are the ones described in the columns above.&#xD;&#xA;&#xD;&#xA;Two patterns to watch for, both common when patchers first discover Classes.&#xD;&#xA;&#xD;&#xA;Reaching for a Class because the Record wiring feels verbose. The wiring is not noise — it is the patch making the data flow explicit. Verbosity that you can read is more valuable than terseness that hides behavior. Switch to a Class when you have a specific reason from the columns above, not because the Record version &quot;feels&quot; heavier than it should.&#xD;&#xA;&#xD;&#xA;Reaching for a Class for performance without measuring. The cost of Record copying is usually negligible. If you are unsure whether you have a performance problem, you do not have one. If you do have one, measure first — find out where the cost actually is. The answer is often a different patch structure or a mutable collection (chapter 45), not a switch from Record to Class.">
+          <Pad Id="3Ds96MFcM0VnUKDdjgTTg5" Bounds="92,1539,400,481" ShowValueBox="true" isIOBox="true" Value="The Particle from chapter 42 works equally well as a Record or a Class — either choice produces the same result, and neither reveals a meaningful difference. That is not a failure of the example; it is the point. The Particle does not need the things a Class offers, so the choice is genuinely interchangeable there. The cases where it is not interchangeable are the ones described in the columns above.&#xD;&#xA;&#xD;&#xA;Two patterns to watch for, both common when patchers first discover Classes.&#xD;&#xA;&#xD;&#xA;Reaching for a Class because the Record wiring feels verbose. The wiring is not noise — it is the patch making the data flow explicit. Verbosity that you can read is more valuable than terseness that hides behavior. Switch to a Class when you have a specific reason from the columns above, not because the Record version &quot;feels&quot; heavier than it should.&#xD;&#xA;&#xD;&#xA;Reaching for a Class for performance without measuring. The cost of Record copying is usually negligible. If you are unsure whether you have a performance problem, you do not have one. If you do have one, measure first — find out where the cost actually is. The answer is often a different patch structure or a mutable collection (chapter 45), not a switch from Record to Class.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -191,7 +191,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="5KEfVzudhKRu95MIIZEFMk" Bounds="592,1539,400,348" ShowValueBox="true" isIOBox="true" Value="One last thing worth naming before the next chapter. The choice between Record and Class is about individual objects. There is a separate choice about collections — whether to use Spread (immutable) or SpreadBuilder (mutable) for the container that holds many of them. These two questions are independent.&#xD;&#xA;&#xD;&#xA;You can have an immutable Spread of mutable Classes. You can have a mutable SpreadBuilder of immutable Records. Both are sensible patterns for different reasons. Chapter 45 looks at the collection question on its own terms — when to use mutable collection types, what they cost, and how they relate to object mutability.&#xD;&#xA;&#xD;&#xA;For now, just notice that &quot;I need performance&quot; rarely means &quot;I should switch from Records to Classes.&quot; It often means &quot;I should use a mutable collection.&quot; The distinction matters.">
+          <Pad Id="2SUfAT68E1ldEqwLrRLdea" Bounds="592,1539,400,348" ShowValueBox="true" isIOBox="true" Value="One last thing worth naming before the next chapter. The choice between Record and Class is about individual objects. There is a separate choice about collections — whether to use Spread (immutable) or SpreadBuilder (mutable) for the container that holds many of them. These two questions are independent.&#xD;&#xA;&#xD;&#xA;You can have an immutable Spread of mutable Classes. You can have a mutable SpreadBuilder of immutable Records. Both are sensible patterns for different reasons. Chapter 45 looks at the collection question on its own terms — when to use mutable collection types, what they cost, and how they relate to object mutability.&#xD;&#xA;&#xD;&#xA;For now, just notice that &quot;I need performance&quot; rarely means &quot;I should switch from Records to Classes.&quot; It often means &quot;I should use a mutable collection.&quot; The distinction matters.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -200,7 +200,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="2SLNUbN9du3IvWuKUCQZIP" Bounds="1092,1560,183,19" ShowValueBox="true" isIOBox="true" Value="https://youtu.be/zGufG64WSF4">
+          <Pad Id="0VVlliY1etTg965fdhzVTw" Bounds="1092,1560,183,19" ShowValueBox="true" isIOBox="true" Value="https://youtu.be/zGufG64WSF4">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -209,7 +209,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="3wIPhySHDTR9IKWNIfhxWQ" Bounds="1092,1619,400,25" ShowValueBox="true" isIOBox="true" Value="When to pick a Process, a Record or a Class">
+          <Pad Id="5L7ICwYrfVLEoTZS8ASFGX" Bounds="1092,1619,400,25" ShowValueBox="true" isIOBox="true" Value="When to pick a Process, a Record or a Class">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -218,7 +218,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="6U8qPnoRY3j425NMLWyOIJ" Bounds="1092,1646,400,19" ShowValueBox="true" isIOBox="true" Value="https://forum.vvvv.org/t/when-to-pick-a-process-a-record-or-a-class/21624">
+          <Pad Id="1t1euRi1qS6TWrrJbU95Ni" Bounds="1092,1646,400,19" ShowValueBox="true" isIOBox="true" Value="https://forum.vvvv.org/t/when-to-pick-a-process-a-record-or-a-class/21624">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -227,19 +227,829 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
+          <Pad Id="3i4Qz6yxQw65dLQxSvsBb6" Bounds="92,2130,400,44" ShowValueBox="true" isIOBox="true" Value="Prototype patches below — harvested from wip/The Origin of Life.vl. Arrange them into the live-element slots marked above.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">12</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="3CeuKAd8iJi8yXGsRju0RA" Bounds="715,3268,589,46" ShowValueBox="true" isIOBox="true" Value="44. Mutable Collections">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">22</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="2lxhW2HjqmbevVTtkHkRLW" SlotId="5PbWJmEvScQqNiR5hoebYq" Bounds="2480,2461" />
+          <Node Bounds="2478,2411,51,26" Id="6wPnvmB8ex2IHLGCMbxvFH">
+            <p:NodeReference LastCategoryFullName="Main.MyRecord" LastDependency="Explanation 44. Records vs Classes.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="RecordType" Name="MyRecord" NeedsToBeDirectParent="true" />
+              <Choice Kind="OperationCallFlag" Name="Create" />
+            </p:NodeReference>
+            <Pin Id="4SOVqToR7fqKjZZd8LfHbD" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="56ipmAE7uVkZQ8D6iG0Jr2" Name="Output" Kind="StateOutputPin" />
+          </Node>
+          <Node Bounds="2478,2487,85,26" Id="1Tv7GHrmAApKHmzSOi5T8M">
+            <p:NodeReference LastCategoryFullName="Main.MyRecord" LastDependency="Explanation 44. Records vs Classes.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="RecordType" Name="MyRecord" NeedsToBeDirectParent="true" />
+              <Choice Kind="OperationCallFlag" Name="SetColor" />
+            </p:NodeReference>
+            <Pin Id="1XpjD85XBlU7MhTwfPfGBl" Name="Input" Kind="StateInputPin" />
+            <Pin Id="6TitIDPL9Okx8K5SEKssak" Name="Color" Kind="InputPin" />
+            <Pin Id="2YJkT3YYPKkAJej6TQrgqm" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="4BFtUaV6pBHI7263IyddKT" Name="Apply" Kind="InputPin" />
+          </Node>
+          <Node Bounds="2458,2584,105,19" Id="0hJqPDlBr2piJULtxn213o">
+            <p:NodeReference LastCategoryFullName="Control" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Undo" />
+            </p:NodeReference>
+            <Pin Id="4CZRF82ZLINEEySDyjG8cZ" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="6z6IckPDVNJmT2zvJlOq6S" Name="Clear" Kind="InputPin" />
+            <Pin Id="1elmiqAdNfvLfHEHSMnnI3" Name="Item" Kind="InputPin" />
+            <Pin Id="0ChSWex2Uh38HjAvPF1jiZ" Name="Levels" Kind="InputPin" />
+            <Pin Id="1mWOBevc9HBHthh9lKs4le" Name="Push" Kind="InputPin" />
+            <Pin Id="3jkr9Od8ROGpvw4mXttb87" Name="Undo" Kind="InputPin" />
+            <Pin Id="3zg3zV3j0lA1Mgb6HTz6dN" Name="Redo" Kind="InputPin" />
+            <Pin Id="2IJ9bjtHbCbsEyREoEVM1y" Name="Result" Kind="OutputPin" />
+            <Pin Id="70VA7JBwHEGsbagbpxtImy" Name="Count" Kind="OutputPin" />
+            <Pin Id="2yzS24DvXG2yd9SNJVvCzv" Name="Pointer" Kind="OutputPin" />
+          </Node>
+          <Pad Id="4JVidZVw7XcNkVsEenSd7P" SlotId="5PbWJmEvScQqNiR5hoebYq" Bounds="2460,2655" />
+          <Pad Id="3nm3JbvhnVsPyjiImGnKbM" Bounds="2606,2434,136,15" ShowValueBox="true" isIOBox="true" Value="0, 0.5019608, 0, 1">
+            <p:TypeAnnotation LastCategoryFullName="Color" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="ImmutableTypeFlag" Name="RGBA" />
+              <CategoryReference Kind="Category" Name="Color" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Node Bounds="2604,2452,57,19" Id="6PlOQmHQpqBVdx3h1j3YpX">
+            <p:NodeReference LastCategoryFullName="Control" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Changed" />
+            </p:NodeReference>
+            <Pin Id="4dKEW5J8D3zlEfgeNpIvJr" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="4uo5rAMsrIHhMmbYkKwg5u" Name="Changed On Create" Kind="InputPin" IsHidden="true" />
+            <Pin Id="3mTb8uEYnej7Sfeh6tWEQc" Name="Value" Kind="InputPin" />
+            <Pin Id="0ZCrhFFAexOJC3TiiAxPHR" Name="Result" Kind="OutputPin" />
+            <Pin Id="5kvpZgdfigtSwbE9HlFZeF" Name="Unchanged" Kind="OutputPin" />
+          </Node>
+          <Pad Id="5qd9uMpir1EuXER1KqABOP" Comment="Clear" Bounds="2366,2501,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
+              <CategoryReference Kind="Category" Name="Primitive" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="0G7ZaovLUoA7N32RRZlYng" Comment="Levels" Bounds="2517,2537,35,15" ShowValueBox="true" isIOBox="true" Value="100">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Integer32" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="00vZFwqo4zIh96OpwhMX7n" Comment="Color" Bounds="2460,2717,136,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="4oRjdEqbyzFcUnGtfnjAwy" Comment="Undo" Bounds="2628,2505,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
+              <CategoryReference Kind="Category" Name="Primitive" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="3jWti0B1ZduIB0JzgBeG5H" Comment="Redo" Bounds="2684,2528,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
+              <CategoryReference Kind="Category" Name="Primitive" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Overlay Id="5Jk4NqpipepFa2ryXXBHbU" Name="04. When to pick a Record II" Bounds="2259,2214,822,561" />
+          <Overlay Id="2Yphkfq8uJRTcXcc4Zzxfv" Name="03. When to pick a Record I" Bounds="1413,2214,822,561" />
+          <Pad Id="2INVFl92NkQn6yDPgvVuPB" Bounds="1424,2282,554,29" ShowValueBox="true" isIOBox="true" Value="You pick an immutable Record, when you:">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">14</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="0Dl3bm1W8ehRpavifXND84" Bounds="1467,2327,503,59" ShowValueBox="true" isIOBox="true" Value="want to detect changes of the data inside the record (which a class is not able to do)">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">14</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Node Bounds="1946,2416,46,26" Id="7bmxPo9qzk4zrkS4Jkitvc">
+            <p:NodeReference LastCategoryFullName="Main.MyClass" LastDependency="Explanation 44. Records vs Classes.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="ClassType" Name="MyClass" />
+              <Choice Kind="OperationCallFlag" Name="Create" />
+            </p:NodeReference>
+            <Pin Id="0zuCV83UVqIL2QyfurPeXw" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="026eABK8feY8Yn4p0HRcGC" Name="Output" Kind="StateOutputPin" />
+          </Node>
+          <Pad Id="6Bnw8AKoM2EgHLFyUVnGpz" SlotId="76ywE5sTvdvMC29OmBi5G1" Bounds="1948,2473" />
+          <Node Bounds="1991,2549,65,26" Id="7LNUrsjuRspNGu4g5epoeN">
+            <p:NodeReference LastCategoryFullName="Main.MyClass" LastDependency="Explanation 44. Records vs Classes.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="ClassType" Name="MyClass" NeedsToBeDirectParent="true" />
+              <Choice Kind="OperationCallFlag" Name="SetColor" />
+            </p:NodeReference>
+            <Pin Id="4vzCJVVj2P27VjbmwyqLCW" Name="Input" Kind="StateInputPin" />
+            <Pin Id="6hM39ZGRDsBVrRm05EywJw" Name="Color" Kind="InputPin" />
+            <Pin Id="2CnkjJIGfhdyBh7GYHYg5T" Name="Output" Kind="StateOutputPin" />
+          </Node>
+          <Node Bounds="1946,2612,65,26" Id="3QP0B3dvYhEkWt4aSS6WvF">
+            <p:NodeReference LastCategoryFullName="Main.MyClass" LastDependency="Explanation 44. Records vs Classes.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="ClassType" Name="MyClass" />
+              <Choice Kind="OperationCallFlag" Name="Color" />
+            </p:NodeReference>
+            <Pin Id="2CPLDp1lciRBItbQB4vYhK" Name="Input" Kind="StateInputPin" />
+            <Pin Id="5CVBaThBItuc2nKxt2PeoL" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="0dO6OCCtzOnZatjzFYKE8q" Name="Color" Kind="OutputPin" />
+          </Node>
+          <Pad Id="16W61zhKWL82hgqctxBgwz" Comment="Color" Bounds="2013,2529,136,15" ShowValueBox="true" isIOBox="true" Value="0.63479996, 0.6899999, 0, 1">
+            <p:TypeAnnotation LastCategoryFullName="Color" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="RGBA" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="2WMO4AtvxIvadHazPf2QQC" Comment="Color" Bounds="1968,2660,136,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="4qmViYeRTUwHkoVqS4TTvg" SlotId="40ZoZkHxwGG6Ij75YMF2pa" Bounds="1616,2473" />
+          <Node Bounds="1614,2417,51,26" Id="2noZOHpCffDVkBt2NIoQGM">
+            <p:NodeReference LastCategoryFullName="Main.MyRecord" LastDependency="Explanation 44. Records vs Classes.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="RecordType" Name="MyRecord" NeedsToBeDirectParent="true" />
+              <Choice Kind="OperationCallFlag" Name="Create" />
+            </p:NodeReference>
+            <Pin Id="59eQRsiDZfVCvsjTe9JFiB" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="3iEVCovY22B6jbRESlo4OD" Name="Output" Kind="StateOutputPin" />
+          </Node>
+          <Node Bounds="1614,2531,85,26" Id="4zO1jLJcFUeTK5C1yVyVA8">
+            <p:NodeReference LastCategoryFullName="Main.MyRecord" LastDependency="Explanation 44. Records vs Classes.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="RecordType" Name="MyRecord" NeedsToBeDirectParent="true" />
+              <Choice Kind="OperationCallFlag" Name="SetColor" />
+            </p:NodeReference>
+            <Pin Id="4WekvTrfriEMe9PhEtPTCM" Name="Input" Kind="StateInputPin" />
+            <Pin Id="3yoOimKRoBF6rsYLS33EUW" Name="Color" Kind="InputPin" />
+            <Pin Id="7hM53CKbButAYjLXpovzG9" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="3134E1Ef8GNU12wWs4F6rZ" Name="Apply" Kind="InputPin" />
+          </Node>
+          <Pad Id="09Dc7ETeIKCsyuxRpaxafD" Comment="Color" Bounds="1636,2506,136,15" ShowValueBox="true" isIOBox="true" Value="0.99, 0, 0, 1">
+            <p:TypeAnnotation LastCategoryFullName="Color" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="RGBA" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Node Bounds="1614,2604,51,26" Id="2j0P4qM2lrUDy3ivU9qrja">
+            <p:NodeReference LastCategoryFullName="Main.MyRecord" LastDependency="Explanation 44. Records vs Classes.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="RecordType" Name="MyRecord" />
+              <Choice Kind="OperationCallFlag" Name="Color" />
+            </p:NodeReference>
+            <Pin Id="6THISNeBvHsm71W78I80FD" Name="Input" Kind="StateInputPin" />
+            <Pin Id="7U15YFSy6TxnVHr9gt13Kt" Name="Output" Kind="OutputPin" IsHidden="true" />
+            <Pin Id="1AXrEWcfgEMyHBxsVis58W" Name="Color" Kind="OutputPin" />
+          </Node>
+          <Pad Id="6oU7hVch5uO5VbXqKE9Vhv" Comment="Color" Bounds="1616,2653,136,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="6uvU70PKbiVgAmkbURhGz4" SlotId="40ZoZkHxwGG6Ij75YMF2pa" Bounds="1616,2583" />
+          <Node Bounds="1861,2555,57,19" Id="0NmeNPqELuGFCdURWpVogV">
+            <p:NodeReference LastCategoryFullName="Control" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Changed" />
+            </p:NodeReference>
+            <Pin Id="6U9tag9ZaFoBoFu89vytKy" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="3qezn522HLlu3NWnbJkPwn" Name="Changed On Create" Kind="InputPin" IsHidden="true" />
+            <Pin Id="45BpG7S2zAHsFHnoG5o0qE" Name="Value" Kind="InputPin" />
+            <Pin Id="7lWPhG03VEiCQ6P7yMeMsE" Name="Result" Kind="OutputPin" />
+            <Pin Id="5vleyrsiWGWPqkGriwlboj" Name="Unchanged" Kind="OutputPin" />
+          </Node>
+          <Pad Id="56dQ0B3C6yxhwx3c3xgGdx" Comment="" Bounds="1863,2598,35,35" ShowValueBox="true" isIOBox="true">
+            <p:ValueBoxSettings>
+              <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Node Bounds="1492,2619,57,19" Id="0U85HYRYjQ56CRZY3M4Adr">
+            <p:NodeReference LastCategoryFullName="Control" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Changed" />
+            </p:NodeReference>
+            <Pin Id="1S5iQaA8kObgRmE02Lhh4k" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="0I7fiQgNuwlJzyiyta7dcT" Name="Changed On Create" Kind="InputPin" IsHidden="true" />
+            <Pin Id="6PlMfL7dCELU4SJXvYQMnT" Name="Value" Kind="InputPin" />
+            <Pin Id="4NVOI23SEjZ5UB29tQJ5Hs" Name="Result" Kind="OutputPin" />
+            <Pin Id="2olo8lzNYcyp6g9yR8AU0l" Name="Unchanged" Kind="OutputPin" />
+          </Node>
+          <Pad Id="17Ab6dnqCtoGmXt4s9OVFE" Comment="" Bounds="1494,2662,35,35" ShowValueBox="true" isIOBox="true">
+            <p:ValueBoxSettings>
+              <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Overlay Id="0yaZY8kD76TScmrSCUIh1o" Name="05. When to pick a Class I" Bounds="3104,2210,822,561" />
+          <Node Bounds="3676,2422,46,26" Id="1tcp8BiBX9HpLG1M0a7G2m">
+            <p:NodeReference LastCategoryFullName="Main.MyClass" LastDependency="Explanation 44. Records vs Classes.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="ClassType" Name="MyClass" />
+              <Choice Kind="OperationCallFlag" Name="Create" />
+            </p:NodeReference>
+            <Pin Id="3Br4dZBuAT0VB6BcL1XS2I" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="6IGCmrwtXx67RIO96jRtqT" Name="Output" Kind="StateOutputPin" />
+          </Node>
+          <Pad Id="7dsmHuyrN1kG4fE5ow5anp" SlotId="4EC4pNzDu9hR1wyo2IVZpX" Bounds="3678,2469" />
+          <Node Bounds="3676,2643,65,26" Id="7Q1dDOvwcHej2CBbgypGoa">
+            <p:NodeReference LastCategoryFullName="Main.MyClass" LastDependency="Explanation 44. Records vs Classes.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="ClassType" Name="MyClass" />
+              <Choice Kind="OperationCallFlag" Name="Color" />
+            </p:NodeReference>
+            <Pin Id="3JICuiuAOeSV3mLQ8YUCKK" Name="Input" Kind="StateInputPin" />
+            <Pin Id="2NhEEy0sVDbxIpgsUXt5oX" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="7RgjFLd1Tu1Hnl95qqFMfE" Name="Color" Kind="OutputPin" />
+          </Node>
+          <Pad Id="2UCu5ouIthLTROABrmJKrE" Comment="Color" Bounds="3698,2691,136,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="5L6Pto2ukXHjT9n86YN90P" SlotId="0jCB0FE68x2aH4pw1kbqFZ" Bounds="3344,2469" />
+          <Node Bounds="3342,2423,51,26" Id="42IXY56PmC31TeHr8RHOLI">
+            <p:NodeReference LastCategoryFullName="Main.MyRecord" LastDependency="Explanation 44. Records vs Classes.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="RecordType" Name="MyRecord" NeedsToBeDirectParent="true" />
+              <Choice Kind="OperationCallFlag" Name="Create" />
+            </p:NodeReference>
+            <Pin Id="7WYs94K8HwuaiZhowDcD8l" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="1cfMdQt9ZqkZuaEiw0mbWm" Name="Output" Kind="StateOutputPin" />
+          </Node>
+          <Node Bounds="3353,2569,85,26" Id="17PmWcDZv01wy0UkzRffsn">
+            <p:NodeReference LastCategoryFullName="Main.MyRecord" LastDependency="Explanation 44. Records vs Classes.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="RecordType" Name="MyRecord" NeedsToBeDirectParent="true" />
+              <Choice Kind="OperationCallFlag" Name="SetColor" />
+            </p:NodeReference>
+            <Pin Id="6OSZqdfpk2ITF7CWO6ZII8" Name="Input" Kind="StateInputPin" />
+            <Pin Id="6A3S4DsqrE0h9qbVpKdKpK" Name="Color" Kind="InputPin" />
+            <Pin Id="0DyCuSMpqTTNFdMdrBtwOp" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="5Jfyu4zC0oDzECIlp6yuuM" Name="Apply" Kind="InputPin" />
+          </Node>
+          <Pad Id="45bKhyvdYNT5jg7M8AWXBc" Comment="Color" Bounds="3384,2505,136,15" ShowValueBox="true" isIOBox="true" Value="1, 0, 0, 1">
+            <p:TypeAnnotation LastCategoryFullName="Color" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="RGBA" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="0KHXbo3EJ9SpCBMRfZxmKK" Bounds="2280,2279,554,29" ShowValueBox="true" isIOBox="true" Value="You pick an immutable Record, when you:">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">14</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="20rnJoc1LKmRFf8aV1z8Ss" Bounds="2323,2324,599,66" ShowValueBox="true" isIOBox="true" Value="want to implement undo/redo funtionality, because immutable types are able to create snapshots when they change">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">14</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="3J1UHsmZnwx6JoySPFFfrr" Bounds="3128,2283,554,29" ShowValueBox="true" isIOBox="true" Value="You pick a mutable Class, when you:">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">14</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="1NY4pXqhxxOuaVIrrW8Xl3" Bounds="3171,2328,698,93" ShowValueBox="true" isIOBox="true" Value="want to change the data from multiple locations in your patch, because you can access the methods of the type from anywhere in the application">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">14</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Node Bounds="3180,2566,85,26" Id="3rdrQQwTa94zGxlHnaLj9W">
+            <p:NodeReference LastCategoryFullName="Main.MyRecord" LastDependency="Explanation 44. Records vs Classes.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="RecordType" Name="MyRecord" NeedsToBeDirectParent="true" />
+              <Choice Kind="OperationCallFlag" Name="SetColor" />
+            </p:NodeReference>
+            <Pin Id="4BhhzhfYvnx3idsMqbpust" Name="Input" Kind="StateInputPin" />
+            <Pin Id="052V5lwb3nTykJiciD5DBo" Name="Color" Kind="InputPin" />
+            <Pin Id="2n37XhIPPE4J1ORdEpLBd9" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="7ISDTFaMXHvqEvBLxCEUAY" Name="Apply" Kind="InputPin" />
+          </Node>
+          <Pad Id="65obmiquxkNdgYbt1GtPAH" Comment="Color" Bounds="3178,2505,136,15" ShowValueBox="true" isIOBox="true" Value="0, 0, 1, 1">
+            <p:TypeAnnotation LastCategoryFullName="Color" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="RGBA" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Node Bounds="3180,2639,51,26" Id="3lJqsFKrh4qWmlcFYpayAt">
+            <p:NodeReference LastCategoryFullName="Main.MyRecord" LastDependency="Explanation 44. Records vs Classes.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="RecordType" Name="MyRecord" />
+              <Choice Kind="OperationCallFlag" Name="Color" />
+            </p:NodeReference>
+            <Pin Id="1zIZVVcxFFV1uO1Mj0iweQ" Name="Input" Kind="StateInputPin" />
+            <Pin Id="2nYliUR6ov6Gve8j0iJhzG" Name="Output" Kind="OutputPin" IsHidden="true" />
+            <Pin Id="7VSQMHwGDg9DjLelk1HRl3" Name="Color" Kind="OutputPin" />
+          </Node>
+          <Pad Id="0pYTgBzbeN4WmibBNpf70c" Comment="Color" Bounds="3182,2688,136,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="4ohyT3Lwod2foW502PHG6X" SlotId="0jCB0FE68x2aH4pw1kbqFZ" Bounds="3182,2618" />
+          <Node Bounds="3740,2594,55,26" Id="72KCzEG27ZaXrZR9kDnsPW">
+            <p:NodeReference LastCategoryFullName="Main.MyClass" LastDependency="Explanation 44. Records vs Classes.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="ClassType" Name="MyClass" NeedsToBeDirectParent="true" />
+              <Choice Kind="OperationCallFlag" Name="SetColor" />
+            </p:NodeReference>
+            <Pin Id="217NKnWQqYrT2h8OivCL5U" Name="Input" Kind="StateInputPin" />
+            <Pin Id="18ErctA4TmqbH1ySwYem1A" Name="Color" Kind="InputPin" />
+            <Pin Id="0updN0xML15nNXYgnZuUNr" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="3UtIe2q2wwOsiWnWeGUNuW" Name="Apply" Kind="InputPin" />
+          </Node>
+          <Pad Id="3CqaVqFjRbeptMdPfbiUo1" Comment="Apply" Bounds="3792,2562,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="7eSJcXQwzolS6bbLbhvl3t" Comment="Color" Bounds="3715,2534,136,15" ShowValueBox="true" isIOBox="true" Value="1, 0, 0, 1">
+            <p:TypeAnnotation LastCategoryFullName="Color" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="RGBA" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Node Bounds="3567,2568,55,26" Id="16faby2E2yl44mX3Pb0bvT">
+            <p:NodeReference LastCategoryFullName="Main.MyClass" LastDependency="Explanation 44. Records vs Classes.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="ClassType" Name="MyClass" NeedsToBeDirectParent="true" />
+              <Choice Kind="OperationCallFlag" Name="SetColor" />
+            </p:NodeReference>
+            <Pin Id="32lv6fjrj11q2NqCCUxmWf" Name="Input" Kind="StateInputPin" />
+            <Pin Id="73l6oEYbgXOH25EDRmnpqa" Name="Color" Kind="InputPin" />
+            <Pin Id="72np4um8NWqw6xcAdGOWcm" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="5ioaGNyRLJOIWFFbeGXWDY" Name="Apply" Kind="InputPin" />
+          </Node>
+          <Pad Id="79sDnKdEeX9no77NPR4qhC" Comment="Apply" Bounds="3619,2536,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="4GsZDMLwZ3LhXIdIOuGod1" Comment="Color" Bounds="3594,2511,136,15" ShowValueBox="true" isIOBox="true" Value="0, 0, 1, 1">
+            <p:TypeAnnotation LastCategoryFullName="Color" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="RGBA" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="2RmF91csfWzPHgY00yximp" Comment="Apply" Bounds="3424,2533,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="4oU5K34WyaGSLzmbruRlMy" Comment="Apply" Bounds="3262,2531,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Overlay Id="1gUtMY5l8kK4JOorMfDBTc" Name="06. When to pick a Class II" Bounds="3950,2216,822,275" />
+          <Pad Id="48cyQJqOnjHTvKThurrfMo" Bounds="3974,2289,554,29" ShowValueBox="true" isIOBox="true" Value="You pick a mutable Class, when you:">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">14</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="7HACVnpZTlvmclp6lLKcSa" Bounds="4017,2334,657,65" ShowValueBox="true" isIOBox="true" Value="have to deal with lots of data that you need to change fast and you want to optimize your performance">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">14</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="0PokNbF7hPtQffbVRcTbuV" Bounds="3981,2430,617,29" ShowValueBox="true" isIOBox="true" Value="Rather advanced topic and not in the scope of this course">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">14</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Overlay Id="5DsFtQ3t2RBhPcZc7uhQBd" Name="06. Video about Mutability" Bounds="3955,2508,822,216" />
+          <Pad Id="1cIqA5HQGXV9us14z7KqdV" Bounds="4195,2597,431,44" ShowValueBox="true" isIOBox="true" Value="Watch this video!">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">21</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="4v6Hpg30N3ERUaawA2pWTW" Bounds="4160,2653,352,19" ShowValueBox="true" isIOBox="true" Value="https://youtu.be/zGufG64WSF4?si=hxndWukAy6BbuDBg">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Node Bounds="2458,2671,51,26" Id="50hDoXmo0kA9ECVVafnBiE">
+            <p:NodeReference LastCategoryFullName="Main.MyRecord" LastDependency="Explanation 44. Records vs Classes.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="RecordType" Name="MyRecord" NeedsToBeDirectParent="true" />
+              <Choice Kind="OperationCallFlag" Name="Color" />
+            </p:NodeReference>
+            <Pin Id="47bjWHx0wLcpjjth5ddCma" Name="Input" Kind="StateInputPin" />
+            <Pin Id="5a6zTxCAdfi7VMkggnCrLw" Name="Output" Kind="OutputPin" IsHidden="true" />
+            <Pin Id="15CiuqsVjQxCCpKuPgK6Ft" Name="Color" Kind="OutputPin" />
+          </Node>
+          <Pad Id="3skRsXGPR50jKkpNtshQ6e" Comment="Count" Bounds="2510,2639,35,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="39pVfMoAcM4Wbk9tJV3W22" Comment="Pointer" Bounds="2560,2618,35,15" ShowValueBox="true" isIOBox="true" />
+          <Overlay Id="3DhxWS9I02ZRuEmGGBhfy1" Name="" Bounds="726,3096,4576,80">
+            <p:ColorIndex p:Type="Int32">4</p:ColorIndex>
+          </Overlay>
+          <Pad Id="6PYH4iVDjh59XqLm5r0FbO" Bounds="92,3316,506,198" ShowValueBox="true" isIOBox="true" Value="The collection chapter. The reader learns that the collection mutability question is independent of the Record/Class question, and meets the mutable alternatives to Spread and Dictionary. The performance argument for mutability lives here, properly located at the collection level where it actually matters, rather than at the individual-object level where it usually doesn't.&#xD;&#xA;&#xD;&#xA;This is also where chapter 26's promise about collections and OOP gets landed explicitly.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="1MOxIC9JZg0Dhn0c0qQMXe" Bounds="92,3528,540,908" ShowValueBox="true" isIOBox="true" Value="**1. The independence framing comes first.** The opening paragraph and Column 1 both hammer the point that collection mutability is a separate question from object mutability. This is the most important thing the reader leaves the chapter with — without it, &quot;I need performance&quot; becomes &quot;I should use Classes,&quot; which the previous chapter just told them not to do.&#xD;&#xA;&#xD;&#xA;**2. The four combinations as a structural lens.** Rather than listing each mutable collection type as if they were independent tools, the chapter positions them as the answer to one axis of a two-axis decision. This grounds the chapter in the framework the reader has been building.&#xD;&#xA;&#xD;&#xA;**3. SpreadBuilder gets the most space.** It is the most commonly reached-for mutable collection and the one that maps most directly onto Spread. MutableDictionary follows the same pattern as a brief parallel. ObservableCollection gets one column because it is genuinely more advanced and most readers will not need it.&#xD;&#xA;&#xD;&#xA;**4. The &quot;clear each frame&quot; pattern.** Highlighted in its own column at the bottom because it is the single most common mistake when first using SpreadBuilder. Without naming it explicitly, readers will rebuild a fresh SpreadBuilder each frame and wonder why their performance did not improve.&#xD;&#xA;&#xD;&#xA;**5. Chapter 26's promise gets landed.** The reader sees that the &quot;collections become more interesting with custom types&quot; pointer from chapter 26 is fulfilled here — both via MutableDictionary's relationship to Dictionary and via the four-combinations framing.&#xD;&#xA;&#xD;&#xA;**6. No new mechanics or syntax beyond the basic operations.** The chapter assumes the reader knows Spread, Dictionary, pads, and basic operations. Everything else flows from analogy with what they already have.&#xD;&#xA;&#xD;&#xA;**7. Length.** Roughly seven columns of body text plus two live patches. Comparable in scope to chapter 43 — these two chapters are the deeper-cut pair, more substantial than 40 and 41 because the conceptual content is denser.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="5FRstouGWj3P5UOknbjv9B" Bounds="715,3345,401,459" ShowValueBox="true" isIOBox="true" Value="The last two chapters were about whether your objects should be Records or Classes. This chapter is about something different but related — whether the collections holding them should be immutable or mutable. The two questions sound similar, but they are independent, and confusing them is the single most common mistake in this corner of VL.&#xD;&#xA;&#xD;&#xA;Every collection type you have used so far in this tutorial — Spread, Dictionary — has been immutable. You add an element by producing a new collection with the element included. You remove an element by producing a new collection without it. The original collection is unchanged, and you store the new one back. This is the same pattern you have used with Records for the last few chapters.&#xD;&#xA;&#xD;&#xA;For most applications this works fine. But when you have many elements changing rapidly — hundreds or thousands of particles each frame, a constantly-updating set of objects in a game — the cost of producing a new collection every step starts to show. For those cases there are mutable collection types. They change in place, like Classes do.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="5PNY6E37LS03odQmAWlysC" Bounds="1183,3359,349,31" ShowValueBox="true" isIOBox="true" Value="A Separate Axis">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">15</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="6RMYZy2xN2460sX7Km92oh" Bounds="1183,3401,405,467" ShowValueBox="true" isIOBox="true" Value="The mutability of the collection and the mutability of its contents are two different questions. You can mix them freely. The four combinations are all valid and each makes sense for different reasons.&#xD;&#xA;&#xD;&#xA;An immutable Spread of immutable Records — what you have been using throughout this tutorial. Values flowing through, every modification producing a new collection.&#xD;&#xA;&#xD;&#xA;An immutable Spread of mutable Classes — useful when you want to control when the collection itself changes, but the individual objects need to be modified from multiple places.&#xD;&#xA;&#xD;&#xA;A mutable SpreadBuilder of immutable Records — useful when you want fast modification of the collection (adding, removing, clearing) but the individual elements stay as values.&#xD;&#xA;&#xD;&#xA;A mutable SpreadBuilder of mutable Classes — the most mutable option, useful when both axes need to change rapidly.&#xD;&#xA;&#xD;&#xA;The choice is not Records-or-Classes; the choice is two independent questions. This chapter looks at the collection side.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="4CvrElptvFZHlWtK71Kjt5" Bounds="1628,3360,349,31" ShowValueBox="true" isIOBox="true" Value="SpreadBuilder">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">15</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="0hiSfLx2hDH762C8sC5vFI" Bounds="1628,3402,405,301" ShowValueBox="true" isIOBox="true" Value="SpreadBuilder is the mutable counterpart to Spread. Where a Spread is a value — adding to it produces a new Spread — a SpreadBuilder is a mutable container that you modify in place. You add elements with Add, remove them with RemoveSliceAt, clear it all with Clear, and the SpreadBuilder itself stays the same instance throughout.&#xD;&#xA;&#xD;&#xA;When you need to hand the contents to something that expects a regular Spread — a ForEach, a downstream operation, a renderer — you call ToImmutable on the SpreadBuilder. This produces a snapshot Spread of its current state. The SpreadBuilder remains, and you can keep modifying it.&#xD;&#xA;&#xD;&#xA;The patch on the right shows a small example. A SpreadBuilder in a pad, with Add fired by a Bang. Each click adds a number to the collection. ToImmutable produces a current Spread for inspection.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="37fN2rZrXC20xz6Gr3Y2xF" Bounds="1628,3742,401,228" ShowValueBox="true" isIOBox="true" Value="**Live element (x=592, y=720):**&#xD;&#xA;- A SpreadBuilder&lt;Float&gt; in a pad.&#xD;&#xA;- A Bang button feeding Add with a random Float value.&#xD;&#xA;- A ToImmutable downstream producing a Spread&lt;Float&gt;.&#xD;&#xA;- An IOBox showing the current Spread.&#xD;&#xA;- A second Bang for Clear, which empties the SpreadBuilder.&#xD;&#xA;">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">7</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="5AX8eDzfFmOyCH5DVNd6Hj" Bounds="2085,3353,349,31" ShowValueBox="true" isIOBox="true" Value="MutableDictionary">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">15</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="34hogNxvADxOTbv29BmrSs" Bounds="2085,3395,405,350" ShowValueBox="true" isIOBox="true" Value="MutableDictionary is the mutable counterpart to Dictionary, which you met in chapter 26. The relationship is the same as SpreadBuilder's relationship to Spread. A Dictionary is a value — every modification produces a new one. A MutableDictionary changes in place.&#xD;&#xA;&#xD;&#xA;You use the same operations you know — Add or SetValue with a key, Remove, Clear — but the MutableDictionary itself remains the same instance throughout. When you need a regular Dictionary for downstream use, ToImmutable gives you a snapshot.&#xD;&#xA;&#xD;&#xA;This is what chapter 26 was pointing at when it said collections become more interesting once you have your own data types. A MutableDictionary&lt;String, Particle&gt; — a lookup table keyed by name, with Particles as values, all modifiable in place — is exactly the kind of structure many applications need. You can grow it, shrink it, and modify its values without ever producing a copy of the dictionary itself.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="5jPaYn9U8t2y6qAfMLTtbL" Bounds="2085,3785,401,228" ShowValueBox="true" isIOBox="true" Value="**Live element (x=1092, y=750):**&#xD;&#xA;- A MutableDictionary&lt;String, Float&gt; in a pad.&#xD;&#xA;- IOBoxes for a String key and a Float value, feeding SetValue.&#xD;&#xA;- A Bang to fire SetValue.&#xD;&#xA;- A second Bang for Remove, with a key input.&#xD;&#xA;- ToImmutable downstream, an IOBox showing the current Dictionary contents.&#xD;&#xA;">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">7</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="7MIOFLXczbVBjVW0zKbhR3" Bounds="2536,3369,349,31" ShowValueBox="true" isIOBox="true" Value="ObservableCollection">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">15</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="22SjY5joFGaygslKZzj8gT" Bounds="2536,3411,405,350" ShowValueBox="true" isIOBox="true" Value="There is a third mutable collection type worth knowing about — ObservableCollection. It is a mutable spread-like collection, but with one extra feature. It emits a notification every time it changes — when an element is added, removed, or modified. This is useful when other parts of your patch need to react to changes in the collection without polling for them.&#xD;&#xA;&#xD;&#xA;This connects to one of the things we discussed in chapter 43 about what you give up by using Classes — change detection becomes manual. ObservableCollection is one of the tools you can use to recover that capability. It is also the foundation of reactive patterns more generally, where parts of an application respond to events instead of checking values each frame.&#xD;&#xA;&#xD;&#xA;For most applications you will not need this. For applications that already use reactive patterns, ObservableCollection is the right starting point.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="5jJx746pXQ0t4lzLCiEhyx" Bounds="2984,3357,349,31" ShowValueBox="true" isIOBox="true" Value="The Four Combinations">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">15</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="6TwxVNY6lzhVXy08sJcySo" Bounds="2984,3399,412,499" ShowValueBox="true" isIOBox="true" Value="Going back to where this chapter started — four combinations, each with its own niche.&#xD;&#xA;&#xD;&#xA;Immutable Spread of Records is the default. Use it whenever you can, which is most of the time. Everything in VL is designed to flow this way, and you keep all the features Records give you automatically.&#xD;&#xA;&#xD;&#xA;Immutable Spread of Classes is useful when the collection itself is stable but individual objects need to be modified from elsewhere. You still get change detection on the spread when the spread changes, but the Classes inside can be updated in place. A common pattern for objects with internal state that updates each frame.&#xD;&#xA;&#xD;&#xA;Mutable SpreadBuilder of Records is useful when you are adding or removing elements rapidly but each element is still a value. Particle systems where particles get added and removed but each particle is itself a stable record of position and properties. This is often the right pick when you have measured a performance problem with Spread-of-Records.&#xD;&#xA;&#xD;&#xA;Mutable SpreadBuilder of Classes is the most mutable option and the most performant for many-element, fast-changing collections. It is also the option that gives up the most of Records' features — neither the collection nor the elements support change detection in the standard way. Reach for it when you need it, not before.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="42Rn2xjRNiDse11WPI1MYM" Bounds="3461,3362,349,31" ShowValueBox="true" isIOBox="true" Value="When to Reach For Them">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">15</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="1UklXrKicd8IA99eDnaTFu" Bounds="3461,3404,405,447" ShowValueBox="true" isIOBox="true" Value="The honest signal for switching to a mutable collection is the same as for switching to a Class — measure first. If your application runs at the framerate you need with an immutable Spread, you do not need a SpreadBuilder. If it does not, profile to find out where the cost actually is before assuming the answer is the collection type.&#xD;&#xA;&#xD;&#xA;That said, there are situations where mutable collections are almost always the right call from the start.&#xD;&#xA;&#xD;&#xA;Collections that change every frame and have hundreds or thousands of elements — particle systems, agents in a simulation, points in a constantly-updating dataset. The cost of producing a new immutable collection every frame is real at that scale.&#xD;&#xA;&#xD;&#xA;Collections that are accumulated incrementally — appending log entries, collecting measurements, building up a result over many frames. The accumulation pattern is what SpreadBuilder is designed for.&#xD;&#xA;&#xD;&#xA;Collections that need to support reactive patterns explicitly — UI lists where elements appear and disappear, where downstream components watch for changes. ObservableCollection fits naturally here.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="5RloMDtIlH8gvW2HRqKrqC" Bounds="3945,3365,402,32" ShowValueBox="true" isIOBox="true" Value="A Pattern to Know: Clear Each Frame">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">15</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="3egpe0UyP2HVnVhC9xa6Ih" Bounds="3945,3407,405,447" ShowValueBox="true" isIOBox="true" Value="One pattern with SpreadBuilder is worth naming because it confuses people the first time they hit it. If you want to rebuild a SpreadBuilder's contents every frame — for example, recomputing a list from scratch each tick — the temptation is to create a new SpreadBuilder each frame.&#xD;&#xA;&#xD;&#xA;This defeats the entire purpose. Creating a new SpreadBuilder each frame is exactly the per-frame allocation cost you switched to a SpreadBuilder to avoid. Instead, keep the same SpreadBuilder instance in a pad. At the start of each frame, call Clear on it to empty it. Then add the new contents. The SpreadBuilder is the same instance throughout — only its contents change.&#xD;&#xA;&#xD;&#xA;This is the pattern that gives mutable collections their actual performance benefit. The collection persists; only the data inside changes.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Overlay Id="44taklrzS43rgwSVuhv1Zv" Bounds="4456,3352,383,298">
+            <p:ColorIndex p:Type="Int32">10</p:ColorIndex>
+          </Overlay>
+          <Pad Id="58PUotvd9z0tFy8eLTlilr" Bounds="4457,3374,216,25" ShowValueBox="true" isIOBox="true" Value="Other Resources">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">12</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="77I3oEy7iRWVVVnTIkFqOe" Bounds="4457,3405,355,42" ShowValueBox="true" isIOBox="true" Value="Spread vs SpreadBuilder and Performance of Immutable Collections — TobyK">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="1MT50SQ2iaoKG5Mj99Z68Z" Bounds="4457,3444,357,19" ShowValueBox="true" isIOBox="true" Value="https://youtu.be/zGufG64WSF4">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="5ZFOKN3pWDAFmrYpg5wUw0" Bounds="4457,3480,358,31" ShowValueBox="true" isIOBox="true" Value="The Gray Book on Collections">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="38RboQXXhnPgXUa3fLA79R" Bounds="4457,3509,360,54" ShowValueBox="true" isIOBox="true" Value="https://thegraybook.vvvv.org/reference/language/types.html">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Node Name="MyClass" Bounds="4717,2210" Id="1ubNfP8M3xZowRo7o9B5x8">
+            <p:NodeReference>
+              <Choice Kind="ClassDefinition" />
+            </p:NodeReference>
+            <Patch Id="0Xb1NxuNHzRhEJF4oFw3Oz">
+              <Canvas Id="3aqxKzDr8mqNIK4LaJI7kx" CanvasType="Group">
+                <Pad Id="6YMh1E84jL8AZy2DRSduz8" SlotId="1GLHuQNZF1dmRzFGvUI8iY" Bounds="214,210" />
+                <ControlPoint Id="0dsdeg2zns5cqqCSCVQyqi" Bounds="214,180" />
+                <ControlPoint Id="02Ch7bSnKW3fGOsybYHxEi" Bounds="214,240" />
+              </Canvas>
+              <Patch Id="2QwnntsZXSciJ4sjudo2gr" Name="Create" />
+              <ProcessDefinition Id="5BkErEgip98xcwKGchleRy" IsHidden="true">
+                <Fragment Id="2pvWHcO900xPezOspjOg6B" Patch="2QwnntsZXSciJ4sjudo2gr" Enabled="true" />
+                <Fragment Id="5kOrgPaLAkJYE0SyzvaoT7" Patch="3dP2wgHQVR3pGOQn6jUE0p" />
+                <Fragment Id="5ccGZXyy7yCTf9aJTMTIYg" Patch="3L4Fcwe4QXR840ARunMY1o" />
+              </ProcessDefinition>
+              <Slot Id="1GLHuQNZF1dmRzFGvUI8iY" Name="Color">
+                <p:TypeAnnotation p:Type="TypeReference">
+                  <Choice Kind="TypeFlag" Name="RGBA" />
+                </p:TypeAnnotation>
+              </Slot>
+              <Patch Id="3dP2wgHQVR3pGOQn6jUE0p" Name="SetColor">
+                <Pin Id="69zzG77GqwnttP92PaRvCs" MergeId="6489" Name="Color" Kind="InputPin" />
+              </Patch>
+              <Patch Id="3L4Fcwe4QXR840ARunMY1o" Name="Color">
+                <Pin Id="5TWqwoaX4N1w132g9NeoRJ" MergeId="6495" Name="Color" Kind="OutputPin" />
+              </Patch>
+              <Link Id="1XQUVL2w5tqJWPHft44t2r" Ids="69zzG77GqwnttP92PaRvCs,0dsdeg2zns5cqqCSCVQyqi" IsHidden="true" />
+              <Link Id="1IZ2CyJPhtf2fgFhXtOkqW" Ids="0dsdeg2zns5cqqCSCVQyqi,6YMh1E84jL8AZy2DRSduz8" />
+              <Link Id="78xebtdngKyg8T0FROKuOE" Ids="02Ch7bSnKW3fGOsybYHxEi,5TWqwoaX4N1w132g9NeoRJ" IsHidden="true" />
+              <Link Id="7LE5IDK7nn9U3k5ThYicLw" Ids="6YMh1E84jL8AZy2DRSduz8,02Ch7bSnKW3fGOsybYHxEi" />
+            </Patch>
+          </Node>
+          <Node Name="MyRecord" Bounds="4717,2270" Id="6sYGHeCR7eGUBkYxKgc2JO">
+            <p:NodeReference>
+              <Choice Kind="RecordDefinition" />
+            </p:NodeReference>
+            <Patch Id="4dZrgIdKhtqQ1zC0atWP7o">
+              <Canvas Id="6DXI11azx3ScER2TsTxpD9" CanvasType="Group">
+                <Pad Id="5uA1bMTf3GIJ3R7nnPPA80" SlotId="3Z1v4G5R2GW5618l1DRnmz" Bounds="191,210" />
+                <ControlPoint Id="0z9EwgwcO1iKkYnxQllfGA" Bounds="191,180" />
+                <ControlPoint Id="1GgppDJ6VEtWNdcYtAr94y" Bounds="191,240" />
+              </Canvas>
+              <Patch Id="3CDQa2YOJ4b3zXsls3guob" Name="Create" />
+              <ProcessDefinition Id="0CL35MGqv8NteNvzuVjuVs" IsHidden="true">
+                <Fragment Id="5ZlFqzg69pfXTOta7vNErQ" Patch="3CDQa2YOJ4b3zXsls3guob" Enabled="true" />
+                <Fragment Id="6BzNrFGSiPkCDNwvr0u5Hs" Patch="12Q79me2rnud35F83x8CLB" />
+                <Fragment Id="2IMQB4nDL2ajkerldfKWRg" Patch="6hYFMOK9fsnuksPq2JmI1s" />
+              </ProcessDefinition>
+              <Slot Id="3Z1v4G5R2GW5618l1DRnmz" Name="Color">
+                <p:TypeAnnotation p:Type="TypeReference">
+                  <Choice Kind="TypeFlag" Name="RGBA" />
+                </p:TypeAnnotation>
+              </Slot>
+              <Patch Id="12Q79me2rnud35F83x8CLB" Name="SetColor">
+                <Pin Id="01o3YAhTnE8IQZi2xsvNc7" Name="Color" Kind="InputPin" />
+              </Patch>
+              <Link Id="2SShCXGk2tbefL6w1WTaWL" Ids="01o3YAhTnE8IQZi2xsvNc7,0z9EwgwcO1iKkYnxQllfGA" IsHidden="true" />
+              <Link Id="2mckNME1AIxPXo7864ooxR" Ids="0z9EwgwcO1iKkYnxQllfGA,5uA1bMTf3GIJ3R7nnPPA80" />
+              <Patch Id="6hYFMOK9fsnuksPq2JmI1s" Name="Color">
+                <Pin Id="1pd3nXSl8tY0Hteta3WRJD" Name="Color" Kind="OutputPin" />
+              </Patch>
+              <Link Id="0Jbuw4zpeoXUqrLXwOnYww" Ids="1GgppDJ6VEtWNdcYtAr94y,1pd3nXSl8tY0Hteta3WRJD" IsHidden="true" />
+              <Link Id="2aG01Nxox3ql66w0zBkrEG" Ids="5uA1bMTf3GIJ3R7nnPPA80,1GgppDJ6VEtWNdcYtAr94y" />
+            </Patch>
+          </Node>
         </Canvas>
-        <Patch Id="1eFD22LBG1AbmqvNj6JA1D" Name="Create" />
-        <Patch Id="39l3pQjn9KMPYcIYOBUNAM" Name="Update" />
-        <ProcessDefinition Id="1bvEqr4VoG6mXK1oiIRMTm">
-          <Fragment Id="1dK74aZ9O53Tj9GChmZ6st" Patch="1eFD22LBG1AbmqvNj6JA1D" Enabled="true" />
-          <Fragment Id="1PG5z9qW5I4BNPVBlpL7wK" Patch="39l3pQjn9KMPYcIYOBUNAM" Enabled="true" />
+        <Patch Id="59YYtaZyjIOlrEOmSZz0oW" Name="Create" />
+        <Patch Id="38hJafC9E1ZwqKNxNpMEYm" Name="Update" />
+        <ProcessDefinition Id="3LVgcq7JuJA7m7Rgjdxjal">
+          <Fragment Id="2dewrTzq4yvRaK1dE5Naja" Patch="59YYtaZyjIOlrEOmSZz0oW" Enabled="true" />
+          <Fragment Id="5wPIMG1GLiYHmacZGioJeL" Patch="38hJafC9E1ZwqKNxNpMEYm" Enabled="true" />
         </ProcessDefinition>
+        <Slot Id="40ZoZkHxwGG6Ij75YMF2pa" Name="MyRecord2" />
+        <Slot Id="76ywE5sTvdvMC29OmBi5G1" Name="MyClass2" />
+        <Slot Id="5PbWJmEvScQqNiR5hoebYq" Name="MyRecord3" />
+        <Slot Id="0jCB0FE68x2aH4pw1kbqFZ" Name="MyRecord4" />
+        <Slot Id="4EC4pNzDu9hR1wyo2IVZpX" Name="MyClass4" />
+        <Link Id="7NlngcMehdA6ZGbyqTAiAT" Ids="56ipmAE7uVkZQ8D6iG0Jr2,2lxhW2HjqmbevVTtkHkRLW" />
+        <Link Id="2QChL6PdRsRyeq3WxrxFXp" Ids="2lxhW2HjqmbevVTtkHkRLW,1XpjD85XBlU7MhTwfPfGBl" />
+        <Link Id="48e8hQfaHfQJbQGewWPatl" Ids="2YJkT3YYPKkAJej6TQrgqm,1elmiqAdNfvLfHEHSMnnI3" />
+        <Link Id="1QwA1uFzkJk4iswyJ2LiKG" Ids="2IJ9bjtHbCbsEyREoEVM1y,4JVidZVw7XcNkVsEenSd7P" />
+        <Link Id="36GCl8MnNCfD3NAZaxZPQh" Ids="0ZCrhFFAexOJC3TiiAxPHR,1mWOBevc9HBHthh9lKs4le" />
+        <Link Id="21I8WZRVDkyt9dSpl2SHx0" Ids="3nm3JbvhnVsPyjiImGnKbM,6TitIDPL9Okx8K5SEKssak" />
+        <Link Id="6vSwijn1vrvgSDQCzXmrwN" Ids="5qd9uMpir1EuXER1KqABOP,6z6IckPDVNJmT2zvJlOq6S" />
+        <Link Id="3QgJdLDp4OTbChhKDNELci" Ids="0G7ZaovLUoA7N32RRZlYng,0ChSWex2Uh38HjAvPF1jiZ" />
+        <Link Id="1MttRYNQBzy1BbrjVJ271c" Ids="4oRjdEqbyzFcUnGtfnjAwy,3jkr9Od8ROGpvw4mXttb87" />
+        <Link Id="7P4fGtz9vEbkz68aJd9qeL" Ids="3jWti0B1ZduIB0JzgBeG5H,3zg3zV3j0lA1Mgb6HTz6dN" />
+        <Link Id="4K6Czpd1mR4CicgPgfzZo9" Ids="6Bnw8AKoM2EgHLFyUVnGpz,4vzCJVVj2P27VjbmwyqLCW" />
+        <Link Id="4EJknO1SXdjpt5ghcWWhCE" Ids="6Bnw8AKoM2EgHLFyUVnGpz,2CPLDp1lciRBItbQB4vYhK" />
+        <Link Id="2OV5AlTzVPgi3cWkdeeyPP" Ids="16W61zhKWL82hgqctxBgwz,6hM39ZGRDsBVrRm05EywJw" />
+        <Link Id="4JJFJMcm57Rg5MVBNM0CSm" Ids="0dO6OCCtzOnZatjzFYKE8q,2WMO4AtvxIvadHazPf2QQC" />
+        <Link Id="4dnME4i6oAGKQIwBWolxFh" Ids="3iEVCovY22B6jbRESlo4OD,4qmViYeRTUwHkoVqS4TTvg" />
+        <Link Id="1Y7KVTRh8lDa8mIXfBaUXX" Ids="4qmViYeRTUwHkoVqS4TTvg,4WekvTrfriEMe9PhEtPTCM" />
+        <Link Id="4bFPJTy1pRoaVP7duf2qLL" Ids="09Dc7ETeIKCsyuxRpaxafD,3yoOimKRoBF6rsYLS33EUW" />
+        <Link Id="30rv1zpuEqeShqXKZkfvmY" Ids="1AXrEWcfgEMyHBxsVis58W,6oU7hVch5uO5VbXqKE9Vhv" />
+        <Link Id="2FmJuR50HFWTPGfiQEoe7f" Ids="6uvU70PKbiVgAmkbURhGz4,6THISNeBvHsm71W78I80FD" />
+        <Link Id="1SPmyB0o4Q2Z5YJOj2BvTr" Ids="6Bnw8AKoM2EgHLFyUVnGpz,45BpG7S2zAHsFHnoG5o0qE" />
+        <Link Id="0vC1TLWpgFWpd5OrZtV0Bl" Ids="7lWPhG03VEiCQ6P7yMeMsE,56dQ0B3C6yxhwx3c3xgGdx" />
+        <Link Id="4DGSOLQ7PrZcjNmnuV59Lg" Ids="4NVOI23SEjZ5UB29tQJ5Hs,17Ab6dnqCtoGmXt4s9OVFE" />
+        <Link Id="7bGdqYOQNgCJYh4cdusdI0" Ids="6uvU70PKbiVgAmkbURhGz4,6PlMfL7dCELU4SJXvYQMnT" />
+        <Link Id="5cCLw6zX9esepcBTMxag66" Ids="7hM53CKbButAYjLXpovzG9,6uvU70PKbiVgAmkbURhGz4" />
+        <Link Id="2CcGPkSHXe68kgdMdNI1IA" Ids="6IGCmrwtXx67RIO96jRtqT,7dsmHuyrN1kG4fE5ow5anp" />
+        <Link Id="47DCV7hRDPy8BmY5bTCfH3" Ids="7dsmHuyrN1kG4fE5ow5anp,3JICuiuAOeSV3mLQ8YUCKK" />
+        <Link Id="2kZMWC6qKHEnUstYYXkY8n" Ids="7RgjFLd1Tu1Hnl95qqFMfE,2UCu5ouIthLTROABrmJKrE" />
+        <Link Id="3LX3dPHThHbwaHNMKeABGy" Ids="1cfMdQt9ZqkZuaEiw0mbWm,5L6Pto2ukXHjT9n86YN90P" />
+        <Link Id="42XlBf2mBzisLGxiNauVeS" Ids="45bKhyvdYNT5jg7M8AWXBc,6A3S4DsqrE0h9qbVpKdKpK" />
+        <Link Id="781VZyRPzpq49xGebCtD2t" Ids="026eABK8feY8Yn4p0HRcGC,6Bnw8AKoM2EgHLFyUVnGpz" />
+        <Link Id="598cdKHm8OtJj5VekYgv8A" Ids="65obmiquxkNdgYbt1GtPAH,052V5lwb3nTykJiciD5DBo" />
+        <Link Id="3nhK8WnPNnSaxooJPugPCv" Ids="7VSQMHwGDg9DjLelk1HRl3,0pYTgBzbeN4WmibBNpf70c" />
+        <Link Id="6CTUX3zHcoar9ciPvgcMCd" Ids="4ohyT3Lwod2foW502PHG6X,1zIZVVcxFFV1uO1Mj0iweQ" />
+        <Link Id="1XOo5lGIOxmk39CkpdfYhg" Ids="7dsmHuyrN1kG4fE5ow5anp,217NKnWQqYrT2h8OivCL5U" />
+        <Link Id="0Bx4vLLZJbW746dY07LXID" Ids="3CqaVqFjRbeptMdPfbiUo1,3UtIe2q2wwOsiWnWeGUNuW" />
+        <Link Id="55DDWf4Wc1Putv1wOWADNT" Ids="7eSJcXQwzolS6bbLbhvl3t,18ErctA4TmqbH1ySwYem1A" />
+        <Link Id="1yMAV6dpNT9NBHSzJLjRki" Ids="79sDnKdEeX9no77NPR4qhC,5ioaGNyRLJOIWFFbeGXWDY" />
+        <Link Id="0lO0neredQOp0r44odf15i" Ids="4GsZDMLwZ3LhXIdIOuGod1,73l6oEYbgXOH25EDRmnpqa" />
+        <Link Id="5FL3h8EhUsBvl5aTUhyTzg" Ids="7dsmHuyrN1kG4fE5ow5anp,32lv6fjrj11q2NqCCUxmWf" />
+        <Link Id="5DjNCmdOBbL2CBrjaSj3GD" Ids="2RmF91csfWzPHgY00yximp,5Jfyu4zC0oDzECIlp6yuuM" />
+        <Link Id="4kYdTUDIra3m8zOeo6tNZ1" Ids="4oU5K34WyaGSLzmbruRlMy,7ISDTFaMXHvqEvBLxCEUAY" />
+        <Link Id="4Z069p9wZ0mAbv353a3hM1" Ids="5L6Pto2ukXHjT9n86YN90P,4BhhzhfYvnx3idsMqbpust" />
+        <Link Id="6004rqE7pFgPqp67JQOs2M" Ids="4JVidZVw7XcNkVsEenSd7P,47bjWHx0wLcpjjth5ddCma" />
+        <Link Id="2Mv1tJUawQ4ORgG0TMUPl3" Ids="15CiuqsVjQxCCpKuPgK6Ft,00vZFwqo4zIh96OpwhMX7n" />
+        <Link Id="3Pe0swHnGbdFA6zPYrkNPc" Ids="70VA7JBwHEGsbagbpxtImy,3skRsXGPR50jKkpNtshQ6e" />
+        <Link Id="1aGg7vCayyBnaSHcxCGbVc" Ids="3nm3JbvhnVsPyjiImGnKbM,3mTb8uEYnej7Sfeh6tWEQc" />
+        <Link Id="3nfZeCulZelHAiJAmLOWR1" Ids="2yzS24DvXG2yd9SNJVvCzv,39pVfMoAcM4Wbk9tJV3W22" />
+        <Link Id="4qOEyP8XmDlbmGFz4weViI" Ids="0ZCrhFFAexOJC3TiiAxPHR,4BFtUaV6pBHI7263IyddKT" />
+        <Link Id="0UC2yHpov9kCY0GmjsTW0v" Ids="2n37XhIPPE4J1ORdEpLBd9,6OSZqdfpk2ITF7CWO6ZII8" />
+        <Link Id="5IfygpfI8DBCnONwGQVykv" Ids="0DyCuSMpqTTNFdMdrBtwOp,4ohyT3Lwod2foW502PHG6X" />
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="06C2qvQy9lds7LjSbtExvx" Location="VL.Stride" Version="2025.7.2" />
-  <NugetDependency Id="5NeeFsR39GFG7FDGEmyGA9" Location="VL.Skia" Version="2025.7.2" />
-  <DocumentDependency Id="3Mhtvm5xw8dYMUsjY17XZu" Location="../../include/Nodes.vl" />
-  <DocumentDependency Id="5tvhTVqjcvK5Gl9CHELIff" Location="../../VL.TheBigBang.vl" />
-  <NugetDependency Id="5IZo8dAmgzJoJyPe6Dg0Ou" Location="VL.Stride.TextureFX" Version="2025.7.2" />
+  <NugetDependency Id="1F4YnxBupLGjiyKZMC7FbP" Location="VL.Stride" Version="2025.7.3" />
+  <NugetDependency Id="4tJz070now58aLZRPFnmul" Location="VL.Skia" Version="2025.7.3" />
+  <DocumentDependency Id="3VpFjKXZ5wzNQh3M9i9qVZ" Location="../../include/Nodes.vl" />
+  <DocumentDependency Id="0jejUr5Wl78lDIGuB6nxU2" Location="../../VL.TheBigBang.vl" />
+  <NugetDependency Id="5lDy0inPBf6Pr03ZXUtGYU" Location="VL.Stride.TextureFX" Version="2025.7.3" />
 </Document>
