@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="0qKsEXEcF4tYhxQlXsxOBv" LanguageVersion="2025.7.2" Version="0.128">
-  <NugetDependency Id="00FnjewoKbOvHNJPMT6oWx" Location="VL.CoreLib" Version="2025.7.2" />
-  <Patch Id="1TyhfCv8jVLaObC770zGV5">
-    <Canvas Id="0I0Imjil3cDxowJ9AA7gEm" DefaultCategory="Main" CanvasType="FullCategory" />
-    <Node Name="Application" Bounds="100,100" Id="0fyF40xZiTtzYHYQii0WU2">
+<Document xmlns:p="property" xmlns:r="reflection" Id="6v8t8y0minXhweHl7dTKV1" LanguageVersion="2025.7.2" Version="0.128">
+  <NugetDependency Id="7RNcqezRbrsuuexboVDSA9" Location="VL.CoreLib" Version="2025.7.2" />
+  <Patch Id="094qLNUQUF9j2s3jPjT7Bb">
+    <Canvas Id="69IJgzGqOadvxX9pIiV1jJ" DefaultCategory="Main" CanvasType="FullCategory" />
+    <Node Name="Application" Bounds="100,100" Id="7aMPh2S0vfMFjjNwmxR9qz">
       <p:NodeReference>
         <Choice Kind="ContainerDefinition" Name="Process" />
         <CategoryReference Kind="Category" Name="Primitive" />
       </p:NodeReference>
-      <Patch Id="4jzoc654kloM859ylGM1zM">
-        <Canvas Id="1oOdpENQ0jZFwsLdAQAtdN" CanvasType="Group">
-          <Pad Id="1jnkd8xg2IhTGhQnr3qiSo" Bounds="72,113,482,46" ShowValueBox="true" isIOBox="true" Value="38. Object-Oriented Patching">
+      <Patch Id="1unC1AsyUqNAZE9qXGsfr5">
+        <Canvas Id="3Ou61MmljKXqwsqkOXBSh6" CanvasType="Group">
+          <Pad Id="7aPPe3uM8EdI2Kb5jp7oPu" Bounds="72,113,482,46" ShowValueBox="true" isIOBox="true" Value="38. Object-Oriented Patching">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -19,7 +19,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="0bz1zdt4U3TxWMx6sKXjnU" Bounds="72,86,364,25" ShowValueBox="true" isIOBox="true" Value="VL.TheBigBang">
+          <Pad Id="48S6P8uZ8iTCh13zNJXxRn" Bounds="72,86,364,25" ShowValueBox="true" isIOBox="true" Value="VL.TheBigBang">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -29,7 +29,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="0VKDWjlfmnWx7xDqfgwy70" Bounds="552,86,66,15" ShowValueBox="true" isIOBox="true" Value="Made by chk">
+          <Pad Id="3DLRDgebl1VA5PUVrdSu2k" Bounds="552,86,66,15" ShowValueBox="true" isIOBox="true" Value="Made by chk">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -38,7 +38,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="0SXlQmI0UJW5lP31oDK6KF" Bounds="617,86,140,19" ShowValueBox="true" isIOBox="true" Value="https://www.3e8.studio">
+          <Pad Id="7IfE43FsJmPIGd3NS36A1s" Bounds="617,86,140,19" ShowValueBox="true" isIOBox="true" Value="https://www.3e8.studio">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -47,7 +47,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="12EtV9Y0citWpssr0uRc00" Bounds="792,86,369,15" ShowValueBox="true" isIOBox="true" Value="If you find this material helpful, please consider supporting its development via">
+          <Pad Id="0pZb3dChnxC8GTv6WA21MF" Bounds="792,86,369,15" ShowValueBox="true" isIOBox="true" Value="If you find this material helpful, please consider supporting its development via">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -56,7 +56,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="3va4WG1WKsTpGplo1uhee5" Bounds="1160,86,140,19" ShowValueBox="true" isIOBox="true" Value="https://www.ko-fi.com/chk">
+          <Pad Id="1VU8DqCWxrdcFMgZ6vEOna" Bounds="1160,86,140,19" ShowValueBox="true" isIOBox="true" Value="https://www.ko-fi.com/chk">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -65,7 +65,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="3vEri2Wmj4jrhwcFRywPti" Bounds="92,206,1400,180" ShowValueBox="true" isIOBox="true" Value="The language you have been patching in is called VL. It is the language vvvv is built upon — much of what you have used so far, nodes and types alike, is itself defined in VL, and the rest comes directly from the .NET world underneath. What makes VL unusual is that it compiles into C# in real time, as you patch. You are not scripting or configuring a runtime; you are writing a compiled, typed programming language with a visual syntax. Everything you build runs as compiled .NET code — the same kind of code a C# programmer ships.&#xD;&#xA;&#xD;&#xA;Almost since we started patching we have been working with objects in vvvv. Every Circle, every Rectangle, every Material, every Spread you have placed in your patch is an instance of a data type that someone defined somewhere — in VL, as it turns out. And from chapter 11 onwards you have also started defining your own — every Process node is in fact a little object, with its own pins, its own behavior, and its own little life inside the patch.&#xD;&#xA;&#xD;&#xA;In this final part of the tutorial we will name what you have been doing all along, and then unlock the rest of it. From here on you will be able to define your own data types from the ground up, give them properties, give them behavior, and use them to organize your patches in ways that were not possible before.">
+          <Pad Id="7R6Y6Do4jut79Oso97QXCk" Bounds="92,215,400,196" ShowValueBox="true" isIOBox="true" Value="The language you have been patching in is called VL. It is the language vvvv is built upon — much of what you have used so far, nodes and types alike, is itself defined in VL, and the rest comes directly from the .NET world underneath. What makes VL unusual is that it compiles into C# in real time, as you patch. You are not scripting or configuring a runtime; you are writing a compiled, typed programming language with a visual syntax. Everything you build runs as compiled .NET code — the same kind of code a C# programmer ships.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -74,7 +74,25 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="6U1P80RRlre6KTyK3LbPHD" Bounds="92,310,270,31" ShowValueBox="true" isIOBox="true" Value="Objects You Already Know">
+          <Pad Id="1aZ1xoriACkVJZvL1Jo3Wr" Bounds="592,215,400,158" ShowValueBox="true" isIOBox="true" Value="Almost since we started patching we have been working with objects in vvvv. Every Circle, every Rectangle, every Material, every Spread you have placed in your patch is an instance of a data type that someone defined somewhere — in VL, as it turns out. And from chapter 11 onwards you have also started defining your own — every Process node is in fact a little object, with its own pins, its own behavior, and its own little life inside the patch.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="6w1vLhSewfvWXPNutTJsi5" Bounds="1092,215,400,120" ShowValueBox="true" isIOBox="true" Value="In this final part of the tutorial we will name what you have been doing all along, and then unlock the rest of it. From here on you will be able to define your own data types from the ground up, give them properties, give them behavior, and use them to organize your patches in ways that were not possible before.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="4Dltquytazp6WpZPFi7j4I" Bounds="92,451,270,31" ShowValueBox="true" isIOBox="true" Value="Objects You Already Know">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -83,25 +101,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="3TLhz4RF1JyL3KbvZOHhHF" Bounds="92,347,430,380" ShowValueBox="true" isIOBox="true" Value="You can see an object as a composition of the primitive data types we have met so far. An object is basically a combination of value types to come up with something more complex. In this sense a Vector2 is already an object. A Vector2 (Join) takes an X and a Y and bundles them into one type. A Vector2 (Split) takes that bundle apart again. The two values travel together as one thing, with their own name and their own identity in the patch.&#xD;&#xA;&#xD;&#xA;A Circle from chapter 10 does the same on a larger scale. It bundles a Center and a Radius into one type. It also comes with operations — Hit Test tells you whether a point lies inside the Circle. The Circle is a data type someone defined inside vvvv, with properties bundled together and operations that work on them. Hover over the link coming out of a Circle node and you will see its type in the tooltip.&#xD;&#xA;&#xD;&#xA;Simpler values like Floats, Booleans, and numbers are not objects in this sense — they are just single values. Objects are what you get when you compose those single values into something larger that travels as one thing.">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="String" />
-            </p:TypeAnnotation>
-            <p:ValueBoxSettings>
-              <p:fontsize p:Type="Int32">9</p:fontsize>
-              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
-            </p:ValueBoxSettings>
-          </Pad>
-          <Pad Id="1H9XKo7OEkzKTlDdhsXitW" Bounds="92,750,430,100" ShowValueBox="true" isIOBox="true" Value="&lt; LIVE ELEMENT — build by hand:&#xD;&#xA;&#xD;&#xA;A Circle node with values feeding in, and a Hit Test operation showing the result. Two input IOBoxes, one output. The reader can hover and see &quot;Circle&quot; in the tooltip.">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="String" />
-            </p:TypeAnnotation>
-            <p:ValueBoxSettings>
-              <p:fontsize p:Type="Int32">9</p:fontsize>
-              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
-            </p:ValueBoxSettings>
-          </Pad>
-          <Pad Id="1Y8wy3LmnWKnmN7lSh42Wm" Bounds="592,310,200,31" ShowValueBox="true" isIOBox="true" Value="Defining Your Own">
+          <Pad Id="3i7hbD9yM5O5uRvz9QIu3p" Bounds="592,451,200,31" ShowValueBox="true" isIOBox="true" Value="Defining Your Own">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -110,16 +110,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="7hDpb4Ukfe8JN9JWByIMDh" Bounds="592,347,430,300" ShowValueBox="true" isIOBox="true" Value="Remember the ColoredCircle from chapter 11. We defined it as a Process node — it had input pins for Position, Size and Color, an Update operation that drew the circle, and we placed it three times in the patch to draw three different circles.&#xD;&#xA;&#xD;&#xA;That ColoredCircle was already an object. We did not call it that at the time, but bundling properties and behavior into a named type with a place in the Node Browser is exactly what an object is. Every Process node you have written in this tutorial has been your own custom data type, with its own bundle of pins and its own little life.&#xD;&#xA;&#xD;&#xA;So we are not starting from zero in this part of the tutorial. We are taking what you can already do and going one step further — from defining types as Process nodes to defining them as Records, which is the default and most flexible way to define a data type in VL.">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="String" />
-            </p:TypeAnnotation>
-            <p:ValueBoxSettings>
-              <p:fontsize p:Type="Int32">9</p:fontsize>
-              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
-            </p:ValueBoxSettings>
-          </Pad>
-          <Pad Id="33WKu0GZ4H815unOWXtZam" Bounds="1092,310,240,31" ShowValueBox="true" isIOBox="true" Value="A Record from Scratch">
+          <Pad Id="0JuRIXmq0GtR1XuGzJVdRA" Bounds="1092,451,240,31" ShowValueBox="true" isIOBox="true" Value="A Record from Scratch">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -128,7 +119,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="6hICaiL1bwObYQkgNWLjJo" Bounds="1092,347,430,300" ShowValueBox="true" isIOBox="true" Value="A Record is the default way to define your own data type in VL. You can create one by typing the name you want in the Node Browser and choosing &quot;Record&quot;. You can also create one directly from the Patch Explorer in the top-left corner of the document.&#xD;&#xA;&#xD;&#xA;Once you have a Record, you can give it properties. A property is a named value of any type — a Float, a String, a Vector, even another Record. Each property can be exposed as an input pin on the Create operation, so you can set its value when you make a new instance.&#xD;&#xA;&#xD;&#xA;In the example below we have defined a Record called Thing. It has two properties — a Position and a Size. Right-click on the Thing definition in the Patch Explorer to open it, then come back and look at the Create operation. The two properties are set through input pins on top, and the Thing itself comes out at the bottom.">
+          <Pad Id="60JM2EUW6zh8EapwmM5xeX" Bounds="92,490,400,405" ShowValueBox="true" isIOBox="true" Value="You can see an object as a composition of the primitive data types we have met so far. An object is basically a combination of value types to come up with something more complex. In this sense a Vector2 is already an object. A Vector2 (Join) takes an X and a Y and bundles them into one type. A Vector2 (Split) takes that bundle apart again. The two values travel together as one thing, with their own name and their own identity in the patch.&#xD;&#xA;&#xD;&#xA;A Circle from chapter 10 does the same on a larger scale. It bundles a Center and a Radius into one type. It also comes with operations — Hit Test tells you whether a point lies inside the Circle. The Circle is a data type someone defined inside vvvv, with properties bundled together and operations that work on them. Hover over the link coming out of a Circle node and you will see its type in the tooltip.&#xD;&#xA;&#xD;&#xA;Simpler values like Floats, Booleans, and numbers are not objects in this sense — they are just single values. Objects are what you get when you compose those single values into something larger that travels as one thing.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -137,7 +128,34 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="0EDUARNGyaS7FTv2gqoRl7" Bounds="92,900,250,31" ShowValueBox="true" isIOBox="true" Value="Inspecting Your Record">
+          <Pad Id="0oZ0RFGoZDlvaB8xjj8CvN" Bounds="592,490,400,348" ShowValueBox="true" isIOBox="true" Value="Remember the ColoredCircle from chapter 11. We defined it as a Process node — it had input pins for Position, Size and Color, an Update operation that drew the circle, and we placed it three times in the patch to draw three different circles.&#xD;&#xA;&#xD;&#xA;That ColoredCircle was already an object. We did not call it that at the time, but bundling properties and behavior into a named type with a place in the Node Browser is exactly what an object is. Every Process node you have written in this tutorial has been your own custom data type, with its own bundle of pins and its own little life.&#xD;&#xA;&#xD;&#xA;So we are not starting from zero in this part of the tutorial. We are taking what you can already do and going one step further — from defining types as Process nodes to defining them as Records, which is the default and most flexible way to define a data type in VL.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="323kE4bz3JIeb1JROysju6" Bounds="1092,490,400,348" ShowValueBox="true" isIOBox="true" Value="A Record is the default way to define your own data type in VL. You can create one by typing the name you want in the Node Browser and choosing &quot;Record&quot;. You can also create one directly from the Patch Explorer in the top-left corner of the document.&#xD;&#xA;&#xD;&#xA;Once you have a Record, you can give it properties. A property is a named value of any type — a Float, a String, a Vector, even another Record. Each property can be exposed as an input pin on the Create operation, so you can set its value when you make a new instance.&#xD;&#xA;&#xD;&#xA;In the example below we have defined a Record called Thing. It has two properties — a Position and a Size. Right-click on the Thing definition in the Patch Explorer to open it, then come back and look at the Create operation. The two properties are set through input pins on top, and the Thing itself comes out at the bottom.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="3NjyZozuJBl4fXBHfUrmvf" Bounds="92,935,400,101" ShowValueBox="true" isIOBox="true" Value="&lt; LIVE ELEMENT — build by hand:&#xD;&#xA;&#xD;&#xA;A Circle node with values feeding in, and a Hit Test operation showing the result. Two input IOBoxes, one output. The reader can hover and see &quot;Circle&quot; in the tooltip.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="5IjelII4Ksc6BGTPMTAxOW" Bounds="92,1076,250,31" ShowValueBox="true" isIOBox="true" Value="Inspecting Your Record">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -146,7 +164,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="1ipqouOIEm9Mvayhb6Hc5c" Bounds="92,937,1400,140" ShowValueBox="true" isIOBox="true" Value="One of the nicest things about defining your own data type is that you can inspect it from anywhere in the patch, just like any built-in type. Hover over a link carrying a Thing and you will see the type name in the tooltip. Right-click on the Thing definition in the Patch Explorer and you can see all its properties at a glance. As you go through the rest of this tutorial, this becomes one of the main ways to understand what is happening in your patch — every link carries a value of a known type, and every value can be inspected.&#xD;&#xA;&#xD;&#xA;Since much of vvvv is built in VL, you can also look inside many built-in nodes and see exactly how they were defined — the same way you will define your own types in the chapters ahead. To do this, enable Browsable Packages in Quad Menu &gt; Settings. Once on, right-click a VL-defined node and choose Definition &gt; Open. (Some nodes are implemented in C# instead — those you cannot open this way.) This is one of the best ways to learn — find a node you already use and look at how it is built.">
+          <Pad Id="3Or30402ayJtx8eoxSPjOP" Bounds="92,1115,400,196" ShowValueBox="true" isIOBox="true" Value="One of the nicest things about defining your own data type is that you can inspect it from anywhere in the patch, just like any built-in type. Hover over a link carrying a Thing and you will see the type name in the tooltip. Right-click on the Thing definition in the Patch Explorer and you can see all its properties at a glance. As you go through the rest of this tutorial, this becomes one of the main ways to understand what is happening in your patch — every link carries a value of a known type, and every value can be inspected.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -155,7 +173,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="41WW19hT4IFdQpw86zSbUe" Bounds="92,1010,430,80" ShowValueBox="true" isIOBox="true" Value="&lt; LIVE ELEMENT — build by hand:&#xD;&#xA;&#xD;&#xA;The Thing placed in an inspection layout with annotated &quot;hover here to see Thing&quot; waypoints. An invitation to interact, not a new lesson.">
+          <Pad Id="0xrxGDPi1QEi01IHOGSCHw" Bounds="592,1115,400,177" ShowValueBox="true" isIOBox="true" Value="Since much of vvvv is built in VL, you can also look inside many built-in nodes and see exactly how they were defined — the same way you will define your own types in the chapters ahead. To do this, enable Browsable Packages in Quad Menu &gt; Settings. Once on, right-click a VL-defined node and choose Definition &gt; Open. (Some nodes are implemented in C# instead — those you cannot open this way.) This is one of the best ways to learn — find a node you already use and look at how it is built.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -164,7 +182,16 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="1dhMSoOGvU0MlY267q43ok" Bounds="92,1300,380,31" ShowValueBox="true" isIOBox="true" Value="Records, Classes, and What's Coming">
+          <Pad Id="5XJ3ZR1iauekYO5ywqBLcV" Bounds="92,1351,400,101" ShowValueBox="true" isIOBox="true" Value="&lt; LIVE ELEMENT — build by hand:&#xD;&#xA;&#xD;&#xA;The Thing placed in an inspection layout with annotated &quot;hover here to see Thing&quot; waypoints. An invitation to interact, not a new lesson.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="7ZTk7QhK62fki1O1zAVuq7" Bounds="92,1492,380,31" ShowValueBox="true" isIOBox="true" Value="Records, Classes, and What's Coming">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -173,7 +200,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="1ecW3kqU8jITdpOhZX4qx2" Bounds="92,1337,1400,100" ShowValueBox="true" isIOBox="true" Value="Record is the default way to define your own data type in VL, and it is what we will use throughout most of Part V. There is also a second flavor called Class, which is the same idea with one specific difference — Classes can be changed in place, while Records always produce a new copy when you modify them. We will get to Classes in chapter 43, where the difference will become visible and useful. Until then, every example we build will be a Record.&#xD;&#xA;&#xD;&#xA;In the next chapters we will give our types real behavior. We will look at operations — first on a Process you already know, then on Records — and see how defining your own operations turns a bundle of properties into a properly useful thing.">
+          <Pad Id="1BQfpCzmTmbkGpfqj0ZasQ" Bounds="92,1531,400,158" ShowValueBox="true" isIOBox="true" Value="Record is the default way to define your own data type in VL, and it is what we will use throughout most of Part V. There is also a second flavor called Class, which is the same idea with one specific difference — Classes can be changed in place, while Records always produce a new copy when you modify them. We will get to Classes in chapter 43, where the difference will become visible and useful. Until then, every example we build will be a Record.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -182,7 +209,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="0uCNNv4K4F0fr3idlsNRRP" Bounds="92,1530,430,20" ShowValueBox="true" isIOBox="true" Value="The Gray Book on Nodes">
+          <Pad Id="1DG4rthnKS0DNugtki4aab" Bounds="592,1531,400,101" ShowValueBox="true" isIOBox="true" Value="In the next chapters we will give our types real behavior. We will look at operations — first on a Process you already know, then on Records — and see how defining your own operations turns a bundle of properties into a properly useful thing.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -191,7 +218,16 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="4Z5A4IYXaU53CER39d7mr1" Bounds="92,1550,363,19" ShowValueBox="true" isIOBox="true" Value="https://thegraybook.vvvv.org/reference/language/nodes.html">
+          <Pad Id="5IfVAOr0cOo3vHej1OmRz1" Bounds="92,1729,400,25" ShowValueBox="true" isIOBox="true" Value="The Gray Book on Nodes">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="5D7rcJ2OEAy9tpUpCKpv3a" Bounds="92,1756,363,19" ShowValueBox="true" isIOBox="true" Value="https://thegraybook.vvvv.org/reference/language/nodes.html">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -200,7 +236,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="6ojJq3q2p1zSxFewWu2RTT" Bounds="92,1590,430,20" ShowValueBox="true" isIOBox="true" Value="The Gray Book on Types">
+          <Pad Id="4ydsKaKWsIp3EYNEuB1Eem" Bounds="92,1815,400,25" ShowValueBox="true" isIOBox="true" Value="The Gray Book on Types">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -209,7 +245,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="2qnHIoKKJCu0WlUaPmnTgM" Bounds="92,1610,363,19" ShowValueBox="true" isIOBox="true" Value="https://thegraybook.vvvv.org/reference/language/types.html">
+          <Pad Id="16LCCxkvKDK1caEoeXKrNq" Bounds="92,1842,363,19" ShowValueBox="true" isIOBox="true" Value="https://thegraybook.vvvv.org/reference/language/types.html">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -218,63 +254,63 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Name="Thing" Bounds="1300,762" Id="2qv1gblocqrbp0O6EFnTGi">
+          <Node Name="Thing" Bounds="1300,945" Id="5v7cisQMNoleQCxCyHA2Aq">
             <p:NodeReference>
               <Choice Kind="RecordDefinition" />
             </p:NodeReference>
-            <Patch Id="7CJyXeD8AMAJF4Cjb6fZjw">
-              <Canvas Id="67VyI1yBqhFfcVJv7JI7I1" CanvasType="Group">
-                <Pad Id="0A4pytUvVVKi6dX5is8sVM" SlotId="3b4rM3lk5XxECyTScLOu7W" Bounds="150,210" />
-                <ControlPoint Id="5UTpxoH7VIw5uK1jRTNpr9" Bounds="150,180" />
-                <Pad Id="1mbzhMF4lj8DRmpgr6n9gw" SlotId="4D3pvyFjRSCJiiHwTU6bf5" Bounds="280,210" />
-                <ControlPoint Id="1OEPUSauwM7swMyycHlzyz" Bounds="280,180" />
+            <Patch Id="3R2Lx2q0IhusbRbnQLTrqw">
+              <Canvas Id="4sOT1Qer8xwXTAARtDezxw" CanvasType="Group">
+                <Pad Id="0JzlBkEO6TRSwKiyjL9Zoz" SlotId="02xqXQTjBy1tjZYFIfldRV" Bounds="150,210" />
+                <ControlPoint Id="1RB1uaeHsPv0Hp3SH22Sc8" Bounds="150,180" />
+                <Pad Id="34kUJAvFeAs3bNnrtya0yK" SlotId="1x6hqdffF3hfE6rEoo4Efk" Bounds="280,210" />
+                <ControlPoint Id="0L2M6vsK1iqrEp2pSaaoIk" Bounds="280,180" />
               </Canvas>
-              <Patch Id="13ClyUN2xuHlxTBjT3qyV5" Name="Create">
-                <Pin Id="0etZivyi8K5tOo0UoPx22d" Name="Position" Kind="InputPin" />
-                <Pin Id="6vD32Y3qLs2XnnQXjZv8kR" Name="Size" Kind="InputPin" />
+              <Patch Id="3Uu33bFGOVIbgZhZ7PRPoA" Name="Create">
+                <Pin Id="62omwESFKvfpt6DlM0rSPW" Name="Position" Kind="InputPin" />
+                <Pin Id="1qw8E38I6eaIMTYkcFyVNv" Name="Size" Kind="InputPin" />
               </Patch>
-              <ProcessDefinition Id="6WmA4TscqSGJDrUUqmcpaL" IsHidden="true">
-                <Fragment Id="2HeKljWsA4gtsPVMiw8Y4F" Patch="13ClyUN2xuHlxTBjT3qyV5" Enabled="true" />
+              <ProcessDefinition Id="6N5wynC32uLwkBBl9hKFao" IsHidden="true">
+                <Fragment Id="7amsj8ikXayP3hwc2Ri5fR" Patch="3Uu33bFGOVIbgZhZ7PRPoA" Enabled="true" />
               </ProcessDefinition>
-              <Slot Id="3b4rM3lk5XxECyTScLOu7W" Name="Position">
+              <Slot Id="02xqXQTjBy1tjZYFIfldRV" Name="Position">
                 <p:TypeAnnotation p:Type="TypeReference">
                   <Choice Kind="TypeFlag" Name="Vector2" />
                 </p:TypeAnnotation>
               </Slot>
-              <Slot Id="4D3pvyFjRSCJiiHwTU6bf5" Name="Size">
+              <Slot Id="1x6hqdffF3hfE6rEoo4Efk" Name="Size">
                 <p:TypeAnnotation p:Type="TypeReference">
                   <Choice Kind="TypeFlag" Name="Float32" />
                 </p:TypeAnnotation>
               </Slot>
-              <Link Id="697dr8jSWDwGBBgaLRPzGu" Ids="0etZivyi8K5tOo0UoPx22d,5UTpxoH7VIw5uK1jRTNpr9" IsHidden="true" />
-              <Link Id="3WfWvoMMtMTkZdNOtN9v3Z" Ids="5UTpxoH7VIw5uK1jRTNpr9,0A4pytUvVVKi6dX5is8sVM" />
-              <Link Id="0wkEJEH3Wi5JJvXLpCw9Oo" Ids="6vD32Y3qLs2XnnQXjZv8kR,1OEPUSauwM7swMyycHlzyz" IsHidden="true" />
-              <Link Id="4ldJh8jXpDqOzUJNmpj1Tq" Ids="1OEPUSauwM7swMyycHlzyz,1mbzhMF4lj8DRmpgr6n9gw" />
+              <Link Id="1fxEHtak3eHBysPLpGTHOM" Ids="62omwESFKvfpt6DlM0rSPW,1RB1uaeHsPv0Hp3SH22Sc8" IsHidden="true" />
+              <Link Id="77EADRlxh3qcXRUhqog4En" Ids="1RB1uaeHsPv0Hp3SH22Sc8,0JzlBkEO6TRSwKiyjL9Zoz" />
+              <Link Id="3cH6Gg1n00UwW2yiti2Ywr" Ids="1qw8E38I6eaIMTYkcFyVNv,0L2M6vsK1iqrEp2pSaaoIk" IsHidden="true" />
+              <Link Id="62IQ41TdW32Jph6zAQIg1d" Ids="0L2M6vsK1iqrEp2pSaaoIk,34kUJAvFeAs3bNnrtya0yK" />
             </Patch>
           </Node>
-          <Pad Id="0jLqzGfhM0H4MkAFRxCwUM" Comment="Position" Bounds="1104,752,45,28" ShowValueBox="true" isIOBox="true" Value="0, 0">
+          <Pad Id="76WAe3lgDmC4JKvSTdUmtG" Comment="Position" Bounds="1104,935,45,28" ShowValueBox="true" isIOBox="true" Value="0, 0">
             <p:TypeAnnotation LastCategoryFullName="2D" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Vector2" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="5GX6axZoCGDHY32zU1Lktx" Comment="Size" Bounds="1176,790,35,15" ShowValueBox="true" isIOBox="true" Value="0.5">
+          <Pad Id="710brXCKt5s6KN5e8eK0Qz" Comment="Size" Bounds="1176,973,35,15" ShowValueBox="true" isIOBox="true" Value="0.5">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="1102,838,51,26" Id="33d6Z8eFFdzHGRXpYFIPwr">
+          <Node Bounds="1102,1021,51,26" Id="52yuSefdi6WLYV2Ftm0pRc">
             <p:NodeReference LastCategoryFullName="Main.Thing" LastDependency="Explanation 38. Object-Oriented Patching.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="RecordType" Name="Thing" />
               <Choice Kind="OperationCallFlag" Name="Create" />
             </p:NodeReference>
-            <Pin Id="7YagE8QRTbNuo2Pf903FCB" Name="Node Context" Kind="InputPin" IsHidden="true" />
-            <Pin Id="1dUjT52skHZcE7VfvipGYy" Name="Position" Kind="InputPin" />
-            <Pin Id="7PXPicnu5o5yNz8sSjqKcV" Name="Size" Kind="InputPin" />
-            <Pin Id="3wvGnlfpGOrsLLb67jPWVZ" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="68PRDrECXpXQbGoxsjeS9t" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="2GvVOz1568WkcUEefKDSEe" Name="Position" Kind="InputPin" />
+            <Pin Id="6kSWEIcLjSHWPZzbPd3yZx" Name="Size" Kind="InputPin" />
+            <Pin Id="3e3IV44k605nG0kX9BW8vT" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Pad Id="0Cr8tWnEQxKh6o74YQfaF6" SlotId="1qtJ6cLPcY4Ail2wL8u82A" Bounds="1104,894" />
-          <Pad Id="7R8YFj9CUwzxSn1B7slj2i" Bounds="1230,894,260,40" ShowValueBox="true" isIOBox="true" Value="&lt; a Thing stored in a pad. Hover the link above to see the type in the tooltip.">
+          <Pad Id="0mw4BMobpbPqJxVNnyBEsT" SlotId="114jSmlvJX7ZRKXlnFDzfz" Bounds="1104,1077" />
+          <Pad Id="48ircFVVdV9wspeAKqsWGk" Bounds="1180,1077,300,40" ShowValueBox="true" isIOBox="true" Value="&lt; a Thing stored in a pad. Hover the link above to see the type in the tooltip.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -284,22 +320,22 @@
             </p:ValueBoxSettings>
           </Pad>
         </Canvas>
-        <Patch Id="074zgkUIFb81oXelKHQxrw" Name="Create" />
-        <Patch Id="3NeiFWia48Vkq0bjK2C0g2" Name="Update" />
-        <ProcessDefinition Id="5pW7XHpyYCxmvgUjiM0RLQ">
-          <Fragment Id="2PXv1eqngt99MxtxZbzKEu" Patch="074zgkUIFb81oXelKHQxrw" Enabled="true" />
-          <Fragment Id="1slfWuSLvuPslSHu8MPCxU" Patch="3NeiFWia48Vkq0bjK2C0g2" Enabled="true" />
+        <Patch Id="1PihAqAq4VBWOf1cfchN7N" Name="Create" />
+        <Patch Id="0YfedCOiHTG6Ths1cEMAOZ" Name="Update" />
+        <ProcessDefinition Id="57q87CM1AC85mnE56dGtdH">
+          <Fragment Id="3lCkxDpYY0H4GOSKyofJll" Patch="1PihAqAq4VBWOf1cfchN7N" Enabled="true" />
+          <Fragment Id="0tcdGfrK44VcNiFgZX25Xe" Patch="0YfedCOiHTG6Ths1cEMAOZ" Enabled="true" />
         </ProcessDefinition>
-        <Slot Id="1qtJ6cLPcY4Ail2wL8u82A" Name="Thing" />
-        <Link Id="5jDnAPf9GQxDZD6S1GTCF4" Ids="0jLqzGfhM0H4MkAFRxCwUM,1dUjT52skHZcE7VfvipGYy" />
-        <Link Id="6mf6d3L0EZdHpDeXKsRHB8" Ids="5GX6axZoCGDHY32zU1Lktx,7PXPicnu5o5yNz8sSjqKcV" />
-        <Link Id="0rrYAqGivU5sHsCixiYplO" Ids="3wvGnlfpGOrsLLb67jPWVZ,0Cr8tWnEQxKh6o74YQfaF6" />
+        <Slot Id="114jSmlvJX7ZRKXlnFDzfz" Name="Thing" />
+        <Link Id="08N4rVM6XnB9vNp21VNw9d" Ids="76WAe3lgDmC4JKvSTdUmtG,2GvVOz1568WkcUEefKDSEe" />
+        <Link Id="2v0l7KJMYoNpKb840H2TIk" Ids="710brXCKt5s6KN5e8eK0Qz,6kSWEIcLjSHWPZzbPd3yZx" />
+        <Link Id="2E1N5aaNWhV2jnwEj1cwNN" Ids="3e3IV44k605nG0kX9BW8vT,0mw4BMobpbPqJxVNnyBEsT" />
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="0aXTJNjMlQ0JbmIfJYRKwO" Location="VL.Stride" Version="2025.7.2" />
-  <NugetDependency Id="5u5u2nw3KyFfu7EDgVUk2w" Location="VL.Skia" Version="2025.7.2" />
-  <DocumentDependency Id="2e0omutW4ix7gbNcYAOXBy" Location="../../include/Nodes.vl" />
-  <DocumentDependency Id="2bZaUwPMWlod1zjTiTR02B" Location="../../VL.TheBigBang.vl" />
-  <NugetDependency Id="2htTFV76anaD273Dob5aQS" Location="VL.Stride.TextureFX" Version="2025.7.2" />
+  <NugetDependency Id="7Zohj4mkCSzf1JNwCKfpxC" Location="VL.Stride" Version="2025.7.2" />
+  <NugetDependency Id="6BpY0O7bF1h1C5hZYh7YET" Location="VL.Skia" Version="2025.7.2" />
+  <DocumentDependency Id="02jjdorPBHJ0nhHqGTuRmk" Location="../../include/Nodes.vl" />
+  <DocumentDependency Id="5wQkpb0zFUKJlvSVkFqzWt" Location="../../VL.TheBigBang.vl" />
+  <NugetDependency Id="2G0k7kYZ1Vn4FSDrMOFitU" Location="VL.Stride.TextureFX" Version="2025.7.2" />
 </Document>

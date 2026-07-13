@@ -6,11 +6,16 @@ Parses the drafts' position markers (H1/H2/H3/Body/Link/Live element) and emits
 one .vl document per chapter into wip/patches/, using the house scaffold cloned
 from the existing help chapters (top strip, dependencies, Application process).
 
+Layout follows the house conventions measured from the finished Part IV
+chapters: all body pads are 400 px wide (font 9, ~60 chars/line, 19 px/line);
+blocks the drafts mark as full-width are split paragraph-wise across the three
+columns; a per-column flow keeps pads from overlapping (the drafts' y values
+are treated as minimums, not absolutes).
+
 Run:  python3 generate_patches.py
 """
 
 import re
-import sys
 import uuid
 from pathlib import Path
 
@@ -19,6 +24,11 @@ DRAFTS = ROOT / "part-v-chapter-drafts.md"
 OUTDIR = Path(__file__).resolve().parent
 
 LANG_VERSION = "2025.7.2"
+
+BODY_W = 400          # house body width (measured 386-402 in Part IV)
+COL_XS = [92, 592, 1092, 1592]
+GAP = 40              # vertical gap between flowed blocks
+TOP_Y = 175           # first content row (below the title strip)
 
 # ---------------------------------------------------------------- id helpers
 
@@ -48,9 +58,9 @@ def esc(text: str) -> str:
 
 
 def est_height(text: str, width: int, font: int) -> int:
-    """Estimate IOBox height for wrapped comment text."""
-    px_per_char = {7: 4.6, 9: 5.9, 12: 7.6, 15: 9.4, 22: 13.5}[font]
-    line_h = {7: 15, 9: 20, 12: 25, 15: 31, 22: 46}[font]
+    """Estimate IOBox height, calibrated against the finished chapters."""
+    px_per_char = {7: 4.6, 9: 6.7, 12: 8.4, 15: 10.5, 22: 15.0}[font]
+    line_h = {7: 15, 9: 19, 12: 25, 15: 31, 22: 46}[font]
     cpl = max(10, int(width / px_per_char))
     lines = 0
     for para in text.split("\n"):
@@ -58,7 +68,7 @@ def est_height(text: str, width: int, font: int) -> int:
             lines += 1
         else:
             lines += max(1, -(-len(para) // cpl))
-    return max(line_h, lines * line_h)
+    return lines * line_h + 6
 
 
 def comment_pad(x, y, w, h, text, font, stringtype="Comment", showvalue=False):
@@ -90,22 +100,23 @@ def top_strip(title: str):
 
 # ------------------------------------------------------- ch. 38 pilot (live)
 
-def ch38_live_elements(doc_filename: str):
+PILOT_HEIGHT = 240  # vertical space the pilot occupies in the column flow
+
+
+def ch38_live_elements(doc_filename: str, y0: int):
     """The Thing record definition + a wired Create call site (column 3).
 
     Structure cloned from the vvvv-serialized MyRecord in wip/The Origin of
-    Life.vl: RecordDefinition node with Slots, an empty-canvas Create patch
-    whose input pins wire (hidden link -> ControlPoint -> slot pad) into the
-    properties; call site references the type via RecordType CategoryReference.
+    Life.vl. y0 is the flowed top of the block (input IOBox row).
     Returns (canvas_xml, patch_xml) to inject into the Application.
     """
     ids = {k: new_id() for k in (
         "defNode defPatch defCanvas padPos cpPos padSize cpSize createPatch "
         "procDef frag slotPos slotSize l1 l2 l3 l4 ioPos ioSize createNode "
         "ncPin cposPin csizePin coutPin dposPin dsizePin thingPad appSlot "
-        "la lb lc note"
+        "la lb lc"
     ).split()}
-    canvas = f"""          <Node Name="Thing" Bounds="1300,762" Id="{ids['defNode']}">
+    canvas = f"""          <Node Name="Thing" Bounds="1300,{y0 + 10}" Id="{ids['defNode']}">
             <p:NodeReference>
               <Choice Kind="RecordDefinition" />
             </p:NodeReference>
@@ -139,17 +150,17 @@ def ch38_live_elements(doc_filename: str):
               <Link Id="{ids['l4']}" Ids="{ids['cpSize']},{ids['padSize']}" />
             </Patch>
           </Node>
-          <Pad Id="{ids['ioPos']}" Comment="Position" Bounds="1104,752,45,28" ShowValueBox="true" isIOBox="true" Value="0, 0">
+          <Pad Id="{ids['ioPos']}" Comment="Position" Bounds="1104,{y0},45,28" ShowValueBox="true" isIOBox="true" Value="0, 0">
             <p:TypeAnnotation LastCategoryFullName="2D" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Vector2" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="{ids['ioSize']}" Comment="Size" Bounds="1176,790,35,15" ShowValueBox="true" isIOBox="true" Value="0.5">
+          <Pad Id="{ids['ioSize']}" Comment="Size" Bounds="1176,{y0 + 38},35,15" ShowValueBox="true" isIOBox="true" Value="0.5">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="1102,838,51,26" Id="{ids['createNode']}">
+          <Node Bounds="1102,{y0 + 86},51,26" Id="{ids['createNode']}">
             <p:NodeReference LastCategoryFullName="Main.Thing" LastDependency="{doc_filename}">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="RecordType" Name="Thing" />
@@ -160,8 +171,8 @@ def ch38_live_elements(doc_filename: str):
             <Pin Id="{ids['csizePin']}" Name="Size" Kind="InputPin" />
             <Pin Id="{ids['coutPin']}" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Pad Id="{ids['thingPad']}" SlotId="{ids['appSlot']}" Bounds="1104,894" />
-{comment_pad(1230, 894, 260, 40, "< a Thing stored in a pad. Hover the link above to see the type in the tooltip.", 9)}"""
+          <Pad Id="{ids['thingPad']}" SlotId="{ids['appSlot']}" Bounds="1104,{y0 + 142}" />
+{comment_pad(1180, y0 + 142, 300, 40, "< a Thing stored in a pad. Hover the link above to see the type in the tooltip.", 9)}"""
     patch = f"""        <Slot Id="{ids['appSlot']}" Name="Thing" />
         <Link Id="{ids['la']}" Ids="{ids['ioPos']},{ids['cposPin']}" />
         <Link Id="{ids['lb']}" Ids="{ids['ioSize']},{ids['csizePin']}" />
@@ -171,9 +182,9 @@ def ch38_live_elements(doc_filename: str):
 
 def document(title: str, pads: list, canvas_extra: str = "", patch_extra: str = "") -> str:
     pads_xml = "\n".join(pads)
-    patch_extra = patch_extra + "\n" if patch_extra else ""
     if canvas_extra:
         pads_xml += "\n" + canvas_extra
+    patch_extra = patch_extra + "\n" if patch_extra else ""
     create_id, update_id = new_id(), new_id()
     return f"""<?xml version="1.0" encoding="utf-8"?>
 <Document xmlns:p="property" xmlns:r="reflection" Id="{new_id()}" LanguageVersion="{LANG_VERSION}" Version="0.128">
@@ -221,10 +232,10 @@ def parse_attrs(s: str) -> dict:
 
 
 def parse_chapters(lines):
-    chapters = []  # (num, title, blocks)
+    chapters = []
     cur = None
     i = 0
-    skip_mode = False  # inside ## Notes
+    skip_mode = False
     warnings = []
     cur_x = 92
 
@@ -260,7 +271,7 @@ def parse_chapters(lines):
         if line.startswith("## "):
             skip_mode = False
             if line.startswith("## Layout map"):
-                _, i2 = read_fence(i + 1)  # discard the map fence
+                _, i2 = read_fence(i + 1)
                 i = i2
                 continue
             i += 1
@@ -299,7 +310,6 @@ def parse_chapters(lines):
                 continue
         elif kind == "Live element":
             text = rest
-            # live-element descriptions continue on the same line only
         else:
             text = inline if inline is not None else rest
             if not text:
@@ -313,48 +323,139 @@ def parse_chapters(lines):
     return chapters, warnings
 
 
-# ---------------------------------------------------------------- emit
+# ---------------------------------------------------------------- layout flow
+
+def col_of(x: int) -> int:
+    return min(range(len(COL_XS)), key=lambda i: abs(COL_XS[i] - x))
+
+
+def split_paragraphs(text: str, n: int = 3):
+    """Split multi-paragraph text into up to n consecutive groups."""
+    paras = [p for p in re.split(r"\n\s*\n", text) if p.strip()]
+    n = min(n, len(paras))
+    if n <= 1:
+        return [text]
+    base, extra = divmod(len(paras), n)
+    groups, idx = [], 0
+    for g in range(n):
+        take = base + (1 if g < extra else 0)
+        groups.append("\n\n".join(paras[idx:idx + take]))
+        idx += take
+    return groups
+
 
 def emit_chapter(ch):
     title_text = None
-    pads = []
+    items = []  # (draft_y, seq, col, span_groups | single item)
+    seq = 0
+    pilot = None
+
     for b in ch["blocks"]:
         kind, text = b["kind"], b["text"]
         if kind == "H1":
             title_text = text.replace(" & ", " and ")
             continue
-        x, y, font = b["x"], b["y"], b["font"]
-        if y is None:
+        if b["y"] is None:
             continue
-        if kind == "Opening paragraph" or (kind == "Body" and "\n" in text) or kind == "Body":
-            w = b["width"] or (430 if font == 9 else 346)
-            if b["link"]:
-                pads.append(comment_pad(x, y, max(140, len(text) * 6 + 15), 19, text, 9, "Link"))
-            else:
-                h = est_height(text, w, font)
-                pads.append(comment_pad(x, y, w, h, text, font))
+        seq += 1
+        col = col_of(b["x"])
+        full_width = (b["width"] or 0) > 600
+
+        if kind == "Live element" and ch["num"] == 38 and b["x"] == 1092 and b["y"] == 750:
+            items.append((b["y"], seq, [("PILOT", col, None, None)]))
+            continue
+
+        if kind in ("Opening paragraph", "Body") and not b["link"] and full_width:
+            groups = split_paragraphs(text, 3)
+            row = []
+            for gi, g in enumerate(groups):
+                c = min(col + gi, len(COL_XS) - 1)
+                row.append(("body", c, g, b["font"]))
+            items.append((b["y"], seq, row))
+        elif kind in ("Opening paragraph", "Body") and not b["link"]:
+            items.append((b["y"], seq, [("body", col, text, b["font"])]))
         elif kind == "H2":
-            pads.append(comment_pad(x, y, max(200, len(text) * 10 + 30), 31, text, 15))
+            items.append((b["y"], seq, [("h2", col, text, 15)]))
         elif kind == "H3":
-            pads.append(comment_pad(x, y, max(150, len(text) * 8 + 20), 25, text, 12))
-        elif kind == "Link":
-            pads.append(comment_pad(x, y, max(140, len(text) * 6 + 15), 19, text, 9, "Link"))
+            items.append((b["y"], seq, [("h3", col, text, 12)]))
+        elif kind == "Link" or b["link"]:
+            items.append((b["y"], seq, [("link", col, text, 9)]))
         elif kind == "Live element":
-            if ch["num"] == 38 and x == 1092 and y == 750:
-                continue  # replaced by the built pilot elements
-            w = b["width"] or 430
             placeholder = "< LIVE ELEMENT — build by hand:\n\n" + text
-            h = est_height(placeholder, w, 9)
-            pads.append(comment_pad(x, y, w, h, placeholder, 9))
+            if full_width:
+                groups = split_paragraphs(placeholder, 3)
+                row = [("body", min(col + gi, len(COL_XS) - 1), g, 9)
+                       for gi, g in enumerate(groups)]
+                items.append((b["y"], seq, row))
+            else:
+                items.append((b["y"], seq, [("body", col, placeholder, 9)]))
 
     if title_text is None:
         title_text = f"{ch['num']}. {ch['title'].replace(' & ', ' and ')}"
-    all_pads = top_strip(title_text) + pads
     fname_title = re.sub(r"^\d+\.\s*", "", title_text).replace(": ", " - ")
     fname = f"Explanation {ch['num']}. {fname_title}.vl"
+
+    # per-column flow: draft y is a minimum, cursors prevent overlap.
+    # Items sharing the same draft y form one row and stay Y-aligned across
+    # columns (house convention). Gaps: tight under headings and between a
+    # resource title and its link, airy otherwise.
+    from itertools import groupby
+
+    cursors = [TOP_Y] * len(COL_XS)
+    last_kind = {}
+    pads = []
+    pilot_y = None
+
+    def gap_for(c, kind):
+        prev = last_kind.get(c)
+        if prev in ("h2", "h3"):
+            return 8
+        if kind == "link" and prev == "body":
+            return 2
+        return GAP
+
+    ordered = sorted(items, key=lambda t: (t[0], t[1]))
+    for draft_y, group in groupby(ordered, key=lambda t: t[0]):
+        rowitems = [r for (_y, _s, row) in group for r in row]
+        first_kind = {}
+        for r in rowitems:
+            first_kind.setdefault(r[1], r[0])
+        y_row = max([draft_y] + [cursors[c] + gap_for(c, k)
+                                 for c, k in first_kind.items()])
+        placed = set()
+        for r in rowitems:
+            kind, c = r[0], r[1]
+            x = COL_XS[c]
+            y = y_row if c not in placed else cursors[c] + gap_for(c, kind)
+            placed.add(c)
+            if kind == "PILOT":
+                pilot_y = y
+                cursors[c] = y + PILOT_HEIGHT
+                last_kind[c] = "body"
+                continue
+            text, font = r[2], r[3]
+            if kind == "h2":
+                w, h = max(200, min(BODY_W, len(text) * 10 + 30)), 31
+            elif kind == "h3":
+                w, h = max(150, min(BODY_W, len(text) * 8 + 20)), 25
+            elif kind == "link":
+                w, h = min(BODY_W, len(text) * 6 + 15), 19
+                pads.append(comment_pad(x, y, w, h, text, 9, "Link"))
+                cursors[c] = y + h
+                last_kind[c] = "link"
+                continue
+            else:
+                w = BODY_W
+                h = est_height(text, w, font)
+            pads.append(comment_pad(x, y, w, h, text, font))
+            cursors[c] = y + h
+            last_kind[c] = kind
+
     canvas_extra = patch_extra = ""
-    if ch["num"] == 38:
-        canvas_extra, patch_extra = ch38_live_elements(fname)
+    if ch["num"] == 38 and pilot_y is not None:
+        canvas_extra, patch_extra = ch38_live_elements(fname, pilot_y)
+
+    all_pads = top_strip(title_text) + pads
     return fname, document(title_text, all_pads, canvas_extra, patch_extra), len(pads)
 
 
@@ -365,10 +466,7 @@ def main():
     for ch in chapters:
         fname, xml, npads = emit_chapter(ch)
         (OUTDIR / fname).write_text(xml, encoding="utf-8")
-        kinds = {}
-        for b in ch["blocks"]:
-            kinds[b["kind"]] = kinds.get(b["kind"], 0) + 1
-        print(f"  {fname}  ({npads} content pads; {kinds})")
+        print(f"  {fname}  ({npads} content pads)")
     if warnings:
         print("\nWARNINGS:")
         for w in warnings:

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="0rePgw7fHWqSZAfchxb1An" LanguageVersion="2025.7.2" Version="0.128">
-  <NugetDependency Id="05sbC6oEFPMXlpzU9kGi6V" Location="VL.CoreLib" Version="2025.7.2" />
-  <Patch Id="5jTiD5wdbuhHMlGsXgXbMq">
-    <Canvas Id="00dv8Vg7dknhVBFxt3DBio" DefaultCategory="Main" CanvasType="FullCategory" />
-    <Node Name="Application" Bounds="100,100" Id="5snq7j6hPbM6Fia2VeSwii">
+<Document xmlns:p="property" xmlns:r="reflection" Id="5OpMEUKA7Hu25A4pHj2XFL" LanguageVersion="2025.7.2" Version="0.128">
+  <NugetDependency Id="3TAZ9eVcATYulYShJ8YKO6" Location="VL.CoreLib" Version="2025.7.2" />
+  <Patch Id="42G5SXLhCAVLvWvgjAlXEr">
+    <Canvas Id="2WX3mBI1sO6fIUeIPrMmX6" DefaultCategory="Main" CanvasType="FullCategory" />
+    <Node Name="Application" Bounds="100,100" Id="347n9UybMUqvnzNuF7HFAt">
       <p:NodeReference>
         <Choice Kind="ContainerDefinition" Name="Process" />
         <CategoryReference Kind="Category" Name="Primitive" />
       </p:NodeReference>
-      <Patch Id="6H0rWxWSU8lVpruoLSzVtw">
-        <Canvas Id="2KYjk7lVxdL2n4cTAuTA85" CanvasType="Group">
-          <Pad Id="0Jr6I6AStTlYqFjIvkmaCK" Bounds="72,113,482,46" ShowValueBox="true" isIOBox="true" Value="45. Mutable Collections">
+      <Patch Id="1NDSJsWiBzGKtC5yw5f5TR">
+        <Canvas Id="7dx4gwFLvHdddDwjBWLnyo" CanvasType="Group">
+          <Pad Id="4NneGWd4Mzn9DhYooQKUNi" Bounds="72,113,482,46" ShowValueBox="true" isIOBox="true" Value="45. Mutable Collections">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -19,7 +19,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="6A6MOv5okv5W9Gz8cCbg0p" Bounds="72,86,364,25" ShowValueBox="true" isIOBox="true" Value="VL.TheBigBang">
+          <Pad Id="7OY8khlZb6umj3yOOIgHgj" Bounds="72,86,364,25" ShowValueBox="true" isIOBox="true" Value="VL.TheBigBang">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -29,7 +29,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="64bpEp3PR0zjeItmcK4ADl" Bounds="552,86,66,15" ShowValueBox="true" isIOBox="true" Value="Made by chk">
+          <Pad Id="00dhWrfs4LDIg4XRVDfPk7" Bounds="552,86,66,15" ShowValueBox="true" isIOBox="true" Value="Made by chk">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -38,25 +38,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="30fvfhGaolBIhleXCSC0wN" Bounds="617,86,140,19" ShowValueBox="true" isIOBox="true" Value="https://www.3e8.studio">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="String" />
-            </p:TypeAnnotation>
-            <p:ValueBoxSettings>
-              <p:fontsize p:Type="Int32">7</p:fontsize>
-              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
-            </p:ValueBoxSettings>
-          </Pad>
-          <Pad Id="1IKk4a0oVGQznh6ktloVZy" Bounds="792,86,369,15" ShowValueBox="true" isIOBox="true" Value="If you find this material helpful, please consider supporting its development via">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="String" />
-            </p:TypeAnnotation>
-            <p:ValueBoxSettings>
-              <p:fontsize p:Type="Int32">7</p:fontsize>
-              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
-            </p:ValueBoxSettings>
-          </Pad>
-          <Pad Id="3zF4DeFO9sSGkM8MgABgZU" Bounds="1160,86,140,19" ShowValueBox="true" isIOBox="true" Value="https://www.ko-fi.com/chk">
+          <Pad Id="6D6dbyA2fBtwVwBKJrXjny" Bounds="617,86,140,19" ShowValueBox="true" isIOBox="true" Value="https://www.3e8.studio">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -65,7 +47,25 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="2wQU4yFhSOXmWQ1zOSf3dE" Bounds="92,206,1400,160" ShowValueBox="true" isIOBox="true" Value="The last two chapters were about whether your objects should be Records or Classes. This chapter is about something different but related — whether the collections holding them should be immutable or mutable. The two questions sound similar, but they are independent, and confusing them is the single most common mistake in this corner of VL.&#xD;&#xA;&#xD;&#xA;Every collection type you have used so far in this tutorial — Spread, Dictionary — has been immutable. You add an element by producing a new collection with the element included. You remove an element by producing a new collection without it. The original collection is unchanged, and you store the new one back. This is the same pattern you have used with Records.&#xD;&#xA;&#xD;&#xA;For most applications this works fine. But when you have many elements changing rapidly — hundreds or thousands of particles each frame, a constantly-updating set of objects in a game — the cost of producing a new collection every step starts to show. For those cases there are mutable collection types. They change in place, like Classes do.">
+          <Pad Id="3AYXnVg0p35CQo3j89eXMU" Bounds="792,86,369,15" ShowValueBox="true" isIOBox="true" Value="If you find this material helpful, please consider supporting its development via">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">7</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="3532ObuXMRZPt0Y5tr7POR" Bounds="1160,86,140,19" ShowValueBox="true" isIOBox="true" Value="https://www.ko-fi.com/chk">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">7</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="544BeCNyJ4B5SEO1xJL5f6" Bounds="92,215,400,120" ShowValueBox="true" isIOBox="true" Value="The last two chapters were about whether your objects should be Records or Classes. This chapter is about something different but related — whether the collections holding them should be immutable or mutable. The two questions sound similar, but they are independent, and confusing them is the single most common mistake in this corner of VL.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -74,7 +74,25 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="2uPalwxdhcH5yA3lXz6Oxy" Bounds="92,310,200,31" ShowValueBox="true" isIOBox="true" Value="A Separate Axis">
+          <Pad Id="101r7S0ih8bB91sVoOhtfV" Bounds="592,215,400,139" ShowValueBox="true" isIOBox="true" Value="Every collection type you have used so far in this tutorial — Spread, Dictionary — has been immutable. You add an element by producing a new collection with the element included. You remove an element by producing a new collection without it. The original collection is unchanged, and you store the new one back. This is the same pattern you have used with Records.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="6TbezrB5qL56R3tFNQYTED" Bounds="1092,215,400,120" ShowValueBox="true" isIOBox="true" Value="For most applications this works fine. But when you have many elements changing rapidly — hundreds or thousands of particles each frame, a constantly-updating set of objects in a game — the cost of producing a new collection every step starts to show. For those cases there are mutable collection types. They change in place, like Classes do.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="6x6jZv6nmhYJosSRRlQiQ2" Bounds="92,394,200,31" ShowValueBox="true" isIOBox="true" Value="A Separate Axis">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -83,16 +101,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="6MWVbK77RMiNNtuO7R6yz6" Bounds="92,347,430,420" ShowValueBox="true" isIOBox="true" Value="The mutability of the collection and the mutability of its contents are two different questions. You can mix them freely. The four combinations are all valid and each makes sense for different reasons.&#xD;&#xA;&#xD;&#xA;An immutable Spread of immutable Records — what you have been using throughout this tutorial. Values flowing through, every modification producing a new collection.&#xD;&#xA;&#xD;&#xA;An immutable Spread of mutable Classes — useful when you want to control when the collection itself changes, but the individual objects need to be modified from multiple places.&#xD;&#xA;&#xD;&#xA;A mutable SpreadBuilder of immutable Records — useful when you want fast modification of the collection (adding, removing, clearing) but the individual elements stay as values.&#xD;&#xA;&#xD;&#xA;A mutable SpreadBuilder of mutable Classes — the most mutable option, useful when both axes need to change rapidly.&#xD;&#xA;&#xD;&#xA;The choice is not Records-or-Classes; the choice is two independent questions. This chapter looks at the collection side.">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="String" />
-            </p:TypeAnnotation>
-            <p:ValueBoxSettings>
-              <p:fontsize p:Type="Int32">9</p:fontsize>
-              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
-            </p:ValueBoxSettings>
-          </Pad>
-          <Pad Id="7LY9tlQph8vQlh4Cdfm3aZ" Bounds="592,310,200,31" ShowValueBox="true" isIOBox="true" Value="SpreadBuilder">
+          <Pad Id="0jDTzxISvprzQdPvHnJ9PJ" Bounds="592,394,200,31" ShowValueBox="true" isIOBox="true" Value="SpreadBuilder">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -101,25 +110,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="4ODsg0tnDVN83yeEaidipL" Bounds="592,347,430,280" ShowValueBox="true" isIOBox="true" Value="SpreadBuilder is the mutable counterpart to Spread. Where a Spread is a value — adding to it produces a new Spread — a SpreadBuilder is a mutable container that you modify in place. You add elements with Add, remove them with RemoveAt, clear it all with Clear, and the SpreadBuilder itself stays the same instance throughout.&#xD;&#xA;&#xD;&#xA;When you need to hand the contents to something that expects a regular Spread — a ForEach, a downstream operation, a renderer — you call ToSpread on the SpreadBuilder. This produces a snapshot Spread of its current state. The SpreadBuilder remains, and you can keep modifying it.&#xD;&#xA;&#xD;&#xA;The patch on the right shows a small example. A SpreadBuilder in a pad, with Add fired by a Bang. Each click adds a number to the collection. ToSpread produces a current Spread for inspection.">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="String" />
-            </p:TypeAnnotation>
-            <p:ValueBoxSettings>
-              <p:fontsize p:Type="Int32">9</p:fontsize>
-              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
-            </p:ValueBoxSettings>
-          </Pad>
-          <Pad Id="3TIjGFi0vsjl3luj1OtJgV" Bounds="592,720,430,80" ShowValueBox="true" isIOBox="true" Value="&lt; LIVE ELEMENT — build by hand:&#xD;&#xA;&#xD;&#xA;SpreadBuilder&lt;Float&gt; in a pad. Bang feeding Add with a random Float. ToSpread → Spread&lt;Float&gt;. IOBox showing the Spread. Second Bang for Clear.">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="String" />
-            </p:TypeAnnotation>
-            <p:ValueBoxSettings>
-              <p:fontsize p:Type="Int32">9</p:fontsize>
-              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
-            </p:ValueBoxSettings>
-          </Pad>
-          <Pad Id="0qQGLcISSFXMVgQKtQnOi3" Bounds="1092,310,200,31" ShowValueBox="true" isIOBox="true" Value="MutableDictionary">
+          <Pad Id="3ox0dTntKixy2KkQQdY4DC" Bounds="1092,394,200,31" ShowValueBox="true" isIOBox="true" Value="MutableDictionary">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -128,7 +119,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="6IuYEbi5n8OBYy2CC75K74" Bounds="1092,347,430,300" ShowValueBox="true" isIOBox="true" Value="MutableDictionary is the mutable counterpart to Dictionary, which you met in chapter 26. The relationship is the same as SpreadBuilder's relationship to Spread. A Dictionary is a value — every modification produces a new one. A MutableDictionary changes in place.&#xD;&#xA;&#xD;&#xA;You use the same operations you know — SetValue with a key, Remove, Clear — but the MutableDictionary itself remains the same instance throughout. When you need a regular Dictionary for downstream use, ToImmutable gives you a snapshot.&#xD;&#xA;&#xD;&#xA;This is what chapter 26 was pointing at when it said collections become more interesting once you have your own data types. A MutableDictionary of Particles keyed by name — a lookup table you can grow, shrink, and modify in place without ever copying the dictionary itself — is exactly the kind of structure many applications need.">
+          <Pad Id="2xr0uKaeItfIC3XTkSCWDG" Bounds="92,433,400,443" ShowValueBox="true" isIOBox="true" Value="The mutability of the collection and the mutability of its contents are two different questions. You can mix them freely. The four combinations are all valid and each makes sense for different reasons.&#xD;&#xA;&#xD;&#xA;An immutable Spread of immutable Records — what you have been using throughout this tutorial. Values flowing through, every modification producing a new collection.&#xD;&#xA;&#xD;&#xA;An immutable Spread of mutable Classes — useful when you want to control when the collection itself changes, but the individual objects need to be modified from multiple places.&#xD;&#xA;&#xD;&#xA;A mutable SpreadBuilder of immutable Records — useful when you want fast modification of the collection (adding, removing, clearing) but the individual elements stay as values.&#xD;&#xA;&#xD;&#xA;A mutable SpreadBuilder of mutable Classes — the most mutable option, useful when both axes need to change rapidly.&#xD;&#xA;&#xD;&#xA;The choice is not Records-or-Classes; the choice is two independent questions. This chapter looks at the collection side.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -137,7 +128,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="3jlrtRZXCxs07dDUOYJh2t" Bounds="1092,750,430,100" ShowValueBox="true" isIOBox="true" Value="&lt; LIVE ELEMENT — build by hand:&#xD;&#xA;&#xD;&#xA;MutableDictionary&lt;String, Float&gt; in a pad. IOBoxes for key and value feeding SetValue, with a Bang. Second Bang for Remove with a key. ToImmutable → IOBox showing contents.">
+          <Pad Id="78EezsTrzUqchYPfD2IInE" Bounds="592,433,400,329" ShowValueBox="true" isIOBox="true" Value="SpreadBuilder is the mutable counterpart to Spread. Where a Spread is a value — adding to it produces a new Spread — a SpreadBuilder is a mutable container that you modify in place. You add elements with Add, remove them with RemoveAt, clear it all with Clear, and the SpreadBuilder itself stays the same instance throughout.&#xD;&#xA;&#xD;&#xA;When you need to hand the contents to something that expects a regular Spread — a ForEach, a downstream operation, a renderer — you call ToSpread on the SpreadBuilder. This produces a snapshot Spread of its current state. The SpreadBuilder remains, and you can keep modifying it.&#xD;&#xA;&#xD;&#xA;The patch on the right shows a small example. A SpreadBuilder in a pad, with Add fired by a Bang. Each click adds a number to the collection. ToSpread produces a current Spread for inspection.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -146,7 +137,34 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="6vsoyRDcxKZurVsajeZW2K" Bounds="92,900,240,31" ShowValueBox="true" isIOBox="true" Value="The Four Combinations">
+          <Pad Id="63qsbSAYfK9tRY7Un9hNST" Bounds="1092,433,400,329" ShowValueBox="true" isIOBox="true" Value="MutableDictionary is the mutable counterpart to Dictionary, which you met in chapter 26. The relationship is the same as SpreadBuilder's relationship to Spread. A Dictionary is a value — every modification produces a new one. A MutableDictionary changes in place.&#xD;&#xA;&#xD;&#xA;You use the same operations you know — SetValue with a key, Remove, Clear — but the MutableDictionary itself remains the same instance throughout. When you need a regular Dictionary for downstream use, ToImmutable gives you a snapshot.&#xD;&#xA;&#xD;&#xA;This is what chapter 26 was pointing at when it said collections become more interesting once you have your own data types. A MutableDictionary of Particles keyed by name — a lookup table you can grow, shrink, and modify in place without ever copying the dictionary itself — is exactly the kind of structure many applications need.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="1d1ALsuC77i9EolVsuntt7" Bounds="592,802,400,101" ShowValueBox="true" isIOBox="true" Value="&lt; LIVE ELEMENT — build by hand:&#xD;&#xA;&#xD;&#xA;SpreadBuilder&lt;Float&gt; in a pad. Bang feeding Add with a random Float. ToSpread → Spread&lt;Float&gt;. IOBox showing the Spread. Second Bang for Clear.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="3X605yYqJbMMfKO6W6MhoB" Bounds="1092,802,400,101" ShowValueBox="true" isIOBox="true" Value="&lt; LIVE ELEMENT — build by hand:&#xD;&#xA;&#xD;&#xA;MutableDictionary&lt;String, Float&gt; in a pad. IOBoxes for key and value feeding SetValue, with a Bang. Second Bang for Remove with a key. ToImmutable → IOBox showing contents.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="56YnGGFynJm4L1vZFzDNSn" Bounds="92,943,240,31" ShowValueBox="true" isIOBox="true" Value="The Four Combinations">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -155,16 +173,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="04BXUB6KQ68qLGt9cjjiaP" Bounds="92,937,430,400" ShowValueBox="true" isIOBox="true" Value="Going back to where this chapter started — four combinations, each with its own niche.&#xD;&#xA;&#xD;&#xA;Immutable Spread of Records is the default. Use it whenever you can, which is most of the time. Everything in VL is designed to flow this way, and you keep all the features Records give you automatically.&#xD;&#xA;&#xD;&#xA;Immutable Spread of Classes is useful when the collection itself is stable but individual objects need to be modified from elsewhere. A common pattern for objects with internal state that updates each frame.&#xD;&#xA;&#xD;&#xA;Mutable SpreadBuilder of Records is useful when you are adding or removing elements rapidly but each element is still a value. Particle systems where particles get added and removed but each is a stable record of its properties. Often the right pick when you have measured a performance problem with Spread-of-Records.&#xD;&#xA;&#xD;&#xA;Mutable SpreadBuilder of Classes is the most mutable and the most performant for many-element, fast-changing collections. It also gives up the most of Records' features. Reach for it when you need it, not before.">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="String" />
-            </p:TypeAnnotation>
-            <p:ValueBoxSettings>
-              <p:fontsize p:Type="Int32">9</p:fontsize>
-              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
-            </p:ValueBoxSettings>
-          </Pad>
-          <Pad Id="4cRa7iLCO5dOlfjuhZQqG0" Bounds="592,900,250,31" ShowValueBox="true" isIOBox="true" Value="When to Reach For Them">
+          <Pad Id="43eH3MKO4lyEuTMUk3eamO" Bounds="592,943,250,31" ShowValueBox="true" isIOBox="true" Value="When to Reach For Them">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -173,7 +182,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="6GVnzg5umigfs9YgDKBgxw" Bounds="592,937,430,320" ShowValueBox="true" isIOBox="true" Value="The honest signal for switching to a mutable collection is the same as for switching to a Class — measure first. If your application runs at the framerate you need with an immutable Spread, you do not need a SpreadBuilder. If it does not, profile to find out where the cost actually is before assuming the answer is the collection type.&#xD;&#xA;&#xD;&#xA;That said, there are situations where mutable collections are almost always the right call from the start.&#xD;&#xA;&#xD;&#xA;Collections that change every frame and have hundreds or thousands of elements — particle systems, agents in a simulation, points in a constantly-updating dataset.&#xD;&#xA;&#xD;&#xA;Collections that are accumulated incrementally — appending log entries, collecting measurements, building up a result over many frames. The accumulation pattern is what SpreadBuilder is designed for.">
+          <Pad Id="1JCiiZFMTaZFuVTvU750QZ" Bounds="92,982,400,462" ShowValueBox="true" isIOBox="true" Value="Going back to where this chapter started — four combinations, each with its own niche.&#xD;&#xA;&#xD;&#xA;Immutable Spread of Records is the default. Use it whenever you can, which is most of the time. Everything in VL is designed to flow this way, and you keep all the features Records give you automatically.&#xD;&#xA;&#xD;&#xA;Immutable Spread of Classes is useful when the collection itself is stable but individual objects need to be modified from elsewhere. A common pattern for objects with internal state that updates each frame.&#xD;&#xA;&#xD;&#xA;Mutable SpreadBuilder of Records is useful when you are adding or removing elements rapidly but each element is still a value. Particle systems where particles get added and removed but each is a stable record of its properties. Often the right pick when you have measured a performance problem with Spread-of-Records.&#xD;&#xA;&#xD;&#xA;Mutable SpreadBuilder of Classes is the most mutable and the most performant for many-element, fast-changing collections. It also gives up the most of Records' features. Reach for it when you need it, not before.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -182,7 +191,16 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="0pVMT48VEEiQme1QsZxFmr" Bounds="92,1500,380,31" ShowValueBox="true" isIOBox="true" Value="A Pattern to Know: Clear Each Frame">
+          <Pad Id="1vUvtWVYvvJHT40LlAEgZH" Bounds="592,982,400,348" ShowValueBox="true" isIOBox="true" Value="The honest signal for switching to a mutable collection is the same as for switching to a Class — measure first. If your application runs at the framerate you need with an immutable Spread, you do not need a SpreadBuilder. If it does not, profile to find out where the cost actually is before assuming the answer is the collection type.&#xD;&#xA;&#xD;&#xA;That said, there are situations where mutable collections are almost always the right call from the start.&#xD;&#xA;&#xD;&#xA;Collections that change every frame and have hundreds or thousands of elements — particle systems, agents in a simulation, points in a constantly-updating dataset.&#xD;&#xA;&#xD;&#xA;Collections that are accumulated incrementally — appending log entries, collecting measurements, building up a result over many frames. The accumulation pattern is what SpreadBuilder is designed for.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="4Z3Cvy7LF41VLdGxMBLJQ3" Bounds="92,1500,380,31" ShowValueBox="true" isIOBox="true" Value="A Pattern to Know: Clear Each Frame">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -191,16 +209,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="6eBOgItnAX2lz6NT3iKWoV" Bounds="92,1537,430,280" ShowValueBox="true" isIOBox="true" Value="One pattern with SpreadBuilder is worth naming because it confuses people the first time they hit it. If you want to rebuild a SpreadBuilder's contents every frame — for example, recomputing a list from scratch each tick — the temptation is to create a new SpreadBuilder each frame.&#xD;&#xA;&#xD;&#xA;Better: keep the same SpreadBuilder instance in a pad. At the start of each frame, call Clear on it to empty it. Then add the new contents. The SpreadBuilder is the same instance throughout — only its contents change. A fresh builder each frame is not wrong — the big win over plain Spreads is avoiding a full copy on every modification — but reusing one instance keeps per-frame allocation flat and the patch simpler.&#xD;&#xA;&#xD;&#xA;This is the pattern that gives mutable collections their actual performance benefit. The collection persists; only the data inside changes.">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="String" />
-            </p:TypeAnnotation>
-            <p:ValueBoxSettings>
-              <p:fontsize p:Type="Int32">9</p:fontsize>
-              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
-            </p:ValueBoxSettings>
-          </Pad>
-          <Pad Id="3RNnKPzylhdN5gz4IX2YvZ" Bounds="592,1500,150,25" ShowValueBox="true" isIOBox="true" Value="Other Resources">
+          <Pad Id="0tugSLsW1AJJV4E2tK3Xgu" Bounds="592,1500,150,25" ShowValueBox="true" isIOBox="true" Value="Other Resources">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -209,7 +218,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="62jDR2ZpPDOr3BSkmOV4Sq" Bounds="592,1530,430,20" ShowValueBox="true" isIOBox="true" Value="Spread vs SpreadBuilder and Performance of Immutable Collections — TobyK">
+          <Pad Id="3XRjsLYVeHLkP9hIiOGNkU" Bounds="592,1533,400,44" ShowValueBox="true" isIOBox="true" Value="Spread vs SpreadBuilder and Performance of Immutable Collections — TobyK">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -218,7 +227,16 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="163ef3rMIuL0ej0wnsqPMN" Bounds="592,1550,183,19" ShowValueBox="true" isIOBox="true" Value="https://youtu.be/zGufG64WSF4">
+          <Pad Id="33b8eMELuxUc9ZTD9nk6dp" Bounds="92,1539,400,348" ShowValueBox="true" isIOBox="true" Value="One pattern with SpreadBuilder is worth naming because it confuses people the first time they hit it. If you want to rebuild a SpreadBuilder's contents every frame — for example, recomputing a list from scratch each tick — the temptation is to create a new SpreadBuilder each frame.&#xD;&#xA;&#xD;&#xA;Better: keep the same SpreadBuilder instance in a pad. At the start of each frame, call Clear on it to empty it. Then add the new contents. The SpreadBuilder is the same instance throughout — only its contents change. A fresh builder each frame is not wrong — the big win over plain Spreads is avoiding a full copy on every modification — but reusing one instance keeps per-frame allocation flat and the patch simpler.&#xD;&#xA;&#xD;&#xA;This is the pattern that gives mutable collections their actual performance benefit. The collection persists; only the data inside changes.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="6d9IEkhCiiw6o0w4gnxoBs" Bounds="592,1579,183,19" ShowValueBox="true" isIOBox="true" Value="https://youtu.be/zGufG64WSF4">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -227,7 +245,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="2JiZwZebl5VGLBSGd2Gee6" Bounds="592,1590,430,20" ShowValueBox="true" isIOBox="true" Value="The Gray Book on Collections">
+          <Pad Id="2Bp2hXJNXFze2jf7yLyAHg" Bounds="592,1638,400,25" ShowValueBox="true" isIOBox="true" Value="The Gray Book on Collections">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -236,7 +254,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="3YACdzpL6kpcm61p1KUUTG" Bounds="592,1610,363,19" ShowValueBox="true" isIOBox="true" Value="https://thegraybook.vvvv.org/reference/language/types.html">
+          <Pad Id="5NJcyuOrvGrdy03jvKVIzP" Bounds="592,1665,363,19" ShowValueBox="true" isIOBox="true" Value="https://thegraybook.vvvv.org/reference/language/types.html">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -246,18 +264,18 @@
             </p:ValueBoxSettings>
           </Pad>
         </Canvas>
-        <Patch Id="5BEmOpV3acjfsIOdvAYrkO" Name="Create" />
-        <Patch Id="0ZS952uk2VFNuXTYJJ4kTm" Name="Update" />
-        <ProcessDefinition Id="2vlmezjKb8yXtDVI7xH4rn">
-          <Fragment Id="2utbPqqZaiocDgZP7UTQUD" Patch="5BEmOpV3acjfsIOdvAYrkO" Enabled="true" />
-          <Fragment Id="1VuEG8JWBTUSC5mMvLDDWh" Patch="0ZS952uk2VFNuXTYJJ4kTm" Enabled="true" />
+        <Patch Id="4cBha23Y1k2urySgzaIJIY" Name="Create" />
+        <Patch Id="6q9q4VWh7Ks77Gg2BC8BIH" Name="Update" />
+        <ProcessDefinition Id="1eZvuESXxhkNBQ6B18A6IJ">
+          <Fragment Id="3oVtG9JwiE54qZuUkNZhBU" Patch="4cBha23Y1k2urySgzaIJIY" Enabled="true" />
+          <Fragment Id="1uNUkNuWMuTM7dSqlpSST0" Patch="6q9q4VWh7Ks77Gg2BC8BIH" Enabled="true" />
         </ProcessDefinition>
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="1pgwVj8qdUnBTeFZlivVRs" Location="VL.Stride" Version="2025.7.2" />
-  <NugetDependency Id="5zp7waHZ58lP3CfC0cyUFM" Location="VL.Skia" Version="2025.7.2" />
-  <DocumentDependency Id="7DuSjSh8PrEsSAbzRDUYEv" Location="../../include/Nodes.vl" />
-  <DocumentDependency Id="0plxa9ep8LMaen1TO0QNTV" Location="../../VL.TheBigBang.vl" />
-  <NugetDependency Id="3Omh2Yu1ivrT5Ihq8XKgpg" Location="VL.Stride.TextureFX" Version="2025.7.2" />
+  <NugetDependency Id="1LXP9v8w1MB0BTcbijTfMC" Location="VL.Stride" Version="2025.7.2" />
+  <NugetDependency Id="2sShRfG9Mfun7qnI9IdnR3" Location="VL.Skia" Version="2025.7.2" />
+  <DocumentDependency Id="6sg6ZjoYmJSaECJWVo7HIx" Location="../../include/Nodes.vl" />
+  <DocumentDependency Id="3mhDJ4e2YktgMC41jCLYZS" Location="../../VL.TheBigBang.vl" />
+  <NugetDependency Id="6Z9ptdpOLkVtr7HnFdJAUw" Location="VL.Stride.TextureFX" Version="2025.7.2" />
 </Document>
