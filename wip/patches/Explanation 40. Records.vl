@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:p="property" xmlns:r="reflection" Id="0Hu1pNjObgzESyOjQtJY9Q" LanguageVersion="2025.7.2" Version="0.128">
+  <NugetDependency Id="5H4eGUJM1swiP0bRvgdOl4" Location="VL.CoreLib" Version="2025.7.2" />
+  <Patch Id="1THtW6x2sQwVw8ab4aPPJQ">
+    <Canvas Id="1ELcUKhc3S3g9CJoi6pxFp" DefaultCategory="Main" CanvasType="FullCategory" />
+    <Node Name="Application" Bounds="100,100" Id="68y7LAaolgixpCQkvvVfPB">
+      <p:NodeReference>
+        <Choice Kind="ContainerDefinition" Name="Process" />
+        <CategoryReference Kind="Category" Name="Primitive" />
+      </p:NodeReference>
+      <Patch Id="77bYr1FGQNtqWj309BVK47">
+        <Canvas Id="3S2rQk1IOjHUsGFejxkITO" CanvasType="Group">
+          <Pad Id="4L9x31ZGffFnvayEFYHgaG" Bounds="72,113,482,46" ShowValueBox="true" isIOBox="true" Value="40. Records">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">22</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="0nZQ8wHJF2HYr9j4XIOrC5" Bounds="72,86,364,25" ShowValueBox="true" isIOBox="true" Value="VL.TheBigBang">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">12</p:fontsize>
+              <p:showvalue p:Type="Boolean">true</p:showvalue>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="1WvBrkddm00T8997t7a8xH" Bounds="552,86,66,15" ShowValueBox="true" isIOBox="true" Value="Made by chk">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">7</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="6nHct4ibbqSc7MklY4meeO" Bounds="617,86,140,19" ShowValueBox="true" isIOBox="true" Value="https://www.3e8.studio">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">7</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="1jtlPY774JvoijFJ2oFUN6" Bounds="792,86,369,15" ShowValueBox="true" isIOBox="true" Value="If you find this material helpful, please consider supporting its development via">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">7</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="0sNKnMarRzfQmEcbQUg102" Bounds="1160,86,140,19" ShowValueBox="true" isIOBox="true" Value="https://www.ko-fi.com/chk">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">7</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="50XVIMVOdxwEI7pY6uL6T8" Bounds="92,206,1400,160" ShowValueBox="true" isIOBox="true" Value="In the last chapter we added operations to a Process — Increment, Reset, operations that run when you trigger them. The Process held some state, and its operations changed that state from inside the running Process. The operations lived in the Process, and you triggered them, but you never had to handle the state yourself. The Process kept it.&#xD;&#xA;&#xD;&#xA;A Record is a different kind of thing. It bundles properties together into a custom data type, the way a Vector2 bundles an X and a Y, but with as many properties as you want and a name of your own choosing. And here is the key difference from a Process: a Record does not run on its own. It is data. It just sits there. To do anything with it, you place its operations as nodes in your patch and drive them yourself. The same operations you would add to a Process become, on a Record, nodes you wire up by hand.&#xD;&#xA;&#xD;&#xA;This chapter is about defining your first Record, and about how its operations work as nodes — which is where a small but important new idea appears: the State Input and State Output.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="4q53dLzO30xoi42rkoXgdK" Bounds="92,310,250,31" ShowValueBox="true" isIOBox="true" Value="A Process You Can Hold">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">15</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="1vCn4pDNbfWsQ5s9qM6WsM" Bounds="92,347,430,300" ShowValueBox="true" isIOBox="true" Value="Think back to the Counter from the last chapter. It was a Process. It held a Count, and it had operations — Increment, Reset — that changed that Count. The Counter ran by itself in the patch, and you triggered its operations from outside.&#xD;&#xA;&#xD;&#xA;A Record is like a Counter you can pick up and hold. It has the same shape — properties bundled together, operations that act on them — but it does not run on its own. You cannot just place a Record and have it tick. Instead, you hold the Record as a value, pass it through its operations as nodes, and get a result back. The Record is data flowing through your patch, and its operations are the nodes that transform it.&#xD;&#xA;&#xD;&#xA;This is the difference between a Process and a Record in one sentence. A Process runs and holds its own state. A Record is held by you, and its state flows through the patch as a value.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="24QmbLUbY53MfIAlSr1jEC" Bounds="592,310,200,31" ShowValueBox="true" isIOBox="true" Value="Defining a Record">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">15</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="3bCoKKOyRU8nGHe6fZH8PN" Bounds="592,347,430,340" ShowValueBox="true" isIOBox="true" Value="To define a Record, open the Patch Explorer, right-click in the document, and choose to add a Record. Give it a name. Then give it properties — named values of any type. A property can be a Float, a String, a Vector2, even another Record.&#xD;&#xA;&#xD;&#xA;In the example below we define a Record called Thing with two properties — a Position (Vector2) and a Size (Float). You may recognise Thing from chapter 38, where it already appeared as a finished result. This time we build it from scratch, so you can see exactly what each step means. That is the whole definition. Thing is now a data type you can use anywhere in your patch, just like Circle or Rectangle, except you defined it yourself.&#xD;&#xA;&#xD;&#xA;Each property you define can be set through an input pin on the Create operation, so a new Thing starts with the values you give it. This is the same Create you know from Processes — it makes a new instance — but on a Record it appears as a node you place in the patch.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="0dr0SrA2TAtpyvOoULJfju" Bounds="1092,310,220,31" ShowValueBox="true" isIOBox="true" Value="Operations as Nodes">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">15</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="1eR90nwkcjsnNHS7y1P1cA" Bounds="1092,347,430,360" ShowValueBox="true" isIOBox="true" Value="Here is where the Process and the Record diverge in practice. On a Process, you added an operation and triggered it from outside, but the operation ran inside the Process and changed the Process's own state. On a Record, the operation becomes a node you place in the patch. You feed the Record into it, the operation does its work, and a Record comes out the other side.&#xD;&#xA;&#xD;&#xA;This is not optional. A Record does not run on its own, so there is no &quot;inside&quot; for the operation to run in. The only way to use a Record's operation is to place it as a node and pass the Record through it. Every operation on a Record — Create, Split, and any custom ones you define — is a node in your patch.&#xD;&#xA;&#xD;&#xA;This changes how state is handled. On a Process, the Process kept the state for you. On a Record, you hold the state, because the Record is a value flowing through your patch. To make this work, every Record operation other than Create has two special pins — a State Input and a State Output.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="1tYq0XZFQHu1Z7qenAHfYo" Bounds="1092,820,430,100" ShowValueBox="true" isIOBox="true" Value="&lt; LIVE ELEMENT — build by hand:&#xD;&#xA;&#xD;&#xA;The Thing Record referenced in the Patch Explorer. A Create Thing node with two input IOBoxes (Position, Size) and one output carrying a Thing, carried downstream for inspection.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="5eDAWiRFYo07h7hozy5qBN" Bounds="92,900,310,31" ShowValueBox="true" isIOBox="true" Value="State Input and State Output">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">15</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="1Eat8TqHKxCsB4fQXPwg3I" Bounds="92,937,1400,180" ShowValueBox="true" isIOBox="true" Value="Open an operation that changes the Record — a setter like SetPosition — and you will see two pins that were not there on the Process operations: a State Input among the inputs on top and a State Output among the outputs at the bottom. The State Input is the Record coming in: the Thing as it exists right now. The State Output is the Record going out: the Thing after the operation has done its work. The operation takes a Record in, and hands a Record back.&#xD;&#xA;&#xD;&#xA;This is why a Record's state flows through the patch. The Process kept its state internally and you never touched it. A Record's state is the Record itself, and it travels along the wires — into an operation through State Input, out through State Output, on to the next operation. If you want to change a Thing's Position, you define a SetPosition operation: it takes a Thing on State Input, a new Position from above, and outputs a Thing with the new Position on State Output.&#xD;&#xA;&#xD;&#xA;Look closely at the operation and you will notice something. Inside a SetPosition operation, the State Input and the State Output are not visually connected to each other. That is intentional, and it is a detail we will return to in chapter 43. For now it tells you this: the Thing coming out is a fresh copy with the change applied, and the Thing that went in is unchanged. Each operation produces a new Thing and leaves the old one alone.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="5HkJJIWkgGgjMYftJ7iZvk" Bounds="92,1180,1400,80" ShowValueBox="true" isIOBox="true" Value="&lt; LIVE ELEMENT — build by hand:&#xD;&#xA;&#xD;&#xA;A SetPosition operation on Thing shown opened, State Input/Output annotated. In the application: Create Thing → SetPosition → SetPosition, with IOBoxes feeding new positions and a downstream Split reading the result. Annotation: hovering any link shows &quot;Thing&quot;; each step produces a new Thing.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="6ubjd0r14ZNumVBSh8zgVj" Bounds="92,1400,200,31" ShowValueBox="true" isIOBox="true" Value="Create and Split">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">15</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="0cXwPXqfU1jFXYSRUzXxo4" Bounds="92,1437,430,340" ShowValueBox="true" isIOBox="true" Value="Every Record comes with two operations automatically — Create and Split.&#xD;&#xA;&#xD;&#xA;Create makes a new instance. Its input pins set the starting properties, and the new Record comes out at the bottom. There is no State Input on Create, because there is no existing Record to take in — Create is where a Record begins. This is the same Create you used on Processes, now as a node.&#xD;&#xA;&#xD;&#xA;Split is the opposite. Give it a Record, and it hands you back all the properties as separate outputs. It is how you read what is inside a Record at any point. Split takes a Record on State Input, but its State Output passes the same Record straight through, unchanged — Split only reads, it never modifies.&#xD;&#xA;&#xD;&#xA;Between Create to bring a Record into being and Split to read it back out, you can already do a lot. The custom operations you define fill in everything between.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="5JJbteYYiAy07ZdjlBV2vy" Bounds="592,1400,220,31" ShowValueBox="true" isIOBox="true" Value="Setters and Getters">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">15</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="4i59tQKdFKqE5KJYK1LMrr" Bounds="592,1437,430,340" ShowValueBox="true" isIOBox="true" Value="The custom operations you define on a Record usually fall into two kinds. A setter changes one property and returns the modified Record — SetPosition, SetSize, SetColor. It takes the Record on State Input, a new value from above, and outputs the changed Record on State Output. A getter reads one property without changing anything — GetPosition, GetSize. It takes the Record on State Input and outputs the property value on its own pin. Reading takes nothing away — the same Record link can branch to as many readers as you need.&#xD;&#xA;&#xD;&#xA;A getter does something Split also does — it reads a property. The difference is convenience. Split gives you everything at once; a getter gives you just one value with a clear name, useful when you only need one or when the calculation is more involved than a plain read.&#xD;&#xA;&#xD;&#xA;Define a setter and a getter for each property you want to work with, and your Record has a full set of named operations — each one a node you place in the patch that takes the Record in.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="0aFO6vGZTwV8Gke8Yoe5yi" Bounds="1092,1400,150,25" ShowValueBox="true" isIOBox="true" Value="Other Resources">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">12</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="5Y1Cfh7CJ0A9NGQd1GpRZW" Bounds="1092,1430,430,20" ShowValueBox="true" isIOBox="true" Value="The Gray Book on Types">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="4ILhnchWqh2VaAHL8ZnmrW" Bounds="1092,1450,363,19" ShowValueBox="true" isIOBox="true" Value="https://thegraybook.vvvv.org/reference/language/types.html">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="3goi5B1p5liYxj9pLz9O7L" Bounds="1092,1490,430,20" ShowValueBox="true" isIOBox="true" Value="The Gray Book on Operations">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="06gInBP2FicQpbnm37HBMX" Bounds="1092,1510,393,19" ShowValueBox="true" isIOBox="true" Value="https://thegraybook.vvvv.org/reference/language/operations.html">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="5JC12pOp6HR6K6ZCiZDvSX" Bounds="92,1700,240,31" ShowValueBox="true" isIOBox="true" Value="The Apply Pin Pattern">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">15</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="2oFcChfXnGPFBdu5heysQS" Bounds="92,1737,1400,120" ShowValueBox="true" isIOBox="true" Value="There is a refinement worth naming now that you have seen the full read-modify-store pattern in action. The loop — read the Record from the pad, pass it through the operation, store the result back — stays wired permanently, so left alone the operation would run every frame. That is what the Apply pin is for. You have used it on built-in types since chapter 23 — Spread in chapter 25, Dictionary in chapter 26. Apply is a boolean gate: while it is false, the node passes the incoming value through unchanged. The frame it flips to true, the operation runs.&#xD;&#xA;&#xD;&#xA;The same Apply pin is available on your own Record operations. A SetPosition node sits in the loop passing the Thing through untouched until a Bang on its Apply pin fires — that frame it produces a Thing with the new Position, and the pad stores the result. Whether the value in the pad is a Spread, a Dictionary, or your own Thing, the pattern is identical. Now that you are defining your own data types, you can use it with them too.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="0kZQvnSIVHN8nZKWKuoikp" Bounds="92,1830,1400,80" ShowValueBox="true" isIOBox="true" Value="&lt; LIVE ELEMENT — build by hand:&#xD;&#xA;&#xD;&#xA;A Thing in a pad wired through a SetPosition node and back — the read-modify-store loop. A Bang connected to SetPosition's Apply pin. While Apply is false, the Thing passes through unchanged; on the Bang, the new Position is applied and stored. Annotation marking which pin is the Apply pin.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+        </Canvas>
+        <Patch Id="1kF1D1u7FjZGLfxv7BKyzF" Name="Create" />
+        <Patch Id="7OxpItVd0VHuY1eD8hrGLA" Name="Update" />
+        <ProcessDefinition Id="6cOuFe25XFl8OXw5DC7DpQ">
+          <Fragment Id="6q8NH27SlQrzdqJOmSlk5x" Patch="1kF1D1u7FjZGLfxv7BKyzF" Enabled="true" />
+          <Fragment Id="1GGDeWCXOsIESHk9EFf51K" Patch="7OxpItVd0VHuY1eD8hrGLA" Enabled="true" />
+        </ProcessDefinition>
+      </Patch>
+    </Node>
+  </Patch>
+  <NugetDependency Id="1tDBi6dXynNlcJhFjBtCSx" Location="VL.Stride" Version="2025.7.2" />
+  <NugetDependency Id="0JkJmKRa55IKuMZu2ZYtwX" Location="VL.Skia" Version="2025.7.2" />
+  <DocumentDependency Id="7aPPkaid1jbjTCrS4nrYeU" Location="../../include/Nodes.vl" />
+  <DocumentDependency Id="6eQfHoJtYoFgWwxZUbj5Y8" Location="../../VL.TheBigBang.vl" />
+  <NugetDependency Id="79aT8tqkgyZVmjlgmVSQrK" Location="VL.Stride.TextureFX" Version="2025.7.2" />
+</Document>

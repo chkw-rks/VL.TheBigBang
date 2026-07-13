@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:p="property" xmlns:r="reflection" Id="3ZmlpxX0Fnz990Wa80Xoge" LanguageVersion="2025.7.2" Version="0.128">
+  <NugetDependency Id="3rRmJAGSdvAykQ9UzaHp14" Location="VL.CoreLib" Version="2025.7.2" />
+  <Patch Id="2L9H6XNTuQgsDr9Bg9Ujyk">
+    <Canvas Id="3cB8gvkoYDRGm77qUPyhcn" DefaultCategory="Main" CanvasType="FullCategory" />
+    <Node Name="Application" Bounds="100,100" Id="17HT7ClK8CgazRpR5XhwSk">
+      <p:NodeReference>
+        <Choice Kind="ContainerDefinition" Name="Process" />
+        <CategoryReference Kind="Category" Name="Primitive" />
+      </p:NodeReference>
+      <Patch Id="76wMyh2kJkH9ScUimiuqf6">
+        <Canvas Id="657aEANaml3cTxfvjW2Onp" CanvasType="Group">
+          <Pad Id="4knUD95btoVaAudHiUTjb0" Bounds="72,113,485,46" ShowValueBox="true" isIOBox="true" Value="41. Use Case I: Bundling Properties">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">22</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="2tV74YsIAtUsxRmRmVMgDV" Bounds="72,86,364,25" ShowValueBox="true" isIOBox="true" Value="VL.TheBigBang">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">12</p:fontsize>
+              <p:showvalue p:Type="Boolean">true</p:showvalue>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="1JPlXaNH1sVAtopQzmM6X2" Bounds="552,86,66,15" ShowValueBox="true" isIOBox="true" Value="Made by chk">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">7</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="6fGNIom8fELPVJRBEFTZry" Bounds="617,86,140,19" ShowValueBox="true" isIOBox="true" Value="https://www.3e8.studio">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">7</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="0aY0h389phx0QAvdX77QFu" Bounds="792,86,369,15" ShowValueBox="true" isIOBox="true" Value="If you find this material helpful, please consider supporting its development via">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">7</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="5MMzFQgHgL9n2DF3yXBvdg" Bounds="1160,86,140,19" ShowValueBox="true" isIOBox="true" Value="https://www.ko-fi.com/chk">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">7</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="1irmdxP6fvJeANCp7X1fxb" Bounds="92,206,1400,100" ShowValueBox="true" isIOBox="true" Value="Now that we know how to define a Record and give it properties, let's look at the first real reason you would reach for one. The case is simple but important — bundling related properties together so they travel as one thing through your patch.&#xD;&#xA;&#xD;&#xA;In this chapter we will build the same small application twice. First the way you might build it with what you already knew before chapter 40 — using parallel spreads, one for each property. Then we will rebuild it with a single spread of Records. The patches do exactly the same thing, but the second version is dramatically simpler to read, modify, and extend.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="7eQO6pj3p2PCPWrlDtmGp3" Bounds="92,310,320,31" ShowValueBox="true" isIOBox="true" Value="The Old Way: Parallel Spreads">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">15</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="7Glop6QcFCg0i966wgw3cx" Bounds="92,347,430,280" ShowValueBox="true" isIOBox="true" Value="Imagine we want to draw a field of circles. Each circle has its own position, its own radius, and its own color. There are twenty of them, arranged in a spread.&#xD;&#xA;&#xD;&#xA;Without a Record, you would do this with three separate spreads — one for positions, one for radii, one for colors. Each spread has twenty values. You would generate these spreads with the techniques from chapter 21, then iterate over all three at once with ForEach.&#xD;&#xA;&#xD;&#xA;The patch below shows this approach. Notice how three separate spreads have to be generated, fed in parallel into a ForEach region, and then drawn together. The Position, Size, and Color of each circle live in three completely different parts of the patch, even though they belong together.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="4jcOzILeKqpMJ1Tebmv5NG" Bounds="92,720,1400,80" ShowValueBox="true" isIOBox="true" Value="&lt; LIVE ELEMENT — build by hand:&#xD;&#xA;&#xD;&#xA;Three Spread Generator chains (Spread&lt;Vector2&gt; positions via grid, Spread&lt;Float&gt; radii, Spread&lt;Color&gt; colors via HSV range), all feeding one ForEach. Inside: Circle drawn at position with radius and color. SkiaRenderer showing twenty circles. Point: visual congestion of three parallel paths.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="7SOKw6Jvbt4489QkfLf0YK" Bounds="92,900,350,31" ShowValueBox="true" isIOBox="true" Value="The New Way: A Spread of Records">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">15</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="6SXbyI96YkKiKMptyvdb51" Bounds="92,937,430,300" ShowValueBox="true" isIOBox="true" Value="Now let's rebuild the same field using a single Record that bundles Position, Radius, and Color together. We define a Record called Particle with these three properties. Then we generate a Spread&lt;Particle&gt; with twenty Particles in it. The ForEach iterates over the spread, and inside it we use Split to read each Particle's three properties at once.&#xD;&#xA;&#xD;&#xA;The result on screen is identical. But look at the patch. We have one data stream instead of three. The ForEach takes one input. The relationship between Position, Radius, and Color is now structural — they live inside the same Record, so the patch literally cannot mix them up. If you ever need to add a fourth property, like Rotation, you add it to the Record once and every Particle has it.&#xD;&#xA;&#xD;&#xA;This is what bundling buys you. Related data stays related, in the patch as much as in your head.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="04yLi7L199CCWe8iM4GcPv" Bounds="92,1220,1400,60" ShowValueBox="true" isIOBox="true" Value="&lt; LIVE ELEMENT — build by hand:&#xD;&#xA;&#xD;&#xA;A Particle Record (Position, Radius, Color). A generator producing Spread&lt;Particle&gt;. One ForEach. Inside: Split Particle → Circle. Same SkiaRenderer, identical output. The new patch is visibly narrower with fewer crossing lines.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="3IyBfyp8FSHpKiFPPUz5SM" Bounds="92,1400,210,31" ShowValueBox="true" isIOBox="true" Value="Why This Is Better">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">15</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="3N2iGwBjfOtCiB605LQmaw" Bounds="92,1437,430,340" ShowValueBox="true" isIOBox="true" Value="The bundled version wins in three ways the reader can feel directly.&#xD;&#xA;&#xD;&#xA;First, the patch is smaller. One data stream instead of three. Fewer links crossing the canvas, fewer parallel structures to keep aligned in your head.&#xD;&#xA;&#xD;&#xA;Second, the structure mirrors the meaning. A Particle is one thing, and the patch treats it as one thing. When you read the patch, you do not have to mentally reassemble three parallel spreads into the concept of a &quot;field of particles.&quot; The Record does that work for you.&#xD;&#xA;&#xD;&#xA;Third, the patch is easier to change. If you want every Particle to also have a Rotation, you add Rotation to the Record once. Every existing patch that uses Particles immediately has access to it. With the parallel-spread version, adding a Rotation means adding a fourth spread, threading it into the ForEach, and making sure its length matches the other three.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="2zinQC2ey6mOgy92lV2fUP" Bounds="592,1400,200,31" ShowValueBox="true" isIOBox="true" Value="When to Bundle">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">15</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="6nD81Rz5QZkXjWrb8Ia3YH" Bounds="592,1437,430,360" ShowValueBox="true" isIOBox="true" Value="The honest answer is — almost always, if the values belong together.&#xD;&#xA;&#xD;&#xA;A good Record bundles properties that conceptually describe one thing. A Particle has a Position, Radius, and Color because each one has its own. A character in a game has Health, Position, and Inventory because each character has its own.&#xD;&#xA;&#xD;&#xA;The test is simple. If you find yourself maintaining several parallel spreads where the values at each index belong to the same conceptual thing, those values want to be a Record. Bundle them and the parallel structure disappears.&#xD;&#xA;&#xD;&#xA;The opposite case — where you should not bundle — is when the values do not belong to one thing. The current time, the mouse position, and the application's frame count are all values, but they do not describe one entity. They describe the global state of the world. Bundling them into a Record would be artificial and would make the patch harder to read, not easier.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="2qFL5CGogxulOqVo81AmLh" Bounds="1092,1400,150,25" ShowValueBox="true" isIOBox="true" Value="Other Resources">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">12</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="6D4R0aRBmpTdJj4GZGzFVV" Bounds="1092,1430,430,20" ShowValueBox="true" isIOBox="true" Value="The Gray Book on Types">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="7giFW42zyOlE8UMPmy5Iq9" Bounds="1092,1450,363,19" ShowValueBox="true" isIOBox="true" Value="https://thegraybook.vvvv.org/reference/language/types.html">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+        </Canvas>
+        <Patch Id="0Dgl8b6jDGyLKrVMPw68ix" Name="Create" />
+        <Patch Id="1fWEKY8EGsH65usqlb6z5S" Name="Update" />
+        <ProcessDefinition Id="57jUP6FDzFpfR4BgDepkdS">
+          <Fragment Id="6rOSGmFEi7TMMvN9eDJTJI" Patch="0Dgl8b6jDGyLKrVMPw68ix" Enabled="true" />
+          <Fragment Id="197EYMKkrnUwmZBi7ZpPan" Patch="1fWEKY8EGsH65usqlb6z5S" Enabled="true" />
+        </ProcessDefinition>
+      </Patch>
+    </Node>
+  </Patch>
+  <NugetDependency Id="6gFlOhGncfSqglroctJNge" Location="VL.Stride" Version="2025.7.2" />
+  <NugetDependency Id="2qTRWsN2xwH8NKBfmOSBEN" Location="VL.Skia" Version="2025.7.2" />
+  <DocumentDependency Id="7mlPIupFUTJEGgRjPah0yG" Location="../../include/Nodes.vl" />
+  <DocumentDependency Id="3LLbnrgoQcASO36u2FOrqn" Location="../../VL.TheBigBang.vl" />
+  <NugetDependency Id="6fqaLdMn7S1Z9BrT7KHh2t" Location="VL.Stride.TextureFX" Version="2025.7.2" />
+</Document>

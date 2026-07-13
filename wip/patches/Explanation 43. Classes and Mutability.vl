@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:p="property" xmlns:r="reflection" Id="10er7vzlLmnSJbx9Ev1b9j" LanguageVersion="2025.7.2" Version="0.128">
+  <NugetDependency Id="45fCZ3PwZlXrW7ynbqo0EN" Location="VL.CoreLib" Version="2025.7.2" />
+  <Patch Id="49vifYsh9QepYTryYl5pjR">
+    <Canvas Id="2EQClgtC50xc6datGL76Kf" DefaultCategory="Main" CanvasType="FullCategory" />
+    <Node Name="Application" Bounds="100,100" Id="5WahVDSXf32u9fb8vbKJJJ">
+      <p:NodeReference>
+        <Choice Kind="ContainerDefinition" Name="Process" />
+        <CategoryReference Kind="Category" Name="Primitive" />
+      </p:NodeReference>
+      <Patch Id="63gyuyo9Ayrib0kzINT5bN">
+        <Canvas Id="4K2ctfmhC1YPKPm7zr9BrX" CanvasType="Group">
+          <Pad Id="60G6o3mpuQElBt7ZK1Lgjl" Bounds="72,113,482,46" ShowValueBox="true" isIOBox="true" Value="43. Classes and Mutability">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">22</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="3ob9DcB8TjYXUCY3i4va94" Bounds="72,86,364,25" ShowValueBox="true" isIOBox="true" Value="VL.TheBigBang">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">12</p:fontsize>
+              <p:showvalue p:Type="Boolean">true</p:showvalue>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="7NxUW4IZsAlzW5HbDgQ0vr" Bounds="552,86,66,15" ShowValueBox="true" isIOBox="true" Value="Made by chk">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">7</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="2TDAigH3oSIsUmYdNgcVTh" Bounds="617,86,140,19" ShowValueBox="true" isIOBox="true" Value="https://www.3e8.studio">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">7</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="25qcdfhLSj4O9PtMM6RLiY" Bounds="792,86,369,15" ShowValueBox="true" isIOBox="true" Value="If you find this material helpful, please consider supporting its development via">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">7</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="1eVOxjdvEDPCQj5qtTrBPr" Bounds="1160,86,140,19" ShowValueBox="true" isIOBox="true" Value="https://www.ko-fi.com/chk">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">7</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="7eQc9nTcYyXMx96Wv2zpwA" Bounds="92,206,1400,160" ShowValueBox="true" isIOBox="true" Value="For several chapters now we have been working with Records. Every Record operation produces a new copy of the Record, with changes applied. To make changes persist, we have stored the result back into a pad — explicitly, frame by frame. This is how Records work.&#xD;&#xA;&#xD;&#xA;There is a second flavor of object in VL called a Class. A Class looks almost identical to a Record on the outside — properties, operations, the same Patch Explorer interface. The difference is in how operations affect the object. A Class operation does not produce a new copy. It modifies the existing object in place. The same Class instance going into an operation comes out the other side, changed.&#xD;&#xA;&#xD;&#xA;This chapter introduces Class as a mechanic. We will see how it differs from Record in the patch, and we will look at a small demonstration that makes the difference visible. The next chapter will help you decide which one to reach for and when.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="4sSTUIAQ9du7IQnetF8ySE" Bounds="92,310,200,31" ShowValueBox="true" isIOBox="true" Value="A Second Flavor">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">15</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="2WkPOFvFFkNOJv2OXsVsL9" Bounds="92,347,430,300" ShowValueBox="true" isIOBox="true" Value="Record and Class are the two flavors of object you can define in VL. You define them the same way — open the Patch Explorer, type a name, choose &quot;Record&quot; or &quot;Class.&quot; You give them properties the same way. You define operations on them the same way. The Node Browser shows them with similar nodes — Create, Split, and whatever custom operations you define.&#xD;&#xA;&#xD;&#xA;The difference is what happens when an operation modifies the object. A Record operation produces a new copy with the change applied. The original Record on the input is unchanged. A Class operation modifies the object on the input directly. There is only one instance, before and after the operation, and it is now different.&#xD;&#xA;&#xD;&#xA;This single difference is the entire substance of the chapter. Everything else — the State Output pin, the dashed links, the explicit-store pattern disappearing — follows from it.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="2YQyA7fXSe20kBjHX6TcuA" Bounds="592,310,200,31" ShowValueBox="true" isIOBox="true" Value="Defining a Class">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">15</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="6OEZPJfa9pjkqrOY3vZQZ8" Bounds="592,347,430,260" ShowValueBox="true" isIOBox="true" Value="To define a Class, open the Patch Explorer, right-click in the document, and choose &quot;Add Class.&quot; Give it a name. Add properties. Add operations. The interface is identical to Record's.&#xD;&#xA;&#xD;&#xA;In our example below we define a Class called MyClass and a Record called MyRecord, both with a single Color property and a single operation called SetColor that changes that property. The definitions look almost the same in the Patch Explorer — you can tell them apart by the icon next to each in the explorer's list of definitions. The R icon marks a Record, the C icon marks a Class.&#xD;&#xA;&#xD;&#xA;The operations look slightly different inside, though, and that is where the mechanic becomes visible.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="4OaA4Rbig3ZOIZVg1kdHKW" Bounds="1092,310,230,31" ShowValueBox="true" isIOBox="true" Value="The State Output Pin">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">15</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="3aqruTjU3IAIzeEkc59Whd" Bounds="1092,347,430,300" ShowValueBox="true" isIOBox="true" Value="Open the SetColor operation on the Record and look at it. State Input pin on the left, State Output pin on the right. Inside the operation, the new Color value is assigned to the Color property of the State Output. The State Input and the State Output are not visually connected. This tells you that the Record coming out is not the same Record that went in — it is a new copy. You met this in chapter 40.&#xD;&#xA;&#xD;&#xA;Now open the SetColor operation on the Class. The same two pins, State Input and State Output. But inside, the State Input and the State Output are visually connected to each other. The Class coming out is the same Class that went in. There is no copy. The assignment to Color modifies the Class directly, and the same Class is passed through.&#xD;&#xA;&#xD;&#xA;This visual distinction inside the operation is the heart of mutability — a thing you can see, rather than a thing you have to remember.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="7XOwkPRDnty5DYMe11Zogk" Bounds="1092,820,430,100" ShowValueBox="true" isIOBox="true" Value="&lt; LIVE ELEMENT — build by hand:&#xD;&#xA;&#xD;&#xA;SetColor for MyRecord and MyClass shown side-by-side (nested views or Patch Explorer). Annotations on State In/Out pins noting not-connected (Record) vs connected (Class).">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="1gmw7jAvPQFaBKDToXWJdi" Bounds="92,900,370,31" ShowValueBox="true" isIOBox="true" Value="Same Operations, Different Results">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">15</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="6xKYAydN182VstRxe40eGE" Bounds="92,937,1400,200" ShowValueBox="true" isIOBox="true" Value="The patch below shows the central demonstration of this chapter. On the left side we have a MyRecord, created and then passed through two SetColor operations — first setting it to blue, then to red. On the right side we have a MyClass, created and passed through two SetColor operations — first blue, then red. The patches are structurally identical.&#xD;&#xA;&#xD;&#xA;At three points along each chain — at the start, in the middle between the two SetColor operations, and at the end — we tap an IOBox into the link, showing what it carries.&#xD;&#xA;&#xD;&#xA;Look at what the IOBoxes show. On the Record side, three different colors — white at the start, blue in the middle, red at the end. Each link carries a different Record, and each IOBox holds the one from the point it tapped in. On the Class side, three identical colors — all three IOBoxes show red, the final value. Even the one tapped in before the second SetColor shows red — an IOBox does not copy anything at the point it taps in; it holds the instance, and there is only one MyClass instance, which ends up red once the frame has run. The &quot;before&quot; and &quot;after&quot; states are not preserved on the Class side, because there is no copy.&#xD;&#xA;&#xD;&#xA;This is the entire mechanic in one screen. A Record holds its history along the chain because every step is a new value. A Class does not — it is one thing that changes, and every reference to it sees the latest state.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="3rqJg42YI6aT9Qum9TFCDV" Bounds="92,1180,1400,80" ShowValueBox="true" isIOBox="true" Value="&lt; LIVE ELEMENT — build by hand:&#xD;&#xA;&#xD;&#xA;Left: Create MyRecord → SetColor(blue) → SetColor(red), three IOBoxes tapped into the links at start/middle/end showing white/blue/red, solid links. Right: Create MyClass → SetColor(blue) → SetColor(red), three IOBoxes showing red/red/red, dashed links. Annotation at the middle IOBoxes: &quot;this is where they disagree.&quot;">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="0uCE2akB899cL9lLHr9XDB" Bounds="92,1500,250,31" ShowValueBox="true" isIOBox="true" Value="Solid and Dashed Links">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">15</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="7VK7dny8Hfe47owmi35cn8" Bounds="92,1537,430,360" ShowValueBox="true" isIOBox="true" Value="You may have already noticed in the patch above. The links carrying MyRecord are drawn as solid lines. The links carrying MyClass are drawn as dashed lines. This is the visual signature of mutability across the entire vvvv environment.&#xD;&#xA;&#xD;&#xA;Solid link: the value being carried is immutable. Whatever flows through this link is a value, like a number or a Record. Each step in the patch produces a new one. The link is a stream of values.&#xD;&#xA;&#xD;&#xA;Dashed link: the value being carried is mutable. The link is not a stream of values — it is a reference to one thing. The same thing might be modified anywhere along the link's path, and every part of the patch holding this reference sees the change.&#xD;&#xA;&#xD;&#xA;You will see this distinction throughout your patches once you start using Classes. Any link carrying a Class will be dashed. Any link carrying a Record will be solid. The patch tells you, just by looking, which kind of object is flowing through.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="5J5MkRjAHpmRqLFcqOqEaB" Bounds="592,1500,200,31" ShowValueBox="true" isIOBox="true" Value="What This Means">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">15</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="0OaEbGCaS2A6GlSjdVnC2f" Bounds="592,1537,430,360" ShowValueBox="true" isIOBox="true" Value="The mechanic has practical consequences that ripple through the rest of your patch. The most visible one: the write-back half of the explicit-store pattern from chapter 23 onward does not apply to Classes. When you modify a Class via an operation, the change persists automatically, because the Class is the same object before and after. The instance still lives in a pad — but you never store anything back into it. The pad keeps holding the same object, and the object changed.&#xD;&#xA;&#xD;&#xA;That is the headline feature of Classes, and it is what makes them tempting. But it is not the whole story. There are things Records do automatically that Classes do not — change detection, snapshots, the natural clarity of order when multiple operations modify a value. These are not abstract concerns; they show up the moment you start building things with Classes that you used to build with Records.&#xD;&#xA;&#xD;&#xA;The next chapter looks at this honestly. When to reach for a Class, when to stay with a Record, and what you give up by switching. Class is not free, and the decision is worth making deliberately.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="6ZzANAL3TwY2VJgpz2anj2" Bounds="1092,1500,150,25" ShowValueBox="true" isIOBox="true" Value="Other Resources">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">12</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="6TfLNhvKmKky4Z3Dc3vUgz" Bounds="1092,1530,430,20" ShowValueBox="true" isIOBox="true" Value="The Gray Book on Types">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="3FHIbbrQD90z5a1GFKfw7a" Bounds="1092,1550,363,19" ShowValueBox="true" isIOBox="true" Value="https://thegraybook.vvvv.org/reference/language/types.html">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="6vchSQskljucDm3WwPRayT" Bounds="1092,1590,430,20" ShowValueBox="true" isIOBox="true" Value="Mutability in vvvv Gamma (Record vs Class) by TobyK">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="4f9MWEmP2pIIuPNSG0kr4z" Bounds="1092,1610,183,19" ShowValueBox="true" isIOBox="true" Value="https://youtu.be/zGufG64WSF4">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+        </Canvas>
+        <Patch Id="5M0IyMpQPQnoofETe2JqfQ" Name="Create" />
+        <Patch Id="7V6Kh6wliwNzCIApppBbZu" Name="Update" />
+        <ProcessDefinition Id="22zkmEiCBGnoq59JolZkg7">
+          <Fragment Id="0Ym4jY8AOirW2xZdENVF4d" Patch="5M0IyMpQPQnoofETe2JqfQ" Enabled="true" />
+          <Fragment Id="5Bzrqw8isBwRuJJ4lhDDHv" Patch="7V6Kh6wliwNzCIApppBbZu" Enabled="true" />
+        </ProcessDefinition>
+      </Patch>
+    </Node>
+  </Patch>
+  <NugetDependency Id="4gXyhCVkTayqDX268jynsP" Location="VL.Stride" Version="2025.7.2" />
+  <NugetDependency Id="3p81TWymtY5mAAmu1H4b57" Location="VL.Skia" Version="2025.7.2" />
+  <DocumentDependency Id="3LNSWzBaA9zasQPVI188Hp" Location="../../include/Nodes.vl" />
+  <DocumentDependency Id="1ywaLQrGMureogR1kkorOD" Location="../../VL.TheBigBang.vl" />
+  <NugetDependency Id="6w2m50NO3APeXuYEsEH0cL" Location="VL.Stride.TextureFX" Version="2025.7.2" />
+</Document>

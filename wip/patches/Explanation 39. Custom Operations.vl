@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:p="property" xmlns:r="reflection" Id="3JpEwcyFjCBIxoxniCmUYq" LanguageVersion="2025.7.2" Version="0.128">
+  <NugetDependency Id="3sP8ILJ7wICqcJRJI6VFQ0" Location="VL.CoreLib" Version="2025.7.2" />
+  <Patch Id="5UxtFyIyW5p0AVu4F5hgqm">
+    <Canvas Id="6DIQT1oTg0qH7nGi1BNkxe" DefaultCategory="Main" CanvasType="FullCategory" />
+    <Node Name="Application" Bounds="100,100" Id="5oftZ9WB1tRCNOdrVS1eBf">
+      <p:NodeReference>
+        <Choice Kind="ContainerDefinition" Name="Process" />
+        <CategoryReference Kind="Category" Name="Primitive" />
+      </p:NodeReference>
+      <Patch Id="4kVJExNIwm5BHTUcuEhJVK">
+        <Canvas Id="03Rr7uEMEyhdap7CVQsmff" CanvasType="Group">
+          <Pad Id="6bO63ZNWqKQm2DsNXGU40m" Bounds="72,113,482,46" ShowValueBox="true" isIOBox="true" Value="39. Custom Operations">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">22</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="3M6o70xOQArisipOzkUHXX" Bounds="72,86,364,25" ShowValueBox="true" isIOBox="true" Value="VL.TheBigBang">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">12</p:fontsize>
+              <p:showvalue p:Type="Boolean">true</p:showvalue>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="7MgbrrXaMXrMl6ZkXDxRZO" Bounds="552,86,66,15" ShowValueBox="true" isIOBox="true" Value="Made by chk">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">7</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="5ftxqcvzneJ6mZhISXSwMG" Bounds="617,86,140,19" ShowValueBox="true" isIOBox="true" Value="https://www.3e8.studio">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">7</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="20JZpKzXn7rUtOBhD7Llfp" Bounds="792,86,369,15" ShowValueBox="true" isIOBox="true" Value="If you find this material helpful, please consider supporting its development via">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">7</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="6JRzM8J0ZWQE6vXhs8WsQq" Bounds="1160,86,140,19" ShowValueBox="true" isIOBox="true" Value="https://www.ko-fi.com/chk">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">7</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="4aihBURkxGxLZcXEUY02AI" Bounds="92,206,1400,100" ShowValueBox="true" isIOBox="true" Value="In chapter 11 we built our first Process nodes, and in chapter 24 we met Create and Update — the two operations every Process runs. Create runs once when the Process starts. Update runs every frame. We have been relying on both ever since, often without thinking of them as operations at all.&#xD;&#xA;&#xD;&#xA;In this chapter we go further and add our own. Create and Update are operations with reserved meanings, but a Process can have many more — custom ones that run only when you trigger them, like a Reset that returns something to its starting state, or an Increment that bumps a counter on demand. By the end of this chapter you will be able to define your own operations on a Process and call them when you want.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="4NyHXrn7hjMuaeywFqVKqo" Bounds="92,310,230,31" ShowValueBox="true" isIOBox="true" Value="What an Operation Is">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">15</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="4udvwnnrh3zfmVw0s7xNEr" Bounds="92,347,430,220" ShowValueBox="true" isIOBox="true" Value="An operation is a named action a Process can perform. You can think of an operation as a little patch inside the Process that does one specific job. The Process holds some state — values stored in pads that persist across frames — and its operations are the ways that state can be created, changed, or read.&#xD;&#xA;&#xD;&#xA;You have been using operations since chapter 11 without naming them. Every Process you built had a Create operation and an Update operation. Create set up the starting state. Update advanced it each frame. Those were operations all along. What we add in this chapter is the ability to define more of them, and to decide when each one runs.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="5l47HIgL9OEAoNYCUfhfIL" Bounds="592,310,200,31" ShowValueBox="true" isIOBox="true" Value="Create and Update">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">15</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="4VyusPZ8nuCOCxTChsxX7X" Bounds="592,347,430,320" ShowValueBox="true" isIOBox="true" Value="Create and Update are the two operations with reserved meanings. Create runs once, when the Process comes into existence. It is where you set up starting values — the initial position, the starting color, whatever the Process needs to begin. Update runs every frame the application is running. It is where the per-frame logic lives — advancing a position, responding to input, drawing to the screen.&#xD;&#xA;&#xD;&#xA;The reserved colors mark them. Create is white. Update is gray. When you look inside a Process you can tell these operations apart from any others by their color. They are conventions the runtime understands — the runtime knows to call Create once and Update each frame. You do not trigger them yourself; they run on their own schedule.&#xD;&#xA;&#xD;&#xA;Most of what you have built so far lives in Update. In this chapter we add operations that do not run on a schedule at all — they run only when you tell them to.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="08qF5YAtRWRCDAN02bufy7" Bounds="1092,310,220,31" ShowValueBox="true" isIOBox="true" Value="Your Own Operations">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">15</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="2KFiwnxeH1adGNfAA5WXpQ" Bounds="1092,347,430,300" ShowValueBox="true" isIOBox="true" Value="To add an operation to a Process, open the Process in the Patch Explorer, right-click, and choose to add an operation. Give it a name. Inside, you patch whatever the operation should do.&#xD;&#xA;&#xD;&#xA;Unlike Create and Update, an operation you define does not run automatically. When you place the Process node, the operation shows up on it with its own Apply pin — a boolean gate. While the pin is false, the operation sits idle; the frame it flips to true — a Bang from a button, a mouse click, any boolean — the operation runs.&#xD;&#xA;&#xD;&#xA;In the patch below we have a Process that holds a Count value. It has the usual Update operation, but we have added a custom operation called Increment. Each time the Bang fires, Increment runs and the Count goes up by one. Update is not involved — the counting happens only on the trigger.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="1O02jtfW0kEa2saWEXaqK4" Bounds="1092,750,430,100" ShowValueBox="true" isIOBox="true" Value="&lt; LIVE ELEMENT — build by hand:&#xD;&#xA;&#xD;&#xA;A small `Counter` Process holding a Count integer in a pad. Custom operation `Increment` (+1). A Bang wired to Increment's Apply pin. IOBox showing Count climbing per click. Update present but doing nothing visible.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="13fUUARUb4Jr7JRO7LbV9d" Bounds="92,900,350,31" ShowValueBox="true" isIOBox="true" Value="Operations That Run on a Trigger">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">15</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="0R8HtOB9qBxfGWbvKv2Gmw" Bounds="92,937,1400,160" ShowValueBox="true" isIOBox="true" Value="The pattern is worth seeing clearly because it is the basis for everything in the rest of Part V. An operation that runs on a trigger lets you separate &quot;what happens every frame&quot; from &quot;what happens on an event.&quot; Update is for the first. A triggerable operation is for the second.&#xD;&#xA;&#xD;&#xA;In the patch below we extend the Counter with a second triggerable operation — Reset, which sets Count back to zero. Now the Process has two custom operations: Increment, fired by one Bang, and Reset, fired by another. The Process holds one piece of state, and there are now several named ways to change it, each running only when triggered. This is the shape of a small object — some state, and a set of named operations that act on it.&#xD;&#xA;&#xD;&#xA;Notice that you control when each operation runs. The runtime calls Create and Update on its own schedule, but Increment and Reset wait for you. This distinction — operations that run automatically versus operations you trigger — is the foundation for how Records work in the next chapter, where you will see that every operation becomes something you trigger and wire yourself.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="53inf9v1wf7uv4DdKQs7id" Bounds="92,1180,1400,60" ShowValueBox="true" isIOBox="true" Value="&lt; LIVE ELEMENT — build by hand:&#xD;&#xA;&#xD;&#xA;The Counter Process extended: Count in a pad, Increment (Bang A → +1), Reset (Bang B → 0). Two labeled Bangs. IOBox showing Count. Annotation: Update is doing nothing — all changes are trigger-driven.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="0mE0PlpzRBuyXlXnsmPG8n" Bounds="92,1400,220,31" ShowValueBox="true" isIOBox="true" Value="The Reserved Colors">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">15</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="4vhS6AcBl5xDrwgPbmQVJy" Bounds="92,1437,430,340" ShowValueBox="true" isIOBox="true" Value="There are three operations with reserved colors and reserved meanings. You have met two of them.&#xD;&#xA;&#xD;&#xA;Create, in white, runs once when the Process comes into existence.&#xD;&#xA;&#xD;&#xA;Update, in gray, runs every frame.&#xD;&#xA;&#xD;&#xA;Dispose, in dark red, runs once when the Process is destroyed — when it is removed from the patch or the application stops. We will not use Dispose until chapter 46, where it earns a proper demonstration, but it is worth knowing the third reserved color exists.&#xD;&#xA;&#xD;&#xA;Every other operation you define — Increment, Reset, anything — has no reserved color and no reserved meaning. It runs when you trigger it, and it does whatever you patch inside it. The reserved colors are a hint to anyone reading your patch about which operations the runtime calls automatically and which ones you drive yourself.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="0EujcYUIPSfvPHMYVgizIh" Bounds="592,1400,310,31" ShowValueBox="true" isIOBox="true" Value="Static and Member Operations">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">15</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="4fAfSqMA4Z1zN23wMVBzfW" Bounds="592,1437,430,440" ShowValueBox="true" isIOBox="true" Value="The operations we have added to the Counter are member operations. They belong to a specific thing — Increment belongs to the Counter, and it works on the Counter's own state. You cannot use Increment on something that is not a Counter.&#xD;&#xA;&#xD;&#xA;There is a second kind called a static operation. A static operation does not belong to any one thing. It just takes inputs, does something, and produces outputs. The math nodes you have used since chapter 3 — Add, Multiply, Sin — are all static operations. They work on any compatible value, with no state of their own.&#xD;&#xA;&#xD;&#xA;A static operation is the go-to whenever you want to compute something. To define one, open the Patch Explorer, right-click in the document — not inside a Process or type — and choose to add an operation. Give it a name, define its inputs and outputs, and patch the computation inside. Once defined, it appears in the Node Browser just like any built-in node, ready to use anywhere in your patch.&#xD;&#xA;&#xD;&#xA;In the example below we define a static operation called Remap that takes a value and two ranges and maps the value from one range to the other. It has no state, no object, no lifetime — it just transforms values. This is exactly the kind of logic that belongs in a static operation.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="5eMkyQ1mugpHZYlhMIs5yS" Bounds="592,1700,430,100" ShowValueBox="true" isIOBox="true" Value="&lt; LIVE ELEMENT — build by hand:&#xD;&#xA;&#xD;&#xA;A static operation `Remap` defined in the Patch Explorer at document level. Inside: simple math remapping an input Float from one range to another. Shown being used in the patch with IOBoxes feeding its inputs.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="0FiuoVzXuK8eZ5JDLZVWKU" Bounds="1092,1400,150,25" ShowValueBox="true" isIOBox="true" Value="Other Resources">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">12</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="6owm9S1CTIUs3XOOLlgq2H" Bounds="1092,1430,430,20" ShowValueBox="true" isIOBox="true" Value="The Gray Book on Operations">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="16oDU50bJ4G7t00F3nmjDC" Bounds="1092,1450,393,19" ShowValueBox="true" isIOBox="true" Value="https://thegraybook.vvvv.org/reference/language/operations.html">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+        </Canvas>
+        <Patch Id="7387GdGTa4PS64Ayqa5s5x" Name="Create" />
+        <Patch Id="48Pr13w6A3yPBrCDey3y8e" Name="Update" />
+        <ProcessDefinition Id="42CD4YgMaE91CTQ6K8qkSU">
+          <Fragment Id="2CAkEzpZNMHGcFyKtVvbmY" Patch="7387GdGTa4PS64Ayqa5s5x" Enabled="true" />
+          <Fragment Id="64F86fbQYoy63NXv22LzHe" Patch="48Pr13w6A3yPBrCDey3y8e" Enabled="true" />
+        </ProcessDefinition>
+      </Patch>
+    </Node>
+  </Patch>
+  <NugetDependency Id="04vYALLEJU13hIJj4ctt5J" Location="VL.Stride" Version="2025.7.2" />
+  <NugetDependency Id="5c8hmkzcacB1ORbo5BWgcQ" Location="VL.Skia" Version="2025.7.2" />
+  <DocumentDependency Id="1iXmnfbEBxz1AeSDbzPJaO" Location="../../include/Nodes.vl" />
+  <DocumentDependency Id="5iYi1U7WKxTjTDHt5FMNuv" Location="../../VL.TheBigBang.vl" />
+  <NugetDependency Id="1yCTTOQhnc24xlvmH8nwAy" Location="VL.Stride.TextureFX" Version="2025.7.2" />
+</Document>

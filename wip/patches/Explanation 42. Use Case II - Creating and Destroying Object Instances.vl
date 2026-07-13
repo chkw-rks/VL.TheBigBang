@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:p="property" xmlns:r="reflection" Id="2YegpbnkB2xsbsroQIuHd4" LanguageVersion="2025.7.2" Version="0.128">
+  <NugetDependency Id="0xYZZfBSzPzh1UmWTQqFgD" Location="VL.CoreLib" Version="2025.7.2" />
+  <Patch Id="7FR8XOq3Vqsq2xvcjsKVtb">
+    <Canvas Id="4V1DXsuoLskCivAP9JBx2n" DefaultCategory="Main" CanvasType="FullCategory" />
+    <Node Name="Application" Bounds="100,100" Id="5IcPsfxa8vVV1ONSLqq7x0">
+      <p:NodeReference>
+        <Choice Kind="ContainerDefinition" Name="Process" />
+        <CategoryReference Kind="Category" Name="Primitive" />
+      </p:NodeReference>
+      <Patch Id="33tNKGCWPPJ5wNzlwkZfdl">
+        <Canvas Id="11t2JorFLRzNT97ji0C6PJ" CanvasType="Group">
+          <Pad Id="24rLahj0qqT7BvztXEjTjf" Bounds="72,113,771,46" ShowValueBox="true" isIOBox="true" Value="42. Use Case II: Creating and Destroying Object Instances">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">22</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="5rExpakEztcKgbR8B5GRbf" Bounds="72,86,364,25" ShowValueBox="true" isIOBox="true" Value="VL.TheBigBang">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">12</p:fontsize>
+              <p:showvalue p:Type="Boolean">true</p:showvalue>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="6n7w5UwxYr67J2Hoe8bCcM" Bounds="552,86,66,15" ShowValueBox="true" isIOBox="true" Value="Made by chk">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">7</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="5YP6oDswUbTuAofR4rHCWH" Bounds="617,86,140,19" ShowValueBox="true" isIOBox="true" Value="https://www.3e8.studio">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">7</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="0f60o4666Ba3t58Pg2zZEx" Bounds="792,86,369,15" ShowValueBox="true" isIOBox="true" Value="If you find this material helpful, please consider supporting its development via">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">7</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="4QjebYqILh1BKEvWaCrlGA" Bounds="1160,86,140,19" ShowValueBox="true" isIOBox="true" Value="https://www.ko-fi.com/chk">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">7</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="2QpG75c4KuazV2p9CtLRft" Bounds="92,206,1400,160" ShowValueBox="true" isIOBox="true" Value="The first use case showed that Records make patches cleaner. The second use case shows that Records make patches capable of things they could not do before. In this chapter we will build an interactive application where objects appear and disappear during runtime, in response to user input.&#xD;&#xA;&#xD;&#xA;This is something a Process node cannot do. Placing a Process is patching — it is you changing the program, not the program acting on its own. Nothing in your patch's logic can create another Process in response to a mouse click. But a Record is data. You can create a new one any time, drop it into a spread, and it lives there until something removes it. That difference is what makes Records and Classes a different kind of tool from Process nodes.&#xD;&#xA;&#xD;&#xA;Throughout the rest of Part V we will keep working with the Particle from chapter 41 — but now we give it real behavior. We add Update (which animates Position) and Draw, and we manage a collection of them that grows and shrinks individually at runtime. In chapter 43 we will meet Classes and see the difference mutability makes. In chapter 44 we will compare the two directly on this very Particle.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="2KYtodutPHdaL5Ja6VABGC" Bounds="92,310,200,31" ShowValueBox="true" isIOBox="true" Value="The Particle">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">15</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="0zuZ0Jkja6J7k5p4VePasM" Bounds="92,347,430,220" ShowValueBox="true" isIOBox="true" Value="We define a Record called Particle. For this chapter it has two properties — a Position (Vector2) and a Radius (Float). Position is where the Particle is on screen. Radius is its size for drawing and for hit testing.&#xD;&#xA;&#xD;&#xA;We also give it operations. Create makes a new Particle at a starting Position with a chosen Radius. Update contains an LFO fed through a Sine that animates the Position — a gentle oscillation that makes the field feel alive. Draw renders the Particle to a SkiaRenderer as a small circle.&#xD;&#xA;&#xD;&#xA;Open the Particle definition in the Patch Explorer to see all of this in one place.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="1q0LwyBfZml5jVbHXBJHeG" Bounds="92,720,430,100" ShowValueBox="true" isIOBox="true" Value="&lt; LIVE ELEMENT — build by hand:&#xD;&#xA;&#xD;&#xA;Particle definition referenced in Patch Explorer. Small inspection patch: Create Particle with two input IOBoxes (Position, Radius) and one output carrying a Particle.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="1QdwMMArL0GhGdha6hfzjH" Bounds="592,310,240,31" ShowValueBox="true" isIOBox="true" Value="A Spread of Particles">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">15</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="7EA4y6ELERSvJkxOtYX6K4" Bounds="592,347,430,220" ShowValueBox="true" isIOBox="true" Value="A single Particle is not much of an application. We want a collection of them, where the collection can grow and shrink at runtime. We store the collection in a pad — a Spread&lt;Particle&gt; that persists across frames.&#xD;&#xA;&#xD;&#xA;This pattern should feel familiar from chapter 25, where we managed spreads of values that changed over time. The same approach works here, just with our own data type instead of a built-in one. The pad starts empty — Spread&lt;Particle&gt; with zero elements. When the user clicks, we add a new Particle to the spread. When the user clicks on an existing one, we remove it. The spread changes, and the next frame draws what is currently in the spread.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="6KmDPmbs0tbXal6Xah2NLu" Bounds="592,620,430,80" ShowValueBox="true" isIOBox="true" Value="&lt; LIVE ELEMENT — build by hand:&#xD;&#xA;&#xD;&#xA;A pad containing Spread&lt;Particle&gt;, labeled. IOBox showing current count. Initial state empty.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="17DrJPx61R7rkVKoU8aYXH" Bounds="1092,310,210,31" ShowValueBox="true" isIOBox="true" Value="Left Click: Create">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">15</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="1u7PLcoLx3ZiTT2AMUC76j" Bounds="1092,347,430,200" ShowValueBox="true" isIOBox="true" Value="When the user left-clicks, we want a new Particle to appear at the mouse position. We use a Mouse node (from chapter 27) to get the click event and the position. On the click trigger, we call Create Particle with that position and a random Radius. Then we Add the new Particle to the spread in the pad.&#xD;&#xA;&#xD;&#xA;The pattern is: read the current spread from the pad, add the new Particle to it, store the result back into the pad. This is the same explicit-store pattern we have been using since chapter 23 — read, modify, store — applied to our own data type.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="195bpeJesbiXd1U6oNfkMs" Bounds="1092,670,430,100" ShowValueBox="true" isIOBox="true" Value="&lt; LIVE ELEMENT — build by hand:&#xD;&#xA;&#xD;&#xA;Mouse node, left button filtered to click. Create Particle fed by mouse position + randomized Radius. Spread read from pad, Particle added via Add, stored back. Counter IOBox.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="3ktFIKO4EGoOQ39Af8Y05n" Bounds="92,900,230,31" ShowValueBox="true" isIOBox="true" Value="Right Click: Destroy">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">15</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="0RtswQl3Pch9BeHjPEz552" Bounds="92,937,430,220" ShowValueBox="true" isIOBox="true" Value="When the user right-clicks, we want to remove the Particle under the cursor — if there is one. This requires two steps: figure out which Particle the click was inside, and if there is one, remove it from the spread.&#xD;&#xA;&#xD;&#xA;For each Particle in the spread, we check whether the mouse position falls inside it. This uses CircleContainsPoint from chapter 28 — the same Hit Test approach we used for collision. If we find a hit, we get its index in the spread, then use RemoveSliceAt to take it out.&#xD;&#xA;&#xD;&#xA;If the click misses all Particles, nothing happens. The spread is unchanged.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="3iiRrW843FrYUOvlP2QTXe" Bounds="92,1220,430,100" ShowValueBox="true" isIOBox="true" Value="&lt; LIVE ELEMENT — build by hand:&#xD;&#xA;&#xD;&#xA;Right click event. Per-Particle distance check vs Radius. Find index of first hit. RemoveSliceAt, store back. Spread count drops by one on a hit.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="0ydYntXeHHRpE5Zw66b3kQ" Bounds="592,900,220,31" ShowValueBox="true" isIOBox="true" Value="Middle Click: Clear">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">15</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="1dUIq1W57UehipkidtXsZ2" Bounds="592,937,430,140" ShowValueBox="true" isIOBox="true" Value="The simplest of the three. On middle-click, we replace the spread in the pad with an empty spread. All Particles disappear at once.&#xD;&#xA;&#xD;&#xA;This is a useful pattern to know: sometimes the right move is not to remove a specific item, but to discard the entire collection and start fresh. In a sketch, in a demo, in any application where you want a quick reset, replacing the spread with an empty one is the cleanest way to do it.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="74tqUMOXooJNkzSyD6D1n8" Bounds="592,1140,430,80" ShowValueBox="true" isIOBox="true" Value="&lt; LIVE ELEMENT — build by hand:&#xD;&#xA;&#xD;&#xA;Middle click event. Writes empty Spread&lt;Particle&gt; to pad. Count drops to zero, all Particles vanish.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="31ZfWuPqsXh2svNdeX4nrK" Bounds="1092,900,200,31" ShowValueBox="true" isIOBox="true" Value="Update Each Frame">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">15</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="62niVioCzeAOhi6juEY683" Bounds="1092,937,430,260" ShowValueBox="true" isIOBox="true" Value="The mouse input handles creation and destruction. We also need every Particle to update and draw every frame.&#xD;&#xA;&#xD;&#xA;We read the spread from the pad, ForEach over it, and inside the ForEach we call Update Particle (which animates Position using an LFO fed through a Sine) and then Draw Particle (which renders it to a SkiaRenderer). After the ForEach, we store the updated spread back into the pad. Without the store, the updates would be lost between frames — the spread in the pad would always be the original positions.&#xD;&#xA;&#xD;&#xA;This is the explicit-store pattern again. Read, modify each item, store back. The Records have to be put back where they came from for the changes to persist.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="55o2dNUYcwxauNA5yOBZrY" Bounds="1092,1240,430,100" ShowValueBox="true" isIOBox="true" Value="&lt; LIVE ELEMENT — build by hand:&#xD;&#xA;&#xD;&#xA;Read spread from pad. ForEach: Update Particle → Draw Particle (Skia layer). Updated Particles collected to new spread, stored back. Layers grouped and rendered.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="7RB6iQ8r7HaXbzG3kCXyo0" Bounds="92,1500,200,31" ShowValueBox="true" isIOBox="true" Value="A Note on Dispose">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">15</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="4lXXqzz6ttqByPUvmZoAkW" Bounds="92,1537,430,280" ShowValueBox="true" isIOBox="true" Value="Records and Classes can have a third reserved-color operation called Dispose. It runs automatically once vvvv determines an instance is no longer in use. In our application, that means a Particle removed from the spread via RemoveSliceAt gets its Dispose called (if defined) once nothing in the patch holds on to it anymore.&#xD;&#xA;&#xD;&#xA;This is useful when an object owns something that needs to be cleaned up — a file handle, a network connection, a sound that should fade out. For our simple Particle there is nothing to clean up, so we leave Dispose out for now.&#xD;&#xA;&#xD;&#xA;We will come back to Dispose in chapter 46, where we look at it more carefully — including the subtle question of when exactly it fires for Records versus Classes.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="646N4BlCF9dAjUBPpv0917" Bounds="1092,1500,150,25" ShowValueBox="true" isIOBox="true" Value="Other Resources">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">12</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="089pzKyCwK93OA6AdXhlMa" Bounds="1092,1530,430,20" ShowValueBox="true" isIOBox="true" Value="The Gray Book on Operations">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="0J7xrIqZ7zQCqAgaTJauL7" Bounds="1092,1550,393,19" ShowValueBox="true" isIOBox="true" Value="https://thegraybook.vvvv.org/reference/language/operations.html">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+        </Canvas>
+        <Patch Id="1IWrMaRbsBz4bNPqxGEUMa" Name="Create" />
+        <Patch Id="0ywvfdz0cPP2QoYm2VyCEc" Name="Update" />
+        <ProcessDefinition Id="4CO2ceu4nqKn2gli3rMz7g">
+          <Fragment Id="7XsSP28dcrOG7D6i2QpI9x" Patch="1IWrMaRbsBz4bNPqxGEUMa" Enabled="true" />
+          <Fragment Id="4TXclK0eLs2l18tGhwrfeq" Patch="0ywvfdz0cPP2QoYm2VyCEc" Enabled="true" />
+        </ProcessDefinition>
+      </Patch>
+    </Node>
+  </Patch>
+  <NugetDependency Id="17JczbGr33kEeCpGS6Bw77" Location="VL.Stride" Version="2025.7.2" />
+  <NugetDependency Id="4L3PFztk4k8NnK3u5EQC0B" Location="VL.Skia" Version="2025.7.2" />
+  <DocumentDependency Id="1I1jEDtHRrignHxD3Bn5eU" Location="../../include/Nodes.vl" />
+  <DocumentDependency Id="2Vcyl78Ocblki2vGbhJEUH" Location="../../VL.TheBigBang.vl" />
+  <NugetDependency Id="1anD54Vf1GMJcrNxGR7F3A" Location="VL.Stride.TextureFX" Version="2025.7.2" />
+</Document>
