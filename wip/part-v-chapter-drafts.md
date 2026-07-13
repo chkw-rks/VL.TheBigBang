@@ -48,7 +48,7 @@ y=~1500   Other Resources (x=1092)
 
 ### Opening paragraph (font 9, x=92, y=206, width ~1400)
 ```
-The language you have been patching in is called VL. It is the language vvvv is built upon — every node you have ever placed, every built-in type you have worked with, was defined in VL. What makes VL unusual is that it compiles into C# in real time, as you patch. You are not scripting or configuring a runtime; you are writing a compiled, typed programming language with a visual syntax. Everything you build runs as native code.
+The language you have been patching in is called VL. It is the language vvvv is built upon — much of what you have used so far, nodes and types alike, is itself defined in VL, and the rest comes directly from the .NET world underneath. What makes VL unusual is that it compiles into C# in real time, as you patch. You are not scripting or configuring a runtime; you are writing a compiled, typed programming language with a visual syntax. Everything you build runs as compiled .NET code — the same kind of code a C# programmer ships.
 
 Almost since we started patching we have been working with objects in vvvv. Every Circle, every Rectangle, every Material, every Spread you have placed in your patch is an instance of a data type that someone defined somewhere — in VL, as it turns out. And from chapter 11 onwards you have also started defining your own — every Process node is in fact a little object, with its own pins, its own behavior, and its own little life inside the patch.
 
@@ -63,7 +63,7 @@ In this final part of the tutorial we will name what you have been doing all alo
 ```
 You can see an object as a composition of the primitive data types we have met so far. An object is basically a combination of value types to come up with something more complex. In this sense a Vector2 is already an object. A Vector2 (Join) takes an X and a Y and bundles them into one type. A Vector2 (Split) takes that bundle apart again. The two values travel together as one thing, with their own name and their own identity in the patch.
 
-A Circle from chapter 10 does the same on a larger scale. It bundles a Center and a Radius into one type. It also comes with operations — Hit Test tells you whether a point lies inside the Circle. The Circle is a data type someone defined inside vvvv, with properties bundled together and operations that work on them. Hover over a Circle node in the patch and you will see its full type signature in the tooltip.
+A Circle from chapter 10 does the same on a larger scale. It bundles a Center and a Radius into one type. It also comes with operations — Hit Test tells you whether a point lies inside the Circle. The Circle is a data type someone defined inside vvvv, with properties bundled together and operations that work on them. Hover over the link coming out of a Circle node and you will see its type in the tooltip.
 
 Simpler values like Floats, Booleans, and numbers are not objects in this sense — they are just single values. Objects are what you get when you compose those single values into something larger that travels as one thing.
 ```
@@ -91,9 +91,9 @@ So we are not starting from zero in this part of the tutorial. We are taking wha
 ```
 A Record is the default way to define your own data type in VL. You can create one by typing the name you want in the Node Browser and choosing "Record". You can also create one directly from the Patch Explorer in the top-left corner of the document.
 
-Once you have a Record, you can give it properties. A property is a named value of any type — a Float, a String, a Vector, even another Record. Every property becomes a pin on the Create operation, so you can set its value when you make a new instance.
+Once you have a Record, you can give it properties. A property is a named value of any type — a Float, a String, a Vector, even another Record. Each property can be exposed as an input pin on the Create operation, so you can set its value when you make a new instance.
 
-In the example below we have defined a Record called Thing. It has two properties — a Position and a Size. Right-click on the Thing region in the Patch Explorer to open its definition, then come back and look at the Create operation. The two properties show up as input pins on the left, and the Thing itself comes out on the right.
+In the example below we have defined a Record called Thing. It has two properties — a Position and a Size. Right-click on the Thing definition in the Patch Explorer to open it, then come back and look at the Create operation. The two properties are set through input pins on top, and the Thing itself comes out at the bottom.
 ```
 
 **Live element (x=1092, y=750):** A minimal Record `Thing` (Position: Vector2, Size: Float). Its Create operation shown with two input IOBoxes and one output IOBox carrying a Thing. Definition referenced in the Patch Explorer.
@@ -104,9 +104,9 @@ In the example below we have defined a Record called Thing. It has two propertie
 
 **Body (font 9, x=92, y=937, width ~1400):**
 ```
-One of the nicest things about defining your own data type is that you can inspect it from anywhere in the patch, just like any built-in type. Hover over a link carrying a Thing and you will see the type name in the tooltip. Right-click on the Thing region in the Patch Explorer and you can see all its properties at a glance. As you go through the rest of this tutorial, this becomes one of the main ways to understand what is happening in your patch — every link carries a value of a known type, and every value can be inspected.
+One of the nicest things about defining your own data type is that you can inspect it from anywhere in the patch, just like any built-in type. Hover over a link carrying a Thing and you will see the type name in the tooltip. Right-click on the Thing definition in the Patch Explorer and you can see all its properties at a glance. As you go through the rest of this tutorial, this becomes one of the main ways to understand what is happening in your patch — every link carries a value of a known type, and every value can be inspected.
 
-Since VL is the language vvvv itself is built in, you can also look inside any built-in node and see exactly how it was defined — the same way you will define your own types in the chapters ahead. To do this, enable Browsable Packages in Quad Menu > Settings. Once on, double-clicking any node opens its VL definition. This is one of the best ways to learn — find a node you already use and look at how it is built.
+Since much of vvvv is built in VL, you can also look inside many built-in nodes and see exactly how they were defined — the same way you will define your own types in the chapters ahead. To do this, enable Browsable Packages in Quad Menu > Settings. Once on, right-click a VL-defined node and choose Definition > Open. (Some nodes are implemented in C# instead — those you cannot open this way.) This is one of the best ways to learn — find a node you already use and look at how it is built.
 ```
 
 **Live element (x=92, y=1010):** The Thing placed in an inspection layout with annotated "hover here to see Thing" waypoints. An invitation to interact, not a new lesson.
@@ -201,12 +201,12 @@ Most of what you have built so far lives in Update. In this chapter we add opera
 ```
 To add an operation to a Process, open the Process in the Patch Explorer, right-click, and choose to add an operation. Give it a name. Inside, you patch whatever the operation should do.
 
-Unlike Create and Update, an operation you define does not run automatically. It runs when something triggers it. You give it a trigger input — often a Bang from a button, a mouse click, or any boolean that flips to true — and the operation fires the moment that trigger arrives.
+Unlike Create and Update, an operation you define does not run automatically. When you place the Process node, the operation shows up on it with its own Apply pin — a boolean gate. While the pin is false, the operation sits idle; the frame it flips to true — a Bang from a button, a mouse click, any boolean — the operation runs.
 
 In the patch below we have a Process that holds a Count value. It has the usual Update operation, but we have added a custom operation called Increment. Each time the Bang fires, Increment runs and the Count goes up by one. Update is not involved — the counting happens only on the trigger.
 ```
 
-**Live element (x=1092, y=750):** A small `Counter` Process holding a Count integer in a pad. Custom triggerable `Increment` (+1). A Bang wired to its trigger. IOBox showing Count climbing per click. Update present but doing nothing visible.
+**Live element (x=1092, y=750):** A small `Counter` Process holding a Count integer in a pad. Custom operation `Increment` (+1). A Bang wired to Increment's Apply pin. IOBox showing Count climbing per click. Update present but doing nothing visible.
 
 ### MID — Triggerable Operations
 
@@ -328,7 +328,7 @@ To define a Record, open the Patch Explorer, right-click in the document, and ch
 
 In the example below we define a Record called Thing with two properties — a Position (Vector2) and a Size (Float). You may recognise Thing from chapter 38, where it already appeared as a finished result. This time we build it from scratch, so you can see exactly what each step means. That is the whole definition. Thing is now a data type you can use anywhere in your patch, just like Circle or Rectangle, except you defined it yourself.
 
-Every property you define becomes a pin on the Create operation, so you can set its starting value when you make a new Thing. This is the same Create you know from Processes — it makes a new instance — but on a Record it appears as a node you place in the patch.
+Each property you define can be set through an input pin on the Create operation, so a new Thing starts with the values you give it. This is the same Create you know from Processes — it makes a new instance — but on a Record it appears as a node you place in the patch.
 ```
 
 ### COLUMN 3 — Operations as Nodes
@@ -341,7 +341,7 @@ Here is where the Process and the Record diverge in practice. On a Process, you 
 
 This is not optional. A Record does not run on its own, so there is no "inside" for the operation to run in. The only way to use a Record's operation is to place it as a node and pass the Record through it. Every operation on a Record — Create, Split, and any custom ones you define — is a node in your patch.
 
-This changes how state is handled. On a Process, the Process kept the state for you. On a Record, you hold the state, because the Record is a value flowing through your patch. To make this work, every Record operation has two special pins — a State Input and a State Output.
+This changes how state is handled. On a Process, the Process kept the state for you. On a Record, you hold the state, because the Record is a value flowing through your patch. To make this work, every Record operation other than Create has two special pins — a State Input and a State Output.
 ```
 
 **Live element (x=1092, y=820):** The Thing Record referenced in the Patch Explorer. A Create Thing node with two input IOBoxes (Position, Size) and one output carrying a Thing, carried downstream for inspection.
@@ -352,7 +352,7 @@ This changes how state is handled. On a Process, the Process kept the state for 
 
 **Body (font 9, x=92, y=937, width ~1400):**
 ```
-Open any operation on a Record other than Create, and you will see two pins that were not there on the Process operations — a State Input on the left and a State Output on the right. The State Input is the Record coming in: the Thing as it exists right now. The State Output is the Record going out: the Thing after the operation has done its work. The operation takes a Record in, and hands a Record back.
+Open any operation on a Record other than Create, and you will see two pins that were not there on the Process operations — a State Input among the inputs on top and a State Output among the outputs at the bottom. The State Input is the Record coming in: the Thing as it exists right now. The State Output is the Record going out: the Thing after the operation has done its work. The operation takes a Record in, and hands a Record back.
 
 This is why a Record's state flows through the patch. The Process kept its state internally and you never touched it. A Record's state is the Record itself, and it travels along the wires — into an operation through State Input, out through State Output, on to the next operation. If you want to change a Thing's Position, you define a SetPosition operation: it takes a Thing on State Input, a new Position from above, and outputs a Thing with the new Position on State Output.
 
@@ -369,7 +369,7 @@ Look closely at the operation and you will notice something. Inside a SetPositio
 ```
 Every Record comes with two operations automatically — Create and Split.
 
-Create makes a new instance. Every property appears as an input pin, and the new Record comes out on the right. There is no State Input on Create, because there is no existing Record to take in — Create is where a Record begins. This is the same Create you used on Processes, now as a node.
+Create makes a new instance. Its input pins set the starting properties, and the new Record comes out at the bottom. There is no State Input on Create, because there is no existing Record to take in — Create is where a Record begins. This is the same Create you used on Processes, now as a node.
 
 Split is the opposite. Give it a Record, and it hands you back all the properties as separate outputs. It is how you read what is inside a Record at any point. Split takes a Record on State Input, but its State Output passes the same Record straight through, unchanged — Split only reads, it never modifies.
 
@@ -405,12 +405,12 @@ Define a setter and a getter for each property you want to work with, and your R
 
 **Body (font 9, x=92, y=1737, width ~1400):**
 ```
-There is a shorthand worth naming now that you have seen the full read-modify-store pattern in action. Each time you want to apply an operation to a Record stored in a pad, you read the Record out, pass it through the operation, and store the result back in. You have been doing this with built-in types since chapter 23 — Spread in chapter 25, Dictionary in chapter 26 — using Apply pins to collapse the three steps into one connection.
+There is a refinement worth naming now that you have seen the full read-modify-store pattern in action. The loop — read the Record from the pad, pass it through the operation, store the result back — stays wired permanently, so left alone the operation would run every frame. That is what the Apply pin is for. You have used it on built-in types since chapter 23 — Spread in chapter 25, Dictionary in chapter 26. Apply is a boolean gate: while it is false, the node passes the incoming value through unchanged. The frame it flips to true, the operation runs.
 
-The same Apply pin is available on your own Record operations. An Apply pin on a SetPosition node, for instance, reads the current Thing from the pad, runs SetPosition with the new value, and stores the result back — all in one connection. Whether the value in the pad is a Spread, a Dictionary, or your own Thing, the pattern is identical. Now that you are defining your own data types, you can use it with them too.
+The same Apply pin is available on your own Record operations. A SetPosition node sits in the loop passing the Thing through untouched until a Bang on its Apply pin fires — that frame it produces a Thing with the new Position, and the pad stores the result. Whether the value in the pad is a Spread, a Dictionary, or your own Thing, the pattern is identical. Now that you are defining your own data types, you can use it with them too.
 ```
 
-**Live element (x=92, y=1830, width ~1400):** A Thing in a pad. A SetPosition node with its Apply pin connected to the pad — one connection doing the read-modify-store in one step. Alongside: the equivalent three-step version (read from pad → SetPosition → store back) for comparison. Annotation marking which pin is the Apply pin.
+**Live element (x=92, y=1830, width ~1400):** A Thing in a pad wired through a SetPosition node and back — the read-modify-store loop. A Bang connected to SetPosition's Apply pin. While Apply is false, the Thing passes through unchanged; on the Bang, the new Position is applied and stored. Annotation marking which pin is the Apply pin.
 
 ## Notes
 - Opens on the Process→Record recognition — the payoff of splitting operations into its own chapter. The contrast IS the lesson.
@@ -425,7 +425,7 @@ The same Apply pin is available on your own Record operations. An Apply pin on a
 
 # Chapter 41 — Use Case I: Bundling Properties
 
-**Role:** First applied chapter, organizational case for Records. Build the same field of shapes twice — first with parallel spreads, then with a single Spread of a Record ("Spot"). The side-by-side comparison IS the argument. No new mechanics. Short chapter.
+**Role:** First applied chapter, organizational case for Records. Build the same field of shapes twice — first with parallel spreads, then with a single Spread of a Record ("Particle"). The side-by-side comparison IS the argument. No new mechanics. Short chapter.
 
 ## Layout map
 
@@ -491,7 +491,7 @@ The bundled version wins in three ways the reader can feel directly.
 
 First, the patch is smaller. One data stream instead of three. Fewer links crossing the canvas, fewer parallel structures to keep aligned in your head.
 
-Second, the structure mirrors the meaning. A Spot is one thing, and the patch treats it as one thing. When you read the patch, you do not have to mentally reassemble three parallel spreads into the concept of a "field of spots." The Record does that work for you.
+Second, the structure mirrors the meaning. A Particle is one thing, and the patch treats it as one thing. When you read the patch, you do not have to mentally reassemble three parallel spreads into the concept of a "field of particles." The Record does that work for you.
 
 Third, the patch is easier to change. If you want every Particle to also have a Rotation, you add Rotation to the Record once. Every existing patch that uses Particles immediately has access to it. With the parallel-spread version, adding a Rotation means adding a fourth spread, threading it into the ForEach, and making sure its length matches the other three.
 ```
@@ -551,7 +551,7 @@ y=~1500   COL 1: A Note on Dispose   COL 2: Other Resources
 ```
 The first use case showed that Records make patches cleaner. The second use case shows that Records make patches capable of things they could not do before. In this chapter we will build an interactive application where objects appear and disappear during runtime, in response to user input.
 
-This is something a Process node cannot do. A Process is placed in your patch at edit time — you cannot drag a new Process onto the canvas while the application is running. But a Record is data. You can create a new one any time, drop it into a spread, and it lives there until something removes it. That difference is what makes Records and Classes a different kind of tool from Process nodes.
+This is something a Process node cannot do. Placing a Process is patching — it is you changing the program, not the program acting on its own. Nothing in your patch's logic can create another Process in response to a mouse click. But a Record is data. You can create a new one any time, drop it into a spread, and it lives there until something removes it. That difference is what makes Records and Classes a different kind of tool from Process nodes.
 
 Throughout the rest of Part V we will keep working with the Particle from chapter 41 — but now we give it real behavior. We add Update (which animates Position) and Draw, and we manage a collection of them that grows and shrinks individually at runtime. In chapter 43 we will meet Classes and see the difference mutability makes. In chapter 44 we will compare the two directly on this very Particle.
 ```
@@ -646,7 +646,7 @@ This is the explicit-store pattern again. Read, modify each item, store back. Th
 
 **Body (font 9, x=92, y=1537):**
 ```
-Records and Classes can have a third reserved-color operation called Dispose. It runs automatically when an instance is destroyed. In our application, when a Particle is removed from the spread via RemoveSliceAt, its Dispose operation fires (if defined) before the instance goes away.
+Records and Classes can have a third reserved-color operation called Dispose. It runs automatically once vvvv determines an instance is no longer in use. In our application, that means a Particle removed from the spread via RemoveSliceAt gets its Dispose called (if defined) once nothing in the patch holds on to it anymore.
 
 This is useful when an object owns something that needs to be cleaned up — a file handle, a network connection, a sound that should fade out. For our simple Particle there is nothing to clean up, so we leave Dispose out for now.
 
@@ -721,7 +721,7 @@ This single difference is the entire substance of the chapter. Everything else �
 ```
 To define a Class, open the Patch Explorer, right-click in the document, and choose "Add Class." Give it a name. Add properties. Add operations. The interface is identical to Record's.
 
-In our example below we define a Class called MyClass and a Record called MyRecord, both with a single Color property and a single operation called SetColor that changes that property. The definitions look almost the same in the Patch Explorer — you can tell them apart by the icon next to each in the explorer's region list. The R icon marks a Record, the C icon marks a Class.
+In our example below we define a Class called MyClass and a Record called MyRecord, both with a single Color property and a single operation called SetColor that changes that property. The definitions look almost the same in the Patch Explorer — you can tell them apart by the icon next to each in the explorer's list of definitions. The R icon marks a Record, the C icon marks a Class.
 
 The operations look slightly different inside, though, and that is where the mechanic becomes visible.
 ```
@@ -749,14 +749,14 @@ This visual distinction inside the operation is the heart of mutability — a th
 ```
 The patch below shows the central demonstration of this chapter. On the left side we have a MyRecord, created and then passed through two SetColor operations — first setting it to blue, then to red. On the right side we have a MyClass, created and passed through two SetColor operations — first blue, then red. The patches are structurally identical.
 
-At three points along each chain — at the start, in the middle between the two SetColor operations, and at the end — we tap in a reader that reads the current Color and displays it.
+At three points along each chain — at the start, in the middle between the two SetColor operations, and at the end — we tap an IOBox into the link, showing what it carries.
 
-Look at what the readers show. On the Record side, three different colors — white at the start, blue in the middle, red at the end. Each reader sees whatever the Record was at the point it tapped in. On the Class side, three identical colors — all three readers show red, the final value. Even the reader tapped in before the second SetColor shows red, because there is only one MyClass instance and it ends up red. The "before" and "after" states are not preserved on the Class side, because there is no copy.
+Look at what the IOBoxes show. On the Record side, three different colors — white at the start, blue in the middle, red at the end. Each link carries a different Record, and each IOBox holds the one from the point it tapped in. On the Class side, three identical colors — all three IOBoxes show red, the final value. Even the one tapped in before the second SetColor shows red — an IOBox does not copy anything at the point it taps in; it holds the instance, and there is only one MyClass instance, which ends up red once the frame has run. The "before" and "after" states are not preserved on the Class side, because there is no copy.
 
 This is the entire mechanic in one screen. A Record holds its history along the chain because every step is a new value. A Class does not — it is one thing that changes, and every reference to it sees the latest state.
 ```
 
-**Live element (x=92, y=1180, width ~1400):** Left: Create MyRecord → SetColor(blue) → SetColor(red), three Color readers at start/middle/end showing white/blue/red, solid links. Right: Create MyClass → SetColor(blue) → SetColor(red), three readers showing red/red/red, dashed links. Annotation at the middle readers: "this is where they disagree."
+**Live element (x=92, y=1180, width ~1400):** Left: Create MyRecord → SetColor(blue) → SetColor(red), three IOBoxes tapped into the links at start/middle/end showing white/blue/red, solid links. Right: Create MyClass → SetColor(blue) → SetColor(red), three IOBoxes showing red/red/red, dashed links. Annotation at the middle IOBoxes: "this is where they disagree."
 
 ### LOWER LEFT — Solid and Dashed Links
 
@@ -779,7 +779,7 @@ You will see this distinction throughout your patches once you start using Class
 
 **Body (font 9, x=592, y=1537):**
 ```
-The mechanic has practical consequences that ripple through the rest of your patch. The most visible one — the explicit-store pattern from chapter 23 onward — does not apply to Classes. When you modify a Class via an operation, the change persists automatically, because the Class is the same object before and after. You do not need a pad to remember it.
+The mechanic has practical consequences that ripple through the rest of your patch. The most visible one: the write-back half of the explicit-store pattern from chapter 23 onward does not apply to Classes. When you modify a Class via an operation, the change persists automatically, because the Class is the same object before and after. The instance still lives in a pad — but you never store anything back into it. The pad keeps holding the same object, and the object changed.
 
 That is the headline feature of Classes, and it is what makes them tempting. But it is not the whole story. There are things Records do automatically that Classes do not — change detection, snapshots, the natural clarity of order when multiple operations modify a value. These are not abstract concerns; they show up the moment you start building things with Classes that you used to build with Records.
 
@@ -983,14 +983,14 @@ The choice is not Records-or-Classes; the choice is two independent questions. T
 
 **Body (font 9, x=592, y=347):**
 ```
-SpreadBuilder is the mutable counterpart to Spread. Where a Spread is a value — adding to it produces a new Spread — a SpreadBuilder is a mutable container that you modify in place. You add elements with Add, remove them with RemoveSliceAt, clear it all with Clear, and the SpreadBuilder itself stays the same instance throughout.
+SpreadBuilder is the mutable counterpart to Spread. Where a Spread is a value — adding to it produces a new Spread — a SpreadBuilder is a mutable container that you modify in place. You add elements with Add, remove them with RemoveAt, clear it all with Clear, and the SpreadBuilder itself stays the same instance throughout.
 
-When you need to hand the contents to something that expects a regular Spread — a ForEach, a downstream operation, a renderer — you call ToImmutable on the SpreadBuilder. This produces a snapshot Spread of its current state. The SpreadBuilder remains, and you can keep modifying it.
+When you need to hand the contents to something that expects a regular Spread — a ForEach, a downstream operation, a renderer — you call ToSpread on the SpreadBuilder. This produces a snapshot Spread of its current state. The SpreadBuilder remains, and you can keep modifying it.
 
-The patch on the right shows a small example. A SpreadBuilder in a pad, with Add fired by a Bang. Each click adds a number to the collection. ToImmutable produces a current Spread for inspection.
+The patch on the right shows a small example. A SpreadBuilder in a pad, with Add fired by a Bang. Each click adds a number to the collection. ToSpread produces a current Spread for inspection.
 ```
 
-**Live element (x=592, y=720):** SpreadBuilder<Float> in a pad. Bang feeding Add with a random Float. ToImmutable → Spread<Float>. IOBox showing the Spread. Second Bang for Clear.
+**Live element (x=592, y=720):** SpreadBuilder<Float> in a pad. Bang feeding Add with a random Float. ToSpread → Spread<Float>. IOBox showing the Spread. Second Bang for Clear.
 
 ### COLUMN 3 — MutableDictionary
 
@@ -1047,7 +1047,7 @@ Collections that are accumulated incrementally — appending log entries, collec
 ```
 One pattern with SpreadBuilder is worth naming because it confuses people the first time they hit it. If you want to rebuild a SpreadBuilder's contents every frame — for example, recomputing a list from scratch each tick — the temptation is to create a new SpreadBuilder each frame.
 
-This defeats the entire purpose. Creating a new SpreadBuilder each frame is exactly the per-frame allocation cost you switched to a SpreadBuilder to avoid. Instead, keep the same SpreadBuilder instance in a pad. At the start of each frame, call Clear on it to empty it. Then add the new contents. The SpreadBuilder is the same instance throughout — only its contents change.
+Better: keep the same SpreadBuilder instance in a pad. At the start of each frame, call Clear on it to empty it. Then add the new contents. The SpreadBuilder is the same instance throughout — only its contents change. A fresh builder each frame is not wrong — the big win over plain Spreads is avoiding a full copy on every modification — but reusing one instance keeps per-frame allocation flat and the patch simpler.
 
 This is the pattern that gives mutable collections their actual performance benefit. The collection persists; only the data inside changes.
 ```
@@ -1193,7 +1193,7 @@ The decision is straightforward: one of these in your patch, or many of these in
 ```
 Looking at all of this together, Process, Record, and Class come into focus as a single family of choices about how to define and use objects.
 
-A Process node from chapter 11 is essentially a type with Process behavior enabled by default and no support for runtime instances. It is placed at edit time, runs by itself, and that is all.
+A Process node from chapter 11 is essentially a type with Process behavior enabled by default. You place it, it runs by itself, and that is all — your program's logic never creates or destroys one.
 
 A Record is the default object type. You can use it as data — passed through operations as values — or you can enable Process behavior and place it directly in your patch as a self-running unit. Both modes work; the type itself does not change.
 
