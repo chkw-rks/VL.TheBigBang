@@ -133,7 +133,7 @@ In the next chapters we will give our types real behavior. We will look at opera
 **Link (font 9 Link, y=1610):** `https://thegraybook.vvvv.org/reference/language/types.html`
 
 ## Notes
-- "Thing" is a deliberate placeholder — signals the type is incidental, the concept is the point. Particle reserved for chapter 42.
+- "Thing" is a deliberate placeholder — signals the type is incidental, the concept is the point. Particle reserved for chapters 41–42.
 - The "Process nodes are objects" move (Column 2) is the most important framing in the chapter.
 - Forward pointer to Class is one paragraph in the closing; mutability not named yet.
 - Object framing = "composition of primitives," NOT "everything including Float is an object" (that blurs the bundling concept).
@@ -352,7 +352,7 @@ This changes how state is handled. On a Process, the Process kept the state for 
 
 **Body (font 9, x=92, y=937, width ~1400):**
 ```
-Open any operation on a Record other than Create, and you will see two pins that were not there on the Process operations — a State Input among the inputs on top and a State Output among the outputs at the bottom. The State Input is the Record coming in: the Thing as it exists right now. The State Output is the Record going out: the Thing after the operation has done its work. The operation takes a Record in, and hands a Record back.
+Open an operation that changes the Record — a setter like SetPosition — and you will see two pins that were not there on the Process operations: a State Input among the inputs on top and a State Output among the outputs at the bottom. The State Input is the Record coming in: the Thing as it exists right now. The State Output is the Record going out: the Thing after the operation has done its work. The operation takes a Record in, and hands a Record back.
 
 This is why a Record's state flows through the patch. The Process kept its state internally and you never touched it. A Record's state is the Record itself, and it travels along the wires — into an operation through State Input, out through State Output, on to the next operation. If you want to change a Thing's Position, you define a SetPosition operation: it takes a Thing on State Input, a new Position from above, and outputs a Thing with the new Position on State Output.
 
@@ -382,11 +382,11 @@ Between Create to bring a Record into being and Split to read it back out, you c
 
 **Body (font 9, x=592, y=1437):**
 ```
-The custom operations you define on a Record usually fall into two kinds. A setter changes one property and returns the modified Record — SetPosition, SetSize, SetColor. It takes the Record on State Input, a new value from above, and outputs the changed Record on State Output. A getter reads one property without changing anything — GetPosition, GetSize. It takes the Record on State Input, outputs the property value on its own pin, and passes the Record through State Output unchanged.
+The custom operations you define on a Record usually fall into two kinds. A setter changes one property and returns the modified Record — SetPosition, SetSize, SetColor. It takes the Record on State Input, a new value from above, and outputs the changed Record on State Output. A getter reads one property without changing anything — GetPosition, GetSize. It takes the Record on State Input and outputs the property value on its own pin. Reading takes nothing away — the same Record link can branch to as many readers as you need.
 
 A getter does something Split also does — it reads a property. The difference is convenience. Split gives you everything at once; a getter gives you just one value with a clear name, useful when you only need one or when the calculation is more involved than a plain read.
 
-Define a setter and a getter for each property you want to work with, and your Record has a full set of named operations — each one a node you place in the patch, each one taking the Record in and handing it back out.
+Define a setter and a getter for each property you want to work with, and your Record has a full set of named operations — each one a node you place in the patch that takes the Record in.
 ```
 
 ### LOWER RIGHT — Other Resources
