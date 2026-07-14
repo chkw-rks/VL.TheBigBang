@@ -165,16 +165,16 @@ In the next chapters we will give our types real behavior. We will look at opera
 
 # Chapter 39 — Custom Operations
 
-**Role:** Introduce operations on a Process (familiar ground from ch. 11 and 24). The reader has Create and Update; this chapter teaches that a Process can have more operations, including triggerable ones. Stays on Process nodes - Records come next in chapter 40, where the operations concept transfers and the Process→Record contrast becomes the lesson.
+**Role:** Introduce operations, static first (the atom: recognition via math nodes, Remap as first win), then member operations on a Process (familiar ground from ch. 11 and 24: Create/Update recognition, Counter). Deliberately steps back from Records - operations are a big topic of their own and are shared by Process, Record and Class alike; this is stated explicitly in the opening. Stays on Process nodes - Records come next in chapter 40, where the operations concept transfers and the Process→Record contrast becomes the lesson.
 
 ## Layout map
 
 ```
 y=126     Chapter title (font 22)
 y=206     Opening paragraph (full width)
-y=~310    COL 1: What an Operation Is   COL 2: Create and Update   COL 3: Your Own Operations (+ live patch)
+y=~310    COL 1: Static Operations (+ live patch)   COL 2: Operations That Belong to a Thing   COL 3: Your First Member Operation (+ live patch)
 y=~900    Triggerable Operations (full width, live patch)
-y=~1400   COL 1: The Reserved Colors   COL 2: Static and Member   COL 3: Other Resources
+y=~1400   COL 1: The Reserved Colors   COL 2: Stateless and Stateful   COL 3: Other Resources
 ```
 
 ## Text content
@@ -186,49 +186,53 @@ y=~1400   COL 1: The Reserved Colors   COL 2: Static and Member   COL 3: Other R
 
 ### Opening paragraph (font 9, x=92, y=206, width ~1400)
 ```
-Back in the chapter about Process Nodes we built our first ones, and a few chapters later we met Create and Update - the two operations every Process runs. Create runs once when the Process starts. Update runs every frame. We have been relying on both ever since, often without thinking of them as operations at all.
+After the last chapter you might expect us to dive straight into Records now, but instead let's take one step back. Custom operations are a big topic of their own, and they deserve to be understood before anything else - because every object in VL, whether Process, Record or Class, can have them. Besides, they are not entirely new: ever since the chapter about Process Nodes you have relied on the Create operation, which runs once when the Process starts, and on the Update operation, which executes every frame. They are automatically part of every Process - and since you can think of a VL document as a Process on its own, they are part of every running application in vvvv as well. 
 
-In this chapter we go further and add our own. Create and Update are operations with reserved meanings, but a Process can have many more - custom ones that run only when you trigger them, like a Reset that returns something to its starting state, or an Increment that bumps a counter on demand. By the end of this chapter you will be able to define your own operations on a Process and call them when you want.
+Beyond Create and Update, there are two kinds of custom operations to get to know: static and member operations. We start with the static operation - the simplest kind, standing on its own like the math nodes you have used all along. Then we move on to member operations, those that belong to a thing and run only when you trigger them, like a Reset that returns a value to its initial state, or an Increment that bumps a value in a pad on demand. By the end of this chapter you will be able to define both and call them when you want.
 ```
 
-### COLUMN 1 - What an Operation Is
+### COLUMN 1 - Static Operations
 
-**H2 (font 15, x=92, y=310):** `What an Operation Is`
+**H2 (font 15, x=92, y=310):** `Static Operations`
 
 **Body (font 9, x=92, y=347):**
 ```
-An operation is a named action a Process can perform. You can think of an operation as a little patch inside the Process that does one specific job. The Process holds some state - values stored in pads that persist across frames - and its operations are the ways that state can be created, changed or read.
+An operation is a named action: it takes inputs, does one specific job and produces outputs. You have been using operations since the chapter about Simple Math - Add, Multiply and Sin are all operations, and so is nearly every other node you have placed since.
 
-You have been using operations ever since the chapter about Process Nodes without naming them. Every Process you built had a Create operation and an Update operation. Create set up the starting state. Update advanced it each frame. Those were operations all along. What we add in this chapter is the ability to define more of them, and to decide when each one runs.
+These are so-called static operations. A static operation does not belong to any one thing. It works on any compatible value, with no state of its own - the same inputs always produce the same outputs. And note that an operation itself is not an object: it has no state and no instance. The values going in and coming out are the objects.
+
+Defining one of your own is quick. You create a static operation via the New entry, just like a Record - give it a name, define its inputs and outputs, and patch the computation inside. Once defined, it appears in the Node Browser just like any built-in node, ready to use anywhere in your patch. In the example below we define Remap: it takes a value and two ranges and maps the value from one range to the other. It has no state, no object, no lifetime - it just transforms values. This is exactly the kind of logic that belongs in a static operation.
+
+A static operation may remind you of a Process node - both abstract some functionality into a reusable node. The difference is weight. An operation is stateless: it cannot have further operations, it just executes. A Process comes with much more overhead - state, a lifetime, operations of its own. If all you need is a computation, the static operation is the lighter tool.
 ```
 
-### COLUMN 2 - Create and Update
+**Live element (x=92, y=900):** A static operation `Remap` created via the New entry. Inside: simple math remapping an input Float from one range to another. Shown being used in the patch with IOBoxes feeding its inputs.
 
-**H2 (font 15, x=592, y=310):** `Create and Update`
+### COLUMN 2 - Operations That Belong to a Thing
+
+**H2 (font 15, x=592, y=310):** `Operations That Belong to a Thing`
 
 **Body (font 9, x=592, y=347):**
 ```
-Create and Update are the two operations with reserved meanings. Create runs once, when the Process comes into existence. It is where you set up starting values - the initial position, the starting color, whatever the Process needs to begin. Update runs every frame the application is running. It is where the per-frame logic lives - advancing a position, responding to input, drawing to the screen.
+The second kind is the member operation. It belongs to a specific thing and works on that thing's state - the values stored in its pads. And you have been using these too: Create and Update, the two operations every Process runs, are member operations of your Process. You can think of a member operation as a little patch inside the Process that does one specific job on its state.
 
-The reserved colors mark them. Create is white. Update is gray. When you look inside a Process you can tell these operations apart from any others by their color. They are conventions the runtime understands - the runtime knows to call Create once and Update each frame. You do not trigger them yourself - they run on their own schedule.
+A quick orientation before we add one: the Patch Explorer in the top left corner is the structural view of your document. Where the canvas shows your patch as nodes and links, the explorer lists what everything is made of - patches with their properties and operations, and the definitions of your document. In this chapter it becomes a real tool: operations are created and managed right there.
 
-Most of what you have built so far lives in Update. In this chapter we add operations that do not run on a schedule at all - they run only when you tell them to.
+To add one, create it from the Patch Explorer's menu and give it a name. Then patch whatever the operation should do, mark those links and nodes, right-click and choose Assign - and pick your operation from the list. You know this gesture from the chapter about Update and Create, where we assigned links to run on Create.
 ```
 
-### COLUMN 3 - Your Own Operations
+### COLUMN 3 - Your First Member Operation
 
-**H2 (font 15, x=1092, y=310):** `Your Own Operations`
+**H2 (font 15, x=1092, y=310):** `Your First Member Operation`
 
 **Body (font 9, x=1092, y=347):**
 ```
-To add one, open the Process in the Patch Explorer, right-click and choose to add an operation. Give it a name. Inside, you patch whatever the operation should do.
-
-Unlike Create and Update, an operation you define does not run automatically. When you place the Process node, the operation shows up on it with its own Apply pin - a boolean gate. While the pin is false, the operation sits idle. The frame it flips to true - a Bang from a button, a mouse click, any boolean - the operation runs.
+Unlike Create and Update, a member operation you define does not run automatically. When you place the Process node, the operation shows up on it as a boolean pin carrying the operation's name - a gate that works just like the Apply pins you know from the built-in nodes. While the pin is false, the operation sits idle. The frame it flips to true - a Bang from a button, a mouse click, any boolean - the operation runs.
 
 In the patch below we have a Process that holds a Count value. It has the usual Update operation, but we have added a custom operation called Increment. Each time the Bang fires, Increment runs and the Count goes up by one. Update is not involved - the counting happens only on the trigger.
 ```
 
-**Live element (x=1092, y=750):** A small `Counter` Process holding a Count integer in a pad. Custom operation `Increment` (+1). A Bang wired to Increment's Apply pin. IOBox showing Count climbing per click. Update present but doing nothing visible.
+**Live element (x=1092, y=750):** A small `Counter` Process holding a Count integer in a pad. Custom operation `Increment` (+1). A Bang wired to the Increment pin on the node. IOBox showing Count climbing per click. Update present but doing nothing visible.
 
 ### MID - Triggerable Operations
 
@@ -236,7 +240,7 @@ In the patch below we have a Process that holds a Count value. It has the usual 
 
 **Body (font 9, x=92, y=937, width ~1400):**
 ```
-The pattern is worth seeing clearly because it is the basis for everything in the rest of Part V. An operation that runs on a trigger lets you separate "what happens every frame" from "what happens on an event." Update is for the first. A triggerable operation is for the second.
+Most of what you have built so far lives in Update. Member operations do not run on a schedule at all - they run only when you tell them to. This pattern is worth seeing clearly because it is the basis for everything in the rest of Part V: an operation that runs on a trigger lets you separate "what happens every frame" from "what happens on an event." Update is for the first. A triggerable operation is for the second.
 
 In the patch below we extend the Counter with a second triggerable operation - Reset, which sets Count back to zero. Now the Process has two custom operations: Increment, fired by one Bang, and Reset, fired by another. The Process holds one piece of state, and there are now several named ways to change it, each running only when triggered. This is the shape of a small object - some state, and a set of named operations that act on it.
 
@@ -251,7 +255,7 @@ Notice that you control when each operation runs. The runtime calls Create and U
 
 **Body (font 9, x=92, y=1437):**
 ```
-There are three operations with reserved colors and reserved meanings. You have met two of them.
+There are three operations with reserved colors and reserved meanings - conventions the runtime understands and calls on its own schedule. You have met two of them.
 
 Create, in white, runs once when the Process comes into existence.
 
@@ -262,22 +266,16 @@ Dispose, in dark red, runs once when the Process is destroyed - when it is remov
 Every other operation you define - Increment, Reset, anything - has no reserved color and no reserved meaning. It runs when you trigger it, and it does whatever you patch inside it. The reserved colors are a hint to anyone reading your patch about which operations the runtime calls automatically and which ones you drive yourself.
 ```
 
-### LOWER MIDDLE - Static and Member Operations
+### LOWER MIDDLE - Stateless and Stateful
 
-**H2 (font 15, x=592, y=1400):** `Static and Member Operations`
+**H2 (font 15, x=592, y=1400):** `Stateless and Stateful`
 
 **Body (font 9, x=592, y=1437):**
 ```
-The operations we have added to the Counter are member operations. They belong to a specific thing - Increment belongs to the Counter, and it works on the Counter's own state. You cannot use Increment on something that is not a Counter.
+The two kinds of operations in this chapter are divided by one idea that is worth naming, because it will follow us through the rest of this tutorial: state. Something is stateful when it remembers - a Process holds values in its pads across frames, and you have used exactly this since the chapter about Pads. Something is stateless when it remembers nothing - a static operation like Remap computes and forgets, the same inputs giving the same outputs every time.
 
-There is a second kind, the so-called static operation. A static operation does not belong to any one thing. It just takes inputs, does something and produces outputs. The math nodes you have used since the chapter about Simple Math - Add, Multiply, Sin - are all static operations. They work on any compatible value, with no state of their own.
-
-A static operation is the go-to whenever you want to compute something. To define one, open the Patch Explorer, right-click in the document - not inside a Process or type - and choose to add an operation. Give it a name, define its inputs and outputs, and patch the computation inside. Once defined, it appears in the Node Browser just like any built-in node, ready to use anywhere in your patch.
-
-In the example below we define a static operation called Remap that takes a value and two ranges and maps the value from one range to the other. It has no state, no object, no lifetime - it just transforms values. This is exactly the kind of logic that belongs in a static operation.
+Keep this pair of words in mind. A Process is stateful, its member operations work on that state, and a static operation is stateless by design. In the next chapter you will meet the Record - and with it a surprising third answer to the question of where state lives: not inside a running thing, but flowing through your patch as a value.
 ```
-
-**Live element (x=592, y=1700):** A static operation `Remap` defined in the Patch Explorer at document level. Inside: simple math remapping an input Float from one range to another. Shown being used in the patch with IOBoxes feeding its inputs.
 
 ### LOWER RIGHT - Other Resources
 
@@ -288,6 +286,9 @@ In the example below we define a static operation called Remap that takes a valu
 
 ## Notes
 - Operations taught on a Process on purpose - familiar ground, one new thing at a time.
+- Static operations taught BEFORE member operations: the atom first (recognition via the math nodes, Remap as the five-minute win), then the composite (state + belonging + triggering). The chapter ends on member operations - the ramp to chapter 40.
+- Stateless vs stateful named explicitly (lower middle, deliberately NOT an own chapter) - the axis that carries through 40 (state as a flowing value), 43 (how state changes) and 45 (collections). Its closing line is the bridge to the Record.
+- COL 1 states plainly that an operation is not an object (no state, no instance); the values around it are the objects. Kept deliberately un-philosophical - no nodes-vs-links doctrine. (Technically values on links ARE instances/objects, and placed Processes are too.)
 - The triggerable/automatic distinction is the spine; sets up chapter 40's reveal.
 - Dispose named but deferred to chapter 46.
 - Counter is the running example - dry placeholder, clearest possible "operation changes state on a trigger."
