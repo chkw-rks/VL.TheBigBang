@@ -383,7 +383,7 @@ def emit_chapter(ch):
         elif kind == "Link" or b["link"]:
             items.append((b["y"], seq, [("link", col, text, 9)]))
         elif kind == "Live element":
-            placeholder = "< LIVE ELEMENT — build by hand:\n\n" + text
+            placeholder = "< LIVE ELEMENT - build by hand:\n\n" + text
             if full_width:
                 groups = split_paragraphs(placeholder, 3)
                 row = [("body", min(col + gi, len(COL_XS) - 1), g, 9)
@@ -463,7 +463,7 @@ def emit_chapter(ch):
     if hv_canvas:
         pads.append(comment_pad(
             92, bottom + 110, 400, 44,
-            "Prototype patches below — harvested from wip/The Origin of Life.vl. "
+            "Prototype patches below - harvested from wip/The Origin of Life.vl. "
             "Arrange them into the live-element slots marked above.", 12))
         canvas_extra = (canvas_extra + "\n" + hv_canvas) if canvas_extra else hv_canvas
         patch_extra = (patch_extra + "\n" + hv_patch) if patch_extra else hv_patch

@@ -224,6 +224,8 @@ def harvest(chnum, x0, y0, target_fname):
 
     combined = _remap_ids("\n".join(parts + ["---SPLIT---"] + slot_parts + link_parts))
     combined = _rewrite_deps(combined, target_fname)
+    # house typography: the published chapters never use em-dashes
+    combined = combined.replace(" — ", " - ").replace("—", " - ")
     canvas_xml, _, patch_xml = combined.partition("---SPLIT---")
     info = {"elements": len(zone), "defs": sorted(needed),
             "links": len(link_parts), "links_dropped": dropped,

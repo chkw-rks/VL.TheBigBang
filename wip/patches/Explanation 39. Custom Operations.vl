@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="1hdJNAh8AHXeJRz6zG7WHb" LanguageVersion="2025.7.3" Version="0.128">
-  <NugetDependency Id="5Xph7XajHgQ1auWPaUtojJ" Location="VL.CoreLib" Version="2025.7.3" />
-  <Patch Id="6xLkPcJtXZH4RoagkFXneD">
-    <Canvas Id="0X2ch7TDPj2oCJODszLnHM" DefaultCategory="Main" CanvasType="FullCategory" />
-    <Node Name="Application" Bounds="100,100" Id="2ILi8LyHBKZiTybKmu2ppo">
+<Document xmlns:p="property" xmlns:r="reflection" Id="4Ntv1NyKoQsAaAFzHBf7Go" LanguageVersion="2025.7.3" Version="0.128">
+  <NugetDependency Id="0yQZpehq6EL469DqmJT57A" Location="VL.CoreLib" Version="2025.7.3" />
+  <Patch Id="4zFLn4YDts7gi6fCVf2yDE">
+    <Canvas Id="3ZaXvnmeHoWbh2vR4EMox9" DefaultCategory="Main" CanvasType="FullCategory" />
+    <Node Name="Application" Bounds="100,100" Id="5TgdTIdR6lYJA6GaxQObBz">
       <p:NodeReference>
         <Choice Kind="ContainerDefinition" Name="Process" />
         <CategoryReference Kind="Category" Name="Primitive" />
       </p:NodeReference>
-      <Patch Id="4uS6x8oEy9RIJZ3J6c6t0n">
-        <Canvas Id="1WU614BdXWiUssjEGxdqAD" CanvasType="Group">
-          <Pad Id="0BbczUXprTg6rwSUi9uCmw" Bounds="72,113,482,46" ShowValueBox="true" isIOBox="true" Value="39. Custom Operations">
+      <Patch Id="41h9Vthfk5c69EEzX7fB3F">
+        <Canvas Id="4clbzJxehgfsy4fchJjkpL" CanvasType="Group">
+          <Pad Id="42ILbnD5QaSAsJUDukrlOT" Bounds="72,113,482,46" ShowValueBox="true" isIOBox="true" Value="39. Custom Operations">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -19,7 +19,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="5qmaMuuADG8720NNHxjfyM" Bounds="72,86,364,25" ShowValueBox="true" isIOBox="true" Value="VL.TheBigBang">
+          <Pad Id="6xGEOP65HBBPsZ3Gva0DLH" Bounds="72,86,364,25" ShowValueBox="true" isIOBox="true" Value="VL.TheBigBang">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -29,7 +29,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="75r4zL31TQrbyuAvdxbJBt" Bounds="552,86,66,15" ShowValueBox="true" isIOBox="true" Value="Made by chk">
+          <Pad Id="4jxWAzIoiuvy1d7Y9r78kd" Bounds="552,86,66,15" ShowValueBox="true" isIOBox="true" Value="Made by chk">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -38,25 +38,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="18VrB4oFmxHy2YEx8t1sOw" Bounds="617,86,140,19" ShowValueBox="true" isIOBox="true" Value="https://www.3e8.studio">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="String" />
-            </p:TypeAnnotation>
-            <p:ValueBoxSettings>
-              <p:fontsize p:Type="Int32">7</p:fontsize>
-              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
-            </p:ValueBoxSettings>
-          </Pad>
-          <Pad Id="3effxeVOXMkEFbaQ6PozMH" Bounds="792,86,369,15" ShowValueBox="true" isIOBox="true" Value="If you find this material helpful, please consider supporting its development via">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="String" />
-            </p:TypeAnnotation>
-            <p:ValueBoxSettings>
-              <p:fontsize p:Type="Int32">7</p:fontsize>
-              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
-            </p:ValueBoxSettings>
-          </Pad>
-          <Pad Id="4SM67qNV1lK1Q0Lzhy3uk5" Bounds="1160,86,140,19" ShowValueBox="true" isIOBox="true" Value="https://www.ko-fi.com/chk">
+          <Pad Id="2aWnxHcRI9fYDpFsNdSz4D" Bounds="617,86,140,19" ShowValueBox="true" isIOBox="true" Value="https://www.3e8.studio">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -65,7 +47,25 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="1I1qtlunyyHpyNsTDElPpL" Bounds="92,215,400,101" ShowValueBox="true" isIOBox="true" Value="In chapter 11 we built our first Process nodes, and in chapter 24 we met Create and Update — the two operations every Process runs. Create runs once when the Process starts. Update runs every frame. We have been relying on both ever since, often without thinking of them as operations at all.">
+          <Pad Id="4EjMuJwUXcbaGjWRTmmeKl" Bounds="792,86,369,15" ShowValueBox="true" isIOBox="true" Value="If you find this material helpful, please consider supporting its development via">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">7</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="6RK9boiuCPQ6OgnlWzKalW" Bounds="1160,86,140,19" ShowValueBox="true" isIOBox="true" Value="https://www.ko-fi.com/chk">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">7</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="6uOJzvypKkK2G3hHoJxs8a" Bounds="92,215,400,120" ShowValueBox="true" isIOBox="true" Value="Back in the chapter about Process Nodes we built our first ones, and a few chapters later we met Create and Update - the two operations every Process runs. Create runs once when the Process starts. Update runs every frame. We have been relying on both ever since, often without thinking of them as operations at all.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -74,7 +74,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="5EbfZN1CsUE2cCkDoPDXpD" Bounds="592,215,400,139" ShowValueBox="true" isIOBox="true" Value="In this chapter we go further and add our own. Create and Update are operations with reserved meanings, but a Process can have many more — custom ones that run only when you trigger them, like a Reset that returns something to its starting state, or an Increment that bumps a counter on demand. By the end of this chapter you will be able to define your own operations on a Process and call them when you want.">
+          <Pad Id="6dOBiA9BZTxaQavpqecH44" Bounds="592,215,400,139" ShowValueBox="true" isIOBox="true" Value="In this chapter we go further and add our own. Create and Update are operations with reserved meanings, but a Process can have many more - custom ones that run only when you trigger them, like a Reset that returns something to its starting state, or an Increment that bumps a counter on demand. By the end of this chapter you will be able to define your own operations on a Process and call them when you want.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -83,7 +83,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="46VFepptlIc58IU0W7JggN" Bounds="92,394,230,31" ShowValueBox="true" isIOBox="true" Value="What an Operation Is">
+          <Pad Id="2fYHpNKcj2Ph6E3k88XPYS" Bounds="92,394,230,31" ShowValueBox="true" isIOBox="true" Value="What an Operation Is">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -92,7 +92,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="4OpGr7VZyjR1jw7ZLb8nax" Bounds="592,394,200,31" ShowValueBox="true" isIOBox="true" Value="Create and Update">
+          <Pad Id="5yE5lEExNB4lBWtDVLzN6n" Bounds="592,394,200,31" ShowValueBox="true" isIOBox="true" Value="Create and Update">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -101,7 +101,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="2WBS0OyiEvuIku9AXL86Tc" Bounds="1092,394,220,31" ShowValueBox="true" isIOBox="true" Value="Your Own Operations">
+          <Pad Id="6fxFeOVNoeDW4wQTujdeF9" Bounds="1092,394,220,31" ShowValueBox="true" isIOBox="true" Value="Your Own Operations">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -110,7 +110,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="4NWdmtaZxamKgD7Y2rcP6S" Bounds="92,433,400,253" ShowValueBox="true" isIOBox="true" Value="An operation is a named action a Process can perform. You can think of an operation as a little patch inside the Process that does one specific job. The Process holds some state — values stored in pads that persist across frames — and its operations are the ways that state can be created, changed, or read.&#xD;&#xA;&#xD;&#xA;You have been using operations since chapter 11 without naming them. Every Process you built had a Create operation and an Update operation. Create set up the starting state. Update advanced it each frame. Those were operations all along. What we add in this chapter is the ability to define more of them, and to decide when each one runs.">
+          <Pad Id="0C0aDDSNbhwHMW7mOIWxKl" Bounds="92,433,400,272" ShowValueBox="true" isIOBox="true" Value="An operation is a named action a Process can perform. You can think of an operation as a little patch inside the Process that does one specific job. The Process holds some state - values stored in pads that persist across frames - and its operations are the ways that state can be created, changed or read.&#xD;&#xA;&#xD;&#xA;You have been using operations ever since the chapter about Process Nodes without naming them. Every Process you built had a Create operation and an Update operation. Create set up the starting state. Update advanced it each frame. Those were operations all along. What we add in this chapter is the ability to define more of them, and to decide when each one runs.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -119,7 +119,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="7gcY3ICEeSxhvjbbjuZxR2" Bounds="592,433,400,348" ShowValueBox="true" isIOBox="true" Value="Create and Update are the two operations with reserved meanings. Create runs once, when the Process comes into existence. It is where you set up starting values — the initial position, the starting color, whatever the Process needs to begin. Update runs every frame the application is running. It is where the per-frame logic lives — advancing a position, responding to input, drawing to the screen.&#xD;&#xA;&#xD;&#xA;The reserved colors mark them. Create is white. Update is gray. When you look inside a Process you can tell these operations apart from any others by their color. They are conventions the runtime understands — the runtime knows to call Create once and Update each frame. You do not trigger them yourself; they run on their own schedule.&#xD;&#xA;&#xD;&#xA;Most of what you have built so far lives in Update. In this chapter we add operations that do not run on a schedule at all — they run only when you tell them to.">
+          <Pad Id="2ilhXm5HOFnLhIIRw0wy5a" Bounds="592,433,400,348" ShowValueBox="true" isIOBox="true" Value="Create and Update are the two operations with reserved meanings. Create runs once, when the Process comes into existence. It is where you set up starting values - the initial position, the starting color, whatever the Process needs to begin. Update runs every frame the application is running. It is where the per-frame logic lives - advancing a position, responding to input, drawing to the screen.&#xD;&#xA;&#xD;&#xA;The reserved colors mark them. Create is white. Update is gray. When you look inside a Process you can tell these operations apart from any others by their color. They are conventions the runtime understands - the runtime knows to call Create once and Update each frame. You do not trigger them yourself - they run on their own schedule.&#xD;&#xA;&#xD;&#xA;Most of what you have built so far lives in Update. In this chapter we add operations that do not run on a schedule at all - they run only when you tell them to.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -128,7 +128,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="7TszawOG614CjnPm6WhdpX" Bounds="1092,433,400,329" ShowValueBox="true" isIOBox="true" Value="To add an operation to a Process, open the Process in the Patch Explorer, right-click, and choose to add an operation. Give it a name. Inside, you patch whatever the operation should do.&#xD;&#xA;&#xD;&#xA;Unlike Create and Update, an operation you define does not run automatically. When you place the Process node, the operation shows up on it with its own Apply pin — a boolean gate. While the pin is false, the operation sits idle; the frame it flips to true — a Bang from a button, a mouse click, any boolean — the operation runs.&#xD;&#xA;&#xD;&#xA;In the patch below we have a Process that holds a Count value. It has the usual Update operation, but we have added a custom operation called Increment. Each time the Bang fires, Increment runs and the Count goes up by one. Update is not involved — the counting happens only on the trigger.">
+          <Pad Id="4ek3R13iYOXFMGwi0dWbJ1" Bounds="1092,433,400,310" ShowValueBox="true" isIOBox="true" Value="To add one, open the Process in the Patch Explorer, right-click and choose to add an operation. Give it a name. Inside, you patch whatever the operation should do.&#xD;&#xA;&#xD;&#xA;Unlike Create and Update, an operation you define does not run automatically. When you place the Process node, the operation shows up on it with its own Apply pin - a boolean gate. While the pin is false, the operation sits idle. The frame it flips to true - a Bang from a button, a mouse click, any boolean - the operation runs.&#xD;&#xA;&#xD;&#xA;In the patch below we have a Process that holds a Count value. It has the usual Update operation, but we have added a custom operation called Increment. Each time the Bang fires, Increment runs and the Count goes up by one. Update is not involved - the counting happens only on the trigger.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -137,7 +137,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="4yPEJh8gqSkztDlclNokWK" Bounds="1092,802,400,120" ShowValueBox="true" isIOBox="true" Value="&lt; LIVE ELEMENT — build by hand:&#xD;&#xA;&#xD;&#xA;A small `Counter` Process holding a Count integer in a pad. Custom operation `Increment` (+1). A Bang wired to Increment's Apply pin. IOBox showing Count climbing per click. Update present but doing nothing visible.">
+          <Pad Id="6dPQYpgvfHW1dHdzpaYQoP" Bounds="1092,783,400,120" ShowValueBox="true" isIOBox="true" Value="&lt; LIVE ELEMENT - build by hand:&#xD;&#xA;&#xD;&#xA;A small `Counter` Process holding a Count integer in a pad. Custom operation `Increment` (+1). A Bang wired to Increment's Apply pin. IOBox showing Count climbing per click. Update present but doing nothing visible.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -146,7 +146,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="4VDKBJnKVSCa4g64Ci2Lzm" Bounds="92,900,350,31" ShowValueBox="true" isIOBox="true" Value="Operations That Run on a Trigger">
+          <Pad Id="5Ex5nipfxKAG5m8hJnePJq" Bounds="92,900,350,31" ShowValueBox="true" isIOBox="true" Value="Operations That Run on a Trigger">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -155,7 +155,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="4pgNJRgbScPKDldqFiHdj4" Bounds="92,962,400,101" ShowValueBox="true" isIOBox="true" Value="The pattern is worth seeing clearly because it is the basis for everything in the rest of Part V. An operation that runs on a trigger lets you separate &quot;what happens every frame&quot; from &quot;what happens on an event.&quot; Update is for the first. A triggerable operation is for the second.">
+          <Pad Id="2e6FdwIPDa8i3w2vhdzVDi" Bounds="92,943,400,101" ShowValueBox="true" isIOBox="true" Value="The pattern is worth seeing clearly because it is the basis for everything in the rest of Part V. An operation that runs on a trigger lets you separate &quot;what happens every frame&quot; from &quot;what happens on an event.&quot; Update is for the first. A triggerable operation is for the second.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -164,7 +164,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="3SESJTmi1n4nHJn6UV5Sjs" Bounds="592,962,400,158" ShowValueBox="true" isIOBox="true" Value="In the patch below we extend the Counter with a second triggerable operation — Reset, which sets Count back to zero. Now the Process has two custom operations: Increment, fired by one Bang, and Reset, fired by another. The Process holds one piece of state, and there are now several named ways to change it, each running only when triggered. This is the shape of a small object — some state, and a set of named operations that act on it.">
+          <Pad Id="3PKAdT1aFifiYAthln6yVH" Bounds="592,943,400,158" ShowValueBox="true" isIOBox="true" Value="In the patch below we extend the Counter with a second triggerable operation - Reset, which sets Count back to zero. Now the Process has two custom operations: Increment, fired by one Bang, and Reset, fired by another. The Process holds one piece of state, and there are now several named ways to change it, each running only when triggered. This is the shape of a small object - some state, and a set of named operations that act on it.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -173,7 +173,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="3z4KgK7uRSmepIox6cR0x0" Bounds="1092,962,400,139" ShowValueBox="true" isIOBox="true" Value="Notice that you control when each operation runs. The runtime calls Create and Update on its own schedule, but Increment and Reset wait for you. This distinction — operations that run automatically versus operations you trigger — is the foundation for how Records work in the next chapter, where you will see that every operation becomes something you trigger and wire yourself.">
+          <Pad Id="2OwrqLjWSnNOmcnTSdbTXp" Bounds="1092,943,400,139" ShowValueBox="true" isIOBox="true" Value="Notice that you control when each operation runs. The runtime calls Create and Update on its own schedule, but Increment and Reset wait for you. This distinction - operations that run automatically versus operations you trigger - is the foundation for how Records work in the next chapter, where you will see that every operation becomes something you trigger and wire yourself.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -182,7 +182,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="0HvUJoWkAvB4AZKaSG1TJW" Bounds="92,1180,400,25" ShowValueBox="true" isIOBox="true" Value="&lt; LIVE ELEMENT — build by hand:">
+          <Pad Id="5SytLACJnBUyJKwTSktQLR" Bounds="92,1180,400,25" ShowValueBox="true" isIOBox="true" Value="&lt; LIVE ELEMENT - build by hand:">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -191,7 +191,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="5bshZRZECLXkdqd1fp06HX" Bounds="592,1180,400,82" ShowValueBox="true" isIOBox="true" Value="The Counter Process extended: Count in a pad, Increment (Bang A → +1), Reset (Bang B → 0). Two labeled Bangs. IOBox showing Count. Annotation: Update is doing nothing — all changes are trigger-driven.">
+          <Pad Id="6Z11TD7shUwHlS67DTqRy7" Bounds="592,1180,400,82" ShowValueBox="true" isIOBox="true" Value="The Counter Process extended: Count in a pad, Increment (Bang A → +1), Reset (Bang B → 0). Two labeled Bangs. IOBox showing Count. Annotation: Update is doing nothing - all changes are trigger-driven.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -200,7 +200,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="3IM1w2rZMza3KYXRYieubY" Bounds="92,1400,220,31" ShowValueBox="true" isIOBox="true" Value="The Reserved Colors">
+          <Pad Id="7Pwkl6eq5yde8CmDlG5NGR" Bounds="92,1400,220,31" ShowValueBox="true" isIOBox="true" Value="The Reserved Colors">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -209,7 +209,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="4M9qwFryxYDF3ZvAtlC0Zd" Bounds="592,1400,310,31" ShowValueBox="true" isIOBox="true" Value="Static and Member Operations">
+          <Pad Id="6Wx9OA4ADJzORSsgjaRbRd" Bounds="592,1400,310,31" ShowValueBox="true" isIOBox="true" Value="Static and Member Operations">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -218,7 +218,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="6G8q9vy7umcrdpoY2OVG03" Bounds="1092,1400,150,25" ShowValueBox="true" isIOBox="true" Value="Other Resources">
+          <Pad Id="12bHW35S9afDyhXekXPk1R" Bounds="1092,1400,150,25" ShowValueBox="true" isIOBox="true" Value="Other Resources">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -227,7 +227,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="7MPVbfTSK2hhHPOMmxK3aV" Bounds="1092,1433,400,25" ShowValueBox="true" isIOBox="true" Value="The Gray Book on Operations">
+          <Pad Id="0gnT9BoVcp6HAlXe2mgRpx" Bounds="1092,1433,400,25" ShowValueBox="true" isIOBox="true" Value="The Gray Book on Operations">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -236,7 +236,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="7YyPLUG5U4nyl1YX2f6aPt" Bounds="92,1439,400,386" ShowValueBox="true" isIOBox="true" Value="There are three operations with reserved colors and reserved meanings. You have met two of them.&#xD;&#xA;&#xD;&#xA;Create, in white, runs once when the Process comes into existence.&#xD;&#xA;&#xD;&#xA;Update, in gray, runs every frame.&#xD;&#xA;&#xD;&#xA;Dispose, in dark red, runs once when the Process is destroyed — when it is removed from the patch or the application stops. We will not use Dispose until chapter 46, where it earns a proper demonstration, but it is worth knowing the third reserved color exists.&#xD;&#xA;&#xD;&#xA;Every other operation you define — Increment, Reset, anything — has no reserved color and no reserved meaning. It runs when you trigger it, and it does whatever you patch inside it. The reserved colors are a hint to anyone reading your patch about which operations the runtime calls automatically and which ones you drive yourself.">
+          <Pad Id="46iFB43HQXr8Sy2dEdbxL5" Bounds="92,1439,400,386" ShowValueBox="true" isIOBox="true" Value="There are three operations with reserved colors and reserved meanings. You have met two of them.&#xD;&#xA;&#xD;&#xA;Create, in white, runs once when the Process comes into existence.&#xD;&#xA;&#xD;&#xA;Update, in gray, runs every frame.&#xD;&#xA;&#xD;&#xA;Dispose, in dark red, runs once when the Process is destroyed - when it is removed from the patch or the application stops. We will not use Dispose until chapter 46, where it earns a proper demonstration, but it is worth knowing the third reserved color exists.&#xD;&#xA;&#xD;&#xA;Every other operation you define - Increment, Reset, anything - has no reserved color and no reserved meaning. It runs when you trigger it, and it does whatever you patch inside it. The reserved colors are a hint to anyone reading your patch about which operations the runtime calls automatically and which ones you drive yourself.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -245,7 +245,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="54chchvmfVfOjc964CgJiy" Bounds="592,1439,400,481" ShowValueBox="true" isIOBox="true" Value="The operations we have added to the Counter are member operations. They belong to a specific thing — Increment belongs to the Counter, and it works on the Counter's own state. You cannot use Increment on something that is not a Counter.&#xD;&#xA;&#xD;&#xA;There is a second kind called a static operation. A static operation does not belong to any one thing. It just takes inputs, does something, and produces outputs. The math nodes you have used since chapter 3 — Add, Multiply, Sin — are all static operations. They work on any compatible value, with no state of their own.&#xD;&#xA;&#xD;&#xA;A static operation is the go-to whenever you want to compute something. To define one, open the Patch Explorer, right-click in the document — not inside a Process or type — and choose to add an operation. Give it a name, define its inputs and outputs, and patch the computation inside. Once defined, it appears in the Node Browser just like any built-in node, ready to use anywhere in your patch.&#xD;&#xA;&#xD;&#xA;In the example below we define a static operation called Remap that takes a value and two ranges and maps the value from one range to the other. It has no state, no object, no lifetime — it just transforms values. This is exactly the kind of logic that belongs in a static operation.">
+          <Pad Id="0rHdrjH3BKFJiCdafR0QUq" Bounds="592,1439,400,481" ShowValueBox="true" isIOBox="true" Value="The operations we have added to the Counter are member operations. They belong to a specific thing - Increment belongs to the Counter, and it works on the Counter's own state. You cannot use Increment on something that is not a Counter.&#xD;&#xA;&#xD;&#xA;There is a second kind, the so-called static operation. A static operation does not belong to any one thing. It just takes inputs, does something and produces outputs. The math nodes you have used since the chapter about Simple Math - Add, Multiply, Sin - are all static operations. They work on any compatible value, with no state of their own.&#xD;&#xA;&#xD;&#xA;A static operation is the go-to whenever you want to compute something. To define one, open the Patch Explorer, right-click in the document - not inside a Process or type - and choose to add an operation. Give it a name, define its inputs and outputs, and patch the computation inside. Once defined, it appears in the Node Browser just like any built-in node, ready to use anywhere in your patch.&#xD;&#xA;&#xD;&#xA;In the example below we define a static operation called Remap that takes a value and two ranges and maps the value from one range to the other. It has no state, no object, no lifetime - it just transforms values. This is exactly the kind of logic that belongs in a static operation.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -254,7 +254,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="2v9OCZZ6W344unoEpqArQd" Bounds="1092,1460,393,19" ShowValueBox="true" isIOBox="true" Value="https://thegraybook.vvvv.org/reference/language/operations.html">
+          <Pad Id="3j5asWqqFyuAvzxWM1G7X3" Bounds="1092,1460,393,19" ShowValueBox="true" isIOBox="true" Value="https://thegraybook.vvvv.org/reference/language/operations.html">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -263,7 +263,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="70E88nmQQZEstiFpF7on9B" Bounds="592,1960,400,120" ShowValueBox="true" isIOBox="true" Value="&lt; LIVE ELEMENT — build by hand:&#xD;&#xA;&#xD;&#xA;A static operation `Remap` defined in the Patch Explorer at document level. Inside: simple math remapping an input Float from one range to another. Shown being used in the patch with IOBoxes feeding its inputs.">
+          <Pad Id="65tr1ltGISK28hOmvTXBOP" Bounds="592,1960,400,120" ShowValueBox="true" isIOBox="true" Value="&lt; LIVE ELEMENT - build by hand:&#xD;&#xA;&#xD;&#xA;A static operation `Remap` defined in the Patch Explorer at document level. Inside: simple math remapping an input Float from one range to another. Shown being used in the patch with IOBoxes feeding its inputs.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -272,7 +272,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="2SzNrthuDR2E8lDS2nm1Cu" Bounds="92,2190,400,44" ShowValueBox="true" isIOBox="true" Value="Prototype patches below — harvested from wip/The Origin of Life.vl. Arrange them into the live-element slots marked above.">
+          <Pad Id="1alu24OLGPB0bqj4sFcgWs" Bounds="92,2190,400,44" ShowValueBox="true" isIOBox="true" Value="Prototype patches below - harvested from wip/The Origin of Life.vl. Arrange them into the live-element slots marked above.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -281,7 +281,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="5CvrEMuYdU8xXR45npqdNj" Bounds="804,3933,844,46" ShowValueBox="true" isIOBox="true" Value="40. Use Case I: Bundling Properties">
+          <Pad Id="5WHvsEVZukYcQzAThT591L" Bounds="804,3933,844,46" ShowValueBox="true" isIOBox="true" Value="40. Use Case I: Bundling Properties">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -290,19 +290,19 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="2342,2846,84,19" Id="1Suthe0fd0W9S6Krc98d8L">
+          <Node Bounds="2342,2846,84,19" Id="19v3M1d5TjcGLdJjspDZxf">
             <p:NodeReference LastCategoryFullName="Main" LastDependency="Explanation 39. Custom Operations.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="ColoredCircle" />
             </p:NodeReference>
-            <Pin Id="31WeB88CHoZn4XMCHqk3lN" Name="Node Context" Kind="InputPin" IsHidden="true" />
-            <Pin Id="6jySIjtVw0x4zx9SFge6gA" Name="Color" Kind="InputPin" />
-            <Pin Id="2Z7N22jT75NseA4qSg931h" Name="Stroke Width" Kind="InputPin" />
-            <Pin Id="1o0EuUHpCvqgBOmgKqr1h6" Name="Grow" Kind="InputPin" />
-            <Pin Id="3aS1u3mtGfbA6fznmY4XG9" Name="Shrink" Kind="InputPin" />
-            <Pin Id="6G6uvvZ7Td5AAsdIAMbHlh" Name="Output" Kind="OutputPin" />
+            <Pin Id="4kW9u6kXT8OQU7kon3Ul1N" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="3rxMB8EDg8DdDlk44s9uJG" Name="Color" Kind="InputPin" />
+            <Pin Id="0KIl9BW3k9g0gEGVBHiPto" Name="Stroke Width" Kind="InputPin" />
+            <Pin Id="21zpskJ3MVcQHBp1wQ4amO" Name="Grow" Kind="InputPin" />
+            <Pin Id="4ufOWU3Rnu31JzTIzswJIE" Name="Shrink" Kind="InputPin" />
+            <Pin Id="6cDiCOPgBeYApoHuf99VbB" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="7dk7j8FCouuBe2rcSPaD6A" Bounds="2271,2270,401,434" ShowValueBox="true" isIOBox="true" Value="After the cliffhanger of the last chapter I want to at least introduce you to the concept of Member Operations which are already an important base to understand in preparation for object-oriented programming.&#xD;&#xA;&#xD;&#xA;You already got to know two operations which are enabled by default in every patch and process node: Update and Create. You can use them anytime to specify if a part of your patch should be executed every frame during runtime or just one frame when the patch or process is initialized. &#xD;&#xA;&#xD;&#xA;Operations like Create and Update which belong to an object in VL, in this case to a Process, are called Member Operation. As a user and designer of your own application you've been given the freedom to define as many Member Operations as you like and assign parts of your Process nodes to them. Once an operation is defined inside of the node, it is available on the outside as a trigger and can be used from there. &#xD;&#xA;&#xD;&#xA;In this example, we have implemented a Grow and Shrink operation - look into the definition of the ColoredCircle for further details - note that this time the definition of the Process lies on the definitions side of the patch, right where it belongs.">
+          <Pad Id="6pEs4W3rlC7InJFAx4bB64" Bounds="2271,2270,401,434" ShowValueBox="true" isIOBox="true" Value="After the cliffhanger of the last chapter I want to at least introduce you to the concept of Member Operations which are already an important base to understand in preparation for object-oriented programming.&#xD;&#xA;&#xD;&#xA;You already got to know two operations which are enabled by default in every patch and process node: Update and Create. You can use them anytime to specify if a part of your patch should be executed every frame during runtime or just one frame when the patch or process is initialized. &#xD;&#xA;&#xD;&#xA;Operations like Create and Update which belong to an object in VL, in this case to a Process, are called Member Operation. As a user and designer of your own application you've been given the freedom to define as many Member Operations as you like and assign parts of your Process nodes to them. Once an operation is defined inside of the node, it is available on the outside as a trigger and can be used from there. &#xD;&#xA;&#xD;&#xA;In this example, we have implemented a Grow and Shrink operation - look into the definition of the ColoredCircle for further details - note that this time the definition of the Process lies on the definitions side of the patch, right where it belongs.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -311,7 +311,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="5eenvYEilUgeXoI3891thK" Comment="Grow" Bounds="2397,2779,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+          <Pad Id="0ihqi5wJfc4zt7jhEO1X8G" Comment="Grow" Bounds="2397,2779,35,35" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -320,7 +320,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="7GALH3Ri0Mr1KgKEVfqt1P" Comment="Shrink" Bounds="2451,2796,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+          <Pad Id="2f0Hlwb7JsBgdYqcD7RA5z" Comment="Shrink" Bounds="2451,2796,35,35" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -329,17 +329,17 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="4pcGp4WLH8WRqUqBwjHQrZ" Comment="Stroke Width" Bounds="2370,2754,35,15" ShowValueBox="true" isIOBox="true" Value="0.01">
+          <Pad Id="2Nz59Mxtzo7WFW1y2LKSmq" Comment="Stroke Width" Bounds="2370,2754,35,15" ShowValueBox="true" isIOBox="true" Value="0.01">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="2qvrT6oHVA1PYigfDWGUK0" Comment="Color" Bounds="2344,2731,136,15" ShowValueBox="true" isIOBox="true" Value="1, 0, 0, 1">
+          <Pad Id="38W0yeej8VlNfiXhoa1EvB" Comment="Color" Bounds="2344,2731,136,15" ShowValueBox="true" isIOBox="true" Value="1, 0, 0, 1">
             <p:TypeAnnotation LastCategoryFullName="Color" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="RGBA" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="3kBcdPQRpg2fU1UKnxCymX" Bounds="2771,2904,401,535" ShowValueBox="true" isIOBox="true" Value="If all of this at this point seems to be an overkill for you to grasp mentally, it is save to say that you could leave this theoretical terrain for now. It is not everybody‘s piece of cake to dive into these concepts and one might also just be interested to simply use the nodes that are available from the start. &#xD;&#xA;&#xD;&#xA;However, this is the way, all of the nodes used in this tutorial series are working in the background. All of them have parts that are running during the runtime of vvvv on Update, something that is running once when initialized on Create and an infinite number of parts that are running on specific operations - each operation represented by an individual color.&#xD;&#xA;&#xD;&#xA;It is good that you have been at least confronted once with these terms. Simply knowing about principles like these, which are more in the realm of programming VL than using vvvv will heavily increase your degree of freedom in expressing what you want to achieve. Also, when you are struggling with something and ask in the chat or forum, you will most likely understand the answer that you are getting from the community. This will save time both for you and the person, who helps you: Win-Win.&#xD;&#xA;&#xD;&#xA;Like mentioned in the last chapter, there are more types of nodes that you can define, most important the Record and the Class. But for the rest of this tutorial they are not that important. Nonetheless - if you want to go deeper into the topic of object-oriented programming in VL and get started with defining your own custom Records and Classes, I want to point you to this workshop from Node20: ">
+          <Pad Id="293sdKkmNLMmpFeXVAVoAt" Bounds="2771,2904,401,535" ShowValueBox="true" isIOBox="true" Value="If all of this at this point seems to be an overkill for you to grasp mentally, it is save to say that you could leave this theoretical terrain for now. It is not everybody‘s piece of cake to dive into these concepts and one might also just be interested to simply use the nodes that are available from the start. &#xD;&#xA;&#xD;&#xA;However, this is the way, all of the nodes used in this tutorial series are working in the background. All of them have parts that are running during the runtime of vvvv on Update, something that is running once when initialized on Create and an infinite number of parts that are running on specific operations - each operation represented by an individual color.&#xD;&#xA;&#xD;&#xA;It is good that you have been at least confronted once with these terms. Simply knowing about principles like these, which are more in the realm of programming VL than using vvvv will heavily increase your degree of freedom in expressing what you want to achieve. Also, when you are struggling with something and ask in the chat or forum, you will most likely understand the answer that you are getting from the community. This will save time both for you and the person, who helps you: Win-Win.&#xD;&#xA;&#xD;&#xA;Like mentioned in the last chapter, there are more types of nodes that you can define, most important the Record and the Class. But for the rest of this tutorial they are not that important. Nonetheless - if you want to go deeper into the topic of object-oriented programming in VL and get started with defining your own custom Records and Classes, I want to point you to this workshop from Node20: ">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -348,7 +348,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="6lGTrAeXi5AJUcGyyLrTHx" Bounds="2772,3462,215,19" ShowValueBox="true" isIOBox="true" Value="https://vimeo.com/467436333">
+          <Pad Id="0VZ8R7hGXEwAtZYNPoMBRM" Bounds="2772,3462,215,19" ShowValueBox="true" isIOBox="true" Value="https://vimeo.com/467436333">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -357,7 +357,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="1zQ2rzjY6NPwWPmTi5qQnw" Bounds="2771,2270,401,112" ShowValueBox="true" isIOBox="true" Value="Here is another example of a Process Node in which multiple operations exist to move and scale a three-dimensional object. This time we also make use of toggles to enable or disable the Grow and Shrink operations, just to show that they actually only evaluate while the input is true. If we use a Bang for this, we just set it to true for one frame.">
+          <Pad Id="4dv1GlRzqRgZCFHGvlRYxI" Bounds="2771,2270,401,112" ShowValueBox="true" isIOBox="true" Value="Here is another example of a Process Node in which multiple operations exist to move and scale a three-dimensional object. This time we also make use of toggles to enable or disable the Grow and Shrink operations, just to show that they actually only evaluate while the input is true. If we use a Bang for this, we just set it to true for one frame.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -366,41 +366,41 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="2824,2547,125,19" Id="3XoX6RMxisWBqmZW9zzmSD">
+          <Node Bounds="2824,2547,125,19" Id="0bA6AGuuWhMu3dyGmr01xV">
             <p:NodeReference LastCategoryFullName="Main" LastDependency="Explanation 39. Custom Operations.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessNode" Name="ColoredSphere" />
             </p:NodeReference>
-            <Pin Id="3qUGsmYAKZyXJ2pb0ZIceJ" Name="Node Context" Kind="InputPin" IsHidden="true" />
-            <Pin Id="5c9PRN9mMerQtUn6OOMb1w" Name="Color" Kind="InputPin" />
-            <Pin Id="4weeZnGa3ekEzcbb7CMehg" Name="Grow" Kind="InputPin" />
-            <Pin Id="2oiEFGYDhgqNjUOLHybFvY" Name="Shrink" Kind="InputPin" />
-            <Pin Id="2rz2343JN4HTCQExFprXMV" Name="Left" Kind="InputPin" />
-            <Pin Id="2ql3yWidwZ2Q4oVxOBPkUM" Name="Right" Kind="InputPin" />
-            <Pin Id="7Zv5fZDNr5DdeB38DptK8Q" Name="Up" Kind="InputPin" />
-            <Pin Id="586kwQJHbNKZ28D9aBG7cO" Name="Down" Kind="InputPin" />
-            <Pin Id="0o9eeqvFWKrrad2oBpU1m8" Name="Output" Kind="OutputPin" />
+            <Pin Id="2oKJ6YVMNIzA9KzOfeghXX" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="3AIb6n38V3tTnNX6KxpfYL" Name="Color" Kind="InputPin" />
+            <Pin Id="2vY2CYvOOzUu8slmCT5UG3" Name="Grow" Kind="InputPin" />
+            <Pin Id="072WRnIgYm6hLMl2b8RfPP" Name="Shrink" Kind="InputPin" />
+            <Pin Id="1o17MMhNrJsi64WtpKLuDG" Name="Left" Kind="InputPin" />
+            <Pin Id="1IhRgtf7M20y0BiPL2VXL1" Name="Right" Kind="InputPin" />
+            <Pin Id="5SyWvg59NIxunV6Ta8CF1D" Name="Up" Kind="InputPin" />
+            <Pin Id="0DgNVHnTGx4KlzNFGGqZw1" Name="Down" Kind="InputPin" />
+            <Pin Id="0Xn0HXPQshg8QeM7XLcglM" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="2844,2585,85,19" Id="02vMvaH8NvvzkH3CPumpIH">
+          <Node Bounds="2844,2585,85,19" Id="6EfyvYC5mnlX7kH9GyGxtH">
             <p:NodeReference LastCategoryFullName="Stride.Lights" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="AmbientLight" />
             </p:NodeReference>
-            <Pin Id="7ZS20jYmqyFtlsjH69Fxyx" Name="Node Context" Kind="InputPin" IsHidden="true" />
-            <Pin Id="3mHPrQK5tbVxGN9YYsplXQ" Name="Color" Kind="InputPin" />
-            <Pin Id="26TqJ30xcP6uQ5CgBDe1Zb" Name="Intensity" Kind="InputPin" />
-            <Pin Id="6Jt5k73b2hDDdeEAg8voNr" Name="Component" Kind="InputPin" />
-            <Pin Id="5tBXi3DxvnthliXOKlx7Ya" Name="Name" Kind="InputPin" />
-            <Pin Id="4jzCSvSJJy7kGNtsK3RidB" Name="Enabled" Kind="InputPin" />
-            <Pin Id="2wKxnkXWeD2jsU5kIK3gv4" Name="Output" Kind="OutputPin" IsHidden="true" />
-            <Pin Id="3iIFMDywCf4JdN1UGQ2JZK" Name="Entity" Kind="OutputPin" />
+            <Pin Id="4Bxv8uTQtNL9h9nVWqJVpD" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="1t51I04NtImbTYCdmawPdU" Name="Color" Kind="InputPin" />
+            <Pin Id="4P6qNO0YzBxG5kkfsaCrj8" Name="Intensity" Kind="InputPin" />
+            <Pin Id="4g7fQOscgU6K7ZnrykNaL8" Name="Component" Kind="InputPin" />
+            <Pin Id="4wIM7tGB27zAIDTxbLL5bq" Name="Name" Kind="InputPin" />
+            <Pin Id="1Ppz2IC9imyceojT1MCX1U" Name="Enabled" Kind="InputPin" />
+            <Pin Id="4qz5wpFPqAzcZ5qPmNmx0l" Name="Output" Kind="OutputPin" IsHidden="true" />
+            <Pin Id="1W1IpCXkCmgt22ZfACtxe8" Name="Entity" Kind="OutputPin" />
           </Node>
-          <Pad Id="0wvaX0odynHwymKHrxjAc9" Comment="Color" Bounds="2826,2530,136,15" ShowValueBox="true" isIOBox="true" Value="0, 0, 1, 1">
+          <Pad Id="6jYBUZPZL5zIIvGHjfhrVI" Comment="Color" Bounds="2826,2530,136,15" ShowValueBox="true" isIOBox="true" Value="0, 0, 1, 1">
             <p:TypeAnnotation LastCategoryFullName="Color" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="RGBA" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="1QK57I5sZgrcwZHaUyE780" Comment="Left" Bounds="3004,2451,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+          <Pad Id="5OMLYSLTIEJJbcQxrLMJEu" Comment="Left" Bounds="3004,2451,35,35" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -409,7 +409,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="22bmCZ6NaX8bRRqw9h9DMv" Comment="Right" Bounds="3080,2451,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+          <Pad Id="7ArgCESI6rmuphYeCNi13N" Comment="Right" Bounds="3080,2451,35,35" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -418,7 +418,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="2EoIhscVvhbDeFIWbRCgZK" Comment="Up" Bounds="3042,2413,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+          <Pad Id="6M1vTs9byZ2GAjCEuwa1TW" Comment="Up" Bounds="3042,2413,35,35" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -427,7 +427,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="5HIanyOVtdiR59d9VX8rXo" Comment="Down" Bounds="3042,2489,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+          <Pad Id="27CJ9XAHuPLcz5Pq5aAKYw" Comment="Down" Bounds="3042,2489,35,35" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -436,7 +436,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="6nKpPT0hAf2k7lYmudwmf2" Comment="Grow" Bounds="2798,2451,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+          <Pad Id="42ONHQj3zcgbJRZFPsMeVU" Comment="Grow" Bounds="2798,2451,35,35" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -445,7 +445,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="4WFkuPk4rfQUrQnwlsq46i" Comment="Shrink" Bounds="2887,2451,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+          <Pad Id="6GDgYUgsUaTjEdfvrklDdR" Comment="Shrink" Bounds="2887,2451,35,35" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -454,7 +454,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="4QJxpch6i3N5pdczPNqHgN" Bounds="2280,3158,216,25" ShowValueBox="true" isIOBox="true" Value="Other Resources">
+          <Pad Id="1bnLSwFWYvCMSNSNcUHDWo" Bounds="2280,3158,216,25" ShowValueBox="true" isIOBox="true" Value="Other Resources">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -463,7 +463,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="4hIpYbCPHITbMM3TN5CmY3" Bounds="2280,3189,197,19" ShowValueBox="true" isIOBox="true" Value="The Gray Book">
+          <Pad Id="3ioYeQyNiAf53yAmdAGE3r" Bounds="2280,3189,197,19" ShowValueBox="true" isIOBox="true" Value="The Gray Book">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -472,7 +472,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="1pNFhvuTMQYaY6kRwwz6Q0" Bounds="2280,3208,373,19" ShowValueBox="true" isIOBox="true" Value="https://thegraybook.vvvv.org/reference/language/operations">
+          <Pad Id="0y1V53YRjpnY89NYheHBzU" Bounds="2280,3208,373,19" ShowValueBox="true" isIOBox="true" Value="https://thegraybook.vvvv.org/reference/language/operations">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -481,69 +481,69 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="2342,2918,65,19" Id="6j2Bx5L4pj7KeZD4297BLQ">
+          <Node Bounds="2342,2918,65,19" Id="4ycNrsfHWBSPO9GGPOkDlA">
             <p:NodeReference LastCategoryFullName="Graphics.Skia" LastDependency="VL.Skia.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Skia" NeedsToBeDirectParent="true" />
               <Choice Kind="ProcessAppFlag" Name="Group" />
             </p:NodeReference>
-            <Pin Id="1WKcgJX13L1ZrmBjxQSbsK" Name="Node Context" Kind="InputPin" IsHidden="true" />
-            <Pin Id="1xFPxAneZfMFPX7qoE0H80" Name="Input" Kind="InputPin" />
-            <Pin Id="30ZdZQbw6tBpeuglklAvzF" Name="Input 2" Kind="InputPin" />
-            <Pin Id="1cbk4h44StlMinpItT0krz" Name="Debug" Kind="InputPin" />
-            <Pin Id="5KTJjxMJviwPzOsoD0JkLe" Name="Enabled" Kind="InputPin" />
-            <Pin Id="1lnjA2191HK8EV4FWMq6C9" Name="Output" Kind="OutputPin" />
+            <Pin Id="3f2YFHL6PolR1dGFB3nta1" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="3iS270NnWpwY8tac2mntRp" Name="Input" Kind="InputPin" />
+            <Pin Id="5AmaV8Cqd91vM61ctbtaBF" Name="Input 2" Kind="InputPin" />
+            <Pin Id="1t5PxIh7b6wBUqvfJJzl3H" Name="Debug" Kind="InputPin" />
+            <Pin Id="2QQqLbPYmZgSxIgePQy8nz" Name="Enabled" Kind="InputPin" />
+            <Pin Id="52hfSAb20Mft3iFsGu91Vr" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="2310,2996,249,90" Id="0R580TuI2Krp4AHeB5VSuA">
+          <Node Bounds="2310,2996,249,90" Id="3B763NF067NUTDR0XyYjAT">
             <p:NodeReference LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
               <CategoryReference Kind="Category" Name="Primitive" />
               <Choice Kind="ProcessAppFlag" Name="ManageProcess" />
             </p:NodeReference>
-            <Pin Id="4iarkk91NlptDY7wQraxmh" Name="Node Context" Kind="InputPin" IsHidden="true" />
-            <Pin Id="3pojiyQjdrOG0Q2WQvzk3v" Name="Enabled" Kind="InputPin" />
-            <Pin Id="0vbEcfBxqfTAiVyg3LUmJ1" Name="Lifespan" Kind="InputPin" DefaultValue="Short" />
-            <Patch Id="3caAZzs2wjBOvEIFLNkkw0" ManuallySortedPins="true">
-              <Patch Id="7fou3Rq911yjJoH2DOUAba" Name="Create" ManuallySortedPins="true" />
-              <Patch Id="4QdVJg0foiXMeeH2UktKlu" Name="Update" ManuallySortedPins="true" />
-              <Patch Id="6RekL4ikMB2hFGKitsQL80" Name="Dispose" ManuallySortedPins="true" />
-              <Node Bounds="2322,3047,165,19" Id="3f0wHjh26nQWYtIgCsGfr3">
+            <Pin Id="75ra6yKsQKnMucz8blvl0A" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="5dBN4tUDuVVXHIhoSnQD8R" Name="Enabled" Kind="InputPin" />
+            <Pin Id="1QSURFpPGDKaciGyJCkGl2" Name="Lifespan" Kind="InputPin" DefaultValue="Short" />
+            <Patch Id="0NvtXjOCBqqkBlqyaG0nAN" ManuallySortedPins="true">
+              <Patch Id="0psghsBRGiopfmTjy3eeoa" Name="Create" ManuallySortedPins="true" />
+              <Patch Id="3p1O9PdvOTtyp4XA61yODG" Name="Update" ManuallySortedPins="true" />
+              <Patch Id="11T4zTG5l5sabylLNVgyMR" Name="Dispose" ManuallySortedPins="true" />
+              <Node Bounds="2322,3047,165,19" Id="5xP5Plvu70vYkL5COF1NBt">
                 <p:NodeReference LastCategoryFullName="Graphics.Skia" LastDependency="VL.Skia.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="Renderer" />
                 </p:NodeReference>
-                <Pin Id="6dqVHtkLxlyKRXJPy8inTM" Name="Node Context" Kind="InputPin" IsHidden="true" />
-                <Pin Id="1AQwwOboYj9SamTtb0qBvV" Name="Bounds" Kind="InputPin" DefaultValue="456, 274, 613, 436" />
-                <Pin Id="4vRWkw7OrrdOV05TRh6dFB" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
-                <Pin Id="2ACoOXFOcazsPC3cbMa4uY" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
-                <Pin Id="7TmW50a4dUuK1VJVHZ8yfa" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
-                <Pin Id="2fXk1iHbKaFfwS1XtKzUTp" Name="Always On Top" Kind="InputPin" IsHidden="true" />
-                <Pin Id="4ZJg8QtxoiZcabyWoEyXC4" Name="Extend Into Title Bar" Kind="InputPin" IsHidden="true" />
-                <Pin Id="6X66m4OnzzaesvCmvZPGVC" Name="Input" Kind="InputPin" />
-                <Pin Id="1vqYvSf74NSIV0xqdSHRLI" Name="Title" Kind="InputPin" />
-                <Pin Id="26nqNgKAkvTtq2qkcRoOXz" Name="Title Bar Interaction Width" Kind="InputPin" IsHidden="true" />
-                <Pin Id="0KniLbYDVJackhzAx6Q3qE" Name="Color" Kind="InputPin" />
-                <Pin Id="34N39Rml4vPPFympLut0Oy" Name="Clear" Kind="InputPin" />
-                <Pin Id="1kDKROsT9R809veo5lYqJf" Name="Space" Kind="InputPin" />
-                <Pin Id="4kW37qM8Nq65YwgtNvRO1U" Name="Show Cursor" Kind="InputPin" />
-                <Pin Id="4Z7G4inlLETitDMQzUbJbS" Name="VSync" Kind="InputPin" />
-                <Pin Id="14JYmbuwnfNJwjpcNqCI3A" Name="Commands" Kind="InputPin" IsHidden="true" />
-                <Pin Id="75KYXPibngnltlJFE0n2Xu" Name="Enable Keyboard Shortcuts" Kind="InputPin" IsHidden="true" />
-                <Pin Id="2URKr5HSnz3xi4KN4bbXGB" Name="Enabled" Kind="InputPin" />
-                <Pin Id="2bJZzKahZdk0ZP1ryFwHwI" Name="Form Bounds Notifications" Kind="OutputPin" IsHidden="true" />
-                <Pin Id="7FWeBxr5LLjalYmuFlzzwa" Name="Form" Kind="OutputPin" />
-                <Pin Id="0MkzJSGvtE5snSfPa7ML5V" Name="ClientBounds" Kind="OutputPin" />
-                <Pin Id="6ygYPw25TwEkl2iRJeE3cg" Name="Render Time" Kind="OutputPin" />
+                <Pin Id="3WdALbWQ4YDUsmYd78OjA5" Name="Node Context" Kind="InputPin" IsHidden="true" />
+                <Pin Id="7S2S2vFHSJqZ29lHlb2GYe" Name="Bounds" Kind="InputPin" DefaultValue="456, 274, 613, 436" />
+                <Pin Id="6UZA3T4MD9Oqi1mAw7bsfc" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
+                <Pin Id="1zD7Jax4hZl5Oj52jImFxn" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
+                <Pin Id="6zo9FLljDV5w2g14b2QgOi" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
+                <Pin Id="4CEgJP8GlWof7fNjCK9uOC" Name="Always On Top" Kind="InputPin" IsHidden="true" />
+                <Pin Id="0H4jsyR3SCwmWoiAVgg2zb" Name="Extend Into Title Bar" Kind="InputPin" IsHidden="true" />
+                <Pin Id="1KlrMRGZInh0DiCyk0kLzO" Name="Input" Kind="InputPin" />
+                <Pin Id="5YmuR96jyUl60WsDWHIAkq" Name="Title" Kind="InputPin" />
+                <Pin Id="5zha497oG1UDNIHEywpBDp" Name="Title Bar Interaction Width" Kind="InputPin" IsHidden="true" />
+                <Pin Id="2EqWAeOSFUTss5KTXwaJJe" Name="Color" Kind="InputPin" />
+                <Pin Id="278TllqjUShvxiVwBRPOWL" Name="Clear" Kind="InputPin" />
+                <Pin Id="0jaQzsNNAzq308fn81DM3o" Name="Space" Kind="InputPin" />
+                <Pin Id="7SfnC0vHtMufeAox5dYERk" Name="Show Cursor" Kind="InputPin" />
+                <Pin Id="4STHBTljtnZNZOrWyIjj4A" Name="VSync" Kind="InputPin" />
+                <Pin Id="6itKRrU3QYdoCuzA5Rilej" Name="Commands" Kind="InputPin" IsHidden="true" />
+                <Pin Id="7hcJcPmICHLwHfaBirYiFS" Name="Enable Keyboard Shortcuts" Kind="InputPin" IsHidden="true" />
+                <Pin Id="7ahPTGB165W4gXCz1jrR7y" Name="Enabled" Kind="InputPin" />
+                <Pin Id="4y44wSq58l7G91gVhQubYC" Name="Form Bounds Notifications" Kind="OutputPin" IsHidden="true" />
+                <Pin Id="360Rovv3MmROa0r6E1UYEp" Name="Form" Kind="OutputPin" />
+                <Pin Id="49NB46bqwr9vl7Imk7dfY2" Name="ClientBounds" Kind="OutputPin" />
+                <Pin Id="0W5hHCHNdiX7z864owATFC" Name="Render Time" Kind="OutputPin" />
               </Node>
-              <Pad Id="33ZwiILMsxQMzqcNVb8NRj" Comment="Color" Bounds="2364,3024,136,15" ShowValueBox="true" isIOBox="true" Value="0, 0, 1, 1">
+              <Pad Id="3y25IRE2Ez3dy0550oODQs" Comment="Color" Bounds="2364,3024,136,15" ShowValueBox="true" isIOBox="true" Value="0, 0, 1, 1">
                 <p:TypeAnnotation LastCategoryFullName="Color" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="TypeFlag" Name="RGBA" />
                 </p:TypeAnnotation>
               </Pad>
             </Patch>
-            <Pin Id="5uvsJjwMBUB4cwcFu9F2cS" Name="Reset" Kind="InputPin" IsHidden="true" />
+            <Pin Id="5Qnaj0m4YFUQpYq4j6ZrG0" Name="Reset" Kind="InputPin" IsHidden="true" />
           </Node>
-          <Pad Id="5YY21aAkG0s8r5dRk4P5Oi" Comment="Enabled" Bounds="2251,2907,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+          <Pad Id="7XFVwalOjet2ftozXefyrc" Comment="Enabled" Bounds="2251,2907,35,35" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
             </p:TypeAnnotation>
@@ -551,90 +551,90 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="2792,2643,335,102" Id="14awl47WGOGIMUfS6UKIu9">
+          <Node Bounds="2792,2643,335,102" Id="2zlMUdpeZwhaiQHRDno8T0">
             <p:NodeReference LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
               <CategoryReference Kind="Category" Name="Primitive" />
               <Choice Kind="ProcessAppFlag" Name="ManageProcess" />
             </p:NodeReference>
-            <Pin Id="4EkLtRkbRslSoveCoGYH6p" Name="Node Context" Kind="InputPin" IsHidden="true" />
-            <Pin Id="2fEGVSNpDHdtfgSRPVu1k5" Name="Enabled" Kind="InputPin" />
-            <Pin Id="77CauxLcRLG2g2lAZ8Nsy9" Name="Lifespan" Kind="InputPin" DefaultValue="Short" />
-            <Patch Id="2twDh2w1qHVJ6K8qUE83HR" ManuallySortedPins="true">
-              <Patch Id="6Dm9pSiSW176X5SsNvohzz" Name="Create" ManuallySortedPins="true" />
-              <Patch Id="5gm10VkPtLi2nQOYOzdxz5" Name="Update" ManuallySortedPins="true" />
-              <Patch Id="7K1m7tw7c33u9qRoPGCs4V" Name="Dispose" ManuallySortedPins="true" />
-              <Node Bounds="2804,2706,225,19" Id="4P3aTMG6N0VHhVVDcvHMZx">
+            <Pin Id="2utHmbALVQm0Na1jCIDrSf" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="1LDcRrROZEoWsCJr7WXXfC" Name="Enabled" Kind="InputPin" />
+            <Pin Id="1tMThdEK1yReNICXBq5i2F" Name="Lifespan" Kind="InputPin" DefaultValue="Short" />
+            <Patch Id="6Iiiti4YAyhzjVrgCGjjk6" ManuallySortedPins="true">
+              <Patch Id="1TWxj6ObPsh3WLhkL4q5Eo" Name="Create" ManuallySortedPins="true" />
+              <Patch Id="3s4X5WaFutNYrggpagUDT0" Name="Update" ManuallySortedPins="true" />
+              <Patch Id="6Sn5NncCiZyXDZsFHhHaG6" Name="Dispose" ManuallySortedPins="true" />
+              <Node Bounds="2804,2706,225,19" Id="7M8ddDhgfK5twwApqX55uv">
                 <p:NodeReference LastCategoryFullName="Stride" LastDependency="VL.Stride.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
                 </p:NodeReference>
-                <Pin Id="70KazvXN8kLQC46gYnMR4X" Name="Bounds" Kind="InputPin" DefaultValue="1000, 40, 786, 432" />
-                <Pin Id="7ITIjGM80qHfBotU6jCU7Q" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
-                <Pin Id="2scV1HkC1EK1cLzP2eu6Oy" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
-                <Pin Id="1S9liNvRcHY5EuUFpACX15" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
-                <Pin Id="24pdF5jqOF0PtSNOyusuNA" Name="Back Buffer Format" Kind="InputPin" IsHidden="true" />
-                <Pin Id="5yVmYwnHYxgxfYAGX8zNpF" Name="Depth Buffer Format" Kind="InputPin" IsHidden="true" />
-                <Pin Id="327unkZa4MqKTo0Q2hUzfl" Name="Input Priority" Kind="InputPin" IsHidden="true" />
-                <Pin Id="2ty3Mwzs42cYpQUQHBfFLR" Name="Node Context" Kind="InputPin" IsHidden="true" />
-                <Pin Id="6oiJF9Du2BGICAoQzMjYZA" Name="Always On Top" Kind="InputPin" IsHidden="true" />
-                <Pin Id="5uoKNAwc5PPKqsDzbNt8pR" Name="Extend Into Title Bar" Kind="InputPin" IsHidden="true" />
-                <Pin Id="3RVIXvWhvpXU3LtBHA5o9p" Name="Is Borderless" Kind="InputPin" IsHidden="true" />
-                <Pin Id="1Ezu6lEprPgFrSW8LwEgwI" Name="Input" Kind="InputPin" />
-                <Pin Id="2eiqNFadT7k4oPAp9uOTqM" Name="Camera" Kind="InputPin" />
-                <Pin Id="5N2TvB0zgCjGH3kUFZjkbd" Name="Enable Default Camera" Kind="InputPin" />
-                <Pin Id="7lOUdYEOwcVxmSPgyGmXy0" Name="Title" Kind="InputPin" />
-                <Pin Id="0v2HglZshRnKCHwgeem9iW" Name="Title Bar Interaction Width" Kind="InputPin" IsHidden="true" />
-                <Pin Id="4BRy4hqwZh2Ube1Be8l3Ih" Name="Clear Color" Kind="InputPin" />
-                <Pin Id="1rzHYu9P09h9WFooSyvphC" Name="Clear" Kind="InputPin" />
-                <Pin Id="6Z4ssp6JjXGWfT2cvCt9ZE" Name="Post Effects" Kind="InputPin" />
-                <Pin Id="2BGe5ewpciQbbnTSNgiZrA" Name="Enable Default Post Effects" Kind="InputPin" />
-                <Pin Id="5HAUN1yeIeJNNQKd3meRq7" Name="Render Group Mask" Kind="InputPin" IsHidden="true" />
-                <Pin Id="7O4rjeksRpXKlVimSExF2Z" Name="Commands" Kind="InputPin" IsHidden="true" />
-                <Pin Id="4QekEqhM7yrx17Xzz7GzjV" Name="Enable Keyboard Shortcuts" Kind="InputPin" />
-                <Pin Id="7breHA24AvXj59uKpAb2Sl" Name="Model Effect Name" Kind="InputPin" IsHidden="true" />
-                <Pin Id="1sdQppRpNvocEv82MD5hHU" Name="Additional Scene Renderers" Kind="InputPin" IsHidden="true" />
-                <Pin Id="6tNJKGfyRcrN9ny4rjkxzd" Name="Enabled" Kind="InputPin" />
-                <Pin Id="5IhV0JxsrB2UohRMIWJRJd" Name="Input Source" Kind="InputPin" IsHidden="true" />
-                <Pin Id="3j6x0giaCXQhfPiutmIkK5" Name="Present Interval" Kind="InputPin" />
-                <Pin Id="1lPIyRRmMno8DfCVAk51bI" Name="MSAALevel" Kind="InputPin" IsHidden="true" />
-                <Pin Id="5g869JpddXlDcT65UNFCai" Name="MSAAResolver" Kind="InputPin" IsHidden="true" />
-                <Pin Id="21QWlCtjY6Cq6BH4wxK8G2" Name="Light Shafts" Kind="InputPin" IsHidden="true" />
-                <Pin Id="2lbQ7OpdJwEVnzT5bfoBDF" Name="VR Settings" Kind="InputPin" IsHidden="true" />
-                <Pin Id="0MRHmw7c9wO3uzR6dt8It5" Name="Viewport Settings" Kind="InputPin" IsHidden="true" />
-                <Pin Id="5CaDMQv6KYU0fr0IxNu7Mw" Name="Subsurface Scattering Blur Settings" Kind="InputPin" IsHidden="true" />
-                <Pin Id="2xE7uskKmSoq6AyPIjChPR" Name="Bind Depth As Resource During Transparent Rendering" Kind="InputPin" IsHidden="true" />
-                <Pin Id="4aWoU9NSDxOuQWisz4VjMI" Name="Output" Kind="OutputPin" />
-                <Pin Id="3HH8gHa8fgJsUqwY6WTUyA" Name="Client Bounds" Kind="OutputPin" />
-                <Pin Id="0ii4LgVSCG0qgZYTBqrhUG" Name="Input Source" Kind="OutputPin" />
-                <Pin Id="5LhkMlBY7tXGJCP85Rxjg8" Name="Back Buffer" Kind="OutputPin" IsHidden="true" />
-                <Pin Id="719FiL04IjntgogoI2V23J" Name="Depth Buffer" Kind="OutputPin" IsHidden="true" />
-                <Pin Id="1KU1Qips3nxZuEVFYC5PvU" Name="Present Call Intercept" Kind="InputPin" IsHidden="true" />
-                <Pin Id="3M0nenDYaELVDuvrYdMtDO" Name="Output Color Space" Kind="InputPin" IsHidden="true" />
-                <Pin Id="0yQ9VZjC0bABALcOt2sWFG" Name="Backbuffer Format" Kind="InputPin" IsHidden="true" />
+                <Pin Id="174Ro9FoxwxfTg7pufUsGa" Name="Bounds" Kind="InputPin" DefaultValue="1000, 40, 786, 432" />
+                <Pin Id="4ta7qsI0NBC5iycJgefMvf" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
+                <Pin Id="36kN1tmceEAzhIjE6DelXD" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
+                <Pin Id="6Ux1I1tIPPhIn9sDLKppvn" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
+                <Pin Id="70fEXZ62r4M1160dqdWOS7" Name="Back Buffer Format" Kind="InputPin" IsHidden="true" />
+                <Pin Id="0KUtc56Ve2b6jXLL2zEITg" Name="Depth Buffer Format" Kind="InputPin" IsHidden="true" />
+                <Pin Id="4FIbR8dCN74N6PaS1kKjQI" Name="Input Priority" Kind="InputPin" IsHidden="true" />
+                <Pin Id="7UaufpwEwCpXUuSIrF2IoK" Name="Node Context" Kind="InputPin" IsHidden="true" />
+                <Pin Id="1NESRt8ITn5kU2vjPPp1WS" Name="Always On Top" Kind="InputPin" IsHidden="true" />
+                <Pin Id="4HnBLV8Tu0cKpn0yV092Rr" Name="Extend Into Title Bar" Kind="InputPin" IsHidden="true" />
+                <Pin Id="4ekLsJfV63eD2scGE9hre1" Name="Is Borderless" Kind="InputPin" IsHidden="true" />
+                <Pin Id="2iSrbc73wjgmaR6j0gSMC3" Name="Input" Kind="InputPin" />
+                <Pin Id="3Z8BiqFUk3jiSCSZkWZVu6" Name="Camera" Kind="InputPin" />
+                <Pin Id="4nXL7VtZMTiBEFSZKUZyvA" Name="Enable Default Camera" Kind="InputPin" />
+                <Pin Id="6b1XqXD61MNtza3pLoW8xK" Name="Title" Kind="InputPin" />
+                <Pin Id="3Yq5X7BydEXJSlfygQcT3s" Name="Title Bar Interaction Width" Kind="InputPin" IsHidden="true" />
+                <Pin Id="5PycV8yvqFEZzYJRq7PFSW" Name="Clear Color" Kind="InputPin" />
+                <Pin Id="2lNoBTw1ZG2s3HW6ALHjbz" Name="Clear" Kind="InputPin" />
+                <Pin Id="5KNhyKBeRCHt0FYNdH3JaL" Name="Post Effects" Kind="InputPin" />
+                <Pin Id="1bXCGtIdMDe5U5AsPedVXW" Name="Enable Default Post Effects" Kind="InputPin" />
+                <Pin Id="4t2vnI80eQ74g9eSefqSDm" Name="Render Group Mask" Kind="InputPin" IsHidden="true" />
+                <Pin Id="5Dq5ptchu5wGZ11gvjSMrZ" Name="Commands" Kind="InputPin" IsHidden="true" />
+                <Pin Id="1uV2TlHp3e5etW0cJkxuNk" Name="Enable Keyboard Shortcuts" Kind="InputPin" />
+                <Pin Id="3vIrmZsHgQsJTdjp6EI75q" Name="Model Effect Name" Kind="InputPin" IsHidden="true" />
+                <Pin Id="59kGEkC1PJAwUp3SIefFpE" Name="Additional Scene Renderers" Kind="InputPin" IsHidden="true" />
+                <Pin Id="3KCZ9HiTgbP5ogCBQiACjp" Name="Enabled" Kind="InputPin" />
+                <Pin Id="1VhoCguFVLnpxIKWevK4rH" Name="Input Source" Kind="InputPin" IsHidden="true" />
+                <Pin Id="25seUanTCxdG4cN54sZAaE" Name="Present Interval" Kind="InputPin" />
+                <Pin Id="4A3YJsEJRMYjw1RcanQLSa" Name="MSAALevel" Kind="InputPin" IsHidden="true" />
+                <Pin Id="2DybNhW1bpd7B2l5KfZ0TA" Name="MSAAResolver" Kind="InputPin" IsHidden="true" />
+                <Pin Id="7TiLvstj5MVGmtfilrt06T" Name="Light Shafts" Kind="InputPin" IsHidden="true" />
+                <Pin Id="3b5MSFVDq4YdneJV0RYwTQ" Name="VR Settings" Kind="InputPin" IsHidden="true" />
+                <Pin Id="5t8txkqUjJpiGG7SjWWoaE" Name="Viewport Settings" Kind="InputPin" IsHidden="true" />
+                <Pin Id="7csoADsHO1wC49mTjDdED6" Name="Subsurface Scattering Blur Settings" Kind="InputPin" IsHidden="true" />
+                <Pin Id="6kohRgWkRb3syZizfagAOH" Name="Bind Depth As Resource During Transparent Rendering" Kind="InputPin" IsHidden="true" />
+                <Pin Id="73l3WrJ4cSot6frLyCWkuS" Name="Output" Kind="OutputPin" />
+                <Pin Id="1k5EPCWZIIu9dcPoxIvVeo" Name="Client Bounds" Kind="OutputPin" />
+                <Pin Id="05YwB5Rn2pBUj3OwnITzXE" Name="Input Source" Kind="OutputPin" />
+                <Pin Id="5Ve1OLRNHEVcbgripVfcPV" Name="Back Buffer" Kind="OutputPin" IsHidden="true" />
+                <Pin Id="6ObzwTcdC2AlWbZYecUj0M" Name="Depth Buffer" Kind="OutputPin" IsHidden="true" />
+                <Pin Id="7iuVDRUrB2O9VdKdY09pdO" Name="Present Call Intercept" Kind="InputPin" IsHidden="true" />
+                <Pin Id="4OxHfSQJyNTm4xUpuJCvix" Name="Output Color Space" Kind="InputPin" IsHidden="true" />
+                <Pin Id="4PACPBKnQn09WWuIpL5K7B" Name="Backbuffer Format" Kind="InputPin" IsHidden="true" />
               </Node>
-              <Node Bounds="2824,2666,65,19" Id="4pmgqB9hfj8aMqXAfHoOB0">
+              <Node Bounds="2824,2666,65,19" Id="46BxSgyDERPj7EzOS5ZWCw">
                 <p:NodeReference LastCategoryFullName="Stride" LastDependency="VL.Stride.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="RootScene" />
                 </p:NodeReference>
-                <Pin Id="3aM5y0WzOwLJh1Xs9J5sOl" Name="Node Context" Kind="InputPin" IsHidden="true" />
-                <Pin Id="4s1bh5RWIJOqLrYVDrLPcN" Name="Child" Kind="InputPin" />
-                <Pin Id="21wmlV3JyciiSSDwn40k5f" Name="Child 2" Kind="InputPin" />
-                <Pin Id="2A0pyi7WyLncgsD3c7FOa9" Name="Child 3" Kind="InputPin" />
-                <Pin Id="4PCCp0XESIZsMODKsfrk0p" Name="Child Scenes" Kind="InputPin" IsHidden="true" />
-                <Pin Id="6BxuO7tYfwFL0Etii1EwR0" Name="Enabled" Kind="InputPin" />
-                <Pin Id="1hJgAbqUPHUVHJm2ylgK9z" Name="Output" Kind="OutputPin" />
+                <Pin Id="1zxNVa4OexBjFMaPCgNuQL" Name="Node Context" Kind="InputPin" IsHidden="true" />
+                <Pin Id="4zgUJfnrtjEjtXbTZ562QF" Name="Child" Kind="InputPin" />
+                <Pin Id="4yqmxRevWaf5JEjRdwPW2b" Name="Child 2" Kind="InputPin" />
+                <Pin Id="6JVG2KZlSOI60n0FlBXnXN" Name="Child 3" Kind="InputPin" />
+                <Pin Id="59DouatE0iQVb1QgvoY3qz" Name="Child Scenes" Kind="InputPin" IsHidden="true" />
+                <Pin Id="0u82IZleNLzHyQzH7M0sTe" Name="Enabled" Kind="InputPin" />
+                <Pin Id="35ZGN7gxVMJkOjGTWEtS1j" Name="Output" Kind="OutputPin" />
               </Node>
-              <Pad Id="4a7rM4axAIMTaIeXQ2fpgv" Comment="Clear Color" Bounds="2906,2687,136,15" ShowValueBox="true" isIOBox="true" Value="1, 0, 0, 1">
+              <Pad Id="2Of1REQvZPEMudz5gNZWvR" Comment="Clear Color" Bounds="2906,2687,136,15" ShowValueBox="true" isIOBox="true" Value="1, 0, 0, 1">
                 <p:TypeAnnotation LastCategoryFullName="Color" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="TypeFlag" Name="RGBA" />
                 </p:TypeAnnotation>
               </Pad>
             </Patch>
-            <Pin Id="4J8IiE40PENdCe53bcEzP3" Name="Reset" Kind="InputPin" IsHidden="true" />
+            <Pin Id="2fBQw4HbIfntukcR1T1QbJ" Name="Reset" Kind="InputPin" IsHidden="true" />
           </Node>
-          <Pad Id="2JdSArPZJvWanWoUPd3zPV" Comment="Enabled" Bounds="2746,2577,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+          <Pad Id="2hz8XgVqP94rA67ZvDIRy5" Comment="Enabled" Bounds="2746,2577,35,35" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
             </p:TypeAnnotation>
@@ -642,10 +642,10 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Overlay Id="44rUj3ZrLhkSsMJXZxO0XV" Name="" Bounds="807,3713,4576,80">
+          <Overlay Id="6aPPAong7rN7elrL1u2Vhm" Name="" Bounds="807,3713,4576,80">
             <p:ColorIndex p:Type="Int32">4</p:ColorIndex>
           </Overlay>
-          <Pad Id="20nOJYJl8zoA4uypghxl1A" Bounds="804,4027,401,459" ShowValueBox="true" isIOBox="true" Value="Now that we know how to define a Record and give it custom operations, let's look at the first real reason you would reach for one. The case is simple but important — bundling related properties together so they travel as one thing through your patch.&#xD;&#xA;&#xD;&#xA;In this chapter we will build the same small application twice. First the way you might build it with what you already knew before chapter 38 — using parallel spreads, one for each property. Then we will rebuild it with a single spread of Records. The patches do exactly the same thing, but the second version is dramatically simpler to read, modify, and extend.">
+          <Pad Id="5qa286OfSd3HKd33phZkcD" Bounds="804,4027,401,459" ShowValueBox="true" isIOBox="true" Value="Now that we know how to define a Record and give it custom operations, let's look at the first real reason you would reach for one. The case is simple but important - bundling related properties together so they travel as one thing through your patch.&#xD;&#xA;&#xD;&#xA;In this chapter we will build the same small application twice. First the way you might build it with what you already knew before chapter 38 - using parallel spreads, one for each property. Then we will rebuild it with a single spread of Records. The patches do exactly the same thing, but the second version is dramatically simpler to read, modify, and extend.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -654,7 +654,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="0CkFLILv321ptqGmLed5Wa" Bounds="1272,4041,349,31" ShowValueBox="true" isIOBox="true" Value="The Old Way: Parallel Spreads">
+          <Pad Id="3zka19IGm9jpSOUZIt6Y6T" Bounds="1272,4041,349,31" ShowValueBox="true" isIOBox="true" Value="The Old Way: Parallel Spreads">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -663,7 +663,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="3jpMACKtU7mrhziiQYefZf" Bounds="1272,4083,401,330" ShowValueBox="true" isIOBox="true" Value="Imagine we want to draw a field of circles. Each circle has its own position, its own size, and its own color. There are twenty of them, arranged in a spread.&#xD;&#xA;&#xD;&#xA;Without a Record, you would do this with three separate spreads — one for positions, one for sizes, one for colors. Each spread has twenty values. You would generate these spreads with the techniques from chapter 21, then iterate over all three at once with ForEach.&#xD;&#xA;&#xD;&#xA;The patch on the right shows this approach. Notice how three separate spreads have to be generated, fed in parallel into a ForEach region, and then drawn together. The Position, Size, and Color of each circle live in three completely different parts of the patch, even though they belong together.">
+          <Pad Id="2gC4tZxViPUkgg6LeoVYnK" Bounds="1272,4083,401,330" ShowValueBox="true" isIOBox="true" Value="Imagine we want to draw a field of circles. Each circle has its own position, its own size, and its own color. There are twenty of them, arranged in a spread.&#xD;&#xA;&#xD;&#xA;Without a Record, you would do this with three separate spreads - one for positions, one for sizes, one for colors. Each spread has twenty values. You would generate these spreads with the techniques from chapter 21, then iterate over all three at once with ForEach.&#xD;&#xA;&#xD;&#xA;The patch on the right shows this approach. Notice how three separate spreads have to be generated, fed in parallel into a ForEach region, and then drawn together. The Position, Size, and Color of each circle live in three completely different parts of the patch, even though they belong together.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -672,7 +672,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="4j08hAR0uLrDqb9AEY95K0" Bounds="1272,4408,401,228" ShowValueBox="true" isIOBox="true" Value="**Live element (x=92, y=720, width ~1400):**&#xD;&#xA;&#xD;&#xA;A wide horizontal patch showing:&#xD;&#xA;- Three Spread Generator chains: one producing a `Spread&lt;Vector2&gt;` (positions, arranged in a grid via Range and CartesianGrid or similar), one producing a `Spread&lt;Float&gt;` (sizes, varied via random or Sin), one producing a `Spread&lt;Color&gt;` (colors, varied via HSV across a Range).&#xD;&#xA;- All three feeding into a single ForEach region.&#xD;&#xA;- Inside the ForEach: a Circle drawn at the position, with the size and color applied.&#xD;&#xA;- Output on a SkiaRenderer showing twenty circles.&#xD;&#xA;&#xD;&#xA;The pedagogical point is *visual congestion* — three parallel data paths converging into one ForEach, with the relationship between the three values held together only by the implicit alignment of spread indices.">
+          <Pad Id="2nyXz9cN1XiNSmrMc276Sk" Bounds="1272,4408,401,228" ShowValueBox="true" isIOBox="true" Value="**Live element (x=92, y=720, width ~1400):**&#xD;&#xA;&#xD;&#xA;A wide horizontal patch showing:&#xD;&#xA;- Three Spread Generator chains: one producing a `Spread&lt;Vector2&gt;` (positions, arranged in a grid via Range and CartesianGrid or similar), one producing a `Spread&lt;Float&gt;` (sizes, varied via random or Sin), one producing a `Spread&lt;Color&gt;` (colors, varied via HSV across a Range).&#xD;&#xA;- All three feeding into a single ForEach region.&#xD;&#xA;- Inside the ForEach: a Circle drawn at the position, with the size and color applied.&#xD;&#xA;- Output on a SkiaRenderer showing twenty circles.&#xD;&#xA;&#xD;&#xA;The pedagogical point is *visual congestion* - three parallel data paths converging into one ForEach, with the relationship between the three values held together only by the implicit alignment of spread indices.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -681,7 +681,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="7UiY8bDSr94gVOpRHUX9Vx" Bounds="1761,4019,371,31" ShowValueBox="true" isIOBox="true" Value="The New Way: A Spread of Records">
+          <Pad Id="7XaKmjMebOXl2RJ03vWpYP" Bounds="1761,4019,371,31" ShowValueBox="true" isIOBox="true" Value="The New Way: A Spread of Records">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -690,7 +690,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="60PHsqrA6XB6qnLzGpURDW" Bounds="1761,4061,401,330" ShowValueBox="true" isIOBox="true" Value="Now let's rebuild the same field using a single Record that bundles Position, Size, and Color together. We define a Record called Spot with these three properties. Then we generate a Spread&lt;Spot&gt; with twenty Spots in it. The ForEach iterates over the spread, and inside it we use Split to read each Spot's three properties at once.&#xD;&#xA;&#xD;&#xA;The result on screen is identical. But look at the patch. We have one data stream instead of three. The ForEach takes one input. The relationship between Position, Size, and Color is now structural — they live inside the same Record, so the patch literally cannot mix them up. If you ever need to add a fourth property, like Rotation, you add it to the Record once and every Spot has it.&#xD;&#xA;&#xD;&#xA;This is what bundling buys you. Related data stays related, in the patch as much as in your head.">
+          <Pad Id="3bbFltTKOxkMxEMlGvuBcZ" Bounds="1761,4061,401,330" ShowValueBox="true" isIOBox="true" Value="Now let's rebuild the same field using a single Record that bundles Position, Size, and Color together. We define a Record called Spot with these three properties. Then we generate a Spread&lt;Spot&gt; with twenty Spots in it. The ForEach iterates over the spread, and inside it we use Split to read each Spot's three properties at once.&#xD;&#xA;&#xD;&#xA;The result on screen is identical. But look at the patch. We have one data stream instead of three. The ForEach takes one input. The relationship between Position, Size, and Color is now structural - they live inside the same Record, so the patch literally cannot mix them up. If you ever need to add a fourth property, like Rotation, you add it to the Record once and every Spot has it.&#xD;&#xA;&#xD;&#xA;This is what bundling buys you. Related data stays related, in the patch as much as in your head.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -699,7 +699,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="5mdAa1uddLLsFJlPXidd9J" Bounds="1761,4386,401,292" ShowValueBox="true" isIOBox="true" Value="**Live element (x=92, y=1220, width ~1400):**&#xD;&#xA;&#xD;&#xA;A wide horizontal patch showing:&#xD;&#xA;- A `Spot` Record definition (Position: Vector2, Size: Float, Color: Color) — sitting in the Patch Explorer, referenced here.&#xD;&#xA;- A spread generator that produces a `Spread&lt;Spot&gt;` — likely using the same underlying spreads from the previous patch (Range for positions, etc.) but combined with Create Spot into a single Spread&lt;Spot&gt; via ForEach or SelectMany.&#xD;&#xA;- A single ForEach region taking the Spread&lt;Spot&gt;.&#xD;&#xA;- Inside: Split Spot, feeding Position, Size, Color into a Circle drawing operation.&#xD;&#xA;- The same SkiaRenderer showing twenty circles — identical visual output to the previous patch.&#xD;&#xA;&#xD;&#xA;**Pedagogical note:** The visual comparison is the entire argument. The new patch is noticeably less wide and has fewer crossing lines than the old one. That visual simplification is what the reader should feel.">
+          <Pad Id="2XweGiiy5eOC9Rnh6y71BV" Bounds="1761,4386,401,292" ShowValueBox="true" isIOBox="true" Value="**Live element (x=92, y=1220, width ~1400):**&#xD;&#xA;&#xD;&#xA;A wide horizontal patch showing:&#xD;&#xA;- A `Spot` Record definition (Position: Vector2, Size: Float, Color: Color) - sitting in the Patch Explorer, referenced here.&#xD;&#xA;- A spread generator that produces a `Spread&lt;Spot&gt;` - likely using the same underlying spreads from the previous patch (Range for positions, etc.) but combined with Create Spot into a single Spread&lt;Spot&gt; via ForEach or SelectMany.&#xD;&#xA;- A single ForEach region taking the Spread&lt;Spot&gt;.&#xD;&#xA;- Inside: Split Spot, feeding Position, Size, Color into a Circle drawing operation.&#xD;&#xA;- The same SkiaRenderer showing twenty circles - identical visual output to the previous patch.&#xD;&#xA;&#xD;&#xA;**Pedagogical note:** The visual comparison is the entire argument. The new patch is noticeably less wide and has fewer crossing lines than the old one. That visual simplification is what the reader should feel.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -708,7 +708,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="0K4bPoMr3XL1UQVqOre5IL" Bounds="2246,4000,371,31" ShowValueBox="true" isIOBox="true" Value="Why This Is Better">
+          <Pad Id="6LguSeqQFGk23tMqng3qZY" Bounds="2246,4000,371,31" ShowValueBox="true" isIOBox="true" Value="Why This Is Better">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -717,7 +717,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="4jJcATGUBaquYrP2LH5b5V" Bounds="2246,4042,399,371" ShowValueBox="true" isIOBox="true" Value="The bundled version wins in three ways the reader can feel directly.&#xD;&#xA;&#xD;&#xA;First, the patch is smaller. One data stream instead of three. Fewer links crossing the canvas, fewer parallel structures to keep aligned in your head.&#xD;&#xA;&#xD;&#xA;Second, the structure mirrors the meaning. A Spot is one thing, and the patch treats it as one thing. When you read the patch, you do not have to mentally reassemble three parallel spreads into the concept of a &quot;field of spots.&quot; The Record does that work for you.&#xD;&#xA;&#xD;&#xA;Third, the patch is easier to change. If you want every Spot to also have a Rotation, you add Rotation to the Record once. Every existing patch that uses Spots immediately has access to it. With the parallel-spread version, adding a Rotation means adding a fourth spread, threading it into the ForEach, and making sure its length matches the other three.&#xD;&#xA;">
+          <Pad Id="5B4ZuXIXLCeqUGInt3JQSP" Bounds="2246,4042,399,371" ShowValueBox="true" isIOBox="true" Value="The bundled version wins in three ways the reader can feel directly.&#xD;&#xA;&#xD;&#xA;First, the patch is smaller. One data stream instead of three. Fewer links crossing the canvas, fewer parallel structures to keep aligned in your head.&#xD;&#xA;&#xD;&#xA;Second, the structure mirrors the meaning. A Spot is one thing, and the patch treats it as one thing. When you read the patch, you do not have to mentally reassemble three parallel spreads into the concept of a &quot;field of spots.&quot; The Record does that work for you.&#xD;&#xA;&#xD;&#xA;Third, the patch is easier to change. If you want every Spot to also have a Rotation, you add Rotation to the Record once. Every existing patch that uses Spots immediately has access to it. With the parallel-spread version, adding a Rotation means adding a fourth spread, threading it into the ForEach, and making sure its length matches the other three.&#xD;&#xA;">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -726,7 +726,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="4YcsX7sV3HnFFqDP1pwcfl" Bounds="2692,4019,371,31" ShowValueBox="true" isIOBox="true" Value="When to Bundle">
+          <Pad Id="35hwSXAXa1ZUQXoV08IXv3" Bounds="2692,4019,371,31" ShowValueBox="true" isIOBox="true" Value="When to Bundle">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -735,7 +735,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="26tdNk2dY7mIVYeG10QhjA" Bounds="2692,4061,399,405" ShowValueBox="true" isIOBox="true" Value="The honest answer is — almost always, if the values belong together.&#xD;&#xA;&#xD;&#xA;A good Record bundles properties that conceptually describe one thing. A Spot has a Position, Size, and Color because each Spot has its own. A character in a game has Health, Position, and Inventory because each character has its own. A particle has its own Position, Velocity, and Radius.&#xD;&#xA;&#xD;&#xA;The test is simple. If you find yourself maintaining several parallel spreads where the values at each index belong to the same conceptual thing, those values want to be a Record. Bundle them and the parallel structure disappears.&#xD;&#xA;&#xD;&#xA;The opposite case — where you should not bundle — is when the values do not belong to one thing. The current time, the mouse position, and the application's frame count are all values, but they do not describe one entity. They describe the global state of the world. Bundling them into a Record would be artificial and would make the patch harder to read, not easier.">
+          <Pad Id="6rZUvZnRNxdaQqBEuuImSc" Bounds="2692,4061,399,405" ShowValueBox="true" isIOBox="true" Value="The honest answer is - almost always, if the values belong together.&#xD;&#xA;&#xD;&#xA;A good Record bundles properties that conceptually describe one thing. A Spot has a Position, Size, and Color because each Spot has its own. A character in a game has Health, Position, and Inventory because each character has its own. A particle has its own Position, Velocity, and Radius.&#xD;&#xA;&#xD;&#xA;The test is simple. If you find yourself maintaining several parallel spreads where the values at each index belong to the same conceptual thing, those values want to be a Record. Bundle them and the parallel structure disappears.&#xD;&#xA;&#xD;&#xA;The opposite case - where you should not bundle - is when the values do not belong to one thing. The current time, the mouse position, and the application's frame count are all values, but they do not describe one entity. They describe the global state of the world. Bundling them into a Record would be artificial and would make the patch harder to read, not easier.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -744,10 +744,10 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Overlay Id="7OLS1YbmXpXoYeNRshuNp0" Bounds="3366,4079,383,298">
+          <Overlay Id="4p70DbfuwW2SqLvpEhyfQs" Bounds="3366,4079,383,298">
             <p:ColorIndex p:Type="Int32">10</p:ColorIndex>
           </Overlay>
-          <Pad Id="4lNzpVoLA8JBFQ5loQWS2k" Bounds="3367,4101,216,25" ShowValueBox="true" isIOBox="true" Value="Other Resources">
+          <Pad Id="0Wbp6Xs94krMPJ6rLBaE4y" Bounds="3367,4101,216,25" ShowValueBox="true" isIOBox="true" Value="Other Resources">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -756,7 +756,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="12b6R8lFB2TvXMH8W9oUcL" Bounds="3367,4132,197,19" ShowValueBox="true" isIOBox="true" Value="The Gray Book on Records">
+          <Pad Id="5fK9UBCz8VBzs5tnzAl8no" Bounds="3367,4132,197,19" ShowValueBox="true" isIOBox="true" Value="The Gray Book on Records">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -765,7 +765,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="0idaTVfd5EhpurRtxyxjcP" Bounds="3367,4151,360,54" ShowValueBox="true" isIOBox="true" Value="https://thegraybook.vvvv.org/reference/language/types.html">
+          <Pad Id="0hkbLgDnVje9Nn8OSDCycn" Bounds="3367,4151,360,54" ShowValueBox="true" isIOBox="true" Value="https://thegraybook.vvvv.org/reference/language/types.html">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -774,7 +774,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="5KI0uMFR4h3rhr6Oppm30K" Bounds="92,4172,540,908" ShowValueBox="true" isIOBox="true" Value="**1. The Spot, not the Particle.** This chapter uses `Spot` as its small dry Record. The Particle is held back for chapter 41 where it earns its place as the carrying example through Part V's later chapters. Spot is deliberately less evocative than Particle — a flat, static, organizational case. This signals to the reader that chapter 40 is about *structure*, not *behavior*.&#xD;&#xA;&#xD;&#xA;**2. The side-by-side construction.** The chapter's whole argument is comparative. Two identical applications, built two ways, with the reader feeling the difference. No abstract claims about clean code or maintainability — just the patches themselves. The reader who has just read this chapter will look at their next patch and ask &quot;could this be a Record?&quot; That's the chapter's job.&#xD;&#xA;&#xD;&#xA;**3. No new mechanics introduced.** Everything used here is from chapters 38, 39, and earlier. The chapter is purely applied — it teaches the reader to *reach for* a Record, not how to define one. This matches the precedent of chapter 28 (Collision), which is purely applied use of chapter 27 (Mouse Input).&#xD;&#xA;&#xD;&#xA;**4. The &quot;When to Bundle&quot; column is short.** A brief, honest test for when bundling is the right move. Avoids the trap of providing a comprehensive design framework — the reader at this point benefits more from a quick gut check than from formal criteria.&#xD;&#xA;&#xD;&#xA;**5. Forward reference to chapter 41 is implicit.** The chapter does not say &quot;next we will look at the case where Records come alive.&quot; It just ends. Chapter 41 picks up the next case on its own terms. The reader knows from the chapter list that Use Case II is coming.&#xD;&#xA;&#xD;&#xA;**6. No back-references in the prose.** The chapter is short and self-contained. Earlier chapters are mentioned only in the resources panel and via implicit reliance (ForEach from chapter 20, Spread Generators from chapter 21). The chapter feels like it stands on its own foundation.&#xD;&#xA;&#xD;&#xA;**7. Length.** Roughly four columns of body text, two substantial side-by-side live patches. Comparable in scope to chapter 28 (Collision) and chapter 30 (Counting) — applied chapters that don't need to introduce much new vocabulary.">
+          <Pad Id="6RvWuarbZxLP7TiXvFOQa3" Bounds="92,4172,540,908" ShowValueBox="true" isIOBox="true" Value="**1. The Spot, not the Particle.** This chapter uses `Spot` as its small dry Record. The Particle is held back for chapter 41 where it earns its place as the carrying example through Part V's later chapters. Spot is deliberately less evocative than Particle - a flat, static, organizational case. This signals to the reader that chapter 40 is about *structure*, not *behavior*.&#xD;&#xA;&#xD;&#xA;**2. The side-by-side construction.** The chapter's whole argument is comparative. Two identical applications, built two ways, with the reader feeling the difference. No abstract claims about clean code or maintainability - just the patches themselves. The reader who has just read this chapter will look at their next patch and ask &quot;could this be a Record?&quot; That's the chapter's job.&#xD;&#xA;&#xD;&#xA;**3. No new mechanics introduced.** Everything used here is from chapters 38, 39, and earlier. The chapter is purely applied - it teaches the reader to *reach for* a Record, not how to define one. This matches the precedent of chapter 28 (Collision), which is purely applied use of chapter 27 (Mouse Input).&#xD;&#xA;&#xD;&#xA;**4. The &quot;When to Bundle&quot; column is short.** A brief, honest test for when bundling is the right move. Avoids the trap of providing a comprehensive design framework - the reader at this point benefits more from a quick gut check than from formal criteria.&#xD;&#xA;&#xD;&#xA;**5. Forward reference to chapter 41 is implicit.** The chapter does not say &quot;next we will look at the case where Records come alive.&quot; It just ends. Chapter 41 picks up the next case on its own terms. The reader knows from the chapter list that Use Case II is coming.&#xD;&#xA;&#xD;&#xA;**6. No back-references in the prose.** The chapter is short and self-contained. Earlier chapters are mentioned only in the resources panel and via implicit reliance (ForEach from chapter 20, Spread Generators from chapter 21). The chapter feels like it stands on its own foundation.&#xD;&#xA;&#xD;&#xA;**7. Length.** Roughly four columns of body text, two substantial side-by-side live patches. Comparable in scope to chapter 28 (Collision) and chapter 30 (Counting) - applied chapters that don't need to introduce much new vocabulary.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -783,7 +783,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="6jxuEjEnsSZGkfO4LiD8Ml" Bounds="92,3949,515,197" ShowValueBox="true" isIOBox="true" Value="The first applied chapter. The organizational case for Records. Take a problem the reader could solve with parallel spreads of separate values, then show how a single spread of Records makes the same patch dramatically cleaner. The reader feels the wiring shrink, ForEach loops simplify, and related data stays together.&#xD;&#xA;&#xD;&#xA;This chapter introduces no new mechanics — everything used here was covered in chapters 38 and 39 (defining Records, custom operations) and earlier parts of the series (Spreads, ForEach, Iteration). Its job is purely to demonstrate *why bundling pays off*.&#xD;&#xA;">
+          <Pad Id="7D35hufmdHYBriZz9wseuB" Bounds="92,3949,515,197" ShowValueBox="true" isIOBox="true" Value="The first applied chapter. The organizational case for Records. Take a problem the reader could solve with parallel spreads of separate values, then show how a single spread of Records makes the same patch dramatically cleaner. The reader feels the wiring shrink, ForEach loops simplify, and related data stays together.&#xD;&#xA;&#xD;&#xA;This chapter introduces no new mechanics - everything used here was covered in chapters 38 and 39 (defining Records, custom operations) and earlier parts of the series (Spreads, ForEach, Iteration). Its job is purely to demonstrate *why bundling pays off*.&#xD;&#xA;">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -792,14 +792,14 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Name="ColoredCircle" Bounds="3627,2270" Id="0hZWBsQCs163LTW2yNDvyP">
+          <Node Name="ColoredCircle" Bounds="3627,2270" Id="3wh8Vw83WcQbEisCGFWaZM">
             <p:NodeReference>
               <Choice Kind="ContainerDefinition" Name="Process" />
               <CategoryReference Kind="Category" Name="Primitive" />
             </p:NodeReference>
-            <Patch Id="52jnq7Izlq5M68CRFMGAbP">
-              <Canvas Id="3vhjcnOOY9QtFYogVUAhgO" CanvasType="Group">
-                <Pad Id="5Ckt2KqUBxd6ASb6IxE84o" Bounds="592,243,401,376" ShowValueBox="true" isIOBox="true" Value="In this Process two more operations have been created, of which one is called Grow and the other Shrink. They will increase or decrease the value which is stored in the pad called Size. &#xD;&#xA;&#xD;&#xA;Note, how in this patch now differently colored links exist. Everything that is gray is executed for every frame of the runtime, when the node is in your patch, everything in white only once, when the Process is initialized. &#xD;&#xA;&#xD;&#xA;Two more colors indicate that also two more operations are available for the Process which can be triggered from the outside. It is important, as decribed in the chapter about pads, that the value gets stored back into a pad, when it has been modified.&#xD;&#xA;&#xD;&#xA;All operations are listed in the patch explorer which can be opened on the left side when clicking on the little gray rectangle with a &quot;P&quot; inside. Don't get confused right now with functions in here which you don't know. What is relevant is that in here you see an overview of all properties (aka pads) and operations that you created.">
+            <Patch Id="2wNg0S00r07CnQvndvnZZC">
+              <Canvas Id="7D2rFBNo4ubwe7qcCmOKkJ" CanvasType="Group">
+                <Pad Id="5BF8m20Yktms0a3ayCTF5s" Bounds="592,243,401,376" ShowValueBox="true" isIOBox="true" Value="In this Process two more operations have been created, of which one is called Grow and the other Shrink. They will increase or decrease the value which is stored in the pad called Size. &#xD;&#xA;&#xD;&#xA;Note, how in this patch now differently colored links exist. Everything that is gray is executed for every frame of the runtime, when the node is in your patch, everything in white only once, when the Process is initialized. &#xD;&#xA;&#xD;&#xA;Two more colors indicate that also two more operations are available for the Process which can be triggered from the outside. It is important, as decribed in the chapter about pads, that the value gets stored back into a pad, when it has been modified.&#xD;&#xA;&#xD;&#xA;All operations are listed in the patch explorer which can be opened on the left side when clicking on the little gray rectangle with a &quot;P&quot; inside. Don't get confused right now with functions in here which you don't know. What is relevant is that in here you see an overview of all properties (aka pads) and operations that you created.">
                   <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                     <Choice Kind="TypeFlag" Name="String" />
                   </p:TypeAnnotation>
@@ -808,7 +808,7 @@
                     <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
                   </p:ValueBoxSettings>
                 </Pad>
-                <Pad Id="7RuN0s4PQl29KQy0EsC6Xf" Bounds="592,206,346,31" ShowValueBox="true" isIOBox="true" Value="Member Operations 1">
+                <Pad Id="3s3RFVqqHXXkumeHE0vpkt" Bounds="592,206,346,31" ShowValueBox="true" isIOBox="true" Value="Member Operations 1">
                   <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                     <Choice Kind="TypeFlag" Name="String" />
                   </p:TypeAnnotation>
@@ -817,7 +817,7 @@
                     <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
                   </p:ValueBoxSettings>
                 </Pad>
-                <Node Bounds="323,507,85,19" Id="1LuKrQP6fiV256XtYGfz5w">
+                <Node Bounds="323,507,85,19" Id="3fPnCJ20Sj2lC8fmmPE09p">
                   <p:NodeReference LastCategoryFullName="Graphics.Skia.Layers" LastDependency="VL.Skia.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <CategoryReference Kind="Category" Name="Layers" NeedsToBeDirectParent="true">
@@ -825,168 +825,168 @@
                     </CategoryReference>
                     <Choice Kind="ProcessAppFlag" Name="Circle" />
                   </p:NodeReference>
-                  <Pin Id="05VN162CksFHTeXT5gMXyj" Name="Node Context" Kind="InputPin" IsHidden="true" />
-                  <Pin Id="0MJoliNrcTByRvr9Hkoy0P" Name="Position" Kind="InputPin" />
-                  <Pin Id="7FTJpEfwmc706mCwRbRuia" Name="Radius" Kind="InputPin" />
-                  <Pin Id="73wDNSi4DoUK8pj1x4szdz" Name="Anchor" Kind="InputPin" />
-                  <Pin Id="399tSdPsErlTlLuGxt9BJ0" Name="Paint" Kind="InputPin" />
-                  <Pin Id="4XutZIA04WgoQLmX3ThpXm" Name="Enabled" Kind="InputPin" />
-                  <Pin Id="7d255s84hvpyc72xxOibbK" Name="Output" Kind="OutputPin" />
+                  <Pin Id="3pjBhRNvMF38EZmdJwJ31o" Name="Node Context" Kind="InputPin" IsHidden="true" />
+                  <Pin Id="3it9s2Q9keAZF86QZsQLto" Name="Position" Kind="InputPin" />
+                  <Pin Id="4hUEq8BL4UjEPZQXLzizZ9" Name="Radius" Kind="InputPin" />
+                  <Pin Id="53OFq6DP0C8cw9x5l0bu9H" Name="Anchor" Kind="InputPin" />
+                  <Pin Id="3kZmCF1u6KXup4IK20nxS2" Name="Paint" Kind="InputPin" />
+                  <Pin Id="6EyhOIkOym50fT8Mz5aqMa" Name="Enabled" Kind="InputPin" />
+                  <Pin Id="2frszIRLJMBm3CG58I3gtu" Name="Output" Kind="OutputPin" />
                 </Node>
-                <Node Bounds="383,481,105,19" Id="2KFr8BnzpC37E4dTMMibmf">
+                <Node Bounds="383,481,105,19" Id="3zzGzLP7M2LZuRY7hVRwIJ">
                   <p:NodeReference LastCategoryFullName="Graphics.Skia.Paint" LastDependency="VL.Skia.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="Stroke" />
                   </p:NodeReference>
-                  <Pin Id="4DHLfeJnMGXMWfHexi7f7J" Name="Node Context" Kind="InputPin" IsHidden="true" />
-                  <Pin Id="7YGaMSORM3sYOk0d0RHNUN" Name="Input" Kind="InputPin" />
-                  <Pin Id="6GJDnMcr1ztcsBIZTW7rp1" Name="Color" Kind="InputPin" />
-                  <Pin Id="67yvFsE5IVF7YSXabb07sG" Name="Stroke Width" Kind="InputPin" />
-                  <Pin Id="4XoouM7l6rcto7v9imBYPR" Name="Join" Kind="InputPin" />
-                  <Pin Id="5DGkaHfUBxD3p657yFC9uJ" Name="Cap" Kind="InputPin" />
-                  <Pin Id="266RwHoRMhP23j22cAqWnG" Name="Miter" Kind="InputPin" />
-                  <Pin Id="3Saqth9vW23TfSaEgXDG1T" Name="Output" Kind="OutputPin" />
+                  <Pin Id="0cXtFmHClPJDJdVds80JGe" Name="Node Context" Kind="InputPin" IsHidden="true" />
+                  <Pin Id="6mD2yojuYCbZsRrtMAhnvK" Name="Input" Kind="InputPin" />
+                  <Pin Id="39BMUJ34h7txpdDqe5wKc0" Name="Color" Kind="InputPin" />
+                  <Pin Id="68cBhCQVAsTJsE8LXmflly" Name="Stroke Width" Kind="InputPin" />
+                  <Pin Id="42ymkIH7o1LVw1mpCw1vMR" Name="Join" Kind="InputPin" />
+                  <Pin Id="31tvyaDGrPg0NTRTCxjdxg" Name="Cap" Kind="InputPin" />
+                  <Pin Id="773lMzFPtMpMH7FbtXhO6v" Name="Miter" Kind="InputPin" />
+                  <Pin Id="7AbRpsVLhpFvdrcuIfdWVE" Name="Output" Kind="OutputPin" />
                 </Node>
-                <Node Bounds="127,206,54,19" Id="53ztA7Yj8sfJ26vyoyfKLb">
+                <Node Bounds="127,206,54,19" Id="7Qy64EBZj64Q1ikvFQ5aYg">
                   <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationNode" Name="Random (FromTo)" />
                   </p:NodeReference>
-                  <Pin Id="5itGqmeGceu7HDeJu1MruG" Name="From" Kind="InputPin" />
-                  <Pin Id="5mM3DChszrKAceqx555vZd" Name="To" Kind="InputPin" />
-                  <Pin Id="4vOhDzFSn80HdLW3ObzMhY" Name="Output" Kind="OutputPin" />
+                  <Pin Id="2sYvNzZwBOfa7xh9QZUYu7" Name="From" Kind="InputPin" />
+                  <Pin Id="1gVgJJU0MICui3GW6sGBHT" Name="To" Kind="InputPin" />
+                  <Pin Id="1fS1dXCa0VhBswDOAGjpnR" Name="Output" Kind="OutputPin" />
                 </Node>
-                <Pad Id="5xSA9gGHdVKg3Y83Y3Uw5P" Comment="From" Bounds="129,156,35,28" ShowValueBox="true" isIOBox="true" Value="-1, -1">
+                <Pad Id="4EgaaAeWfiSyz0zfDigSx3" Comment="From" Bounds="129,156,35,28" ShowValueBox="true" isIOBox="true" Value="-1, -1">
                   <p:TypeAnnotation LastCategoryFullName="2D" LastDependency="VL.CoreLib.vl">
                     <Choice Kind="TypeFlag" Name="Vector2" />
                   </p:TypeAnnotation>
                 </Pad>
-                <Pad Id="0gVblWHk2oNs1rkPcKDR6k" Comment="To" Bounds="178,177,35,28" ShowValueBox="true" isIOBox="true" Value="1, 1">
+                <Pad Id="5GRJUXdk30hhdiDCB2QK24" Comment="To" Bounds="178,177,35,28" ShowValueBox="true" isIOBox="true" Value="1, 1">
                   <p:TypeAnnotation LastCategoryFullName="2D" LastDependency="VL.CoreLib.vl">
                     <Choice Kind="TypeFlag" Name="Vector2" />
                   </p:TypeAnnotation>
                 </Pad>
-                <Pad Id="1O2KKQ93oc466eW1paRmfM" SlotId="6EUO7VlERZ00lacU5F8FC9" Bounds="129,311" />
-                <Pad Id="3HVEzGUbh4VNbVAjBdp2bJ" SlotId="0eBFjdEGOKWG40axdLZMeB" Bounds="276,263" />
-                <Node Bounds="274,206,54,19" Id="6x1fiBqgn8UHwM0K2gWurx">
+                <Pad Id="058mLDHIxBOUOaLuagVIz3" SlotId="68wXIPWtEZKemiDjRo1C73" Bounds="129,311" />
+                <Pad Id="0smcMVlMN50UqJ16cLMEZw" SlotId="154Q6v7kflAxHIyA7y93oa" Bounds="276,263" />
+                <Node Bounds="274,206,54,19" Id="0ntJ23UqBBRjLZLyeibemb">
                   <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationNode" Name="Random (FromTo)" />
                   </p:NodeReference>
-                  <Pin Id="641mxS3zK6Xk7EyQtPS4hi" Name="From" Kind="InputPin" />
-                  <Pin Id="2fOcY2BFWCStbZQqAPBycd" Name="To" Kind="InputPin" />
-                  <Pin Id="6MVM8Ya1iXff1dF2Tj2uIs" Name="Output" Kind="OutputPin" />
+                  <Pin Id="6gDPwlgwcnjM3ztCJ0U5PM" Name="From" Kind="InputPin" />
+                  <Pin Id="4mz5vI71TxnsOTA5hlmQcg" Name="To" Kind="InputPin" />
+                  <Pin Id="40olRcIF8lRJv5CNrfwrsA" Name="Output" Kind="OutputPin" />
                 </Node>
-                <Pad Id="3UrxuYPxMYqsCrLuMerb8x" Comment="From" Bounds="276,156,35,15" ShowValueBox="true" isIOBox="true" Value="0.2">
+                <Pad Id="4Q1l9molSzJyCjLjbyWX6M" Comment="From" Bounds="276,156,35,15" ShowValueBox="true" isIOBox="true" Value="0.2">
                   <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                     <Choice Kind="TypeFlag" Name="Float32" />
                   </p:TypeAnnotation>
                 </Pad>
-                <Pad Id="5rmRFfR2lMuHOiPgswXSHC" Comment="To" Bounds="325,177,35,15" ShowValueBox="true" isIOBox="true" Value="1">
+                <Pad Id="1zqmgudCDQ3GWCX6GBcaFX" Comment="To" Bounds="325,177,35,15" ShowValueBox="true" isIOBox="true" Value="1">
                   <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                     <Choice Kind="TypeFlag" Name="Float32" />
                   </p:TypeAnnotation>
                 </Pad>
-                <ControlPoint Id="2R8H98FeieBt2YYvxSDQzE" Bounds="405,263" />
-                <ControlPoint Id="0IsljS1jk8Td3Bk9hLB8UI" Bounds="325,593" />
-                <ControlPoint Id="4bZxTad7qPmzA4LQlbG7F5" Bounds="490,263" />
-                <Pad Id="2yB1UyfWYRWXqBIqsIHns4" SlotId="0eBFjdEGOKWG40axdLZMeB" Bounds="276,388" />
-                <Node Bounds="274,323,25,19" Id="0ykwIm9vHPws4WnhCLpbBy">
+                <ControlPoint Id="1Ftyn2oHivVpA7mUROyxLm" Bounds="405,263" />
+                <ControlPoint Id="73Q1clVd6cJJC6rwtJyS5g" Bounds="325,593" />
+                <ControlPoint Id="49GgDtjP5B1uoixcH5MKs4" Bounds="490,263" />
+                <Pad Id="6dSVfcapW6CrggCDZYxeOK" SlotId="154Q6v7kflAxHIyA7y93oa" Bounds="276,388" />
+                <Node Bounds="274,323,25,19" Id="5vsY5AiTuD7WCoscDC2mM6">
                   <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="+" />
                   </p:NodeReference>
-                  <Pin Id="1HOXSHmX3uc7jbdGFU9eeA" Name="Input" Kind="InputPin" />
-                  <Pin Id="4rLSaeSZi9jJcr3IQK4lbQ" Name="Input 2" Kind="InputPin" />
-                  <Pin Id="3yx2DNItHEjocBRzvqCjLu" Name="Output" Kind="OutputPin" />
+                  <Pin Id="7NCWavF3EjKoaAQMRVbfY8" Name="Input" Kind="InputPin" />
+                  <Pin Id="5PbhCpovsNAW3jUWZItOr2" Name="Input 2" Kind="InputPin" />
+                  <Pin Id="49o86undIB32cBfWtLzBCY" Name="Output" Kind="OutputPin" />
                 </Node>
-                <Node Bounds="315,323,25,19" Id="6gYdrWr9zFyNymKEvImoM2">
+                <Node Bounds="315,323,25,19" Id="5YBxNWYaAP50Jt6PUq7Ivd">
                   <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="-" />
                   </p:NodeReference>
-                  <Pin Id="20o5bISK6uqx299xQYddgR" Name="Input" Kind="InputPin" />
-                  <Pin Id="0jm5cvBCRgKgmRSogcu5ah" Name="Input 2" Kind="InputPin" />
-                  <Pin Id="3unHXpmsiwk1CidlcTOyJ7" Name="Output" Kind="OutputPin" />
+                  <Pin Id="2bKStdK9UcElOBRfuXHbCm" Name="Input" Kind="InputPin" />
+                  <Pin Id="3iYBL6xMYnjhP9EMd9p745" Name="Input 2" Kind="InputPin" />
+                  <Pin Id="4v2urhsAfG7zjAnf9gEUsA" Name="Output" Kind="OutputPin" />
                 </Node>
-                <Pad Id="5NdD6KcMGot5Phb6mmizES" Comment="" Bounds="337,294,35,15" ShowValueBox="true" isIOBox="true" Value="0.02">
+                <Pad Id="7fJUuVfJy8h83khB1dNDOF" Comment="" Bounds="337,294,35,15" ShowValueBox="true" isIOBox="true" Value="0.02">
                   <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                     <Choice Kind="TypeFlag" Name="Float32" />
                   </p:TypeAnnotation>
                 </Pad>
               </Canvas>
-              <Patch Id="6Je4ZTXliFLESEWkYXwHfV" Name="Create" ParticipatingElements="37qJMsS9ofvDZyZHjAOpma,3dsb5tgt8ypB4nDbS3MWB8" />
-              <Patch Id="6SwfwG7YoWXHkWj0hQS2Gd" Name="Update">
-                <Pin Id="7DOzGoN8FPsPES5XrQZNOV" Name="Color" Kind="InputPin" Bounds="303,189" />
-                <Pin Id="2F2YaI8zf2sKXejL2aSery" Name="Output" Kind="OutputPin" Bounds="259,492" />
-                <Pin Id="03ervn5qwwsfj2dtBFs5a7" Name="Stroke Width" Kind="InputPin" Bounds="420,146" />
+              <Patch Id="0WnewT7bi9BKn1hVFycKyD" Name="Create" ParticipatingElements="6o1l0SWB2lljyBkURgLFiM,5AwGN0I1aafjNKv3a8fBWG" />
+              <Patch Id="2r3phmGmy4bBVp3x9scU6S" Name="Update">
+                <Pin Id="1WXUGz2uoz7WAdqp9YUni8" Name="Color" Kind="InputPin" Bounds="303,189" />
+                <Pin Id="6GMz8NTEASl55KrX95Vaqr" Name="Output" Kind="OutputPin" Bounds="259,492" />
+                <Pin Id="7VPAQW001jZ7e0g6MM3pP4" Name="Stroke Width" Kind="InputPin" Bounds="420,146" />
               </Patch>
-              <ProcessDefinition Id="31YmF9ajMJPAubejfslZ8S">
-                <Fragment Id="0A6JUVEwLH0KlG6QI87soO" Patch="6Je4ZTXliFLESEWkYXwHfV" Enabled="true" />
-                <Fragment Id="70b5FoMHp3bpnFEjXdCXop" Patch="6SwfwG7YoWXHkWj0hQS2Gd" Enabled="true" />
-                <Fragment Id="46Q9wehMEktdJM0H3PtSVq" Patch="0WXOifTI0tkX3X5bGTupdw" Enabled="true" />
-                <Fragment Id="1HvpkC7NuPQpimYeFHlbES" Patch="5YmeMNFo5AtatGE19xA6ou" Enabled="true" />
+              <ProcessDefinition Id="4DG5nO8EyElAX08LqHY7GV">
+                <Fragment Id="5tFxwcHN57EmJww4PR6ySU" Patch="0WnewT7bi9BKn1hVFycKyD" Enabled="true" />
+                <Fragment Id="0uApLd241tSnIJUflVF5xo" Patch="2r3phmGmy4bBVp3x9scU6S" Enabled="true" />
+                <Fragment Id="4MkXD0P1NCbDalKT9mPsp9" Patch="5Y0oKhs0XE9VUI61Aj9aAS" Enabled="true" />
+                <Fragment Id="15YOF0fOICVrQhZTVIkPPL" Patch="73B439kSwNMeS9qyVvLkHf" Enabled="true" />
               </ProcessDefinition>
-              <Patch Id="0WXOifTI0tkX3X5bGTupdw" Name="Grow" ParticipatingElements="4b9mVuWuP9CuLVXP31MoBZ" />
-              <Patch Id="5YmeMNFo5AtatGE19xA6ou" Name="Shrink" ParticipatingElements="7l9VgxTuOAg3MmojajNKvG" />
-              <Slot Id="6EUO7VlERZ00lacU5F8FC9" Name="Position" />
-              <Link Id="3ab3iEfIV5PlrGxaS6Xo9X" Ids="3Saqth9vW23TfSaEgXDG1T,399tSdPsErlTlLuGxt9BJ0" />
-              <Link Id="4C4oP60cxlMRdT3cVGjn9s" Ids="5xSA9gGHdVKg3Y83Y3Uw5P,5itGqmeGceu7HDeJu1MruG" />
-              <Link Id="3kjQ0LgBVCpiifzEidEfud" Ids="0gVblWHk2oNs1rkPcKDR6k,5mM3DChszrKAceqx555vZd" />
-              <Link Id="37qJMsS9ofvDZyZHjAOpma" Ids="4vOhDzFSn80HdLW3ObzMhY,1O2KKQ93oc466eW1paRmfM" />
-              <Link Id="5reV49TgeI10tqiFpPLKHw" Ids="1O2KKQ93oc466eW1paRmfM,0MJoliNrcTByRvr9Hkoy0P" />
-              <Link Id="60JDzktgDDCeU0FpeIZuo7" Ids="3UrxuYPxMYqsCrLuMerb8x,641mxS3zK6Xk7EyQtPS4hi" />
-              <Link Id="2U7sEF1gCoa33ZSp377aMZ" Ids="5rmRFfR2lMuHOiPgswXSHC,2fOcY2BFWCStbZQqAPBycd" />
-              <Link Id="3dsb5tgt8ypB4nDbS3MWB8" Ids="6MVM8Ya1iXff1dF2Tj2uIs,3HVEzGUbh4VNbVAjBdp2bJ" />
-              <Link Id="3Q8E5iSA48qAeSWf6vRgkF" Ids="2R8H98FeieBt2YYvxSDQzE,6GJDnMcr1ztcsBIZTW7rp1" />
-              <Link Id="3I60ezsfuEOisFGqmgrK46" Ids="7DOzGoN8FPsPES5XrQZNOV,2R8H98FeieBt2YYvxSDQzE" IsHidden="true" />
-              <Link Id="660vixBNwjgeuwEgDWdNql" Ids="7d255s84hvpyc72xxOibbK,0IsljS1jk8Td3Bk9hLB8UI" />
-              <Link Id="5hQFxCjiyqk7jttWMLUBYw" Ids="0IsljS1jk8Td3Bk9hLB8UI,2F2YaI8zf2sKXejL2aSery" IsHidden="true" />
-              <Link Id="1p1OTqzZbYWvnwkI9odg2N" Ids="4bZxTad7qPmzA4LQlbG7F5,67yvFsE5IVF7YSXabb07sG" />
-              <Link Id="3d1EcHPDsaWw9L2hr2wxtC" Ids="03ervn5qwwsfj2dtBFs5a7,4bZxTad7qPmzA4LQlbG7F5" IsHidden="true" />
-              <Link Id="0mdSqI6JfsFNljUElmnFHE" Ids="3HVEzGUbh4VNbVAjBdp2bJ,1HOXSHmX3uc7jbdGFU9eeA" />
-              <Link Id="4b9mVuWuP9CuLVXP31MoBZ" Ids="3yx2DNItHEjocBRzvqCjLu,2yB1UyfWYRWXqBIqsIHns4" />
-              <Link Id="7l9VgxTuOAg3MmojajNKvG" Ids="3HVEzGUbh4VNbVAjBdp2bJ,20o5bISK6uqx299xQYddgR" />
-              <Link Id="5eZuX8KUTssOgtt2ZqEjfA" Ids="3unHXpmsiwk1CidlcTOyJ7,2yB1UyfWYRWXqBIqsIHns4" />
-              <Link Id="3gyR5Eqs1BOTLcNN6iC7kZ" Ids="5NdD6KcMGot5Phb6mmizES,4rLSaeSZi9jJcr3IQK4lbQ" />
-              <Link Id="0yqhyY6jhfEYthoibvbMeH" Ids="5NdD6KcMGot5Phb6mmizES,0jm5cvBCRgKgmRSogcu5ah" />
-              <Link Id="77qvzeIBkvw1Dybs60thhV" Ids="2yB1UyfWYRWXqBIqsIHns4,7FTJpEfwmc706mCwRbRuia" />
-              <Slot Id="0eBFjdEGOKWG40axdLZMeB" Name="Size" />
+              <Patch Id="5Y0oKhs0XE9VUI61Aj9aAS" Name="Grow" ParticipatingElements="0Ss6b6q50MQzXAw7bQZ408" />
+              <Patch Id="73B439kSwNMeS9qyVvLkHf" Name="Shrink" ParticipatingElements="2xLdx7ERYXcLAy2ClOSTwf" />
+              <Slot Id="68wXIPWtEZKemiDjRo1C73" Name="Position" />
+              <Link Id="4M4Er6DIQlAYanzwl1Oynx" Ids="7AbRpsVLhpFvdrcuIfdWVE,3kZmCF1u6KXup4IK20nxS2" />
+              <Link Id="32jkzd3dTawsxU22at8KQH" Ids="4EgaaAeWfiSyz0zfDigSx3,2sYvNzZwBOfa7xh9QZUYu7" />
+              <Link Id="14jbZLdd9iOTdHM1LKys0N" Ids="5GRJUXdk30hhdiDCB2QK24,1gVgJJU0MICui3GW6sGBHT" />
+              <Link Id="6o1l0SWB2lljyBkURgLFiM" Ids="1fS1dXCa0VhBswDOAGjpnR,058mLDHIxBOUOaLuagVIz3" />
+              <Link Id="2LqTpcRF4DUMFAt3OFJn6p" Ids="058mLDHIxBOUOaLuagVIz3,3it9s2Q9keAZF86QZsQLto" />
+              <Link Id="3aeCDrNxXzKvz2INKno92o" Ids="4Q1l9molSzJyCjLjbyWX6M,6gDPwlgwcnjM3ztCJ0U5PM" />
+              <Link Id="3gJXtjPNzTTTX8n0SGSCns" Ids="1zqmgudCDQ3GWCX6GBcaFX,4mz5vI71TxnsOTA5hlmQcg" />
+              <Link Id="5AwGN0I1aafjNKv3a8fBWG" Ids="40olRcIF8lRJv5CNrfwrsA,0smcMVlMN50UqJ16cLMEZw" />
+              <Link Id="4HJEs8BypKvpzfSabSUfpx" Ids="1Ftyn2oHivVpA7mUROyxLm,39BMUJ34h7txpdDqe5wKc0" />
+              <Link Id="5eyaP3HTDFmSogIglnxoAS" Ids="1WXUGz2uoz7WAdqp9YUni8,1Ftyn2oHivVpA7mUROyxLm" IsHidden="true" />
+              <Link Id="57144nP8Ngq4jGec8PqDXl" Ids="2frszIRLJMBm3CG58I3gtu,73Q1clVd6cJJC6rwtJyS5g" />
+              <Link Id="5CLj2X5A24hube6dzjbbWT" Ids="73Q1clVd6cJJC6rwtJyS5g,6GMz8NTEASl55KrX95Vaqr" IsHidden="true" />
+              <Link Id="06HOAFe2aOIll1AMISJ5vz" Ids="49GgDtjP5B1uoixcH5MKs4,68cBhCQVAsTJsE8LXmflly" />
+              <Link Id="0kehaQK9JXCPGlz7gJtelM" Ids="7VPAQW001jZ7e0g6MM3pP4,49GgDtjP5B1uoixcH5MKs4" IsHidden="true" />
+              <Link Id="6xuJpQKMVoS7PPqdEs2D01" Ids="0smcMVlMN50UqJ16cLMEZw,7NCWavF3EjKoaAQMRVbfY8" />
+              <Link Id="0Ss6b6q50MQzXAw7bQZ408" Ids="49o86undIB32cBfWtLzBCY,6dSVfcapW6CrggCDZYxeOK" />
+              <Link Id="2xLdx7ERYXcLAy2ClOSTwf" Ids="0smcMVlMN50UqJ16cLMEZw,2bKStdK9UcElOBRfuXHbCm" />
+              <Link Id="7QbhNzfeCeq4or3VJKYNV7" Ids="4v2urhsAfG7zjAnf9gEUsA,6dSVfcapW6CrggCDZYxeOK" />
+              <Link Id="5vqcT9kTzoryXXNVjJQlqg" Ids="7fJUuVfJy8h83khB1dNDOF,5PbhCpovsNAW3jUWZItOr2" />
+              <Link Id="1uQYcYSS63BzN2eGO7BU2d" Ids="7fJUuVfJy8h83khB1dNDOF,3iYBL6xMYnjhP9EMd9p745" />
+              <Link Id="1lNysgbS5JLRYkQmvxDQOK" Ids="6dSVfcapW6CrggCDZYxeOK,4hUEq8BL4UjEPZQXLzizZ9" />
+              <Slot Id="154Q6v7kflAxHIyA7y93oa" Name="Size" />
             </Patch>
           </Node>
         </Canvas>
-        <Patch Id="1sPdbcJeIKY2s4StHKtavF" Name="Create" />
-        <Patch Id="0gqEqLvy3hgZJwcWZj8ObN" Name="Update" />
-        <ProcessDefinition Id="634e0MKu5FJW6PN93TPqFg">
-          <Fragment Id="6WxOMrERA5KcCYlgbcRT1Y" Patch="1sPdbcJeIKY2s4StHKtavF" Enabled="true" />
-          <Fragment Id="1XMo3sNovCl52CnbCbi2zq" Patch="0gqEqLvy3hgZJwcWZj8ObN" Enabled="true" />
+        <Patch Id="6K0KES5is33Sb8qkoojW10" Name="Create" />
+        <Patch Id="7Amkj4tq2QG2PEUfQB33PI" Name="Update" />
+        <ProcessDefinition Id="7hU2erE0aYjGYvOAeWbkPq">
+          <Fragment Id="0vCSD2F7UCBk18mG4D6Aek" Patch="6K0KES5is33Sb8qkoojW10" Enabled="true" />
+          <Fragment Id="1lB6mRIBsFSxOyc93uQkSx" Patch="7Amkj4tq2QG2PEUfQB33PI" Enabled="true" />
         </ProcessDefinition>
-        <Link Id="4oi3eg1kq6DLwaoy4H4XEs" Ids="5eenvYEilUgeXoI3891thK,1o0EuUHpCvqgBOmgKqr1h6" />
-        <Link Id="6yJtIEsYrxD7qRHsYv51C5" Ids="7GALH3Ri0Mr1KgKEVfqt1P,3aS1u3mtGfbA6fznmY4XG9" />
-        <Link Id="47jRzdJdmCpflV4BSswejF" Ids="4pcGp4WLH8WRqUqBwjHQrZ,2Z7N22jT75NseA4qSg931h" />
-        <Link Id="6zWc9KDNxtnSCsiL5lKYVk" Ids="2qvrT6oHVA1PYigfDWGUK0,6jySIjtVw0x4zx9SFge6gA" />
-        <Link Id="1aaMxmTAM3ebCPN7el76ob" Ids="0o9eeqvFWKrrad2oBpU1m8,4s1bh5RWIJOqLrYVDrLPcN" />
-        <Link Id="48EuToTx85pqOIOaFwcYdg" Ids="3iIFMDywCf4JdN1UGQ2JZK,21wmlV3JyciiSSDwn40k5f" />
-        <Link Id="6eTL2a5nHsf2Zbpl6urRSv" Ids="0wvaX0odynHwymKHrxjAc9,5c9PRN9mMerQtUn6OOMb1w" />
-        <Link Id="2eek0tgjwHOOiNjd9h0T4D" Ids="1QK57I5sZgrcwZHaUyE780,2rz2343JN4HTCQExFprXMV" />
-        <Link Id="2zVfWDt3eFnDqpivaBUf59" Ids="22bmCZ6NaX8bRRqw9h9DMv,2ql3yWidwZ2Q4oVxOBPkUM" />
-        <Link Id="2xRxakY1FfDwgHL3HLXkzW" Ids="2EoIhscVvhbDeFIWbRCgZK,7Zv5fZDNr5DdeB38DptK8Q" />
-        <Link Id="3tdRXLjkDndFW0B1wwIHRP" Ids="5HIanyOVtdiR59d9VX8rXo,586kwQJHbNKZ28D9aBG7cO" />
-        <Link Id="4IF9EQVkEQ9FLJgHUmI4LO" Ids="6nKpPT0hAf2k7lYmudwmf2,4weeZnGa3ekEzcbb7CMehg" />
-        <Link Id="2CWDby0wfrpsq0tzF2Wdxd" Ids="4WFkuPk4rfQUrQnwlsq46i,2oiEFGYDhgqNjUOLHybFvY" />
-        <Link Id="6uzLpO01mm2JYqw7V4Vzy1" Ids="6G6uvvZ7Td5AAsdIAMbHlh,1xFPxAneZfMFPX7qoE0H80" />
-        <Link Id="0A9i0SPkOGZEmuRWjpRxe7" Ids="1lnjA2191HK8EV4FWMq6C9,6X66m4OnzzaesvCmvZPGVC" />
-        <Link Id="0GMmBNwk9GRi6FCRgFuvCx" Ids="33ZwiILMsxQMzqcNVb8NRj,0KniLbYDVJackhzAx6Q3qE" />
-        <Link Id="6bgrQWKJboLgBVPW2aou0d" Ids="5YY21aAkG0s8r5dRk4P5Oi,3pojiyQjdrOG0Q2WQvzk3v" />
-        <Link Id="6dJymJPTQJbIE2c8iD3SsD" Ids="1hJgAbqUPHUVHJm2ylgK9z,1Ezu6lEprPgFrSW8LwEgwI" />
-        <Link Id="3248UCQ1nh4Xttl0QCJXLb" Ids="4a7rM4axAIMTaIeXQ2fpgv,4BRy4hqwZh2Ube1Be8l3Ih" />
-        <Link Id="2WuLuSWgZbKc9HpA2wDOBt" Ids="2JdSArPZJvWanWoUPd3zPV,2fEGVSNpDHdtfgSRPVu1k5" />
+        <Link Id="0JHo0xvXnAZmW9jCqiSHI7" Ids="0ihqi5wJfc4zt7jhEO1X8G,21zpskJ3MVcQHBp1wQ4amO" />
+        <Link Id="2m5rjgr9vODCwcH6xbwNyz" Ids="2f0Hlwb7JsBgdYqcD7RA5z,4ufOWU3Rnu31JzTIzswJIE" />
+        <Link Id="2y9U943brzxI10CvxmSGL6" Ids="2Nz59Mxtzo7WFW1y2LKSmq,0KIl9BW3k9g0gEGVBHiPto" />
+        <Link Id="7MLJebGJKNS5RVOfDO7pV2" Ids="38W0yeej8VlNfiXhoa1EvB,3rxMB8EDg8DdDlk44s9uJG" />
+        <Link Id="6BSsFsSUJRMHRC24YvUjdv" Ids="0Xn0HXPQshg8QeM7XLcglM,4zgUJfnrtjEjtXbTZ562QF" />
+        <Link Id="2wKlDLtxGcQOteCHShqYFU" Ids="1W1IpCXkCmgt22ZfACtxe8,4yqmxRevWaf5JEjRdwPW2b" />
+        <Link Id="5KWXRTtu1oOsV2WqrDZOah" Ids="6jYBUZPZL5zIIvGHjfhrVI,3AIb6n38V3tTnNX6KxpfYL" />
+        <Link Id="2efv6dZI3Qo6Kg0z88fmSm" Ids="5OMLYSLTIEJJbcQxrLMJEu,1o17MMhNrJsi64WtpKLuDG" />
+        <Link Id="1HI19aUniMrGIl3i4EZbDA" Ids="7ArgCESI6rmuphYeCNi13N,1IhRgtf7M20y0BiPL2VXL1" />
+        <Link Id="7CIa5vu1uRFbnMq8jTmaLq" Ids="6M1vTs9byZ2GAjCEuwa1TW,5SyWvg59NIxunV6Ta8CF1D" />
+        <Link Id="4m61QoLM82jn563L2RQUwS" Ids="27CJ9XAHuPLcz5Pq5aAKYw,0DgNVHnTGx4KlzNFGGqZw1" />
+        <Link Id="2oirtzPCJkD24pKoqanoSX" Ids="42ONHQj3zcgbJRZFPsMeVU,2vY2CYvOOzUu8slmCT5UG3" />
+        <Link Id="3l65cs0DIRAxe1oYVlB1m0" Ids="6GDgYUgsUaTjEdfvrklDdR,072WRnIgYm6hLMl2b8RfPP" />
+        <Link Id="5WexiCZJLBoCgcYeCXVV74" Ids="6cDiCOPgBeYApoHuf99VbB,3iS270NnWpwY8tac2mntRp" />
+        <Link Id="65KiToDRbOA7eWQs3lhr5L" Ids="52hfSAb20Mft3iFsGu91Vr,1KlrMRGZInh0DiCyk0kLzO" />
+        <Link Id="6MclouZncKJrPVHhBjDX9x" Ids="3y25IRE2Ez3dy0550oODQs,2EqWAeOSFUTss5KTXwaJJe" />
+        <Link Id="4fKymI6kEeHvAis8PI1jnw" Ids="7XFVwalOjet2ftozXefyrc,5dBN4tUDuVVXHIhoSnQD8R" />
+        <Link Id="5HmSIaJbt2wFLI7atEyvNa" Ids="35ZGN7gxVMJkOjGTWEtS1j,2iSrbc73wjgmaR6j0gSMC3" />
+        <Link Id="3lBjjOlcNTyGEUAGayTcR2" Ids="2Of1REQvZPEMudz5gNZWvR,5PycV8yvqFEZzYJRq7PFSW" />
+        <Link Id="5QicrMMmD3h8lyQMxijFxp" Ids="2hz8XgVqP94rA67ZvDIRy5,1LDcRrROZEoWsCJr7WXXfC" />
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="7Oz5ZNlAhmr5TTwvElIW2K" Location="VL.Stride" Version="2025.7.3" />
-  <NugetDependency Id="0UjwXZiK7fINpigrhNRdr3" Location="VL.Skia" Version="2025.7.3" />
-  <DocumentDependency Id="4ijtJVUF9tUAki5Jd4sGCP" Location="../../include/Nodes.vl" />
-  <DocumentDependency Id="3Dxb8B6J98Z6rYrTZo9a6D" Location="../../VL.TheBigBang.vl" />
-  <NugetDependency Id="7B6FYtZVKpgzpaWzvjs40R" Location="VL.Stride.TextureFX" Version="2025.7.3" />
+  <NugetDependency Id="2BBvI6kifvpWVGxW8QQrnw" Location="VL.Stride" Version="2025.7.3" />
+  <NugetDependency Id="6xx4XDZPHDKAz1KzpkNpNV" Location="VL.Skia" Version="2025.7.3" />
+  <DocumentDependency Id="2cjN6ncgF81mPVPrdBqSZ4" Location="../../include/Nodes.vl" />
+  <DocumentDependency Id="4RucxLpgzOdrwzrZEWwNqO" Location="../../VL.TheBigBang.vl" />
+  <NugetDependency Id="3hvgOu8cqHvEMfLCpVPLdc" Location="VL.Stride.TextureFX" Version="2025.7.3" />
 </Document>
