@@ -43,7 +43,7 @@
 ```
 y=126     Chapter title (font 22)
 y=206     Opening paragraph (full width)
-y=~310    COL 1: Objects You Already Know   COL 2: Defining Your Own   COL 3: A Record from Scratch (+ live patch)
+y=~310    COL 1: Defining Your Own   COL 2: Objects You Already Know (+ live patch)   COL 3: A Record from Scratch (+ live patch)
 y=~900    Tooltip tour (full width, live patch)
 y=~1300   Closing: Records, Classes, and What's Coming (full width)
 y=~1500   Other Resources (x=1092)
@@ -58,40 +58,40 @@ y=~1500   Other Resources (x=1092)
 
 ### Opening paragraph (font 9, x=92, y=206, width ~1400)
 ```
-We have been working with objects in vvvv almost from the beginning. Every Circle, every Rectangle, every Material, every Spread you have placed in your patch is an instance of a data type that someone defined somewhere. And ever since the chapter about Process Nodes you have also been defining your own - every Process node is in fact a little object, with its own pins, its own behavior and its own little life inside the patch.
+Almost since the beginning, we have been dealing with objects while patching in vvvv. Every Circle or Rectangle, every Material and every Float, String or Spread you have placed in your patch is an instance of a data type that someone defined somewhere. And ever since the chapter about Process Nodes you have also been defining your own - a Process node is in fact an object, with its own pins, its own behavior and its own life inside, constantly evaluating on the Update operation.
 
-That somewhere is usually a language called VL - the language you have been patching in all along, and the language vvvv itself is built upon. Much of what you have used so far, nodes and types alike, is defined in VL, and the rest comes directly from the .NET world underneath. What makes VL unusual is that it compiles into C# in real time, as you patch. You are not scripting or configuring a runtime - you are writing a compiled, typed programming language with a visual syntax. Everything you build runs as compiled .NET code, the same kind of code a C# programmer writes.
+You might remember how the chapter about Update and Create closed - VL is an object-oriented programming language, and the terms Record and Class were mentioned there for the first time. Much of what you have used so far, nodes and types alike, is defined in VL, and the rest comes directly from the .NET world underneath. What makes VL unusual is that it compiles into C# in real time as you patch. You are not scripting or configuring a runtime - you are writing a compiled, typed programming language with a visual syntax. Everything you build runs as compiled .NET code, the same kind of code a C# programmer writes.
 
-In this final part of the tutorial we will name what you have been doing all along, and then unlock the rest of it. From here on you will be able to define your own data types from the ground up, give them properties, give them behavior and use them to organize your patches in ways that were not possible before.
+In this part of the tutorial we pick up that thread - we will name what you have been doing all along, and then unlock the rest of it. From here on you will be able to define your own data types from the ground up, give them properties and behavior, and use them to organize your patches in ways that were not possible before.
 ```
 
-### COLUMN 1 - Objects You Already Know
+### COLUMN 1 - Defining Your Own
 
-**H2 (font 15, x=92, y=310):** `Objects You Already Know`
+**H2 (font 15, x=92, y=310):** `Defining Your Own`
 
 **Body (font 9, x=92, y=347):**
 ```
-You can see an object as a composition of the native data types we have met so far - a few values bundled into something more complex. In this sense a Vector2 is already an object. A Vector2 (Join) takes an X and a Y and bundles them into one type. A Vector2 (Split) takes that bundle apart again. The two values travel together as one thing, with their own name and their own identity in the patch.
+Remember the ColoredCircle from the chapter about Process Nodes? We defined it as a Process node - it had input pins for Position, Size and Color, an Update operation that drew the circle, and we placed it three times in the patch to draw three different circles.
 
-A Circle from the chapter about Complex Types does the same on a larger scale. It bundles a Center and a Radius into one type. It also comes with operations - Hit Test tells you whether a point lies inside the Circle. The Circle is a data type someone defined inside vvvv, with properties bundled together and operations that work on them. Hover over the link coming out of a Circle node and you will see its type in the tooltip.
+That ColoredCircle was already an object. We didn't call it that at the time, but bundling properties and behavior into a named type with a place in the Node Browser is exactly what an object is. Every Process node you have written in this tutorial has been your own custom data type, with its own bundle of pins and behavior.
 
-Simple values like Floats, Integers or Booleans are not objects in this sense - they are just single values. Objects are what you get when you compose them into something larger.
+So we are not starting from zero in this part of the tutorial. We are taking what you can already do and going one step further - from defining types as Process nodes to defining them as Records. Before we get there, let's have a quick look at what objects are actually made of.
 ```
 
-**Live element (x=92, y=750):** A Circle node with values feeding in, and a Hit Test operation showing the result. Two input IOBoxes, one output. The reader can hover and see "Circle" in the tooltip.
+### COLUMN 2 - Objects You Already Know
 
-### COLUMN 2 - Defining Your Own
-
-**H2 (font 15, x=592, y=310):** `Defining Your Own`
+**H2 (font 15, x=592, y=310):** `Objects You Already Know`
 
 **Body (font 9, x=592, y=347):**
 ```
-Remember the ColoredCircle from the chapter about Process Nodes? We defined it as a Process node - it had input pins for Position, Size and Color, an Update operation that drew the circle, and we placed it three times in the patch to draw three different circles.
+In vvvv, everything flowing through your patch is an object. Even a plain Float is one - VL treats every value as an object, and a Float comes with operations of its own, like turning itself into a String. The simple values you have used since the very first chapters, the Floats, Integers and Booleans, are just the smallest objects there are.
 
-That ColoredCircle was already an object. We did not call it that at the time, but bundling properties and behavior into a named type with a place in the Node Browser is exactly what an object is. Every Process node you have written in this tutorial has been your own custom data type, with its own bundle of pins and behavior.
+By bundling these primitive objects together, you can build more complex types on top of them. A Vector2 is exactly that - Vector2 (Join) takes an X and a Y and bundles them into one type, Vector2 (Split) on the contrary separates that bundle again. The two values travel together as one thing along a link, with their own name and their own identity in the patch.
 
-So we are not starting from zero in this part of the tutorial. We are taking what you can already do and going one step further - from defining types as Process nodes to defining them as Records, which is the default and most flexible way to define a data type in VL.
+A Circle from the chapter about Complex Types does the same on a slightly larger scale. It bundles a Center and a Radius into one type that describes a mathematical circle. It is a data type someone defined inside vvvv, with properties bundled together, operations that work on them and other nodes that use them, like CircleContainsPoint for simple hit detection. Hover over the link coming out of a Circle node and you will see its type in the tooltip, which you can also expose into your patch.
 ```
+
+**Live element (x=592, y=750):** A Circle node with values feeding in, and a Hit Test operation showing the result. Two input IOBoxes, one output. The reader can hover and see "Circle" in the tooltip.
 
 ### COLUMN 3 - A Record from Scratch
 
@@ -99,11 +99,11 @@ So we are not starting from zero in this part of the tutorial. We are taking wha
 
 **Body (font 9, x=1092, y=347):**
 ```
-A Record is the default way to define your own data type in VL. You can create one by typing the name you want in the Node Browser and choosing "Record". You can also create one directly from the Patch Explorer in the top-left corner of the document.
+The default way to define your own data type in VL is using a Record. You can create a Record from the "New" menu in the Node Browser and give it a name afterwards - or simply type the name you want into the Node Browser and choose "Record" right away. It immediately shows up as a new category in the Node Browser, containing the operations of the Record. By default a Record only comes with the Create operation, but you will get to know later how to add many more of these.
 
-You can imagine a Record like a little box with named compartments. Each compartment is a property - a named value of any type: a Float, a String, a Vector, even another Record. Each property can be exposed as an input pin on the Create operation, so you can fill the compartments when you make a new instance.
+Just like a Vector2 consists of two Floats, you can imagine a Record as a composition of any of the types that exist in vvvv. Each of these is called a property, a named value of any type: Floats, Strings, Vectors and even other Records. Each property can be exposed as an input pin on the Create operation, so you can fill the property with a value when you make a new instance.
 
-In the example below we have defined a Record called Thing. It has two properties - a Position and a Size. Right-click on the Thing definition in the Patch Explorer to open it, then come back and look at the Create operation. The two properties are set through input pins on top, and the Thing itself comes out at the bottom.
+In the example below we have defined a Record called Thing. It has two properties - a Position and a Size. Right-click the Thing definition and choose "Open" from the context menu to look inside. You will find two named and typed pads, one for each property, each with an input assigned to the Create operation. That is exactly why the Create node in the running patch has these input pins on top and the Thing coming out at the bottom - creating an instance fills the two pads and bundles them into one type.
 ```
 
 **Live element (x=1092, y=750):** A minimal Record `Thing` (Position: Vector2, Size: Float). Its Create operation shown with two input IOBoxes and one output IOBox carrying a Thing. Definition referenced in the Patch Explorer.
@@ -114,9 +114,9 @@ In the example below we have defined a Record called Thing. It has two propertie
 
 **Body (font 9, x=92, y=937, width ~1400):**
 ```
-One of the nicest things about defining your own data type is that you can inspect it from anywhere in the patch, just like any built-in type. Hover over a link carrying a Thing and you will see the type name in the tooltip. Right-click on the Thing definition in the Patch Explorer and you can see all its properties at a glance. As you go through the rest of this tutorial, this becomes one of the main ways to understand what is happening in your patch - every link carries a value of a known type, and every value can be inspected.
+One of the nicest things about defining your own data type is that you can inspect it from anywhere in the patch, just like any built-in type. Hover over a link carrying a Thing and you will see the type name in the tooltip. As you go through the rest of this tutorial, this becomes one of the main ways to understand what is happening in your patch - every link carries a value of a known type, and every value can be inspected.
 
-Since much of vvvv is built in VL, you can also look inside many built-in nodes and see exactly how they were defined - the same way you will define your own types in the chapters ahead. To do this, enable Browsable Packages in Quad Menu > Settings. Once on, right-click a VL-defined node and choose Definition > Open. (Some nodes are implemented in C# instead - those you cannot open this way.) I highly recommend this as a way to learn - find a node you already use and look at how it is built.
+Since much of vvvv is built in VL, you can also look inside many built-in nodes and see exactly how they were defined - the same way you will define your own types in the chapters ahead. To do this, enable Browsable Packages in Quad Menu > Settings. Once on, right-click a VL-defined node and choose Definition > Open. (Some nodes are implemented in C# instead - those you cannot open this way.) I highly recommend this as a way to learn - find a node you already use and look at how it is built. But beware: opening a complex node like the SceneWindow from VL.Stride can be highly overwhelming. Don't let that discourage you - over the course of this tutorial you get to know all the building blocks to at least understand what is going on in there.
 ```
 
 **Live element (x=92, y=1010):** The Thing placed in an inspection layout with annotated "hover here to see Thing" waypoints. An invitation to interact, not a new lesson.
@@ -128,6 +128,8 @@ Since much of vvvv is built in VL, you can also look inside many built-in nodes 
 **Body (font 9, x=92, y=1337, width ~1400):**
 ```
 So this is the Record - the default way to define your own data type in VL, and what we will use throughout most of Part V. There is also a second flavor called Class, which is the same idea with one specific difference - Classes can be changed in place, while Records always produce a new copy when you modify them. We will get to Classes in chapter 43, where the difference will become visible and useful. Until then, every example we build will be a Record.
+
+A side note before we move on, as it is a common cause for messy documents. When you create a Record, the definition lands wherever you happen to create it - in the Application patch or on the Definitions side of your document. It has been a while since the chapter about Process Nodes introduced that distinction, so here is the short reminder: the Application is the front side of your patch, the part that runs. The Definitions side is the back, where your custom data types, processes and operations live - and by convention, that is where definitions belong. The Patch Explorer in the top-left corner of the document shows both sides.
 
 In the next chapters we will give our types real behavior. We will look at operations - first on a Process you already know, then on Records - and see how defining your own operations turns a bundle of properties into a properly useful thing.
 ```
@@ -144,9 +146,9 @@ In the next chapters we will give our types real behavior. We will look at opera
 
 ## Notes
 - "Thing" is a deliberate placeholder - signals the type is incidental, the concept is the point. Particle reserved for chapters 41–42.
-- The "Process nodes are objects" move (Column 2) is the most important framing in the chapter.
+- The "Process nodes are objects" move (Column 1) is the most important framing in the chapter.
 - Forward pointer to Class is one paragraph in the closing; mutability not named yet.
-- Object framing = "composition of primitives," NOT "everything including Float is an object" (that blurs the bundling concept).
+- Object framing: everything is an object, primitives included - complex types arise by bundling primitive objects into bigger ones (Float → Vector2 → Circle → your own type).
 
 ---
 ---
@@ -354,7 +356,7 @@ This is the difference between a Process and a Record in one sentence - well, tw
 
 **Body (font 9, x=592, y=347):**
 ```
-To define a Record, open the Patch Explorer, right-click in the document and choose to add a Record. Give it a name. Then give it properties - named values of any type. A property can be a Float, a String, a Vector2, even another Record.
+To define a Record, open the Node Browser on the Definitions side of your document - the conventional home for definitions - type the name you want and choose "Record". Then give it properties - named values of any type. A property can be a Float, a String, a Vector2, even another Record.
 
 In the example below we define a Record called Thing with two properties - a Position (Vector2) and a Size (Float). You may recognize Thing from chapter 38, where it already appeared as a finished result. This time we build it from scratch, so you can see exactly what each step means. That is the whole definition. Thing is now a data type you can use anywhere in your patch, just like Circle or Rectangle, except you defined it yourself.
 
@@ -369,7 +371,7 @@ Each property you define can be set through an input pin on the Create operation
 ```
 Here is where the Process and the Record diverge in practice. On a Process, you added an operation and triggered it from outside, but the operation ran inside the Process and changed the Process's own state. On a Record, the operation becomes a node you place in the patch. You feed the Record into it, the operation does its work, and a Record comes out the other side.
 
-This is not optional. A Record does not run on its own, so there is no "inside" for the operation to run in. The only way to use a Record's operation is to place it as a node and pass the Record through it. Every operation on a Record - Create, Split and any custom ones you define - is a node in your patch.
+This is not optional. A Record does not run on its own, so there is no "inside" for the operation to run in. The only way to use a Record's operation is to place it as a node and pass the Record through it. Every operation on a Record - Create and every one you define yourself - is a node in your patch.
 
 This changes how state is handled. On a Process, the Process kept the state for you. On a Record, you hold the state, because the Record is a value flowing through your patch. To make this work, every Record operation other than Create has two special pins - a State Input and a State Output.
 ```
@@ -397,13 +399,11 @@ Look closely at the operation and you will notice something. Inside a SetPositio
 
 **Body (font 9, x=92, y=1437):**
 ```
-Every Record comes with two operations automatically - Create and Split.
+Every Record comes with one operation automatically - Create. It makes a new instance: its input pins set the starting properties, and the new Record comes out at the bottom. There is no State Input on Create, because there is no existing Record to take in - Create is where a Record begins. This is the same Create you used on Processes, now as a node.
 
-Create makes a new instance. Its input pins set the starting properties, and the new Record comes out at the bottom. There is no State Input on Create, because there is no existing Record to take in - Create is where a Record begins. This is the same Create you used on Processes, now as a node.
+The first operation worth adding yourself is the opposite of Create, and by convention it is called Split. Give it a Record, and it hands you back all the properties as separate outputs - it is how you read what is inside a Record at any point. Split only reads, it never modifies.
 
-Split is the opposite. Give it a Record, and it hands you back all the properties as separate outputs. It is how you read what is inside a Record at any point. Split takes a Record on State Input, but its State Output passes the same Record straight through, unchanged - Split only reads, it never modifies.
-
-Between Create to bring a Record into being and Split to read it back out, you can already do a lot. The custom operations you define fill in everything between.
+Between Create to bring a Record into being and Split to read it back out, you can already do a lot. The further operations you define fill in everything between.
 ```
 
 ### LOWER MIDDLE - Setters and Getters
@@ -766,7 +766,7 @@ This chapter introduces Class as a mechanic. We will see how it differs from Rec
 
 **Body (font 9, x=92, y=347):**
 ```
-Record and Class are the two flavors of object you can define in VL. You define them the same way - open the Patch Explorer, type a name, choose "Record" or "Class." You give them properties the same way. You define operations on them the same way. The Node Browser shows them with similar nodes - Create, Split and whatever custom operations you define.
+Record and Class are the two flavors of object you can define in VL. You define them the same way - type a name into the Node Browser, choose "Record" or "Class." You give them properties the same way. You define operations on them the same way. The Node Browser shows them with similar nodes - Create and whatever operations you define.
 
 The difference is what happens when an operation modifies the object. A Record operation produces a new copy with the change applied. The original Record on the input is unchanged. A Class operation modifies the object on the input directly. There is only one instance, before and after the operation, and it is now different.
 
@@ -781,7 +781,7 @@ This single difference is the entire substance of the chapter. Everything else -
 
 **Body (font 9, x=592, y=347):**
 ```
-To define a Class, open the Patch Explorer, right-click in the document and choose "Add Class." Give it a name. Add properties. Add operations. The interface is identical to Record's.
+To define a Class, type the name into the Node Browser and choose "Class" - exactly the way you created your Records. Add properties. Add operations. The interface is identical to Record's.
 
 In our example below we define a Class called MyClass and a Record called MyRecord, both with a single Color property and a single operation called SetColor that changes that property. The definitions look almost the same in the Patch Explorer - you can tell them apart by the icon next to each in the explorer's list of definitions. The R icon marks a Record, the C icon marks a Class.
 
@@ -1188,7 +1188,7 @@ y=~1500   COL 1: The Family Revealed   COL 2: Looking Back at Part V   COL 3: Ot
 ```
 We have come a long way in Part V. We started with the recognition that our Process nodes were already objects - we just had not called them that. We then learned to define our own - Records first, then Classes - and built complete applications with both. We also learned when to choose each, and how to think about collections separately.
 
-In this final chapter we close the circle. Records and Classes can themselves become Process nodes, with a single setting in the Patch Explorer. When you flip it, your type can be placed directly in the patch, its Create runs on placement, its Update runs each frame, and its Dispose runs when removed. This was always available - we just did not use it, because the rest of Part V was about types as data, managed by hand.
+In this final chapter of Part V we close the circle. Records and Classes can themselves become Process nodes, with a single setting in the Patch Explorer. When you flip it, your type can be placed directly in the patch, its Create runs on placement, its Update runs each frame, and its Dispose runs when removed. This was always available - we just did not use it, because the rest of Part V was about types as data, managed by hand.
 
 This is also where Dispose finally makes full sense. We mentioned it in chapter 42 as the third reserved-color operation. Here we will see it fire visibly.
 ```
