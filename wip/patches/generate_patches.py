@@ -481,6 +481,7 @@ def main():
         (OUTDIR / fname).write_text(xml, encoding="utf-8")
         hv = (f"  + harvested {info['elements']} elements, {info['links']} links "
               f"({info['links_dropped']} cross-zone dropped), {info['slots']} slots, "
+              f"{info['prose_dropped']} prose pads dropped, "
               f"defs: {', '.join(info['defs']) or 'none'}") if info else "  (no prototype zone)"
         print(f"  {fname}  ({npads} content pads)\n  {hv}")
     if warnings:

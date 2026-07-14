@@ -83,6 +83,14 @@ class _Block:
         self.x, self.y = xy if xy else (None, None)
         self.ids = set(re.findall(r'Id="([0-9A-Za-z]{22})"', text))
         self.is_role_pad = 'Value="Role:' in text
+        # prototype-era prose (long comment IOBoxes) is superseded by the
+        # drafts' text layer; short labels/annotations are kept
+        vm = re.search(r'Value="([^"]*)"', text)
+        self.is_prose_pad = (
+            text.lstrip().startswith("<Pad ")
+            and 'VL.Core.StringType">Comment<' in text
+            and vm is not None and len(vm.group(1)) > 200
+        )
 
 
 def _scan_blocks(lines, start, end, indent):
@@ -176,9 +184,11 @@ def harvest(chnum, x0, y0, target_fname):
         return "", "", None
     blocks, links, slots, defs = _load()
     lo, hi = ZONES[chnum]
-    zone = [b for b in blocks
-            if not b.is_def and not b.is_role_pad
-            and b.y is not None and lo <= b.y < hi]
+    in_range = [b for b in blocks
+                if not b.is_def and not b.is_role_pad
+                and b.y is not None and lo <= b.y < hi]
+    zone = [b for b in in_range if not b.is_prose_pad]
+    prose_dropped = len(in_range) - len(zone)
     if not zone:
         return "", "", None
 
@@ -229,5 +239,5 @@ def harvest(chnum, x0, y0, target_fname):
     canvas_xml, _, patch_xml = combined.partition("---SPLIT---")
     info = {"elements": len(zone), "defs": sorted(needed),
             "links": len(link_parts), "links_dropped": dropped,
-            "slots": len(slot_parts)}
+            "slots": len(slot_parts), "prose_dropped": prose_dropped}
     return canvas_xml.strip("\n"), patch_xml.strip("\n"), info
