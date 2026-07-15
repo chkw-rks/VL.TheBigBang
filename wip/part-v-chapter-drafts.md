@@ -197,13 +197,11 @@ Beyond Create and Update, there are two kinds of custom operations to get to kno
 
 **Body (font 9, x=92, y=347):**
 ```
-An operation is a named action: it takes inputs, does one specific job and produces outputs. You have been using operations since the chapter about Simple Math - Add, Multiply and Sin are all operations, and so is nearly every other node you have placed since.
+A static operation is a named action that takes inputs, does a specific job and produces outputs. You have been using them since the chapter about Simple Math - Add, Multiply and Sin, for instance, are all static operations. A static operation may remind you of a Process node, as both abstract some functionality into a reusable node that you can spawn from the Node Browser.
 
-These are so-called static operations. A static operation does not belong to any one thing. It works on any compatible value, with no state of its own - the same inputs always produce the same outputs. And note that an operation itself is not an object: it has no state and no instance. The values going in and coming out are the objects.
+The difference between the two is their weight. A Process comes with much more overhead: it belongs to your patch as an object and remembers values in its pads from one frame to the next. A static operation has none of that - it is not attached to any object and keeps no state, so the same inputs always produce the same outputs. If all you need is a computation, with nothing to remember between frames, the static operation is the lighter tool.
 
-Defining one of your own is quick. You create a static operation via the New entry, just like a Record - give it a name, define its inputs and outputs, and patch the computation inside. Once defined, it appears in the Node Browser just like any built-in node, ready to use anywhere in your patch. In the example below we define Remap: it takes a value and two ranges and maps the value from one range to the other. It has no state, no object, no lifetime - it just transforms values. This is exactly the kind of logic that belongs in a static operation.
-
-A static operation may remind you of a Process node - both abstract some functionality into a reusable node. The difference is weight. An operation is stateless: it cannot have further operations, it just executes. A Process comes with much more overhead - state, a lifetime, operations of its own. If all you need is a computation, the static operation is the lighter tool.
+Defining one of your own is quick. You create a static operation via the New entry, just like a Record - give it a name, define its inputs and outputs, and patch the computation inside. Once defined, it appears in the Node Browser just like any built-in node, ready to use anywhere in your patch. In the example below we define Remap: it takes a value and two ranges and maps the value from one range to the other - exactly the kind of logic that belongs in a static operation.
 ```
 
 **Live element (x=92, y=900):** A static operation `Remap` created via the New entry. Inside: simple math remapping an input Float from one range to another. Shown being used in the patch with IOBoxes feeding its inputs.
@@ -275,6 +273,12 @@ Every other operation you define - Increment, Reset, anything - has no reserved 
 The two kinds of operations in this chapter are divided by one idea that is worth naming, because it will follow us through the rest of this tutorial: state. Something is stateful when it remembers - a Process holds values in its pads across frames, and you have used exactly this since the chapter about Pads. Something is stateless when it remembers nothing - a static operation like Remap computes and forgets, the same inputs giving the same outputs every time.
 
 Keep this pair of words in mind. A Process is stateful, its member operations work on that state, and a static operation is stateless by design. In the next chapter you will meet the Record - and with it a surprising third answer to the question of where state lives: not inside a running thing, but flowing through your patch as a value.
+
+Notes:
+You would ask yourself why ever use process nodes, if:
+- operations are instanly inspectable by the UI
+- are the lighter tool
+because many nodes inside vvvv have to remember their state from one frame to the next and do much more complex tasks, and you can not use stateful nodes inside of stateless operations
 ```
 
 ### LOWER RIGHT - Other Resources
