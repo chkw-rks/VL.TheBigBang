@@ -172,7 +172,7 @@ In the next chapters we will give our types real behavior. We will look at opera
 ```
 y=126     Chapter title (font 22)
 y=206     Opening paragraph (full width)
-y=~310    COL 1: Static Operations (+ live patch)   COL 2: Operations That Belong to a Thing   COL 3: Your First Member Operation (+ live patch)
+y=~310    COL 1: Static Operations (+ live patch)   COL 2: Operations That Belong to a Thing (+ live patch, spans former cols 2+3)
 y=~900    Triggerable Operations (full width, live patch)
 y=~1400   COL 1: The Reserved Colors   COL 2: Stateless and Stateful   COL 3: Other Resources
 ```
@@ -197,40 +197,31 @@ Beyond Create and Update, there are two kinds of custom operations to get to kno
 
 **Body (font 9, x=92, y=347):**
 ```
-A static operation is a named action that takes inputs, does a specific job and produces outputs. You have been using them since the chapter about Simple Math - Add, Multiply and Sin, for instance, are all static operations. A static operation may remind you of a Process node, as both abstract some functionality into a reusable node that you can spawn from the Node Browser.
+A static operation is a named action that takes inputs, does a specific job and produces outputs. You have been using them since the chapter about Simple Math - Add, Multiply and Sin, for instance, are all static operations. A static operation may remind you of a Process node, as both abstract some functionality into a reusable node that you can spawn from the Node Browser. 
 
-The difference between the two is their weight. A Process comes with much more overhead: it belongs to your patch as an object and remembers values in its pads from one frame to the next. A static operation has none of that - it is not attached to any object and keeps no state, so the same inputs always produce the same outputs. If all you need is a computation, with nothing to remember between frames, the static operation is the lighter tool.
+You might ask yourself: Why bother, when the Process node has served you fine so far? The difference between the two is their weight. A Process brings capabilities you won't always need: it lives in your patch as an object, occupies memory and remembers the values in its pads from one frame to the next. A static operation does none of that - it exists on its own and keeps no state, so the same inputs always produce the same outputs. If all you need is a straight computation, with nothing to remember between frames, the static operation is the lighter tool.
 
-Defining one of your own is quick. You create a static operation via the New entry, just like a Record - give it a name, define its inputs and outputs, and patch the computation inside. Once defined, it appears in the Node Browser just like any built-in node, ready to use anywhere in your patch. In the example below we define Remap: it takes a value and two ranges and maps the value from one range to the other - exactly the kind of logic that belongs in a static operation.
+Defining one of your own is quick. You create a static operation via the New entry in the Node Browser, give it a name, define its inputs and outputs, and patch the computation inside. Once defined, it appears in the Node Browser just like any other built-in node, ready to use anywhere in your patch. In the example below we define one of our own - a small computation of exactly the kind that belongs in a static operation.
 ```
 
-**Live element (x=92, y=900):** A static operation `Remap` created via the New entry. Inside: simple math remapping an input Float from one range to another. Shown being used in the patch with IOBoxes feeding its inputs.
+**Live element (x=92, y=900):** TBD - a static operation created via the New entry, shown being used in the patch with IOBoxes feeding its inputs. Candidate idea: `Remap` (takes a value and two ranges, maps the value from one range to the other).
 
-### COLUMN 2 - Operations That Belong to a Thing
+### COLUMN 2 - Operations That Belong to a Thing (spans former cols 2+3)
 
 **H2 (font 15, x=592, y=310):** `Operations That Belong to a Thing`
 
-**Body (font 9, x=592, y=347):**
+**Body (font 9, x=592, y=347, width ~900):**
 ```
-The second kind is the member operation. It belongs to a specific thing and works on that thing's state - the values stored in its pads. And you have been using these too: Create and Update, the two operations every Process runs, are member operations of your Process. You can think of a member operation as a little patch inside the Process that does one specific job on its state.
+The second kind is the member operation. It belongs to a specific object and works on its state, the values stored in the pads inside. And you have been using these too: Create and Update, the two operations every Process runs, are member operations of your Process. You can think of a member operation as a little patch inside the Process that does one specific job on its state.
 
-A quick orientation before we add one: the Patch Explorer in the top left corner is the structural view of your document. Where the canvas shows your patch as nodes and links, the explorer lists what everything is made of - patches with their properties and operations, and the definitions of your document. In this chapter it becomes a real tool: operations are created and managed right there.
+To add one of your own, turn to the Patch Explorer in the top left corner. Where the canvas shows your patch as nodes and links, the explorer is the structural view of your document: it lists what everything is made of - patches with their properties and operations, and the definitions of your document. This is where operations are created and managed. So create your new operation from its menu and give it a name. Then patch whatever the operation should do, mark those links and nodes, right-click and choose Assign - and pick your operation from the list. You know this gesture from the chapter about Update and Create, where we assigned links to run on Create.
 
-To add one, create it from the Patch Explorer's menu and give it a name. Then patch whatever the operation should do, mark those links and nodes, right-click and choose Assign - and pick your operation from the list. You know this gesture from the chapter about Update and Create, where we assigned links to run on Create.
-```
-
-### COLUMN 3 - Your First Member Operation
-
-**H2 (font 15, x=1092, y=310):** `Your First Member Operation`
-
-**Body (font 9, x=1092, y=347):**
-```
 Unlike Create and Update, a member operation you define does not run automatically. When you place the Process node, the operation shows up on it as a boolean pin carrying the operation's name - a gate that works just like the Apply pins you know from the built-in nodes. While the pin is false, the operation sits idle. The frame it flips to true - a Bang from a button, a mouse click, any boolean - the operation runs.
 
 In the patch below we have a Process that holds a Count value. It has the usual Update operation, but we have added a custom operation called Increment. Each time the Bang fires, Increment runs and the Count goes up by one. Update is not involved - the counting happens only on the trigger.
 ```
 
-**Live element (x=1092, y=750):** A small `Counter` Process holding a Count integer in a pad. Custom operation `Increment` (+1). A Bang wired to the Increment pin on the node. IOBox showing Count climbing per click. Update present but doing nothing visible.
+**Live element (x=592, y=~750):** A small `Counter` Process holding a Count integer in a pad. Custom operation `Increment` (+1). A Bang wired to the Increment pin on the node. IOBox showing Count climbing per click. Update present but doing nothing visible.
 
 ### MID - Triggerable Operations
 
