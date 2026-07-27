@@ -165,16 +165,16 @@ In the next chapters we will give our types real behavior. We will look at opera
 
 # Chapter 39 — Custom Operations
 
-**Role:** Introduce operations, static first (the atom: recognition via math nodes, Remap as first win), then member operations on a Process (familiar ground from ch. 11 and 24: Create/Update recognition, Counter). Deliberately steps back from Records - operations are a big topic of their own and are shared by Process, Record and Class alike; this is stated explicitly in the opening. Stays on Process nodes - Records come next in chapter 40, where the operations concept transfers and the Process→Record contrast becomes the lesson.
+**Role:** Introduce operations, static first (the atom: recognition via math nodes, first win via a small self-made computation), then member operations. Their mechanics are taught once, on the Thing Record from ch. 38 (Patch Explorer, patch, Assign, the operation colors, the operation called as a node, gated via If region or Apply pin) - then transferred to the Process node, which adds exactly one new idea: the operation as a trigger pin on a running node (Counter). The Thing is only the vehicle for the mechanics - Records get their full treatment in chapter 40, where State Input/Output and state-as-a-flowing-value are named.
 
 ## Layout map
 
 ```
 y=126     Chapter title (font 22)
 y=206     Opening paragraph (full width)
-y=~310    COL 1: Static Operations (+ live patch)   COL 2: Operations That Belong to a Thing (+ live patch, spans former cols 2+3)
-y=~900    Triggerable Operations (full width, live patch)
-y=~1400   COL 1: The Reserved Colors   COL 2: Stateless and Stateful   COL 3: Other Resources
+y=~310    COL 1: Static Operations (+ live patch)   COL 2: Operations That Belong to a Thing (+ live patch, spans former cols 2+3, reserved colors folded in)
+y=~900    Adding Member Operations to Process Nodes (full width, live patch)
+y=~1400   COL 1: Stateless and Stateful   COL 2: Other Resources
 ```
 
 ## Text content
@@ -188,7 +188,7 @@ y=~1400   COL 1: The Reserved Colors   COL 2: Stateless and Stateful   COL 3: Ot
 ```
 After the last chapter you might expect us to dive straight into Records now, but instead let's take one step back. Custom operations are a big topic of their own, and they deserve to be understood before anything else - because every object in VL, whether Process, Record or Class, can have them. Besides, they are not entirely new: ever since the chapter about Process Nodes you have relied on the Create operation, which runs once when the Process starts, and on the Update operation, which executes every frame. They are automatically part of every Process - and since you can think of a VL document as a Process on its own, they are part of every running application in vvvv as well. 
 
-Beyond Create and Update, there are two kinds of custom operations to get to know: static and member operations. We start with the static operation - the simplest kind, standing on its own like the math nodes you have used all along. Then we move on to member operations, those that belong to a thing and run only when you trigger them, like a Reset that returns a value to its initial state, or an Increment that bumps a value in a pad on demand. By the end of this chapter you will be able to define both and call them when you want.
+Beyond Create and Update, there are two kinds of custom operations to get to know: static and member operations. We start with the static operation - the simplest kind, standing on its own like the math nodes you have used all along. Then we move on to member operations, those that belong to a thing and work on its state. We first add one to the Thing Record from the last chapter, to learn the mechanics, and then to a Process node, where one more question appears: how do you tell an operation inside a running Process when to run? By the end of this chapter you will be able to define both kinds and call them exactly when you want.
 ```
 
 ### COLUMN 1 - Static Operations
@@ -206,64 +206,55 @@ Defining one of your own is quick. You create a static operation via the New ent
 
 **Live element (x=92, y=900):** TBD - a static operation created via the New entry, shown being used in the patch with IOBoxes feeding its inputs. Candidate idea: `Remap` (takes a value and two ranges, maps the value from one range to the other).
 
-### COLUMN 2 - Operations That Belong to a Thing (spans former cols 2+3)
+### COLUMN 2 - Member Operations on the Thing (spans former cols 2+3)
 
 **H2 (font 15, x=592, y=310):** `Operations That Belong to a Thing`
 
 **Body (font 9, x=592, y=347, width ~900):**
 ```
-The second kind is the member operation. It belongs to a specific object and works on its state, the values stored in the pads inside. And you have been using these too: Create and Update, the two operations every Process runs, are member operations of your Process. You can think of a member operation as a little patch inside the Process that does one specific job on its state.
+The second kind is the member operation. It belongs to a specific object and works on its state, the values stored in the pads inside. And you have been using these too: Create and Update, the two operations every Process runs, are member operations of your Process. You can think of a member operation as a little patch inside the object that does one specific job on its state.
 
-To add one of your own, turn to the Patch Explorer in the top left corner. Where the canvas shows your patch as nodes and links, the explorer is the structural view of your document: it lists what everything is made of - patches with their properties and operations, and the definitions of your document. This is where operations are created and managed. So create your new operation from its menu and give it a name. Then patch whatever the operation should do, mark those links and nodes, right-click and choose Assign - and pick your operation from the list. You know this gesture from the chapter about Update and Create, where we assigned links to run on Create.
+The best way to understand one is to build one, and the perfect candidate is already waiting: the Thing Record from the last chapter, an object for a member operation to belong to - quite literally. So far the Thing just sits there, holding a Position and a Size. Let's teach it to grow.
 
-Unlike Create and Update, a member operation you define does not run automatically. When you place the Process node, the operation shows up on it as a boolean pin carrying the operation's name - a gate that works just like the Apply pins you know from the built-in nodes. While the pin is false, the operation sits idle. The frame it flips to true - a Bang from a button, a mouse click, any boolean - the operation runs.
+Open the Thing definition and turn to the Patch Explorer in the top left corner. Where the canvas shows your patch as nodes and links, the explorer is the structural view of your document: it lists what everything is made of - patches with their properties and operations, and the definitions of your document. Right now it shows exactly what the last chapter left behind: the Thing with its two properties and its Create operation. Operations are created and managed right here, so add a new one via the explorer's menu and name it Grow.
 
-In the patch below we have a Process that holds a Count value. It has the usual Update operation, but we have added a custom operation called Increment. Each time the Bang fires, Increment runs and the Count goes up by one. Update is not involved - the counting happens only on the trigger.
+Grow needs something to do. Patch it inside the Thing definition: take the Size, add an amount to it and write the result back to the pad. Then mark those nodes and links, right-click, choose Assign and pick Grow from the list. You know this gesture from the chapter about Update and Create, where we assigned links to run on Create.
+
+The moment you assign, the links change their color, and that color is worth a short look. Every operation in a patch gets its own color, so you can always tell which links belong to which operation. Three colors are reserved and carry a meaning the runtime understands: white is Create, which runs once when the object comes into existence - you can see it on the property links of your Thing. Gray is Update, which runs every frame - you know it from every Process you have patched. And dark red is Dispose, which runs once when an object is destroyed. We will not need Dispose until chapter 46, but it is worth knowing the third reserved color exists. Everything you define yourself, like Grow, simply gets one of the remaining colors - no reserved meaning attached, it does whatever you patched inside.
+
+Now for the payoff. Back in the application patch, Grow appears in the Node Browser, inside the Thing category right next to Create. Place it and it works like any other node: a Thing goes in at the top, a Thing with a bigger Size comes out at the bottom. Hover the output link and the tooltip will confirm it - still a Thing, just grown.
+
+One question remains: when does Grow run? Like every node in your patch, it executes every frame - and for an operation that changes something, that is rarely what you want. Growing should happen on an event: a click, a Bang. For that you have two tools you already know. You can place the Grow node inside an If region, so it runs only while the condition is true and the Thing passes through unchanged otherwise. Or you use Grow's Apply pin, the same boolean gate you know from working with Spreads and Dictionaries: while Apply is false, the node passes the Thing through untouched - the frame it flips to true, the operation runs. In the patch below, a Thing lives in a pad and flows through Grow and back into the pad, with a Bang on the Apply pin. Every click grows the Thing one step.
 ```
 
-**Live element (x=592, y=~750):** A small `Counter` Process holding a Count integer in a pad. Custom operation `Increment` (+1). A Bang wired to the Increment pin on the node. IOBox showing Count climbing per click. Update present but doing nothing visible.
+**Live element (x=592, y=~750):** The Thing from chapter 38 extended with a `Grow` operation (Size + amount, written back to the pad). The definition shown open alongside: property links in Create's white, Grow's links in their own color. In the application: a Thing in a pad → Grow → back into the pad, a Bang on Grow's Apply pin, IOBox/tooltip showing Size increasing per click. Optionally the same gating shown once more with an If region for comparison.
 
-### MID - Triggerable Operations
+### MID - Adding Member Operations to Process Nodes
 
-**H2 (font 15, x=92, y=900):** `Operations That Run on a Trigger`
+**H2 (font 15, x=92, y=900):** `Adding Member Operations to Process Nodes`
 
 **Body (font 9, x=92, y=937, width ~1400):**
 ```
-Most of what you have built so far lives in Update. Member operations do not run on a schedule at all - they run only when you tell them to. This pattern is worth seeing clearly because it is the basis for everything in the rest of Part V: an operation that runs on a trigger lets you separate "what happens every frame" from "what happens on an event." Update is for the first. A triggerable operation is for the second.
+Back to the Process node, then, and to familiar ground. Every Process already comes with two member operations by default: Create, which runs once when the Process starts, and Update, which runs every frame. You have been patching inside member operations all along - the runtime just called them for you, on its own schedule. Adding one of your own works exactly as it did on the Thing: create the operation in the Patch Explorer, patch what it should do, mark and Assign.
 
-In the patch below we extend the Counter with a second triggerable operation - Reset, which sets Count back to zero. Now the Process has two custom operations: Increment, fired by one Bang, and Reset, fired by another. The Process holds one piece of state, and there are now several named ways to change it, each running only when triggered. This is the shape of a small object - some state, and a set of named operations that act on it.
+Using it is where the Process goes its own way. The Thing does not run by itself, so Grow became a node that you placed and fed a Thing through. A Process needs none of that: it already sits in your patch as a running node, holding its state inside, so there is nothing to feed through. Instead, the operation shows up on the Process node itself, as a boolean pin carrying the operation's name. That pin is a gate, working just like the Apply pin on Grow: while it is false, the operation sits idle. The frame it flips to true - a Bang from a button, a mouse click, any boolean - the operation runs, working on the state inside the Process.
 
-Notice that you control when each operation runs. The runtime calls Create and Update on its own schedule, but Increment and Reset wait for you. This distinction - operations that run automatically versus operations you trigger - is the foundation for how Records work in the next chapter, where you will see that every operation becomes something you trigger and wire yourself.
+In the patch below we put this to work in a Process called Counter. It holds a Count value in a pad and gets two custom operations: Increment, which bumps the Count up by one, and Reset, which sets it back to zero. Each one is wired to its own Bang. Click one and the Count goes up, click the other and it snaps back to zero - Update is not involved at all, every change is trigger-driven. One piece of state, and several named ways to change it, each running only when you say so. This is the shape of a small object: some state, and a set of named operations that act on it.
+
+Notice who controls what here. The runtime calls Create and Update on its own schedule, but Increment and Reset wait for you. This distinction - operations that run automatically versus operations you trigger - will follow us through the rest of Part V, because it separates what happens every frame from what happens on an event. And you have now seen both ways of calling a member operation: as a node you feed, on the Record, and as a pin you trigger, on the Process. In the next chapter we return to the Record and take a closer look at what actually travels through those operation nodes - and at where a Record keeps its state, if it does not run.
 ```
 
-**Live element (x=92, y=1180, width ~1400):** The Counter Process extended: Count in a pad, Increment (Bang A → +1), Reset (Bang B → 0). Two labeled Bangs. IOBox showing Count. Annotation: Update is doing nothing - all changes are trigger-driven.
+**Live element (x=92, y=1180, width ~1400):** A `Counter` Process: Count in a pad, custom operations Increment (Bang A → +1) and Reset (Bang B → 0). Two labeled Bangs wired to the operation pins on the placed Counter node. IOBox showing Count. Annotation: Update is doing nothing - all changes are trigger-driven.
 
-### LOWER LEFT - The Reserved Colors
+### LOWER LEFT - Stateless and Stateful
 
-**H2 (font 15, x=92, y=1400):** `The Reserved Colors`
+**H2 (font 15, x=92, y=1400):** `Stateless and Stateful`
 
 **Body (font 9, x=92, y=1437):**
 ```
-There are three operations with reserved colors and reserved meanings - conventions the runtime understands and calls on its own schedule. You have met two of them.
+The two kinds of operations in this chapter are divided by one idea that is worth naming, because it will follow us through the rest of this tutorial: state. Something is stateful when it remembers - a Process holds values in its pads across frames, and you have used exactly this since the chapter about Pads. Something is stateless when it remembers nothing - a static operation computes and forgets, the same inputs giving the same outputs every time.
 
-Create, in white, runs once when the Process comes into existence.
-
-Update, in gray, runs every frame.
-
-Dispose, in dark red, runs once when the Process is destroyed - when it is removed from the patch or the application stops. We will not use Dispose until chapter 46, where it earns a proper demonstration, but it is worth knowing the third reserved color exists.
-
-Every other operation you define - Increment, Reset, anything - has no reserved color and no reserved meaning. It runs when you trigger it, and it does whatever you patch inside it. The reserved colors are a hint to anyone reading your patch about which operations the runtime calls automatically and which ones you drive yourself.
-```
-
-### LOWER MIDDLE - Stateless and Stateful
-
-**H2 (font 15, x=592, y=1400):** `Stateless and Stateful`
-
-**Body (font 9, x=592, y=1437):**
-```
-The two kinds of operations in this chapter are divided by one idea that is worth naming, because it will follow us through the rest of this tutorial: state. Something is stateful when it remembers - a Process holds values in its pads across frames, and you have used exactly this since the chapter about Pads. Something is stateless when it remembers nothing - a static operation like Remap computes and forgets, the same inputs giving the same outputs every time.
-
-Keep this pair of words in mind. A Process is stateful, its member operations work on that state, and a static operation is stateless by design. In the next chapter you will meet the Record - and with it a surprising third answer to the question of where state lives: not inside a running thing, but flowing through your patch as a value.
+Keep this pair of words in mind. A Process is stateful, its member operations work on that state, and a static operation is stateless by design. In the next chapter we return to the Record - and find a surprising third answer to the question of where state lives: not inside a running thing, but flowing through your patch as a value.
 
 Notes:
 You would ask yourself why ever use process nodes, if:
@@ -280,14 +271,16 @@ because many nodes inside vvvv have to remember their state from one frame to th
 **Link (font 9 Link, y=1450):** `https://thegraybook.vvvv.org/reference/language/operations.html`
 
 ## Notes
-- Operations taught on a Process on purpose - familiar ground, one new thing at a time.
-- Static operations taught BEFORE member operations: the atom first (recognition via the math nodes, Remap as the five-minute win), then the composite (state + belonging + triggering). The chapter ends on member operations - the ramp to chapter 40.
-- Stateless vs stateful named explicitly (lower middle, deliberately NOT an own chapter) - the axis that carries through 40 (state as a flowing value), 43 (how state changes) and 45 (collections). Its closing line is the bridge to the Record.
-- COL 1 states plainly that an operation is not an object (no state, no instance); the values around it are the objects. Kept deliberately un-philosophical - no nodes-vs-links doctrine. (Technically values on links ARE instances/objects, and placed Processes are too.)
-- The triggerable/automatic distinction is the spine; sets up chapter 40's reveal.
-- Dispose named but deferred to chapter 46.
-- Counter is the running example - dry placeholder, clearest possible "operation changes state on a trigger."
-- Forward pointer to chapter 40 is explicit (the chapter-boundary bridge).
+- Static operations taught BEFORE member operations: the atom first (recognition via the math nodes), then the composite (state + belonging + calling).
+- Member operation mechanics taught ONCE, on the Thing Record from ch. 38 - the gesture (Patch Explorer, patch, Assign) is identical everywhere, so it is shown on the simplest object there is. The Process section then adds exactly one new idea: the trigger pin.
+- Order within member operations: Record first (the operation as a visible node - graspable, nothing hidden), Process second (the operation as a pin on a running node). The chapter ends on the automatic-vs-triggered distinction - the spine that carries into chapter 40.
+- Reserved colors no longer an own column - folded into the explainer at the moment of the first Assign, where the reader watches a color change happen. Dispose named but deferred to chapter 46.
+- Grow chosen over a setter (SetPosition etc.) so chapter 40 keeps setters/getters fresh; Grow is clearly behavior, not plumbing.
+- State Input/State Output deliberately NOT named here - Grow is used purely mechanically ("Thing in, grown Thing out"). Chapter 40 names the pins and the state-as-value idea.
+- Stateless vs stateful named explicitly (lower left, deliberately NOT an own chapter) - the axis that carries through 40 (state as a flowing value), 43 (how state changes) and 45 (collections). Its closing line is the bridge to the Record.
+- COL 1 kept deliberately un-philosophical - no nodes-vs-links doctrine. (Technically values on links ARE instances/objects, and placed Processes are too.)
+- Counter introduced in the Process section, with Increment and Reset from the start - dry placeholder, clearest possible "operation changes state on a trigger."
+- RIPPLE FOR CH. 40: its opening ("In the last chapter we added operations to a Process") no longer matches, and both the "Operations as Nodes" reveal and the full-width "Apply Pin Pattern" section are partly pre-empted here (Grow as a node; pad → Grow → pad with Apply). Chapter 40 needs a review pass.
 
 ---
 ---
