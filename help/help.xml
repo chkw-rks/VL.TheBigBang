@@ -17,7 +17,7 @@
 		<VLDocument link="II. The Subatomic Particles\Explanation 11. Process Nodes.vl" tags="process, node" />
 		<VLDocument link="II. The Subatomic Particles\Explanation 12. Video and Camera Input.vl" tags="video, camera, texture, image, mediafoundation, media, skia, stride" />
 		<VLDocument link="II. The Subatomic Particles\Explanation 13. Texture Sources and Effects.vl" tags="texture, textures, texturefx, noise, blend, mix, filter, filters, material, stride, shader" />
-		<VLDocument link="II. The Subatomic Particles\Explanation 14. Mixing Skia and Stride.vl" tags="skia, stride, image, texture, conversion" />
+		<VLDocument link="II. The Subatomic Particles\Explanation 14. Mixing Skia and Stride.vl" tags="skia, stride, image, texture, texturetoskimage, conversion" />
 		<VLDocument link="II. The Subatomic Particles\Explanation 15. Controlling Patches.vl" tags="control, lfo, toggle, s+h, sample, hold, condition, conditions, if, region, switch, else" />
 		<VLDocument link="II. The Subatomic Particles\Explanation 16. Animation.vl" tags="animation, waveshaper, wave, sine, cosine, triangle, sawtooth, rectangle, damper, transition, wanderer" />
 		<VLDocument link="II. The Subatomic Particles\Explanation 17. Typography.vl" tags="text, string, skia, stride, typography, font" />
